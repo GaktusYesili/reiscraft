@@ -1,0 +1,137 @@
+TradeSystem:
+  Prefix: '&#dcdc00&lT&#e5e540&lA&#eeee80&lK&#f6f6bf&lA&#ffffff&lS &#4b4b49⇴ &r'
+  Language: TR
+  # Permissions:
+  #   "tradesystem.trade": Can accept/deny/toggle trade requests
+  #   "tradesystem.trade.initiate": Can invite players for trades
+  # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
+  Permissions: true
+
+  # Both traders have to add an item/money to finish the trade
+  Trade_Both: false
+  # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
+  Input_GUI: ANVIL
+  Trade_Distance:
+    enabled: false
+    distance_in_blocks: 50
+  Allowed_GameModes:
+  - SURVIVAL
+  Blocked_Worlds:
+  - ExampleWorld-1
+  - ExampleWorld-2
+
+  # Example:            (all variables are optional)
+  # - Material: STONE
+  #   Data: 0
+  #   DisplayName: 0
+  #   Lore: "Some text that will be searched in every line."
+  #   CustomModelData: 0
+  #   Compare: IGNORE_CASE      (Default=IGNORE_CASE; STRICT, IGNORE_CASE, CONTAINS, CONTAINS_IGNORE_CASE, REGEX_ANY, REGEX_ALL)
+  # 
+  # Compare examples
+  #   STRICT: "FOO" = "FOO"
+  #   IGNORE_CASE: "FOO" = "foo"
+  #   CONTAINS: "F" is in "Foo"
+  #   CONTAINS_IGNORE_CASE: "f" is in "Foo"
+  #   REGEX_ANY: "." matches "Foo"
+  #   REGEX_ALL: ".*" matches "Foo"
+  Blacklist:
+  - Material: AIR
+    Compare: IGNORE_CASE
+  - DisplayName: '&cExample'
+    Material: AIR
+    Compare: IGNORE_CASE
+  - DisplayName: '&cExample, which blocks all items with this strange name!'
+    Compare: IGNORE_CASE
+
+  Trade_Countdown:
+    Enabled: true
+    # in ticks (20 ticks = 1 second)
+    Interval: 20
+    Repetitions: 5
+
+  # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
+  # false: Prevent the trade partner to put too many items into the gui. Also prevents a trading player from picking up items.
+  Trade_Drop_Items: true
+
+  # In seconds (e.g. after <60> seconds the request will be expired)
+  Trade_Request_Expiration_Time: 60
+
+  Action_To_Cancel:
+    Player_get_damaged: true
+
+  Action_To_Request:
+    Shift_Rightclick: true
+
+  Money:
+    # This pattern will be used to enter money in the trade GUI and to display the current amount. More information about pattern can be found here: https://docs.oracle.com/javase/tutorial/i18n/format/decimalFormat.html
+    Pattern: '###,###.####'
+    Grouping_Separator: ','
+    Decimal_Separator: .
+
+    Easy_Selection:
+      Enabled: true
+      # Do NOT use special symbols (e.g. '$') here.
+      # Use characters only!
+      Shortcuts:
+      - Keys:
+        - k
+        Value: 1000
+      - Keys:
+        - m
+        Value: 1000000
+
+  # Warning: The aliases will not be validated. Make sure they are correct.
+  Commands:
+    Trade:
+    - takas
+    Accept:
+    - kabul
+    Deny:
+    - red
+    Toggle:
+    - değiştir
+
+  # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
+  # WARNING - This log does not remove files automatically after some time, so you have to do it yourself.
+  Tradelog:
+    Enabled: true
+    Database:
+      # Values: SQLITE, MYSQL
+      Type: SQLITE
+      Db_host: 127.0.0.1
+      Db_port: 3306
+      Db_name: veldorya
+      Db_user: veldorya
+      Db_password: veldorya
+
+  # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
+  Sounds:
+    Trade_Started:
+      Name: LEVEL_UP
+      Volume: 0.6
+      Pitch: 1.0
+    Trade_Finished:
+      Name: LEVEL_UP
+      Volume: 0.6
+      Pitch: 1.0
+    Trade_Blocked:
+      Name: NOTE_BASS
+      Volume: 0.8
+      Pitch: 0.6
+    Trade_Cancelled:
+      Name: ITEM_BREAK
+      Volume: 0.6
+      Pitch: 1.0
+    Trade_Request:
+      Name: ORB_PICKUP
+      Volume: 0.6
+      Pitch: 1.0
+    Countdown_Tick:
+      Name: ORB_PICKUP
+      Volume: 0.6
+      Pitch: 1.0
+    Countdown_Stop:
+      Name: ITEM_BREAK
+      Volume: 0.6
+      Pitch: 1.0

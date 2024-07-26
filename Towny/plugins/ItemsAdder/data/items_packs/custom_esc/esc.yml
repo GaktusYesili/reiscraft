@@ -1,0 +1,13 @@
+info:
+  namespace: ia_various_configs
+minecraft_lang_overwrite:
+  esc_menu_texts:
+    entries:
+      "menu.game": ":top_logo_1:"
+      "menu.returnToGame": ""
+      "menu.shareToLan": ""
+      "menu.options": ""
+      "menu.disconnect": ":quit_button:"
+      "deathScreen.title": ":you_died:"
+    languages:
+      - ALL

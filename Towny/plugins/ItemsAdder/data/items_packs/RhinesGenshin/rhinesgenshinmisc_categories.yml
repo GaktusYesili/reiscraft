@@ -1,0 +1,17 @@
+info:
+  namespace: rhinesgenshin
+categories:
+  RhinesGenshinMisc:
+    enabled: true
+    skip_if_already: false
+    icon: "rhinesgenshin:barbara"
+    name: RhinesGenshinMisc
+    permission: ia.menu.RhinesGenshinMisc
+    items:
+      - "rhinesgenshin:barbara"
+      - "rhinesgenshin:barbatos"
+      - "rhinesgenshin:venti"
+      - "rhinesgenshin:xiao"
+      - "rhinesgenshin:everlastingmoonglow"      
+      - "rhinesgenshin:hutao"   
+      - "rhinesgenshin:ganyu"   

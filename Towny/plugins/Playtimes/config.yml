@@ -1,0 +1,76 @@
+# PlayTimes by CodedRed
+# For support please ask here: https://discord.gg/7A9UA2n
+
+# Prefix will show before 'player-not-found' & 'player-never-joined' messages
+prefix: "&6&lTOWNY &x&4&b&4&b&4&9⇴"
+
+# date-format can be changed to your liking.
+ # For more placeholders look here: https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
+ # This is the join date format.
+date-format: dd/MM/yyyy
+
+# Placeholders API info
+  # Only enable this if you are using PAPI holders in PlayTimes
+  # If you want to use PlayTimes placeholders in other plugins...
+  # Just download PAPI and it will *automatically* register
+use-papi-placeholders: true
+
+ # Main Playtimes info.
+ # The name refers to the format. Example if you have minute = " min" then it will display "x min"
+playtime:
+  name:
+    second: " saniye"
+    minute: " dakika"
+    hour: " saat"
+    day: " gün"
+    seconds: " saniye"
+    minutes: " dakika"
+    hours: " saat"
+    days: " gün"
+
+  ## only-hours - when true it will display playtime in hours (When true this will also disable show-seconds/days setting)
+  ## show-seconds - when true it will display seconds
+  ## show-days - when true it will display days
+  only-hours: true
+  show-seconds: false
+  show-days: false
+
+
+  ## Built-in Placeholders:
+  ## %player% %time% %timesjoined% %joindate%
+  ## You may also use PAPI Placeholders
+  message:
+    - "&8&m----------------------------------------------------"
+    - ""
+    - "&x&d&c&d&c&0&0&lV&x&e&1&e&1&2&2&lE&x&e&6&e&6&4&5&lL&x&e&b&e&b&6&7&lD&x&f&0&f&0&8&9&lO&x&f&5&f&5&a&b&lR&x&f&a&f&a&c&e&lY&x&f&f&f&f&f&0&lA &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Oynama süresi: &x&e&8&e&8&5&0%time%"
+    - "&x&d&c&d&c&0&0&lV&x&e&1&e&1&2&2&lE&x&e&6&e&6&4&5&lL&x&e&b&e&b&6&7&lD&x&f&0&f&0&8&9&lO&x&f&5&f&5&a&b&lR&x&f&a&f&a&c&e&lY&x&f&f&f&f&f&0&lA &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Giriş sayısı: &x&e&8&e&8&5&0%timesjoined%"
+    - "&x&d&c&d&c&0&0&lV&x&e&1&e&1&2&2&lE&x&e&6&e&6&4&5&lL&x&e&b&e&b&6&7&lD&x&f&0&f&0&8&9&lO&x&f&5&f&5&a&b&lR&x&f&a&f&a&c&e&lY&x&f&f&f&f&f&0&lA &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Başlama tarihi: &x&e&8&e&8&5&0%joindate%"
+    - ""
+    - "&8&m----------------------------------------------------"
+
+# /Uptime command info - only placeholder is %serveruptime%
+uptime:
+  message:
+    - "&8&m----------------------------------------------------"
+    - ""
+    - "&x&d&c&d&c&0&0&lV&x&e&1&e&1&2&2&lE&x&e&6&e&6&4&5&lL&x&e&b&e&b&6&7&lD&x&f&0&f&0&8&9&lO&x&f&5&f&5&a&b&lR&x&f&a&f&a&c&e&lY&x&f&f&f&f&f&0&lA &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Aktiflik süresi: &x&e&8&e&8&5&0%serveruptime%"
+    - ""
+    - "&8&m----------------------------------------------------"
+
+# /toppt command info
+ ## Built-in Placeholders:
+ ## %player% %place% %time% %joindate%
+ ## You may also use PAPI placeholders
+top-playtime:
+  header: "&8&m----------------------------------------------------"
+  content: "&6#%place% &8- &6%time% &eoynama süresiyle &6%player%"
+  footer: "&8&m----------------------------------------------------"
+  enable-cooldown: false
+  cooldown-seconds: 60
+
+# Built in messages, may change to your liking :D
+messages:
+  noPermission: "&x&e&8&e&8&5&0You cannot run this command."
+  player-not-found: "&x&f&3&f&3&a&0Oyuncu bulunamadı!"
+  player-never-joined: "&x&f&3&f&3&a&0Oyuncu bulunamadı!"
+  cooldown: "&x&e&8&e&8&5&0You cannot use this command for %timeleft% seconds!"

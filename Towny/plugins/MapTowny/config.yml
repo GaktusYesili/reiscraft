@@ -1,0 +1,67 @@
+# Worlds that should display town claims.
+enabled-worlds:
+- world
+
+# How often should the plugin render all towns? (In minutes)
+update-period: 5
+
+# Layer Properties
+layer:
+  # Name of the layer
+  name: Towny
+  # Should the layer be toggleable by users?
+  show-controls: true
+  # Should the layer be invisible by default?
+  default-hidden: false
+  # Layer Priority.
+  # Don't need to touch this unless other Pl3xMap add-ons are interfering with the layer.
+  layer-priority: 5
+  # The z-index on which the layer will display.
+  # Decrease if you want the layer to be more blended in with the map.
+  z-index: 250
+
+# Fill Style.
+# Properties about how claims should look on the map
+fill-style:
+  # Whether to fill the claim with color
+  fill: true
+  fill-color: '#3388ff'
+  fill-opacity: 0.2
+  # Use specified nation color as the fill color instead?
+  use-nation-color-fill: true
+  
+  # Whether to draw a stroke along the claim path.
+  stroke: true
+  # Stroke width in pixels
+  stroke-weight: 3
+  stroke-color: '#3388ff'
+  stroke-opacity: 1.0
+  # Use specified nation color as the stroke color instead?
+  use-nation-color-stroke: false
+  # Use specified town color as the fill color instead?
+  # This option will take priority over the 'use-nation-color-fill' option if it is enabled.
+  use-town-color-fill: false
+  # Use specified town color as the stroke color instead?
+  # This option will take priority over the 'use-nation-color-stroke' option if it is enabled.
+  use-town-color-stroke: false
+
+# Icon Properties:
+# Icons are placed at the center of a town's homeblock.
+icon-info:
+  # Icon for the town's homeblock. Icon must be a valid image URL.
+  # Default Icon created by icon king1 licensed under Creative Commons 3.0
+  # https://creativecommons.org/licenses/by/3.0/
+  town-icon: https://pics.freeicons.io/uploads/icons/png/20952957581537355851-512.png
+  # Icon for a town if they are the capital of the nation. Icon must be a valid image URL.
+  # Put 'default' to use the town icon image.
+  capital-icon: default
+  # Icon for an outpost claim that will appear at the location of outpost spawns. Icon must be a valid image URL.
+  # Put 'default' to use the town icon image.
+  # Put 'empty' to not place icons at outposts.
+  outpost-icon: default
+  # Height of the icon
+  icon-height: 35
+  # Width of the icon
+  icon-width: 35
+# Do not touch!!!
+config-version: 1.0

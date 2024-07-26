@@ -1,0 +1,48 @@
+info:
+  namespace: 3dfantasyweaponscit
+items:
+  claymore:
+    display_name: display-name-claymore
+    permission: 3dfantasyweaponscit.greatsword.claymore
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/greatsword/claymore
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  crimson_cleaver:
+    display_name: display-name-crimson_cleaver
+    permission: 3dfantasyweaponscit.greatsword.crimson_cleaver
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/greatsword/crimson_cleaver
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  treacherous_cleaver:
+    display_name: display-name-treacherous_cleaver
+    permission: 3dfantasyweaponscit.greatsword.treacherous_cleaver
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/greatsword/treacherous_cleaver
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562

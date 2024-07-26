@@ -1,0 +1,46 @@
+kurucu:
+  tabprefix: '&f%img_kurucu% &#F72727'
+  tagprefix: '&f%img_kurucu% &#F72727'
+admin:
+  tabprefix: '&f%img_admin% &5'
+  tagprefix: '&f%img_admin% &5'
+moderator:
+  tabprefix: '&f%img_moderator% &5'
+  tagprefix: '&f%img_moderator% &5'
+  abovename: '%townyadvanced_town%'
+rehber:
+  tabprefix: '&f%img_rehber% &#69FF69'
+  tagprefix: '&f%img_rehber% &#69FF69'
+  abovename: '%townyadvanced_town%'
+youtuber:
+  tabprefix: '&f%img_youtube% &c'
+  tagprefix: '&f%img_youtube% &c'
+  abovename: '%townyadvanced_town%'
+baron:
+  tabprefix: '&f%img_baron% &#F51FC9'
+  tagprefix: '&f%img_baron% &#F51FC9'
+  abovename: '%townyadvanced_town%'
+lord:
+  tabprefix: '&f%img_lord% &#007CFF'
+  tagprefix: '&f%img_lord% &#007CFF'
+  abovename: '%townyadvanced_town%'
+elit:
+  tabprefix: '&f%img_elit% &#ff2400'
+  tagprefix: '&f%img_elit% &#ff2400'
+  abovename: '%townyadvanced_town%'
+vezir:
+  tabprefix: '&f%img_vezir% &#FFDC00'
+  tagprefix: '&f%img_vezir% &#FFDC00'
+  abovename: '%townyadvanced_town%'
+soylu:
+  tabprefix: '&f%img_soylu% &#FFDC00'
+  tagprefix: '&f%img_soylu% &#FFDC00'
+  abovename: '%townyadvanced_town%'
+per-world:
+  world1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'
+_DEFAULT_:
+  tabprefix: '&f%img_halk% &#DCF6FF'
+  tagprefix: '&f%img_halk% &#DCF6FF'

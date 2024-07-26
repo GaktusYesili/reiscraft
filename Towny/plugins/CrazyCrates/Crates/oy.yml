@@ -1,0 +1,316 @@
+Crate:
+  CrateType: QuickCrate #Type of crate (CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War/Cosmic(This requires a additional info to work.)).
+  CrateName: '&x&4&f&8&c&c&bOy Kasası' #Name of the Inventory if a GUI crate.
+  StartingKeys: 0 #Starting amount of keys when the player 1st joins.
+  InGUI: true #If the crate shows in the /cc GUI. (If the crate type is QuickCrate/CrateOnTheGo/FireCracker then the Crate will not work. Quick Crate requires a Physical Crate.)
+  Slot: 21 #Slot the item is in the GUI.
+  OpeningBroadCast: false #Enables/Disables the Broadcasts message when they open a crate.
+  BroadCast: '' #Message that is broadcasted when opening the crate.
+  Item: 'CHEST' #Item the crate is in the GUI
+  Glowing: false #If the crate in the main /cc GUI is glowing or not.
+  Name: '&f:offset_-10::ほ:' #Name of the item in the GUI.
+  Lore: #The lore of the item in the GUI.
+    - '&x&8&1&b&e&f&0This crate contains strange objects.' 
+    - '&x&8&1&b&e&f&0You have &6%Keys% keys &x&8&1&b&e&f&0to open this crate with.'
+    - '&x&8&1&b&e&f&0&l(&x&4&f&8&c&c&b&l!&x&8&1&b&e&f&0&l) Right click to view rewards.'
+  PhysicalKey:
+    Name: '&x&4&b&4&b&4&9⇴ &x&4&f&8&c&c&bOy &x&8&1&b&e&f&0Kasası Anahtarı &8⬰'
+    Lore:
+      - ''
+      - '&x&4&b&4&b&4&9⇴ &x&8&1&b&e&f&0Bu anahtarı &x&4&f&8&c&c&b/warp kasalar&x&8&1&b&e&f&0''da kullanabilirsin!'
+      - '&x&4&b&4&b&4&9⇴ &x&8&1&b&e&f&0Değer: &x&4&f&8&c&c&bDüşük &x&8&1&b&e&f&0(&x&8&1&b&e&f&0★★&x&4&f&8&c&c&b★&x&8&1&b&e&f&0)'
+    Item: 'FEATHER'
+    Glowing: false #Makes the key look enchanted.
+#         For Cosmic Crates Only
+#############################################
+#  Tiers: #The tiers in the Crate
+#    Basic: #The Config Name for the Crate
+#      Name: '&8Basic Prize' #The in-game name of the Crate
+#      Color: 7 #Use the MetaData for the color of the glass
+#      Chance: 150 #Chance of that item getting picked. It would be 80/100 chance because MaxRange is 100.
+#      MaxRange: 100 #The max range that the chance will go though.
+#    UnCommon:
+#      Name: '&aUnCommon Prize'
+#      Color: 5
+#      Chance: 45
+#      MaxRange: 100
+#    Rare:
+#      Name: '&4Rare Prize'
+#      Color: 14
+#      Chance: 4
+#      MaxRange: 100
+#############################################
+  Prizes:
+    0:
+      DisplayName: '&x&4&f&8&c&c&bNetherit Hurdası'
+      DisplayItem: 'NETHERITE_SCRAP' 
+      DisplayAmount: 1 
+      MaxRange: 100
+      Chance: 1
+      Firework: false
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+       - 'give %Player% netherite_scrap 1'
+      BlackListed-Permissions: {}
+    1:
+      DisplayName: '&x&4&f&8&c&c&bZümrüt'
+      DisplayItem: 'EMERALD' 
+      DisplayAmount: 1 
+      MaxRange: 100
+      Chance: 12
+      Firework: false
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+       - 'give %Player% emerald 1'
+      BlackListed-Permissions: {}
+    2:
+      DisplayName: '&x&4&f&8&c&c&bElmas'
+      DisplayItem: 'DIAMOND'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 12
+      Firework: false
+      Glowing: false
+      Player: ''
+      Commands:
+       - 'give %Player% diamond 1'
+      Unbreakable: false
+      BlackListed-Permissions: {}
+    3:
+      DisplayName: '&x&4&f&8&c&c&bAltın Külçesi'
+      DisplayItem: 'GOLD_INGOT'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Player: ''
+      Commands:
+        - 'give %Player% gold_ingot 2'            
+      Unbreakable: false
+      BlackListed-Permissions: {}      
+    4:
+      DisplayName: '&x&4&f&8&c&c&bDemir Külçesi'
+      DisplayItem: 'IRON_INGOT'
+      DisplayAmount: 3
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% iron_ingot 3'
+      BlackListed-Permissions: {}
+    5:
+      DisplayName: '&x&4&f&8&c&c&bDeri Kask'
+      DisplayItem: 'LEATHER_HELMET'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% leather_helmet 1'
+      BlackListed-Permissions: {}
+    6:
+      DisplayName: '&x&4&f&8&c&c&bDeri Göğüslük'
+      DisplayItem: 'LEATHER_CHESTPLATE'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% leather_chestplate 1'
+      BlackListed-Permissions: {}
+    7:
+      DisplayName: '&x&4&f&8&c&c&bDeri Pantolon'
+      DisplayItem: 'LEATHER_LEGGINGS'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% leather_leggings 1'
+      BlackListed-Permissions: {}
+    8:
+      DisplayName: '&x&4&f&8&c&c&bDeri Ayakkabı'
+      DisplayItem: 'LEATHER_BOOTS'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% leather_boots 1'
+      BlackListed-Permissions: {}
+    9:
+      DisplayName: '&x&4&f&8&c&c&bTaş Kılıç'
+      DisplayItem: 'STONE_SWORD'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 25
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% stone_sword 1'
+      BlackListed-Permissions: {}
+    10:
+      DisplayName: '&x&4&f&8&c&c&bTaş Kazma'
+      DisplayItem: 'STONE_PICKAXE'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 25
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% stone_pickaxe 1'
+      BlackListed-Permissions: {}
+    11:
+      DisplayName: '&x&4&f&8&c&c&bPatates'
+      DisplayItem: 'POTATO'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 25
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% potato 1'
+      BlackListed-Permissions: {}
+    12:
+      DisplayName: '&x&4&f&8&c&c&bHavuç'
+      DisplayItem: 'CARROT'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 25
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% carrot 1'
+      BlackListed-Permissions: {}
+    13:
+      DisplayName: '&x&4&f&8&c&c&bPişmiş Tavşan Eti'
+      DisplayItem: 'COOKED_RABBIT'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% cooked_rabbit 2'
+      BlackListed-Permissions: {}
+    14:
+      DisplayName: '&x&4&f&8&c&c&bPişmiş Koyun Eti'
+      DisplayItem: 'COOKED_MUTTON'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% cooked_mutton 2'
+      BlackListed-Permissions: {}
+    15:
+      DisplayName: '&x&4&f&8&c&c&bEkmek'
+      DisplayItem: 'BREAD'
+      DisplayAmount: 3
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% bread 3'
+      BlackListed-Permissions: {}
+    16:
+      DisplayName: '&x&4&f&8&c&c&bİsim Etiketi'
+      DisplayItem: 'NAME_TAG'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% name_tag 1'
+      BlackListed-Permissions: {}
+    17:
+      DisplayName: '&x&4&f&8&c&c&bAkasya Tekne'
+      DisplayItem: 'ACACIA_BOAT'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 35
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% acacia_boat 1'
+      BlackListed-Permissions: {}
+    18:
+      DisplayName: '&x&4&f&8&c&c&bHavai Fişek'
+      DisplayItem: 'FIREWORK_ROCKET'
+      DisplayAmount: 10
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% firework_rocket 10'
+      BlackListed-Permissions: {}
+    19:
+      DisplayName: '&x&4&f&8&c&c&bEyer'
+      DisplayItem: 'SADDLE'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% saddle 1'
+      BlackListed-Permissions: {}
+    20:
+      DisplayName: '&x&4&f&8&c&c&bOy Kasası Anahtarı'
+      DisplayItem: 'FEATHER'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'cc give physical oy 1 %Player%'
+      BlackListed-Permissions: {}

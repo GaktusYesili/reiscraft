@@ -1,0 +1,91 @@
+# Help translate this file into more languages!
+Messages:
+  Prefix: '&6&lTavuhNW ⇴ '
+  Success:
+    Paid: '&x&e&8&e&8&5&0XYZ: %x% / %y% / %z% &x&f&3&f&3&a&0koordinatlarına ışınlandın!'
+    Bypass: '&x&e&8&e&8&5&0XYZ: %x% / %y% / %z% &x&f&3&f&3&a&0koordinatlarına ışınlandın!'
+    Loading: '&x&f&3&f&3&a&0Işınlanıyorsun, lütfen bekle!'
+    Teleport: '&x&f&3&f&3&a&0Işınlanıyorsun, lütfen biz &x&e&8&e&8&5&0güvenli &x&f&3&f&3&a&0bir
+      bölge bulana kadar bekle!'
+  Failed:
+    Price: '&x&f&3&f&3&a&0Rastgele ışınlanmayı kullanabilmek için &x&e&8&e&8&5&0%price%
+      ⛁ &x&f&3&f&3&a&0oyun parasına ihtiyacın var!'
+    NotSafe: '&x&e&8&e&8&5&0Could not find safe spot within %attempts% attempts! &x&f&3&f&3&a&0You
+      were not RTP''d!'
+    Hunger: '&x&e&8&e&8&5&0Could not rtp because you are... &x&f&3&f&3&a&0too hungry&x&e&8&e&8&5&0,
+      eat something fella!'
+  Other:
+    Success: '&x&e&8&e&8&5&0XYZ: %x% / %y% / %z% &x&f&3&f&3&a&0koordinatlarına ışınlandın!'
+    NotSafe: '&x&e&8&e&8&5&0Could not find safe spot within %attempts% attempts! &x&f&3&f&3&a&0%player%
+      was not rtp''d!'
+    Biome: '&x&e&8&e&8&5&0Seems like the biome&x&f&3&f&3&a&0 %biome%&x&e&8&e&8&5&0
+      does not exist! &x&f&3&f&3&a&0Try using the tab list!'
+  Reload: '&eConfig reloaded successfully!'
+  NoPermission:
+    Basic: '&x&e&8&e&8&5&0Sorry! &x&f&3&f&3&a&0You don''t have permission to use this
+      command!'
+    World: '&x&e&8&e&8&5&0Sorry! &x&f&3&f&3&a&0You are not allowed rtp in the %world%
+      world!'
+  DisabledWorld: '&x&e&8&e&8&5&0Disabled World %world%! &x&f&3&f&3&a&0Could not RTP!'
+  Cooldown: '&x&f&3&f&3&a&0Rastgele ışınlanmayı tekrar kullanmak için &x&e&8&e&8&5&0%time%
+    &x&f&3&f&3&a&0saniye beklemelisin!'
+  Locked: '&x&e&8&e&8&5&0Sorry! &x&f&3&f&3&a&0You''ve used up all your RTP''s!'
+  Invalid: '&x&e&8&e&8&5&0Invalid argument. Try ''/%command% help'''
+  NotOnline: '&x&e&8&e&8&5&0The player &x&f&3&f&3&a&0%player% &x&e&8&e&8&5&0is not
+    online!'
+  Delay: '&aTeleporting in &f%time% &aseconds! Don''t move!'
+  Moved: '&x&e&8&e&8&5&0You have moved! &x&f&3&f&3&a&0RTP was cancelled!'
+  NotExist: '&x&e&8&e&8&5&0Looks like the world &x&f&3&f&3&a&0%world% &x&e&8&e&8&5&0doesn''t
+    exist!'
+  Already: '&x&f&3&f&3&a&0Şu an zaten ışınlanıyorsun!'
+  Sign: '&x&f&3&f&3&a&0Command sign has been created! &x&f&3&f&3&a&0Command is...
+    ''&f/rtp %command%&x&f&3&f&3&a&0'''
+  Edit:
+    Error: '&x&e&8&e&8&5&0Error! &x&f&3&f&3&a&0Invalid input provided!'
+    Set: '&bSuccess! &x&f&3&f&3&a&0%type% set to %value%'
+    Remove: '&x&e&8&e&8&5&0Removed! &x&f&3&f&3&a&0You removed the Custom World %world%'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| Help &e&m-----'
+  Main: ' &x&f&3&f&3&a&0- &e/%command% &x&f&3&f&3&a&0- Randomly teleports you!'
+  Biome: ' &x&f&3&f&3&a&0- &e/%command% biome <biome1, biome2...> &x&f&3&f&3&a&0-
+    Randomly teleport withing these biomes'
+  Edit: ' &x&f&3&f&3&a&0- &e/%command% edit <default/world> [args...] &x&f&3&f&3&a&0-
+    Edit some plugin settings'
+  Help: ' &x&f&3&f&3&a&0- &e/%command% help &x&f&3&f&3&a&0- Shows help list'
+  Info: ' &x&f&3&f&3&a&0- &e/%command% info [world/particles/shapes/potion_effects]
+    &x&f&3&f&3&a&0- View specific information about plugin parameters'
+  Player: ' &x&f&3&f&3&a&0- &e/%command% player <player> [world] [biome1, biome2...]
+    &x&f&3&f&3&a&0- Randomly teleport another player'
+  Reload: ' &x&f&3&f&3&a&0- &e/%command% reload &x&f&3&f&3&a&0- Reloads the plugin'
+  Settings: ' &x&f&3&f&3&a&0- &e/%command% settings &x&f&3&f&3&a&0- Pull up a gui
+    and edit some settings'
+  Test: ' &x&f&3&f&3&a&0- &e/%command% test &x&f&3&f&3&a&0- Test out plugin effects
+    after a teleport without moving'
+  Version: ' &x&f&3&f&3&a&0- &e/%command% version &x&f&3&f&3&a&0- View currently running
+    version'
+  World: ' &x&f&3&f&3&a&0- &e/%command% world <world> [biome1, biome2...] &x&f&3&f&3&a&0-
+    Randomly teleport in another world'
+  Location: ' &x&f&3&f&3&a&0- &e/%command% location <location_name> &x&f&3&f&3&a&0-
+    Rtp using a specific location'
+Usage:
+  Player: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% player <player> [world] [biome1,
+    biome2]'
+  World: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% world <world> [biome1, biome2...]'
+  Biome: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% biome <biome1, biome2...>'
+  Location: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% location <location_name>'
+  Edit:
+    PermissionGroup: '&cUsage&7: /%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&cUsage&7: /%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
+    Base: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% edit <default/world> [args...]'
+    Default: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% edit default <max/min/useworldborder/center>
+      <value>'
+    World: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% edit world <world> <max/min/useworldborder/center>
+      <value>'
+    Worldtype: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% edit world_type <world>
+      <NETHER/NORMAL>'
+    Override: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% edit override <world>
+      <world_to>'
+    BlacklistedBlocks: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% edit blacklistedblocks
+      <add/remove> <block_id>'

@@ -1,0 +1,31 @@
+#    _____ _           _   ____                     _ 
+#   / ____| |         | | |  _ \                   | |
+#  | |    | |__   __ _| |_| |_) |_ __ __ ___      _| |
+#  | |    | '_ \ / _` | __|  _ <| '__/ _` \ \ /\ / / |
+#  | |____| | | | (_| | |_| |_) | | | (_| |\ V  V /| |
+#   \_____|_| |_|\__,_|\__|____/|_|  \__,_| \_/\_/ |_|
+#                                                     
+#   For a detailed explanation of all settings visit:         
+#       https://github.com/woutzah/ChatBrawl/wiki    
+# 
+#   Need help? Join the Discord server: https://discord.gg/TvTUWvG 
+
+plugin-prefix: '&6&lTOWNY ⇴ '
+auto-create-races: true
+race-delay: 1200
+notify-on-login: false
+minimum-players: 0
+allow-creative: true
+ignored-commands:
+- /pm
+- /r
+disabled-worlds:
+- customworld
+- customworld2
+mysql:
+  enabled: false
+  host: localhost
+  port: '3306'
+  database: chatbrawl
+  username: root
+  password: wouter

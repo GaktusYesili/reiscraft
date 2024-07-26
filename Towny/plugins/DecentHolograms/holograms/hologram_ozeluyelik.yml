@@ -1,0 +1,24 @@
+location: baslangic:35.500:38.700:18.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#e8e850&lPHOENIX'
+    height: 0.3
+  - content: ''
+    height: 0.2
+  - content: '&#f7fe9bBirçok özelliğe sahip özel üyeliklerimizi'
+    height: 0.3
+  - content: '&#ffe500&ngörmek&#f7fe9b isteyebilirsin!'
+    height: 0.3
+  - content: ''
+    height: 0.2
+  - content: '&#f7fe9bGöz atmak için &#e8e850&ntıkla&#f3f3a0!'
+    height: 0.3
+  - content: '&#e8e850▾'
+    height: 0.3
+  actions: {}

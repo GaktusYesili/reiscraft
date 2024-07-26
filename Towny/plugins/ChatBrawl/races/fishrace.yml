@@ -1,0 +1,55 @@
+#    _____ _           _   ____                     _ 
+#   / ____| |         | | |  _ \                   | |
+#  | |    | |__   __ _| |_| |_) |_ __ __ ___      _| |
+#  | |    | '_ \ / _` | __|  _ <| '__/ _` \ \ /\ / / |
+#  | |____| | | | (_| | |_| |_) | | | (_| |\ V  V /| |
+#   \_____|_| |_|\__,_|\__|____/|_|  \__,_| \_/\_/ |_|
+#                                                     
+#   For a detailed explanation of all settings visit:         
+#       https://github.com/woutzah/ChatBrawl/wiki    
+# 
+#   Need help? Join the Discord server: https://discord.gg/TvTUWvG 
+
+enabled: false
+chance: 10
+duration: 900
+fish:
+  '1':
+    catch: COD
+    amount: 1
+    rewards:
+    - 1
+    - 2
+enable-firework: true
+enable-actionbar: true
+broadcast:
+  center-messages: false
+  enable-start: true
+  enable-end: true
+sound:
+  enabled: true
+  begin-race: BLOCK_ANVIL_PLACE
+  end-race: BLOCK_NOTE_BLOCK_PLING
+language:
+  actionbar: '&6&oFish Race &7&l>> &fFish &b<amount> &fx &b<fish>'
+  start:
+  - ' \n'
+  - '&7&l>&m=======&r&7{ &7(&e!&7) &6Fish Race &7(&e!&7) &7}&m======&r&7&l>\n'
+  - ' \n'
+  - ' &fCatch the following fish:\n'
+  - ' \n'
+  - '       &b<amount> &fx &b<fish>\n'
+  - ' \n'
+  - '&7&l>&m===========================&r&7&l>\n'
+  - ' '
+  ended:
+  - '&7The &6Fish Race &7ended without a winner!'
+  winner:
+  - ' \n'
+  - '&7&l>&m=====&r&7{ &7(&e*&7) &6Fish Race Winner &7(&e*&7) &7}&m=====&r&7&l>\n'
+  - ' \n'
+  - ' &fCongrats! &b<player> &fwas the fastest!\n'
+  - ' \n'
+  - '&7&l>&m==============================&r&7&l>\n'
+  - ' '
+  winner-personal: '&7you won the &eFish Race&7!'

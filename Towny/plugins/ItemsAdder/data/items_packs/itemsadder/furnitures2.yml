@@ -1,0 +1,341 @@
+info:
+  namespace: itemsadder
+items:
+  template_plant_in_pot:
+    template: true
+    display_name: ""
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bamboo_plant_in_pot
+    behaviours:
+      furniture:
+        entity: item_frame
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1.5
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  bamboo_plant_in_pot:
+    variant_of: template_plant_in_pot
+    display_name: Bamboo Plant in Pot
+    permission: bamboo_plant_in_pot
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bamboo_plant_in_pot
+  cactus_plant_in_pot:
+    variant_of: template_plant_in_pot
+    display_name: Cactus Plant in Pot
+    permission: cactus_plant_in_pot
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/cactus_plant_in_pot
+  template_wood_park_bench:
+    template: true
+    display_name: ""
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/oak_wood_park_bench
+    behaviours:
+      furniture:
+        entity: armor_stand
+        small: true
+        solid: true
+        fixed_rotation: true
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          width_offset: 0.5
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.5
+        sit_all_solid_blocks: true
+  oak_wood_park_bench:
+    variant_of: template_wood_park_bench
+    display_name: "Oak wood Park Bench"
+    permission: oak_wood_park_bench
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/oak_wood_park_bench
+  spruce_wood_park_bench:
+    variant_of: template_wood_park_bench
+    display_name: "Spruce wood Park Bench"
+    permission: spruce_wood_park_bench
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/spruce_wood_park_bench
+  birch_wood_park_bench:
+    variant_of: template_wood_park_bench
+    display_name: "Birch wood Park Bench"
+    permission: birch_wood_park_bench
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/birch_wood_park_bench
+  jungle_wood_park_bench:
+    variant_of: template_wood_park_bench
+    display_name: "Jungle wood Park Bench"
+    permission: jungle_wood_park_bench
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/jungle_wood_park_bench
+  acacia_wood_park_bench:
+    variant_of: template_wood_park_bench
+    display_name: "Acacia wood Park Bench"
+    permission: acacia_wood_park_bench
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/acacia_wood_park_bench
+  dark_oak_wood_park_bench:
+    variant_of: template_wood_park_bench
+    display_name: "Dark Oak wood Park Bench"
+    permission: dark_oak_wood_park_bench
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/dark_oak_wood_park_bench
+  template_modern_lamp:
+    template: true
+    display_name: ""
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 15
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1.5
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  white_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: WHITE
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  orange_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: ORANGE
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  magenta_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: FUCHSIA
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  light_blue_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: 8900346
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  yellow_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: YELLOW
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  lime_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: LIME
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  pink_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: 16761035
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  gray_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: GRAY
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  light_gray_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: 7833753
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  cyan_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: 65535
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  purple_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: PURPLE
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  blue_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: BLUE
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  brown_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: 9127187
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  green_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: GREEN
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  red_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: RED
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp
+  black_modern_lamp:
+    variant_of: template_modern_lamp
+    display_name: "Modern Lamp"
+    lore:
+    - 'lore-decorative-item'
+    specific_properties:
+      leather_horse_armor:
+        color: BLACK
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/template_modern_lamp

@@ -1,0 +1,12 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-02-02 14:39:57 +0200",
+      "minecraft:snowy_tundra": "2024-02-02 14:42:20 +0200",
+      "minecraft:frozen_river": "2024-02-02 14:42:31 +0200",
+      "minecraft:jungle": "2024-02-02 14:40:02 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

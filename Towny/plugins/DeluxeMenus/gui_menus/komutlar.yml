@@ -1,0 +1,177 @@
+menu_title: ':offset_-8::komutlar:'
+open_command: komutlar
+size: 54
+items:
+  sunucuhk:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 39
+    display_name: '&x&e&8&e&8&5&0Sunucu Hakkında'
+    lore:
+    - ''
+    - '&x&f&3&f&3&a&0Sunucumuz zorluk seviyesi olarak'
+    - '&x&e&8&e&8&5&0orta &x&f&3&f&3&a&0olarak hazırlanmıştır.'
+    - '&x&f&3&f&3&a&0Sistemlerimiz hakkında bilgiler'
+    - '&x&f&3&f&3&a&0menülerde detaylı olarak anlatılmıştır.'
+    - ''
+    - '&x&f&3&f&3&a&0Sunucumuz uzun vadeli, sizlerin emeklerinin'
+    - '&x&f&3&f&3&a&0çöpe atılmadığı ve adaletli bir sunucudur. Sunucumuza'
+    - '&x&f&3&f&3&a&0destek olmak ve aynı zamanda bu desteğinize'
+    - '&x&f&3&f&3&a&0karşılık olarak &x&e&8&e&8&5&0Özel Üyelik&x&f&3&f&3&a&0, &x&e&8&e&8&5&0anahtar&x&f&3&f&3&a&0, &x&e&8&e&8&5&0öncelikli giriş &x&f&3&f&3&a&0tarzında ürünler'
+    - '&x&f&3&f&3&a&0almak için sitemizi ziyaret edebilirsin.'
+    - ''
+    - '&8⇴  &x&e&8&e&8&5&0discord.gg/tavuhnw &8(&x&e&8&e&8&5&0/site&8)'
+    left_click_commands:
+    - '[close]'
+    - '[player] site'
+    right_click_commands:
+    - '[close]'
+    - '[player] site'
+  discord:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 41
+    display_name: '&x&e&8&e&8&5&0Discord Hakkında'
+    lore:
+    - ''
+    - '&x&f&3&f&3&a&0Discord sunucumuza katılarak güncellemelerden ve'
+    - '&x&f&3&f&3&a&0duyurulardan &x&e&8&e&8&5&0ilk sen haberdar olabilir&x&f&3&f&3&a&0, arkadaş'
+    - '&x&f&3&f&3&a&0edinip &x&e&8&e&8&5&0eğlenebilir&x&f&3&f&3&a&0, sohbet ederek &x&e&8&e&8&5&0ödül &x&f&3&f&3&a&0kazanabilir,'
+    - '&x&f&3&f&3&a&0hatta çekilişlerden &x&e&8&e&8&5&0Özel Üyelik &x&f&3&f&3&a&0ve fazlasını kazanabilirsin!'
+    - ''
+    - '&x&f&3&f&3&a&0Aynı zamanda Discord sunucumuz ile oyun hesabını da'
+    - '&x&f&3&f&3&a&0Eşleyerek &x&e&8&e&8&5&0özel rol &x&f&3&f&3&a&0ve &x&e&8&e&8&5&0özel eşyalar &x&f&3&f&3&a&0kazanabilirsin!'
+    - ''
+    - '&8⇴  &x&e&8&e&8&5&0discord.gg/tavuhnw &8(&x&e&8&e&8&5&0/discord&8)'
+    left_click_commands:
+    - '[close]'
+    - '[player] discord'
+    right_click_commands:
+    - '[close]'
+    - '[player] discord'
+  profil:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 43
+    display_name: '&x&e&8&e&8&5&0Profil'
+    lore:
+    - ''
+    - '&x&f&3&f&3&a&0Hakkındaki tüm bilgileri ve'
+    - '&x&f&3&f&3&a&0istatistiklerinizi görebilirsin!'
+    - ''
+    - '&8⇴  &x&f&3&f&3&a&0Gitmek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+    left_click_commands:
+    - '[player] profil'
+    right_click_commands:
+    - '[player] profil'
+  profil2:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 37
+    display_name: '&x&e&8&e&8&5&0Önceki Sayfa'
+    left_click_commands:
+    - '[openguimenu] menü'
+    right_click_commands:
+    - '[openguimenu] menü'
+  '1':
+    slot: 10
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyODJjNmJiODM0M2UwZjBkNjFlZTA3NDdkYWRhNzUzNDRmMzMyZTlmZjBhY2FhM2FkY2RmMDkzMjFkM2RkIn19fQ==
+    display_name: '&x&e&8&e&8&5&0Towny Komutları'
+    lore:
+    - ''
+    - '&8▪ &x&e&8&e&8&5&0/town help: &x&f&3&f&3&a&0Kasaba komutlarını gösterir.'
+    - '&8▪ &x&e&8&e&8&5&0/town list: &x&f&3&f&3&a&0Kasaba listesini gösterir.'
+    - '&8▪ &x&e&8&e&8&5&0/town create: &x&f&3&f&3&a&0Kasaba oluşturur.'
+    - '&8▪ &x&e&8&e&8&5&0/town delete: &x&f&3&f&3&a&0Kasabayı siler.'
+    - '&8▪ &x&e&8&e&8&5&0/town claim: &x&f&3&f&3&a&0Bulunduğun alanı claimler.'
+    - '&8▪ &x&e&8&e&8&5&0/town unclaim: &x&f&3&f&3&a&0Bulunduğunuz alanın claimini kaldırır.'
+    - '&8▪ &x&e&8&e&8&5&0/town spawn (isim): &x&f&3&f&3&a&0Herhangi bir kasabanın başlangıç noktasına gitmeni sağlar.'
+    - '&8▪ &x&e&8&e&8&5&0/town rank (add:remove) (oyuncu) (rütbe): &x&f&3&f&3&a&0Vatandaşa rütbe vermenizi sağlar.'
+    - '&8▪ &x&e&8&e&8&5&0/town ranklist: &x&f&3&f&3&a&0Vatandaşların rütbelerini gösterir.'
+    - '&8▪ &x&e&8&e&8&5&0/town withdraw: &x&f&3&f&3&a&0Kasaba kasasından altın çeker.'
+    - '&8▪ &x&e&8&e&8&5&0/town deposit: &x&f&3&f&3&a&0Kasabana altın yatırır.'
+    - ''
+    - '&8▪ &x&e&8&e&8&5&0Towny Ayarlama Komutları'
+    - ''
+    - '&8▪ &x&e&8&e&8&5&0/town set board (mesaj): &x&f&3&f&3&a&0Kasabanın açıklamasını belirler.'
+    - '&8▪ &x&e&8&e&8&5&0/town set mayor (oyuncu): &x&f&3&f&3&a&0Kasaba başkanını seçer.'
+    - '&8▪ &x&e&8&e&8&5&0/town set homeblock: &x&f&3&f&3&a&0Kasabanın başlangıç noktasını ayarlar.'
+    - '&8▪ &x&e&8&e&8&5&0/town set name: &x&f&3&f&3&a&0Kasabanın ismini değiştirir.'
+    - '&8▪ &x&e&8&e&8&5&0/town set perm (oyuncu): &x&f&3&f&3&a&0Kasabadaki oyuncunun izinlerini ayarlar.'
+    - '&8▪ &x&e&8&e&8&5&0/town set taxes (miktar): &x&f&3&f&3&a&0Oyuncular alınacak günlük yüzdelik vergiyi ayarlar.'
+    - ''
+    - '&8► &x&f&3&f&3&a&0Kapatmak için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYzOTI3NzNkMTE0YmUzMGFlYjNjMDljOTBjYmU2OTFmZmVhY2ViMzk5YjUzMGZlNmZiNTNkZGMwY2VkMzcxNCJ9fX0=
+    display_name: '&x&e&8&e&8&5&0Towny Açma/Kapama Komutları'
+    slot: 12
+    lore:
+    - ''
+    - '&8▪ &x&e&8&e&8&5&0/town toggle explosion: &x&f&3&f&3&a&0Kasabada Patlamaları açar/kapar.'
+    - '&8▪ &x&e&8&e&8&5&0/town toggle fire: &x&f&3&f&3&a&0Kasabada Ateşi açar/kapar.'
+    - '&8▪ &x&e&8&e&8&5&0/town toggle mobs: &x&f&3&f&3&a&0Kasabada Yaratıkları açar/kapar.'
+    - '&8▪ &x&e&8&e&8&5&0/town toggle public: &x&f&3&f&3&a&0Herkesin kasabaya ışınlanmasını açar/kapar.'
+    - '&8▪ &x&e&8&e&8&5&0/town toggle pvp: &x&f&3&f&3&a&0Kasabada PvP''yi açar/kapar.'
+    - '&8▪ &x&e&8&e&8&5&0/town toggle open: &x&f&3&f&3&a&0Kasabaya davetsiz alımları açar/kapar.'
+    - ''
+    - '&8▪ &x&e&8&e&8&5&0Arazi Açma/Kapama Komutları'
+    - ''
+    - '&8▪ &x&e&8&e&8&5&0/plot toggle explosion: &x&f&3&f&3&a&0Arazide Patlamaları açar/kapar.'
+    - '&8▪ &x&e&8&e&8&5&0/plot toggle fire: &x&f&3&f&3&a&0Arazide Ateşi açar/kapar.'
+    - '&8▪ &x&e&8&e&8&5&0/plot toggle mob: &x&f&3&f&3&a&0Arazideki Yaratıkları açar/kapar.'
+    - '&8▪ &x&e&8&e&8&5&0/plot toggle clear: &x&f&3&f&3&a&0Arazideki kilit tabelalarını vesaire temizler.'
+    - ''
+    - '&8► &x&f&3&f&3&a&0Kapatmak için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTczYmNmYzM5ZWI4NWRmMTg0ODUzNTk4NTIxNDA2MGExYmQxYjNiYjQ3ZGVmZTQyMDE0NzZlZGMzMTY3MTc0NCJ9fX0=
+    display_name: '&x&e&8&e&8&5&0Tüccar Komutları'
+    slot: 14
+    lore:
+    - ''
+    - '&8▪ &x&e&8&e&8&5&0/tüccar: &x&f&3&f&3&a&0Tüccar menüsünü açar.'
+    - '&8▪ &x&e&8&e&8&5&0/tüccar ekle: &x&f&3&f&3&a&0Tüccara ürün ekler.'
+    - '&8▪ &x&e&8&e&8&5&0/tüccar stokekle: &x&f&3&f&3&a&0Tüccardaki ürüne stok ekler.'
+    - '&8▪ &x&e&8&e&8&5&0/tüccar ürünlerim: &x&f&3&f&3&a&0Tüccarda satışta olan ürünlerini gösterir.'
+    - ''
+    - '&8► &x&f&3&f&3&a&0Kapatmak için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZkODEwNjhjYmRmNGEzNjQyMzFhMjY0NTNkNmNkNjYwYTAwOTVmOWNkODc5NTMwN2M1YmU2Njc0Mjc3MTJlIn19fQ==
+    display_name: '&x&e&8&e&8&5&0Genel Komutlar'
+    slot: 16
+    lore:
+    - ''
+    - '&8▪ &x&e&8&e&8&5&0/kaptan: &x&f&3&f&3&a&0Kaptan menüsünü açar.'
+    - '&8▪ &x&e&8&e&8&5&0/rtp: &x&f&3&f&3&a&0Rastgele bir yere ışınlar.'
+    - '&8▪ &x&e&8&e&8&5&0/spawn: &x&f&3&f&3&a&0Başlangıç bölgesine ışınlar.'
+    - '&8▪ &x&e&8&e&8&5&0/warp: &x&f&3&f&3&a&0Işınlanma menüsünü açar.'
+    - '&8▪ &x&e&8&e&8&5&0/baltop: &x&f&3&f&3&a&0En çok altını olanları gösterir.'
+    - '&8▪ &x&e&8&e&8&5&0/kese: &x&f&3&f&3&a&0Altınları keseye koyar.'
+    - '&8▪ &x&e&8&e&8&5&0/money: &x&f&3&f&3&a&0Altınlarını gösterir.'
+    - '&8▪ &x&e&8&e&8&5&0/tpa: &x&f&3&f&3&a&0Işınlanma isteği gönderir.'
+    - '&8▪ &x&e&8&e&8&5&0/tpaccept: &x&f&3&f&3&a&0Işınlanma isteğini kabul eder.'
+    - '&8▪ &x&e&8&e&8&5&0/tpadeny: &x&f&3&f&3&a&0Işınlanma isteğini reddeder.'
+    - '&8▪ &x&e&8&e&8&5&0/msg: &x&f&3&f&3&a&0Özelden mesaj gönderir.'
+    - '&8▪ &x&e&8&e&8&5&0/bilgi: &x&f&3&f&3&a&0Bilgi menüsünü açar.'
+    - '&8▪ &x&e&8&e&8&5&0/çanta: &x&f&3&f&3&a&0Kişisel çantanı açar.'
+    - '&8▪ &x&e&8&e&8&5&0/oyver: &x&f&3&f&3&a&0Oy vererek ödül kazanırsın.'
+    - '&8▪ &x&e&8&e&8&5&0/süre: &x&f&3&f&3&a&0Oynama süreni gösterir.'
+    - '&8▪ &x&e&8&e&8&5&0/takas: &x&f&3&f&3&a&0Güvenilir takas yaparsın.'
+    - '&8▪ &x&e&8&e&8&5&0/tablo: &x&f&3&f&3&a&0Sağdaki tabloyu aktif/devredışı eder.'
+    - ''
+    - '&8► &x&f&3&f&3&a&0Kapatmak için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

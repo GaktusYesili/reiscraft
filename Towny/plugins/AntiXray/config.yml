@@ -1,0 +1,55 @@
+#Do you want the plugin to be enabled?
+pluginenabled: true
+
+#Do you want that players need a permission in order to send messages if they find a block?
+usepermission: true
+
+#The permission players need in order to send a message if they find a block. "usepermission" must be true.
+permission: antixray.send
+
+#Do you want that players can bypass the plugin with a permission? If false, the plugin will affect all players.
+usebypasspermission: false
+
+#The permission players need in order to bypass the plugin.
+bypasspermission: antixray.bypass
+
+#The permission players need in order to recieve messages from the plugin.
+recievepermission: antixray.recieve
+
+#Do you want to use the worlds list below as whitelist? If false, it will use it as blacklist instead.
+worldsaswhitelist: true
+
+#The list of worlds affected by the plugin:
+worlds:
+ - world
+ - world_nether
+
+#The list of blocks affected by the plugin:
+blocks:
+ - SPAWNER
+ - DIAMOND_ORE
+ - GOLD_ORE
+ - EMERALD_ORE
+ - ANCIENT_DEBRIS
+
+#The message that will be send when a player finds a block listened above.
+#Placeholders:
+#%player% -> The player that mined the block.
+#%block% -> The block that got mined.
+#%world% -> The world the player is in
+minemessage: "&x&d&c&d&c&0&0&lA&x&e&1&e&1&2&2&lN&x&e&6&e&6&4&5&lT&x&e&b&e&b&6&7&lI &x&f&0&f&0&8&9&lX&x&f&5&f&5&a&b&lR&x&f&a&f&a&c&e&lA&x&f&f&f&f&f&0&lY &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%player% &x&f&3&f&3&a&0adlı oyuncu &x&e&8&e&8&5&0Spawner &x&f&3&f&3&a&0kırdı! &8(&x&e&8&e&8&5&0%world%&8)"
+
+#Do you want to use actions when players have mined an amount of blocks listened above in a certain time?
+autoban: false
+
+#The amount of blocks listened above players need to mine
+requiredblocks: 5
+
+#The delay in ticks (20 ticks = 1 second)
+delay: 300
+
+#The actions in commands
+#Placeholders:
+#%player% -> The player that mined the block.
+actions:
+ - "say yay"

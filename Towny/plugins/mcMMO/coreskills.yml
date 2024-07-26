@@ -1,0 +1,8 @@
+# 
+# This file includes a few settings for each skill in mcMMO
+# 
+# Acrobatics
+Acrobatics:
+    Enabled: true
+    Roll:
+        Enabled: true

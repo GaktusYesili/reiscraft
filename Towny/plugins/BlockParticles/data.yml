@@ -1,0 +1,79 @@
+locations:
+  tuccar:
+    world: baslangic
+    x: 50
+    y: 33
+    z: 49
+    particle: Rainbow
+  kaptan:
+    world: baslangic
+    x: 23
+    y: 34
+    z: 13
+    particle: DoubleWitch
+  kasa2:
+    world: baslangic
+    x: 45
+    y: 36
+    z: 31
+    particle: Potion
+  kasa3:
+    world: baslangic
+    x: 45
+    y: 36
+    z: 35
+    particle: Music
+  kasa4:
+    world: baslangic
+    x: 42
+    y: 36
+    z: 38
+    particle: Magic
+  bilge:
+    world: baslangic
+    x: 66
+    y: 30
+    z: 70
+    particle: DoubleWitch
+  spawn:
+    world: baslangic
+    x: 1
+    y: 39
+    z: 1
+    particle: Potion
+  ozeluyelik:
+    world: baslangic
+    x: 35
+    y: 34
+    z: 18
+    particle: Enchant
+  bilgecandede:
+    world: baslangic
+    x: 59
+    y: 30
+    z: 65
+    particle: AngryVillager
+  kozmetik:
+    world: baslangic
+    x: 45
+    y: 36
+    z: 27
+    particle: HappyVillager
+  sezar:
+    world: baslangic
+    x: 42
+    y: 36
+    z: 24
+    particle: Magic
+  sosyalmedya:
+    world: baslangic
+    x: 7
+    y: 34
+    z: 54
+    particle: Snow
+  ihale:
+    world: baslangic
+    x: 21
+    y: 34
+    z: 62
+    particle: DoubleWitch

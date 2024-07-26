@@ -1,0 +1,317 @@
+#This is the lore of every auctioned item in the menu:
+#Use %amount% for item's amount
+auction-item-lore:
+  #The lore for items with no bids on them
+  #Use %display-name-seller% for display name of the seller
+  #Use %starting-bid% for the starting bid
+  #Use %duration% for auction duration
+  auction-item-no-bid:
+    - ''
+    - '&8&m---------------------'
+    - '&x&f&3&f&3&a&0Satıcı: &x&e&8&e&8&5&0%display-name-seller%'
+    - '&x&f&3&f&3&a&0Başlangıç Fiyatı: &x&e&8&e&8&5&0%starting-bid% oyun parası'
+    - ''
+    - '&x&f&3&f&3&a&0Süre: &x&e&8&e&8&5&0%duration%'
+    - ''
+    - '&x&f&3&f&3&a&0İncelemek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+  #The lore for items with bids on them
+  #Use %display-name-seller% for display name of the seller
+  #Use %bids% for the amount of bids
+  #Use %top-bid% for the top bid
+  #Use %top-bid-player% for the top bid player
+  #Use %duration% for auction duration
+  auction-item-with-bids:
+    - ''
+    - '&8&m---------------------'
+    - '&x&f&3&f&3&a&0Satıcı: &x&e&8&e&8&5&0%display-name-seller%'
+    - '&x&f&3&f&3&a&0Teklifler: &x&e&8&e&8&5&0%bids% teklif'
+    - ''
+    - '&x&f&3&f&3&a&0Yüksek Teklif: &x&e&8&e&8&5&0%top-bid% oyun parası'
+    - '&x&f&3&f&3&a&0Teklifçi: &x&e&8&e&8&5&0%top-bid-player%'
+    - ''
+    - '&x&f&3&f&3&a&0Süre: &x&e&8&e&8&5&0%duration%'
+    - ''
+    - '&x&f&3&f&3&a&0İncelemek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+  #Use %display-name-seller% for display name of the seller
+  #Use %bids% for the amount of bids
+  #Use %top-bid% for the top bid
+  #Use %top-bid-player% for the top bid player
+  auction-item-ended:
+    - ''
+    - '&8&m---------------------'
+    - '&x&f&3&f&3&a&0Satıcı: &x&e&8&e&8&5&0%display-name-seller%'
+    - '&x&f&3&f&3&a&0Teklifler: &x&e&8&e&8&5&0%bids% teklif'
+    - ''
+    - '&x&f&3&f&3&a&0Yüksek Teklif: &x&e&8&e&8&5&0%top-bid% oyun parası'
+    - '&x&f&3&f&3&a&0Teklifçi: &x&e&8&e&8&5&0%top-bid-player%'
+    - ''
+    - '&x&f&3&f&3&a&0Durum: &x&f&3&f&3&a&0Bitti!'
+    - ''
+    - '&x&f&3&f&3&a&0İncelemek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+  #Use %display-name-seller% for display name of the seller
+  #Use %starting-bid% for the starting bid
+  auction-item-expired:
+    - ''
+    - '&8&m---------------------'
+    - '&x&f&3&f&3&a&0Satıcı: &x&e&8&e&8&5&0%display-name-seller%'
+    - '&x&f&3&f&3&a&0Başlangıç Fiyatı: &x&e&8&e&8&5&0%starting-bid% oyun parası'
+    - ''
+    - '&x&f&3&f&3&a&0Durum: &x&e&8&e&8&5&0Süresi Geçti!'
+    - ''
+    - '&x&f&3&f&3&a&0İncelemek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+sort-auction-item: '154'
+sort-auction-item-name: '&x&e&8&e&8&5&0Sırala'
+#The lore is dynamic so you can only edit
+#the names of the sortings
+sort-auction-item-sorting:
+  highest-bid: '&x&e&8&e&8&5&0En yüksek teklif'
+  lowest-bid: '&x&e&8&e&8&5&0En düşük teklif'
+  ending-soon: '&x&e&8&e&8&5&0Yakında bitiyor'
+  most-bids: '&x&e&8&e&8&5&0En çok teklif'
+  click-to-switch: '&x&f&3&f&3&a&0Sıralamayı değiştirmek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+search-auction-item: '323'
+search-auction-item-name: '&x&e&8&e&8&5&0Ara'
+search-auction-item-lore:
+  - ''
+  - '&x&f&3&f&3&a&0İsime göre eşyaları ara.'
+  - ''
+  - '&x&f&3&f&3&a&0Aramak için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+#The message displayed on the sign when searching for an auction
+#There are only 3 rows because the first is where the user writes
+search-sign-message:
+  - '^^^^^^^^^^^^^^^'
+  - 'Aramanı Buraya'
+  - 'Yaz'
+
+create-menu-name: '&f:offset_-10::音:'
+manage-own-auctions-menu-name: '&f:offset_-10::み:'
+manage-menu-item: '418'
+manage-menu-item-name: '&x&e&8&e&8&5&0İhaleleri Yönet'
+manage-menu-item-lore:
+  #This lore is displayed when the player has no own auction
+  manage-no-own-auctions:
+    - ''
+    - '&x&f&3&f&3&a&0Kendi eşyalarını diğer'
+    - '&x&f&3&f&3&a&0oyuncuların satın alması'
+    - '&x&f&3&f&3&a&0için ihaleye çıkar.'
+    - ''
+    - '&x&f&3&f&3&a&0Zengin olmak için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+  #This lore is displayed when the player has pending auctions
+  #Use %auctions% for the number of auctions the player has
+  #Use %bids% for the total number of bids on their auctions
+  #Use %coins% for the total number of coins on their auctions
+  manage-with-own-auctions:
+    - ''
+    - '&x&f&3&f&3&a&0Devam eden veya bitmiş'
+    - '&x&f&3&f&3&a&0&x&f&3&f&3&a&0%auctions% ihalen'
+    - '&x&f&3&f&3&a&0var.'
+    - ''
+    - '&x&f&3&f&3&a&0İhaleleri toplamda &x&f&3&f&3&a&0%bids% teklif'
+    - '&x&f&3&f&3&a&0ve &x&f&3&f&3&a&0%coins% oyun parası &x&f&3&f&3&a&0var.'
+    - ''
+    - '&x&f&3&f&3&a&0Yönetmek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+preview-no-item-selected: '77'
+preview-no-item-selected-name: '&x&e&8&e&8&5&0Envanterinden bir eşyaya tıkla!'
+preview-no-item-selected-lore:
+  - ''
+  - '&x&f&3&f&3&a&0Eşyayı ihale için seçer.'
+
+preview-selected-item-name: '&x&e&8&e&8&5&0&n&lİHALE EŞYASI'
+preview-selected-item-take-back: '&x&f&3&f&3&a&0Almak için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+#This item appears when the player has 2 or more ended auctions
+collect-all-item: '380'
+#Use %auctions% for the number of auctions that could be collected
+#Use %coins% for the total amount of coins that could be collected
+#Use %items% for the expired items that could be collected
+collect-all-item-name: '&x&e&8&e&8&5&0Hepsini Topla'
+collect-all-item-lore:
+  own-auctions:
+    - ''
+    - '&x&f&3&f&3&a&0Bitmiş İhaleler'
+    - ''
+    - '&x&f&3&f&3&a&0Bitmiş &x&e&8&e&8&5&0%auctions% ihaleden,'
+    - '&x&f&3&f&3&a&0toplamda &x&e&8&e&8&5&0%coins% &x&f&3&f&3&a&0oyun parası'
+    - '&x&f&3&f&3&a&0ve süresi geçmişlerden &x&e&8&e&8&5&0%items% &x&f&3&f&3&a&0eşyan var'
+    - ''
+    - '&x&f&3&f&3&a&0Toplamak için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+  own-bids:
+    - ''
+    - '&x&f&3&f&3&a&0Bitmiş İhaleler'
+    - ''
+    - '&x&f&3&f&3&a&0Burada teklif verdiğin ve bitmiş'
+    - '&x&e&8&e&8&5&0%auctions% &x&f&3&f&3&a&0ihale var.'
+    - ''
+    - '&x&f&3&f&3&a&0Bitmiş ihalelerden geri toplayacağın'
+    - '&x&e&8&e&8&5&0%coins% &x&f&3&f&3&a&0oyun parası ve'
+    - '&x&f&3&f&3&a&0kazandığın ihalelerden toplayacağın'
+    - '&x&e&8&e&8&5&0%items% &x&f&3&f&3&a&0eşya var.'
+    - ''
+    - '&x&f&3&f&3&a&0Toplamak için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+#The message sent when the player has a full inventory but tries to claim an item
+not-enough-inventory-space: '&x&f&3&f&3&a&0Envanterinde yeterli alan yok!'
+collect-all-message: '&x&f&3&f&3&a&0Bütün ihaleleri topladın!'
+
+create-auction-item:
+  no-item-selected-material: '159:14'
+  no-item-selected-name: '&x&e&8&e&8&5&0İhale Oluştur'
+  no-item-selected-lore:
+    - ''
+    - '&x&f&3&f&3&a&0Eşya seçilmedi!'
+    - ''
+    - '&x&f&3&f&3&a&0İhaleye koymak istediğin'
+    - '&x&f&3&f&3&a&0eşyaya envanterinden tıkla.'
+  item-selected-material: '159:13'
+  item-selected-name: '&x&e&8&e&8&5&0İhale Oluştur'
+  #Use %item-name% for item's name
+  #Use %starting-bid% for starting bid amount
+  #Use %duration% for duration of the auction
+  #Use %fee% for the total fee
+  item-selected-lore:
+    - ''
+    - '&x&f&3&f&3&a&0Bu eşya diğer oyuncuların'
+    - '&x&f&3&f&3&a&0satın alması için ihalelere gönderilecek.'
+    - ''
+    - '&x&f&3&f&3&a&0Eşya: &x&e&8&e&8&5&0%item-name%'
+    - '&x&f&3&f&3&a&0İhale Süresi: &x&e&8&e&8&5&0%duration%'
+    - '&x&f&3&f&3&a&0Başlangıç Fiyatı: &x&e&8&e&8&5&0%starting-bid% Oyun Parası'
+    - ''
+    - '&x&f&3&f&3&a&0Oluşturma Ücreti: &x&e&8&e&8&5&0%fee% Oyun Parası'
+    - ''
+    - '&x&f&3&f&3&a&0Göndermek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+#The default starting bid
+default-starting-bid: '500'
+
+starting-bid-item: '266'
+#Use %starting-bid% for the starting bid amount
+#Use %starting-fee% for the starting bid fee
+starting-bid-item-name: '&x&e&8&e&8&5&0Başlangıç Teklifi: %starting-bid% Oyun Parası'
+starting-bid-item-lore:
+  - ''
+  - '&x&f&3&f&3&a&0Bir oyuncunun eşyayı almak için'
+  - '&x&f&3&f&3&a&0verebileceği minimum teklif.'
+  - ''
+  - '&x&f&3&f&3&a&0Bir oyuncu ihalen için teklif verdiğinde'
+  - '&x&f&3&f&3&a&0diğer oyuncuların daha yüksek bir teklif'
+  - '&x&f&3&f&3&a&0vermek için ihale bitene kadar zamanları olacak.'
+  - ''
+  - '&x&f&3&f&3&a&0Ekstra Ücret: &x&e&8&e&8&5&0+%starting-fee% Oyun Parası &x&e&e&5&8&2&2(5%)'
+  - ''
+  - '&x&f&3&f&3&a&0Düzenlemek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+#The message displayed on the sign when changing the starting bid
+#There are only 3 rows because the first is where the user writes
+starting-bid-sign-message:
+  - '^^^^^^^^^^^^^^^'
+  - 'Senin ihalenin'
+  - 'başlangıç fiyatı'
+#This message is shown when the starting bid
+#could not be registered
+starting-bid-sign-deny: '&x&f&3&f&3&a&0Bu geçerli bir sayı değil.'
+#Don't use the % symbol, just say how much in 100
+#you want the procent to be
+starting-bid-fee-procent: '5'
+
+#Use m for minute, h for hour, d for day with a space between the number and time unit
+#The maxim auction time is 7 days and you can't set the auction to seconds
+#If you enter the time incorectly it resets to 2 h
+default-starting-duration: '2 h'
+
+#Custom units for time
+#Don't use this in the upper option, these are avalable
+#just in auction messages, in the config please use the syntax from the upper comment
+second: 'Saniye'
+seconds: 'Saniye'
+minute: 'Dakika'
+minutes: 'Dakika'
+hour: 'Saat'
+hours: 'Saat'
+day: 'Gün'
+days: 'Gün'
+
+#Time units but short version:
+short_second: ' saniye '
+short_minute: ' dakika, '
+short_hour: ' saat, '
+short_day: ' gün, '
+
+
+#This is the formula that calculates the fee for hours
+#x=number of hours
+extra-fee-formula: '5*(x+3)+5*x*(Math.floor(x/9)+Math.floor(x/20))'
+#The fee for minutes is fixed (5 minutes - 59 minutes)
+extra-fee-minutes: '500'
+
+extra-fee-message: '&x&f&3&f&3&a&0Ekstra Ücret: '
+
+duration-menu-name: '&f:offset_-10::ネ:'
+#This is the message used into duration selection menu
+#on the items with time on them
+duration-selection-lore: '&x&f&3&f&3&a&0Seçmek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+duration-item: '347'
+#Use %auction-fee% for the duration fee of the auction
+#Use %auction-time% for the time of the auction
+duration-item-name: '&x&e&8&e&8&5&0Süre: &x&f&3&f&3&a&0%auction-time%'
+duration-item-lore:
+  - ''
+  - '&x&f&3&f&3&a&0Oyuncuların ne kadar süre'
+  - '&x&f&3&f&3&a&0boyunca teklif verebilecek?'
+  - ''
+  - '&x&e&8&e&8&5&0NOT: &x&f&3&f&3&a&0Teklifler otomatik'
+  - '&x&f&3&f&3&a&0olarak ihalenin süresini arttırır.'
+  - ''
+  - '&x&f&3&f&3&a&0Ekstra Ücret: &x&e&8&e&8&5&0+%auction-fee% Oyun Parası'
+  - ''
+  - '&x&f&3&f&3&a&0Düzenlemek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+#The clock inside the duration menu
+duration-select-item-name: '&x&e&8&e&8&5&0Özel Süre'
+duration-select-item-lore:
+  - ''
+  - '&x&f&3&f&3&a&0İhalenin ne kadar süremesini'
+  - '&x&f&3&f&3&a&0istediğinizi belirtin.'
+  - ''
+  - '&x&f&3&f&3&a&0Dakika için &x&e&8&e&8&5&0&nsağ&x&f&3&f&3&a&0 tıklayınız!'
+  - '&x&f&3&f&3&a&0Saat için &x&e&8&e&8&5&0&nsol&x&f&3&f&3&a&0 tıklayınız!'
+
+#The message displayed on the sign when changing the duration of the bid
+#There are only 3 rows because the first is where the user writes
+#%time-format% is hours/minutes.
+duration-sign-message:
+  - '^^^^^^^^^^^^^^^'
+  - 'İhale'
+  - '%time-format%'
+
+#The message shown when the amount of hours/minutes entered is incorrect
+duration-sign-deny: '&x&f&3&f&3&a&0Bu geçerli bir sayı değil.'
+
+not-enough-money-auction: '&x&f&3&f&3&a&0Bu ihaleyi oluşturmak için yeterli paran yok.'
+
+auction-confirm-menu-name: '&f:offset_-10::読:'
+
+auction-confirm-item-material: '159:13'
+auction-confirm-item-name: '&x&e&8&e&8&5&0Onayla'
+#Use %cost% for the total price the player
+#has to pay to create the auction
+auction-confirm-item-lore:
+  - ''
+  - '&x&f&3&f&3&a&0İhale ücreti: &x&e&8&e&8&5&0%cost% Oyun Parası'
+  - ''
+  - '&x&f&3&f&3&a&0Bu ihaleyi oluşturmak'
+  - '&x&f&3&f&3&a&0istediğine emin misin?'
+  - ''
+  - '&x&f&3&f&3&a&0Onaylamak için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+auction-cancel-item-material: '159:14'
+auction-cancel-item-name: '&x&e&8&e&8&5&0İptal'
+auction-cancel-item-lore:
+  - ''
+  - '&x&f&3&f&3&a&0İhale oluşturmayı iptal et.'
+
+auction-created-message: '&x&d&c&d&c&0&0&lV&x&e&1&e&1&2&2&lE&x&e&6&e&6&4&5&lL&x&e&b&e&b&6&7&lD&x&f&0&f&0&8&9&lO&x&f&5&f&5&a&b&lR&x&f&a&f&a&c&e&lY&x&f&f&f&f&f&0&lA &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0İhalen oluşturuldu!'

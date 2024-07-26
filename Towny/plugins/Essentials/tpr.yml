@@ -1,0 +1,13 @@
+# Configuration for the random teleport command.
+# Some settings may be defaulted, and can be changed via the /settpr command in-game.
+
+min-range: 0.0
+excluded-biomes: []
+center:
+  world: 03dd2801-711d-45cb-8eff-580c69a713b7
+  world-name: world
+  x: -236.15586991877382
+  y: 80.0
+  z: 56.23141810711504
+  yaw: -11.33111572265625
+  pitch: 12.749765396118164

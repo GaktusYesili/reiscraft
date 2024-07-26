@@ -1,0 +1,8 @@
+# Placeholder: %hwr_world%
+
+# orjinal_isim:değiştirilcek_isim
+replace-list:
+  - 'world: Dünya'
+  - 'baslangic: Mora'
+  - 'world_nether:Cehennem'
+  - 'duello:Düello'

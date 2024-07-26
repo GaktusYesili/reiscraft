@@ -1,0 +1,20 @@
+enabledWorlds:
+- world
+- world_nether
+allowNaturalSpawn: false
+onlyNerfNatural: true
+muteSound: false
+disableAI: false
+health: 20.0
+damageModifier: 1.0
+fixedSize:
+  enabled: false
+  value: 1
+database:
+  enabled: false
+  type: mysql
+  host: localhost
+  port: 3306
+  name: nerfphantoms
+  username: user
+  password: '123456'

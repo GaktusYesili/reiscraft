@@ -1,0 +1,160 @@
+info:
+  namespace: "lootcrat_plus"
+        
+items:
+ ##################normal##########################
+  ##################box##################
+  amethyst_box:
+    display_name: "Amethyst box common"
+    permission: lootcrat.plus
+    resource:
+      material: PAPER
+      generate: false
+      model_path: normal/amethyst_box
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        small: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+       
+       
+  iron_box:
+    display_name: "Iron box common"
+    permission: lootcrat.plus
+    resource:
+      material: PAPER
+      generate: false
+      model_path: normal/iron_box
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        small: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+ ##################keys##################       
+  amethyst_key:
+    display_name: "amethyst key common"
+    permission: lootcrat.plus
+    resource:
+      material: PAPER
+      generate: false
+      model_path: normal/amethyst_key
+      
+  iron_key:
+    display_name: "Iron key common"
+    permission: lootcrat.plus
+    resource:
+      material: PAPER
+      generate: false
+      model_path: normal/iron_key
+      
+ ##################rare##########################
+  ##################box##################
+  amethyst_box_rare:
+    display_name: "Amethyst box &6rare"
+    permission: lootcrat.plus
+    resource:
+      material: PAPER
+      generate: false
+      model_path: rare/amethyst_box
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        small: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+
+  iron_box_rare:
+    display_name: "Iron box &6rare"
+    permission: lootcrat.plus
+    resource:
+      material: PAPER
+      generate: false
+      model_path: rare/iron_box
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        small: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+ ##################keys##################       
+  amethyst_key_rare:
+    display_name: "amethyst key &6rare"
+    permission: lootcrat.plus
+    resource:
+      material: PAPER
+      generate: false
+      model_path: rare/amethyst_key
+      
+  iron_key_rare:
+    display_name: "Iron key &6rare"
+    permission: lootcrat.plus
+    resource:
+      material: PAPER
+      generate: false
+      model_path: rare/iron_key
+
+
+  orange_box_rare:
+    display_name: "Orange box &6rare"
+    permission: lootcrat.plus
+    resource:
+      material: PAPER
+      generate: false
+      model_path: rare/orange_box
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        small: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+          
+  yellow_box_rare:
+    display_name: "Yellow box &6rare"
+    permission: lootcrat.plus
+    resource:
+      material: PAPER
+      generate: false
+      model_path: rare/yellow_box
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        small: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+
+  green_box_rare:
+    display_name: "Green box &6rare"
+    permission: lootcrat.plus
+    resource:
+      material: PAPER
+      generate: false
+      model_path: rare/green_box
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        small: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true

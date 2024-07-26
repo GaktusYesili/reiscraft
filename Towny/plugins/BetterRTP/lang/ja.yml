@@ -1,0 +1,59 @@
+# Translation author: OasisAkari (GitHub)
+Messages:
+  Prefix: '&x&f&3&f&3&a&0[&6BetterRTP&x&f&3&f&3&a&0] '
+  Success:
+    Paid: '&aあなたは&x&e&8&e&8&5&0$%price%&aで&x&f&3&f&3&a&0x=%x% y=%y% z=%z% に&f%attempts%&x&f&3&f&3&a&0回の試行でTPされました！'
+    Bypass: '&aあなたは&x&f&3&f&3&a&0x=%x% y=%y% z=%z% に&f%attempts%&x&f&3&f&3&a&0回の試行でTPされました！'
+    Loading: '&a安全位置已定位！&x&f&3&f&3&a&0加载区块中……'
+    Teleport: '&a传送中……&f直到我们找到安全的位置之前请等一下！'
+  Failed:
+    Price: '&x&e&8&e&8&5&0資金が不十分のためRTPできませんでした！ &x&f&3&f&3&a&0RTPには最低$%price%&x&f&3&f&3&a&0が必要です！'
+    NotSafe: '&x&e&8&e&8&5&0%attempts%回の試行で安全な場所が見つかりませんでした！ &x&f&3&f&3&a&0あなたははRTPされませんでした！'
+    Hunger: '&x&f&3&f&3&a&0你太饿了，&x&e&8&e&8&5&0传送之前先吃点东西再说！'
+  Other:
+    Success: '&a%player%が&x&f&3&f&3&a&0x=%x% y=%y% z=%z% に&f%attempts%&x&f&3&f&3&a&0回の試行でテレポートしました！'
+    NotSafe: '&x&e&8&e&8&5&0%attempts%回の試行で安全な場所が見つかりませんでした！ &x&f&3&f&3&a&0%player%はRTPされませんでした！'
+    Biome: '&x&e&8&e&8&5&0看上去&x&f&3&f&3&a&0%biome%&x&e&8&e&8&5&0群系不存在，&x&f&3&f&3&a&0试试使用Tab表查找！'
+  Reload: '&eコンフィグは正常にリロードされました！'
+  NoPermission:
+    Basic: '&x&e&8&e&8&5&0ごめんなさい！ &x&f&3&f&3&a&0このコマンドを使う権限がありません！'
+    World: '&x&e&8&e&8&5&0ごめんなさい！ &x&f&3&f&3&a&0ワールド%world%ではrtpが許可されていません！'
+  DisabledWorld: '&x&e&8&e&8&5&0ワールド%world%は無効です！ &x&f&3&f&3&a&0RTPできませんでした！'
+  Cooldown: '&x&e&8&e&8&5&0ごめんなさい！ &x&f&3&f&3&a&0あなたは&x&e&8&e&8&5&0%time%&x&f&3&f&3&a&0秒間RTPできません！'
+  Locked: '&x&e&8&e&8&5&0Sorry! &x&f&3&f&3&a&0You''ve used up all your RTP''s!'
+  Invalid: '&x&e&8&e&8&5&0無効な引数。 ''/%command% help''を試してください。'
+  NotOnline: '&x&e&8&e&8&5&0プレイヤー&x&f&3&f&3&a&0%player%&x&e&8&e&8&5&0はオンラインではありません！'
+  Delay: '&f%time%&a秒でテレポートします！ 動かないで！'
+  Moved: '&x&e&8&e&8&5&0あなたは移動しました！ &x&f&3&f&3&a&0RTPはキャンセルされました！'
+  NotExist: '&x&e&8&e&8&5&0ワールド&x&f&3&f&3&a&0%world%&x&e&8&e&8&5&0が存在しないようです。'
+  Already: '&x&e&8&e&8&5&0おっと！ &x&f&3&f&3&a&0あなたはすでにRTPしているように見えます。'
+  Sign: '&x&f&3&f&3&a&0命令标记已被创建！&x&f&3&f&3&a&0命令为''&f/rtp %command%&x&f&3&f&3&a&0'''
+  Edit:
+    Error: '&x&e&8&e&8&5&0错误，&x&f&3&f&3&a&0提供的参数无效！'
+    Set: '&b成功，&x&f&3&f&3&a&0%type%设置为%value%。'
+    Remove: '&x&e&8&e&8&5&0已移除，&x&f&3&f&3&a&0你移除了自定义世界%world%。'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| 帮助菜单 &e&m-----'
+  Main: ' &x&f&3&f&3&a&0- &e/%command% &x&f&3&f&3&a&0- あなたをランダムテレポートする！'
+  Biome: ' &x&f&3&f&3&a&0- &e/%command% biome <biome1, biome2...> &x&f&3&f&3&a&0-
+    Randomly teleport withing these biomes'
+  Edit: ' &x&f&3&f&3&a&0- &e/%command% edit <默认/世界> [参数...] &x&f&3&f&3&a&0- 修改插件设置。'
+  Help: ' &x&f&3&f&3&a&0- &e/%command% help &x&f&3&f&3&a&0- ヘルプを見る'
+  Info: ' &x&f&3&f&3&a&0- &e/%command% info [world/particles/shapes/potion_effects]
+    &x&f&3&f&3&a&0- 查看有关插件参数的特定信息。'
+  Player: ' &x&f&3&f&3&a&0- &e/%command% player <player> [world] &x&f&3&f&3&a&0- 他のプレイヤーをランダムテレポート'
+  Reload: ' &x&f&3&f&3&a&0- &e/%command% reload &x&f&3&f&3&a&0- プラグインをリロード'
+  Settings: ' &x&f&3&f&3&a&0- &e/%command% settings &x&f&3&f&3&a&0- 打开GUI设置。'
+  Test: ' &x&f&3&f&3&a&0- &e/%command% test &x&f&3&f&3&a&0- 测试传送后的插件效果。'
+  Version: ' &x&f&3&f&3&a&0- &e/%command% version &x&f&3&f&3&a&0- 显示目前使用的插件版本。'
+  World: ' &x&f&3&f&3&a&0- &e/%command% world <world> &x&f&3&f&3&a&0- 他のワールドにランダムテレポート'
+Usage:
+  Player: '&x&e&8&e&8&5&0使い方&x&f&3&f&3&a&0: /%command% player <プレイヤー> [ワールド]'
+  World: '&x&e&8&e&8&5&0使い方&x&f&3&f&3&a&0: /%command% world <ワールド>'
+  Biome: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% biome <biome1, biome2...>'
+  Edit:
+    Base: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% edit <default/世界> [参数...]'
+    Default: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% edit default <max/min/useworldborder/center>
+      <值>'
+    World: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% edit world <world> <max/min/useworldborder/center>
+      <值>'

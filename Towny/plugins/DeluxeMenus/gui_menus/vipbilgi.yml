@@ -1,0 +1,208 @@
+menu_title: ':offset_-8::vipbilgi:'
+open_command:
+- vipbilgi
+- vip
+- spawner
+- spawnerbilgi
+size: 54
+items:
+  sunucuhk:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 39
+    display_name: '&#e8e850Sunucu Hakkında'
+    lore:
+    - ''
+    - '&#f3f3a0Sunucumuz zorluk seviyesi olarak'
+    - '&#e8e850orta &#f3f3a0olarak hazırlanmıştır.'
+    - '&#f3f3a0Sistemlerimiz hakkında bilgiler'
+    - '&#f3f3a0menülerde detaylı olarak anlatılmıştır.'
+    - ''
+    - '&#f3f3a0Sunucumuz uzun vadeli, sizlerin emeklerinin'
+    - '&#f3f3a0çöpe atılmadığı ve adaletli bir sunucudur. Sunucumuza'
+    - '&#f3f3a0destek olmak ve aynı zamanda bu desteğinize'
+    - '&#f3f3a0karşılık olarak &#e8e850Özel Üyelik&#f3f3a0, &#e8e850anahtar&#f3f3a0, &#e8e850öncelikli giriş &#f3f3a0tarzında ürünler'
+    - '&#f3f3a0almak için sitemizi ziyaret edebilirsin.'
+    - ''
+    - '&8⇴  &#e8e850discord.gg/tavuhnw &8(&#e8e850/site&8)'
+    left_click_commands:
+    - '[close]'
+    - '[player] site'
+    right_click_commands:
+    - '[close]'
+    - '[player] site'
+  discord:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 41
+    display_name: '&#e8e850Discord Hakkında'
+    lore:
+    - ''
+    - '&#f3f3a0Discord sunucumuza katılarak güncellemelerden ve'
+    - '&#f3f3a0duyurulardan &#e8e850ilk sen haberdar olabilir&#f3f3a0, arkadaş'
+    - '&#f3f3a0edinip &#e8e850eğlenebilir&#f3f3a0, sohbet ederek &#e8e850ödül &#f3f3a0kazanabilir,'
+    - '&#f3f3a0hatta çekilişlerden &#e8e850Özel Üyelik &#f3f3a0ve fazlasını kazanabilirsin!'
+    - ''
+    - '&#f3f3a0Aynı zamanda Discord sunucumuz ile oyun hesabını da'
+    - '&#f3f3a0Eşleyerek &#e8e850özel rol &#f3f3a0ve &#e8e850özel eşyalar &#f3f3a0kazanabilirsin!'
+    - ''
+    - '&8⇴  &#e8e850discord.gg/tavuhnw &8(&#e8e850/discord&8)'
+    left_click_commands:
+    - '[close]'
+    - '[player] discord'
+    right_click_commands:
+    - '[close]'
+    - '[player] discord'
+  profil:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 43
+    display_name: '&#e8e850Profil'
+    lore:
+    - ''
+    - '&#f3f3a0Hakkındaki tüm bilgileri ve'
+    - '&#f3f3a0istatistiklerinizi görebilirsin!'
+    - ''
+    - '&8⇴  &#f3f3a0Gitmek için &#e8e850&ntıkla&#f3f3a0!'
+    left_click_commands:
+    - '[player] profil'
+    right_click_commands:
+    - '[player] profil'
+  profil2:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 37
+    display_name: '&#e8e850Önceki Sayfa'
+    left_click_commands:
+    - '[openguimenu] menü'
+    right_click_commands:
+    - '[openguimenu] menü'
+  '1':
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    data: 0
+    slot: 10
+    priority: 2
+    display_name: '&f%img_soylu% &#FFDC00%player_name%'
+    lore:
+    - ''
+    - ' &#e8e850Ücret: &#f3f3a040TL'
+    - ' &#e8e850Süre: &#f3f3a030 Gün'
+    - ''
+    - ' &8▪ &#f3f3a0Beceri Takviyesi: &#e8e850%10'
+    - ' &8▪ &#f3f3a0Çanta sınırı: &#e8e85018 eşya'
+    - ' &8▪ &#f3f3a0Pazar (&#dcb900/pazar&#f3f3a0) &#f3f3a0Sınırı: &#e8e8505 eşya'
+    - ''
+    - ' &8▪ &#e8e850Sezar &#f3f3a0Kasa Anahtarı &#e8e850(&#dcb9002x&#e8e850)'
+    - ' &8▪ &#e8e850Kozmetik &#f3f3a0Kasa Anahtarı &#e8e850(&#dcb9002x&#e8e850)'
+    - ''
+    - '&8► &#f3f3a0Satın almak için: &#e8e850&ndiscord.gg/tavuhnw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '2':
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    data: 0
+    slot: 11
+    priority: 2
+    display_name: '&f%img_vezir%  &#FFDC00%player_name%'
+    lore:
+    - ''
+    - ' &#e8e850Ücret: &#f3f3a090TL'
+    - ' &#e8e850Süre: &#f3f3a030 Gün'
+    - ''
+    - ' &8▪ &#f3f3a0Beceri Takviyesi: &#e8e850%20'
+    - ' &8▪ &#f3f3a0Çanta sınırı: &#e8e85027 eşya'
+    - ' &8▪ &#f3f3a0Pazar (&#dcb900/pazar&#f3f3a0) &#f3f3a0Sınırı: &#e8e8509 eşya'
+    - ''
+    - ' &8▪ &#f3f3a0Sunucuya öncelikli giriş'
+    - ' &8▪ &#e8e850Sezar &#f3f3a0Kasa Anahtarı &#e8e850(&#dcb9004x&#e8e850)'
+    - ' &8▪ &#e8e850Kozmetik &#f3f3a0Kasa Anahtarı &#e8e850(&#dcb9004x&#e8e850)'
+    - ''
+    - '&8► &#f3f3a0Satın almak için: &#e8e850&ndiscord.gg/tavuhnw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '3':
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    data: 0
+    slot: 13
+    priority: 2
+    display_name: '&f%img_elit% &#ff2400%player_name%'
+    lore:
+    - ''
+    - ' &#e8e850Ücret: &#f3f3a0130TL'
+    - ' &#e8e850Süre: &#f3f3a030 Gün'
+    - ''
+    - ' &8▪ &#f3f3a0Beceri Takviyesi: &#e8e850%30'
+    - ' &8▪ &#f3f3a0Çanta sınırı: &#e8e85036 eşya'
+    - ' &8▪ &#f3f3a0Pazar (&#dcb900/pazar&#f3f3a0) &#f3f3a0Sınırı: &#e8e85014 eşya'
+    - ' &8▪ &#f3f3a0Kasabada Uçabilme (&#dcb900/tfly&#f3f3a0)'
+    - ''
+    - ' &8▪ &#f3f3a0Sunucuya öncelikli giriş'
+    - ' &8▪ &#e8e850Sezar &#f3f3a0Kasa Anahtarı &#e8e850(&#dcb9008x&#e8e850)'
+    - ' &8▪ &#e8e850Kozmetik &#f3f3a0Kasa Anahtarı &#e8e850(&#dcb9006x&#e8e850)'
+    - ''
+    - '&8► &#f3f3a0Satın almak için: &#e8e850&ndiscord.gg/tavuhnw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '4':
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    data: 0
+    slot: 15
+    priority: 2
+    display_name: '&f%img_lord% &#007CFF%player_name%'
+    lore:
+    - ' &8▪ &#e8e850Stoklu Ürün!'
+    - ''
+    - ' &#e8e850Ücret: &#f3f3a0200TL'
+    - ' &#e8e850Süre: &#f3f3a060 Gün'
+    - ''
+    - ' &8▪ &#f3f3a0Beceri Takviyesi: &#e8e850%40'
+    - ' &8▪ &#f3f3a0Çanta sınırı: &#e8e85045 eşya'
+    - ' &8▪ &#f3f3a0Pazar (&#dcb900/pazar&#f3f3a0) &#f3f3a0Sınırı: &#e8e85019 eşya'
+    - ' &8▪ &#f3f3a0Kasabada Uçabilme (&#dcb900/tfly&#f3f3a0)'
+    - ''
+    - ' &8▪ &#f3f3a0Sunucuya öncelikli giriş'
+    - ' &8▪ &#e8e850Sezar &#f3f3a0Kasa Anahtarı &#e8e850(&#dcb90012x&#e8e850)'
+    - ' &8▪ &#e8e850Kozmetik &#f3f3a0Kasa Anahtarı &#e8e850(&#dcb9008x&#e8e850)'
+    - ''
+    - '&8► &#f3f3a0Satın almak için: &#e8e850&ndiscord.gg/tavuhnw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '5':
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    data: 0
+    slot: 16
+    priority: 2
+    display_name: '&f%img_baron% &#F51FC9%player_name%'
+    lore:
+    - ' &8▪ &#e8e850Stoklu Ürün!'
+    - ''
+    - ' &#e8e850Ücret: &#f3f3a0300TL'
+    - ' &#e8e850Süre: &#f3f3a090 Gün'
+    - ''
+    - ' &8▪ &#f3f3a0Beceri Takviyesi: &#e8e850%50'
+    - ' &8▪ &#f3f3a0Çanta sınırı: &#e8e85054 eşya'
+    - ' &8▪ &#f3f3a0Pazar (&#dcb900/pazar&#f3f3a0) &#f3f3a0Sınırı: &#e8e85025 eşya'
+    - ' &8▪ &#f3f3a0Kasabada Uçabilme (&#dcb900/tfly&#f3f3a0)'
+    - ''
+    - ' &8▪ &#f3f3a0Sunucuya öncelikli giriş'
+    - ' &8▪ &#e8e850Sezar &#f3f3a0Kasa Anahtarı &#e8e850(&#dcb90016x&#e8e850)'
+    - ' &8▪ &#e8e850Kozmetik &#f3f3a0Kasa Anahtarı &#e8e850(&#dcb90010x&#e8e850)'
+    - ''
+    - '&8► &#f3f3a0Satın almak için: &#e8e850&ndiscord.gg/tavuhnw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

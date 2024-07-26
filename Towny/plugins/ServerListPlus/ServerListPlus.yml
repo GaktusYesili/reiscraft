@@ -1,0 +1,85 @@
+#      _____                     __    _     _   _____ _
+#     |   __|___ ___ _ _ ___ ___|  |  |_|___| |_|  _  | |_ _ ___
+#     |__   | -_|  _| | | -_|  _|  |__| |_ -|  _|   __| | | |_ -|
+#     |_____|___|_|  \_/|___|_| |_____|_|___|_| |__|  |_|___|___|
+# 
+# ServerListPlus v3.4.8 - http://git.io/slp
+
+# More information is available in the Wiki: http://git.io/slp-wiki
+
+
+# This is the section where you can customize your server status ping!
+#  - Default is the section for the status used when the player name is unknown.
+#    Personalized is used if the client has already joined the server once.
+#    Use %player% as placeholder for the player's name.
+# 
+# Features:
+#  - Description (MotD): A short status message for your server, max. 2 lines.
+#  - Players:
+#    - Hover: The player hover message that is displayed if you hover the player count.
+#    - Slots: Custom player slot formatting, see http://git.io/slp-slots
+#  - Favicon:
+#    - Use multiple server icons or the player's head as favicon, see http://git.io/oMhJlg
+#    - Possible favicon sources: Files, Folders, URLs, Heads, Helms, Encoded
+# 
+#  More features are explained in the Wiki: http://git.io/slp-config
+# 
+# Usage:
+#  - Add multiple entries for random messages.
+#  - Save the file with valid UTF-8 encoding for special characters.
+#  - Available placeholders:
+#    - Player name: %player%
+#    - Player count: %online%, %max%, %online@server% %online@world%
+#    - Random online player name: %random_player%
+--- !Status
+Default:
+  Description:
+  - |-
+    &e    &a▬&e▬&6▬&x&6&6&8&9&F&F▬&d▬ &x&9&0&f&b&6&fᴀ&x&9&e&f&3&7&7ʟ&x&a&b&e&b&7&eᴏ&x&b&9&e&3&8&6ɴ&x&c&7&d&c&8&dᴇ&x&d&4&d&4&9&5ᴡ&x&e&2&c&c&9&cᴏ&x&e&f&c&4&a&4ʟ&x&f&d&b&c&a&bғ &8▪ &x&f&b&f&9&3&bᴅ&x&f&8&f&5&3&cı&x&f&5&f&2&3&cs&x&f&2&e&e&3&dᴄ&x&e&f&e&b&3&eᴏ&x&e&c&e&7&3&fʀ&x&e&9&e&4&3&fᴅ&x&e&7&e&0&4&0.&x&e&4&d&c&4&1ɢ&x&e&1&d&9&4&2ɢ&x&d&e&d&5&4&2/&x&d&b&d&2&4&3ᴀ&x&d&8&c&e&4&4ʟ&x&d&5&c&b&4&5ᴏ&x&d&2&c&7&4&5ɴ&x&c&f&c&3&4&6ᴇ&x&c&c&c&0&4&7ᴡ&x&c&9&b&c&4&7ᴏ&x&c&6&b&9&4&8ʟ&x&c&3&b&5&4&9ғ&x&c&1&b&1&4&aᴏ&x&b&e&a&e&4&aғ&x&b&b&a&a&4&bғ&x&b&8&a&7&4&cı&x&b&5&a&3&4&dᴄ&x&b&2&a&0&4&dᴀ&x&a&f&9&c&4&eʟ &8▪ &x&f&b&f&9&3&bᴛ&x&f&3&f&0&3&dᴏ&x&e&c&e&6&3&fᴡ&x&e&4&d&d&4&1ɴ&x&d&d&d&4&4&3ʏ &x&d&5&c&b&4&5ᴘ&x&c&d&c&1&4&6ᴀ&x&c&6&b&8&4&8ᴋ&x&b&e&a&f&4&aᴇ&x&b&7&a&5&4&cᴛ&x&a&f&9&c&4&eɪ &d▬&x&6&6&8&9&F&F▬&6▬&e▬&a▬
+    &e  &x&4&b&4&b&4&9▶ &x&f&f&0&0&0&0%&x&f&f&1&3&0&01&x&f&f&2&6&0&00&x&f&f&3&9&0&00 &x&f&f&4&c&0&0b&x&f&f&5&f&0&0o&x&f&f&7&2&0&0n&x&f&f&8&5&0&0u&x&f&f&9&9&0&0s &x&f&f&a&c&0&0k&x&f&f&b&f&0&0r&x&f&f&d&2&0&0e&x&f&f&e&5&0&0d&x&f&f&f&9&0&0i &x&e&6&f&f&0&0e&x&b&f&f&f&0&0t&x&9&9&f&f&0&0k&x&7&3&f&f&0&0i&x&4&d&f&f&0&0n&x&2&6&f&f&0&0l&x&0&0&f&f&0&0i&x&0&0&d&9&2&6ğ&x&0&0&b&3&4&ci&x&0&0&8&c&7&3! &x&0&0&6&6&9&9▪ &x&0&0&4&0&b&fS&x&0&0&1&a&e&5k&x&0&4&0&0&f&9y&x&0&f&0&0&e&6b&x&1&a&0&0&d&3l&x&2&5&0&0&c&1o&x&3&1&0&0&a&ec&x&3&c&0&0&9&bk &x&4&7&0&0&8&8y&x&5&2&0&0&8&aa&x&5&d&0&0&9&6k&x&6&8&0&0&a&2ı&x&7&3&0&0&a&fn&x&7&e&0&0&b&bd&x&8&9&0&0&c&7a&x&9&4&0&0&d&3! &8◀
+  Players:
+    Hover:
+    - |-
+      &ewww.veldorya.com
+Personalized:
+  Description:
+  - |-
+    &e    &a▬&e▬&6▬&x&6&6&8&9&F&F▬&d▬ &x&9&0&f&b&6&fᴀ&x&9&e&f&3&7&7ʟ&x&a&b&e&b&7&eᴏ&x&b&9&e&3&8&6ɴ&x&c&7&d&c&8&dᴇ&x&d&4&d&4&9&5ᴡ&x&e&2&c&c&9&cᴏ&x&e&f&c&4&a&4ʟ&x&f&d&b&c&a&bғ &8▪ &x&f&b&f&9&3&bᴅ&x&f&8&f&5&3&cı&x&f&5&f&2&3&cs&x&f&2&e&e&3&dᴄ&x&e&f&e&b&3&eᴏ&x&e&c&e&7&3&fʀ&x&e&9&e&4&3&fᴅ&x&e&7&e&0&4&0.&x&e&4&d&c&4&1ɢ&x&e&1&d&9&4&2ɢ&x&d&e&d&5&4&2/&x&d&b&d&2&4&3ᴀ&x&d&8&c&e&4&4ʟ&x&d&5&c&b&4&5ᴏ&x&d&2&c&7&4&5ɴ&x&c&f&c&3&4&6ᴇ&x&c&c&c&0&4&7ᴡ&x&c&9&b&c&4&7ᴏ&x&c&6&b&9&4&8ʟ&x&c&3&b&5&4&9ғ&x&c&1&b&1&4&aᴏ&x&b&e&a&e&4&aғ&x&b&b&a&a&4&bғ&x&b&8&a&7&4&cı&x&b&5&a&3&4&dᴄ&x&b&2&a&0&4&dᴀ&x&a&f&9&c&4&eʟ &8▪ &x&f&b&f&9&3&bᴛ&x&f&3&f&0&3&dᴏ&x&e&c&e&6&3&fᴡ&x&e&4&d&d&4&1ɴ&x&d&d&d&4&4&3ʏ &x&d&5&c&b&4&5ᴘ&x&c&d&c&1&4&6ᴀ&x&c&6&b&8&4&8ᴋ&x&b&e&a&f&4&aᴇ&x&b&7&a&5&4&cᴛ&x&a&f&9&c&4&eɪ &d▬&x&6&6&8&9&F&F▬&6▬&e▬&a▬
+    &e  &x&4&b&4&b&4&9▶ &x&f&f&0&0&0&0%&x&f&f&1&3&0&01&x&f&f&2&6&0&00&x&f&f&3&9&0&00 &x&f&f&4&c&0&0b&x&f&f&5&f&0&0o&x&f&f&7&2&0&0n&x&f&f&8&5&0&0u&x&f&f&9&9&0&0s &x&f&f&a&c&0&0k&x&f&f&b&f&0&0r&x&f&f&d&2&0&0e&x&f&f&e&5&0&0d&x&f&f&f&9&0&0i &x&e&6&f&f&0&0e&x&b&f&f&f&0&0t&x&9&9&f&f&0&0k&x&7&3&f&f&0&0i&x&4&d&f&f&0&0n&x&2&6&f&f&0&0l&x&0&0&f&f&0&0i&x&0&0&d&9&2&6ğ&x&0&0&b&3&4&ci&x&0&0&8&c&7&3! &x&0&0&6&6&9&9▪ &x&0&0&4&0&b&fS&x&0&0&1&a&e&5k&x&0&4&0&0&f&9y&x&0&f&0&0&e&6b&x&1&a&0&0&d&3l&x&2&5&0&0&c&1o&x&3&1&0&0&a&ec&x&3&c&0&0&9&bk &x&4&7&0&0&8&8y&x&5&2&0&0&8&aa&x&5&d&0&0&9&6k&x&6&8&0&0&a&2ı&x&7&3&0&0&a&fn&x&7&e&0&0&b&bd&x&8&9&0&0&c&7a&x&9&4&0&0&d&3! &8◀
+  Players:
+    Hover:
+    - |-
+      &ewww.veldorya.com
+
+# Stats: Enable/disable sending plugin statistics.
+# PlayerTracking: Enable/disable tracking of player names to their IP-Addresses.
+#   - Persistence can be disabled with the toggle in the Storage section.
+# Samples: Toggle using multiple player infos for the player hover message.
+#     May prevent the annoying ... and x more ... message for bigger servers
+#     DynamicPlayers is special and aligns the number with the number of
+#     random players used in placeholders.
+# Unknown: Placeholder replacement if the real value is unknown.
+# Favicon: Options for the creation / downloading of favicons:
+#  - RecursiveFolderSearch: Also search for favicons in sub directories.
+#  - SkinSource: The URL to get the Minecraft Skins from. (%s -> player name)
+#  - ResizeStrategy: The strategy used to resize too small or too big favicons.
+#      NONE (keep them as is, will probably fail), SCALE (scale them to the correct size)
+--- !Plugin
+Stats: true
+PlayerTracking:
+  Enabled: true
+  Storage: !JSONStorage
+    Enabled: true
+    SaveDelay: 5m
+Samples:
+  Multiple: false
+  DynamicPlayers: false
+Unknown:
+  PlayerName: player
+  PlayerCount: ???
+  Date: ???
+Favicon:
+  Timeout: 10s
+  RecursiveFolderSearch: false
+  ResizeStrategy: SCALE
+

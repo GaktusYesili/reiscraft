@@ -1,0 +1,138 @@
+menu_title: ':offset_-8::kurallar:'
+open_command:
+- kurallar
+- rules
+- gardiyan
+size: 54
+items:
+  sunucuhk:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 39
+    display_name: '&x&e&8&e&8&5&0Sunucu Hakkında'
+    lore:
+    - ''
+    - '&x&f&3&f&3&a&0Sunucumuz zorluk seviyesi olarak'
+    - '&x&e&8&e&8&5&0orta &x&f&3&f&3&a&0olarak hazırlanmıştır.'
+    - '&x&f&3&f&3&a&0Sistemlerimiz hakkında bilgiler'
+    - '&x&f&3&f&3&a&0menülerde detaylı olarak anlatılmıştır.'
+    - ''
+    - '&x&f&3&f&3&a&0Sunucumuz uzun vadeli, sizlerin emeklerinin'
+    - '&x&f&3&f&3&a&0çöpe atılmadığı ve adaletli bir sunucudur. Sunucumuza'
+    - '&x&f&3&f&3&a&0destek olmak ve aynı zamanda bu desteğinize'
+    - '&x&f&3&f&3&a&0karşılık olarak &x&e&8&e&8&5&0Özel Üyelik&x&f&3&f&3&a&0, &x&e&8&e&8&5&0anahtar&x&f&3&f&3&a&0, &x&e&8&e&8&5&0öncelikli giriş &x&f&3&f&3&a&0tarzında ürünler'
+    - '&x&f&3&f&3&a&0almak için sitemizi ziyaret edebilirsin.'
+    - ''
+    - '&8⇴  &x&e&8&e&8&5&0discord.gg/tavuhnw &8(&x&e&8&e&8&5&0/site&8)'
+    left_click_commands:
+    - '[close]'
+    - '[player] site'
+    right_click_commands:
+    - '[close]'
+    - '[player] site'
+  discord:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 41
+    display_name: '&x&e&8&e&8&5&0Discord Hakkında'
+    lore:
+    - ''
+    - '&x&f&3&f&3&a&0Discord sunucumuza katılarak güncellemelerden ve'
+    - '&x&f&3&f&3&a&0duyurulardan &x&e&8&e&8&5&0ilk sen haberdar olabilir&x&f&3&f&3&a&0, arkadaş'
+    - '&x&f&3&f&3&a&0edinip &x&e&8&e&8&5&0eğlenebilir&x&f&3&f&3&a&0, sohbet ederek &x&e&8&e&8&5&0ödül &x&f&3&f&3&a&0kazanabilir,'
+    - '&x&f&3&f&3&a&0hatta çekilişlerden &x&e&8&e&8&5&0Özel Üyelik &x&f&3&f&3&a&0ve fazlasını kazanabilirsin!'
+    - ''
+    - '&x&f&3&f&3&a&0Aynı zamanda Discord sunucumuz ile oyun hesabını da'
+    - '&x&f&3&f&3&a&0Eşleyerek &x&e&8&e&8&5&0özel rol &x&f&3&f&3&a&0ve &x&e&8&e&8&5&0özel eşyalar &x&f&3&f&3&a&0kazanabilirsin!'
+    - ''
+    - '&8⇴  &x&e&8&e&8&5&0discord.gg/tavuhnw &8(&x&e&8&e&8&5&0/discord&8)'
+    left_click_commands:
+    - '[close]'
+    - '[player] discord'
+    right_click_commands:
+    - '[close]'
+    - '[player] discord'
+  profil:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 43
+    display_name: '&x&e&8&e&8&5&0Profil'
+    lore:
+    - ''
+    - '&x&f&3&f&3&a&0Hakkındaki tüm bilgileri ve'
+    - '&x&f&3&f&3&a&0istatistiklerinizi görebilirsin!'
+    - ''
+    - '&8⇴  &x&f&3&f&3&a&0Gitmek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+    left_click_commands:
+    - '[player] profil'
+    right_click_commands:
+    - '[player] profil'
+  profil2:
+    material: PAPER
+    nbt_int: CustomModelData:10030
+    slot: 37
+    display_name: '&x&e&8&e&8&5&0Önceki Sayfa'
+    left_click_commands:
+    - '[openguimenu] menü'
+    right_click_commands:
+    - '[openguimenu] menü'
+  '1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ5Y2M1OGFkMjVhMWFiMTZkMzZiYjVkNmQ0OTNjOGY1ODk4YzJiZjMwMmI2NGUzMjU5MjFjNDFjMzU4NjcifX19
+    slot: 12
+    display_name: '&x&e&8&e&8&5&0Sunucu Kuralları'
+    lore:
+    - '&f'
+    - '&8► &x&e&8&e&8&5&0Küfür &x&f&3&f&3&a&0etmek,'
+    - '&8► &x&e&8&e&8&5&0Spam / Flood &x&f&3&f&3&a&0yapmak,'
+    - '&8► &x&e&8&e&8&5&0Hakaret &x&f&3&f&3&a&0etmek,'
+    - '&8► &x&e&8&e&8&5&0Aşırı Caps &x&f&3&f&3&a&0kullanmak,'
+    - '&8► &x&e&8&e&8&5&0Cinsel içerikli &x&f&3&f&3&a&0konuşmak,'
+    - '&8► &x&e&8&e&8&5&0Dine hakaret &x&f&3&f&3&a&0etmek,'
+    - '&8► &x&e&8&e&8&5&0Siyaset &x&f&3&f&3&a&0yapmak,'
+    - '&8► &x&e&8&e&8&5&0Argo &x&f&3&f&3&a&0kullanmak,'
+    - '&8► &x&e&8&e&8&5&0Irkçılık &x&f&3&f&3&a&0yapmak,'
+    - '&8► &x&e&8&e&8&5&0Yetkili oyalamak&x&f&3&f&3&a&0,'
+    - '&8► &x&e&8&e&8&5&0Kışkırtmak&x&f&3&f&3&a&0,'
+    - '&8► &x&e&8&e&8&5&0Harf &x&f&3&f&3&a&0uzatmak,'
+    - '&8► &x&e&8&e&8&5&0Ailevi küfür &x&f&3&f&3&a&0etmek,'
+    - '&8► &x&e&8&e&8&5&0Aşağılayıcı kelimeler &x&f&3&f&3&a&0kullanmak,'
+    - '&8► &x&e&8&e&8&5&0Makro &x&f&3&f&3&a&0kullanmak,'
+    - '&8► &x&e&8&e&8&5&0Hile &x&f&3&f&3&a&0kullanmak,'
+    - '&8► &x&e&8&e&8&5&0Reklam &x&f&3&f&3&a&0yapmak yasaktır.'
+    - '&f'
+    - '&8► &x&f&3&f&3&a&0Kurallara uymayan oyuncular &x&e&8&e&8&5&0ceza &x&f&3&f&3&a&0alacaktır!'
+    - '&f'
+    - '&x&e&8&e&8&5&0discord.gg/tavuhnw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ5Y2M1OGFkMjVhMWFiMTZkMzZiYjVkNmQ0OTNjOGY1ODk4YzJiZjMwMmI2NGUzMjU5MjFjNDFjMzU4NjcifX19
+    slot: 14
+    display_name: '&x&e&8&e&8&5&0Ceza Süreleri'
+    lore:
+    - '&f'
+    - '&8► &x&e&8&e&8&5&0Reklam yapmak &8- &x&e&8&e&8&5&0Sınırsız &x&f&3&f&3&a&0yasaklanma'
+    - '&8► &x&e&8&e&8&5&0Hile &8- &x&f&3&f&3&a&0Sırasıyla &x&e&8&e&8&5&03&x&f&3&f&3&a&0, &x&e&8&e&8&5&07&x&f&3&f&3&a&0, &x&e&8&e&8&5&014 &x&f&3&f&3&a&0gün yasaklanma'
+    - '&8► &x&e&8&e&8&5&0Dine hakaret &8- &x&e&8&e&8&5&02 &x&f&3&f&3&a&0gün susturulma'
+    - '&8► &x&e&8&e&8&5&0Irkçılık &8- &x&e&8&e&8&5&02 &x&f&3&f&3&a&0gün susturulma'
+    - '&8► &x&e&8&e&8&5&0Siyaset &8- &x&e&8&e&8&5&02 &x&f&3&f&3&a&0gün susturulma'
+    - '&8► &x&e&8&e&8&5&0Ailevi küfür &8- &x&e&8&e&8&5&01 &x&f&3&f&3&a&0gün susturulma'
+    - '&8► &x&e&8&e&8&5&0Küfür &8- &x&e&8&e&8&5&012 &x&f&3&f&3&a&0saat susturulma'
+    - '&8► &x&e&8&e&8&5&0Hakaret &8- &x&e&8&e&8&5&06 &x&f&3&f&3&a&0saat susturulma'
+    - '&8► &x&e&8&e&8&5&0Cinsellik &8- &x&e&8&e&8&5&06 &x&f&3&f&3&a&0saat susturulma'
+    - '&8► &x&e&8&e&8&5&0Aşağılama &8- &x&e&8&e&8&5&06 &x&f&3&f&3&a&0saat susturulma'
+    - '&8► &x&e&8&e&8&5&0Kışkırtma &8- &x&e&8&e&8&5&02 &x&f&3&f&3&a&0saat susturulma'
+    - '&8► &x&e&8&e&8&5&0Argo &8- &x&e&8&e&8&5&02 &x&f&3&f&3&a&0saat susturulma'
+    - '&8► &x&e&8&e&8&5&0Yetkili Oyalamak &8- &x&e&8&e&8&5&02 &x&f&3&f&3&a&0saat susturulma'
+    - '&8► &x&e&8&e&8&5&0Spam / Flood &8- &x&e&8&e&8&5&02 &x&f&3&f&3&a&0saat susturulma'
+    - '&8► &x&e&8&e&8&5&0Caps / Harf uzatımı &8- &x&e&8&e&8&5&02 &x&f&3&f&3&a&0saat susturulma'
+    - '&f'
+    - '&8► &x&f&3&f&3&a&0Kurallara uymayan oyuncular &x&e&8&e&8&5&0ceza &x&f&3&f&3&a&0alacaktır!'
+    - '&f'
+    - '&x&e&8&e&8&5&0discord.gg/tavuhnw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

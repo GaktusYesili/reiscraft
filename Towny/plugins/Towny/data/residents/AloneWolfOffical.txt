@@ -1,0 +1,14 @@
+uuid=b4acb40b-614c-3497-b6a5-b8060f5c98c3
+lastOnline=1705988775180
+registered=1705967469870
+joinedTownAt=1705981472992
+isNPC=false
+title=
+surname=
+town=TavuhNW
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

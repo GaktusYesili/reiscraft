@@ -1,0 +1,8 @@
+name: youtuber
+permissions:
+- weight.15
+parents:
+- izinler
+prefixes:
+- '%img_youtube%':
+    priority: 1

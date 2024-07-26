@@ -1,0 +1,342 @@
+Crate:
+  CrateType: QuickCrate #Type of crate (CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War/Cosmic(This requires a additional info to work.)).
+  CrateName: '&x&B&B&4&6&3&1Yumurta Kasa' #Name of the Inventory if a GUI crate.
+  StartingKeys: 0 #Starting amount of keys when the player 1st joins.
+  InGUI: true #If the crate shows in the /cc GUI. (If the crate type is QuickCrate/CrateOnTheGo/FireCracker then the Crate will not work. Quick Crate requires a Physical Crate.)
+  Slot: 21 #Slot the item is in the GUI.
+  OpeningBroadCast: false #Enables/Disables the Broadcasts message when they open a crate.
+  BroadCast: '' #Message that is broadcasted when opening the crate.
+  Item: 'CHEST' #Item the crate is in the GUI
+  Glowing: false #If the crate in the main /cc GUI is glowing or not.
+  Name: '&f:offset_-10::ヵ:' #Name of the item in the GUI.
+  Lore: #The lore of the item in the GUI.
+    - '&x&e&2&8&c&7&cThis crate contains strange objects.' 
+    - '&x&e&2&8&c&7&cYou have &6%Keys% keys &x&e&2&8&c&7&cto open this crate with.'
+    - '&x&e&2&8&c&7&c&l(&x&B&B&4&6&3&1&l!&x&e&2&8&c&7&c&l) Right click to view rewards.'
+  PhysicalKey:
+    Name: '&x&4&b&4&b&4&9⇴ &x&B&B&4&6&3&1Yumurta &x&e&2&8&c&7&cKasa Anahtarı &8⬰'
+    Lore:
+      - ''
+      - '&x&4&b&4&b&4&9⇴ &x&e&2&8&c&7&cBu anahtarı &x&B&B&4&6&3&1/warp kasalar&x&e&2&8&c&7&c''da kullanabilirsin!'
+      - '&x&4&b&4&b&4&9⇴ &x&e&2&8&c&7&cDeğer: &x&B&B&4&6&3&1Orta &x&e&2&8&c&7&c(&x&e&2&8&c&7&c★&x&B&B&4&6&3&1★★&x&e&2&8&c&7&c)'
+    Item: 'FEATHER'
+    Glowing: false #Makes the key look enchanted.
+#         For Cosmic Crates Only
+#############################################
+#  Tiers: #The tiers in the Crate
+#    Basic: #The Config Name for the Crate
+#      Name: '&8Basic Prize' #The in-game name of the Crate
+#      Color: 7 #Use the MetaData for the color of the glass
+#      Chance: 80 #Chance of that item getting picked. It would be 80/100 chance because MaxRange is 100.
+#      MaxRange: 100 #The max raccccccccccnge that the chance will go though.
+#    UnCommon:
+#      Name: '&aUnCommon Prize'
+#      Color: 5
+#      Chance: 105
+#      MaxRange: 100
+#    Rare:
+#      Name: '&4Rare Prize'
+#      Color: 14
+#      Chance: 10
+#      MaxRange: 100
+#############################################
+  Prizes:
+    1:
+      DisplayName: '&x&B&B&4&6&3&1İnek Yumurtası'
+      DisplayItem: 'COW_SPAWN_EGG' 
+      DisplayAmount: 8 
+      MaxRange: 100
+      Chance: 45
+      Firework: false
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% cow_spawn_egg 8'
+      BlackListed-Permissions: {}
+    2:
+      DisplayName: '&x&B&B&4&6&3&1Koyun Yumurtası'
+      DisplayItem: 'SHEEP_SPAWN_EGG' 
+      DisplayAmount: 8 
+      MaxRange: 100
+      Chance: 45
+      Firework: false
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% sheep_spawn_egg 8'
+      BlackListed-Permissions: {}
+    3:
+      DisplayName: '&x&B&B&4&6&3&1Tavuk Yumurtası'
+      DisplayItem: 'CHICKEN_SPAWN_EGG' 
+      DisplayAmount: 8 
+      MaxRange: 100
+      Chance: 45
+      Firework: false
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% chicken_spawn_egg 8'
+      BlackListed-Permissions: {}
+    4:
+      DisplayName: '&x&B&B&4&6&3&1Domuz Yumurtası'
+      DisplayItem: 'PIG_SPAWN_EGG' 
+      DisplayAmount: 8 
+      MaxRange: 100
+      Chance: 45
+      Firework: false
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% pig_spawn_egg 8'
+      BlackListed-Permissions: {}
+    5:
+      DisplayName: '&x&B&B&4&6&3&1Mooshroom Yumurtası'
+      DisplayItem: 'MOOSHROOM_SPAWN_EGG'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% mooshroom_spawn_egg 1'
+      BlackListed-Permissions: {}
+    6:
+      DisplayName: '&x&B&B&4&6&3&1Kurt Yumurtası'
+      DisplayItem: 'WOLF_SPAWN_EGG'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+      - 'give %player% wolf_spawn_egg 2'
+      BlackListed-Permissions: {}
+    7:
+      DisplayName: '&x&B&B&4&6&3&1Kedi Yumurtası'
+      DisplayItem: 'CAT_SPAWN_EGG'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% cat_spawn_egg 1'
+      BlackListed-Permissions: {}
+    8:
+      DisplayName: '&x&B&B&4&6&3&1At Yumurtası'
+      DisplayItem: 'HORSE_SPAWN_EGG'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 35
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% horse_spawn_egg 2'
+      BlackListed-Permissions: {}
+    9:
+      DisplayName: '&x&B&B&4&6&3&1Katır Yumurtası'
+      DisplayItem: 'MULE_SPAWN_EGG'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 35
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% mule_spawn_egg 2'
+      BlackListed-Permissions: {}
+    10:
+      DisplayName: '&x&B&B&4&6&3&1Yunus Yumurtası'
+      DisplayItem: 'DOLPHIN_SPAWN_EGG'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 25
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% dolphin_spawn_egg 2'
+      BlackListed-Permissions: {}
+    11:
+      DisplayName: '&x&B&B&4&6&3&1Tilki Yumurtası'
+      DisplayItem: 'FOX_SPAWN_EGG'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% fox_spawn_egg 1'
+      BlackListed-Permissions: {}
+    12:
+      DisplayName: '&x&B&B&4&6&3&1Panda Yumurtası'
+      DisplayItem: 'PANDA_SPAWN_EGG'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% panda_spawn_egg 1'
+      BlackListed-Permissions: {}
+    13:
+      DisplayName: '&x&B&B&4&6&3&1Tavşan Yumurtası'
+      DisplayItem: 'RABBIT_SPAWN_EGG'
+      DisplayAmount: 4
+      MaxRange: 100
+      Chance: 35
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% rabbit_spawn_egg 4'
+      BlackListed-Permissions: {}
+    14:
+      DisplayName: '&x&B&B&4&6&3&1Zombi Yumurtası'
+      DisplayItem: 'ZOMBIE_SPAWN_EGG'
+      DisplayAmount: 4
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% zombie_spawn_egg 4'
+      BlackListed-Permissions: {}
+    15:
+      DisplayName: '&x&B&B&4&6&3&1İskelet Yumurtası'
+      DisplayItem: 'SKELETON_SPAWN_EGG'
+      DisplayAmount: 4
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% skeleton_spawn_egg 4'
+      BlackListed-Permissions: {}
+    16:
+      DisplayName: '&x&B&B&4&6&3&1Örümcek Yumurtası'
+      DisplayItem: 'SPIDER_SPAWN_EGG'
+      DisplayAmount: 4
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% spider_spawn_egg 4'
+      BlackListed-Permissions: {}
+    17:
+      DisplayName: '&x&B&B&4&6&3&1Mağara Örümcek Yumurtası'
+      DisplayItem: 'CAVE_SPIDER_SPAWN_EGG'
+      DisplayAmount: 4
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% cave_spider_spawn_egg 4'
+      BlackListed-Permissions: {} 
+    18:
+      DisplayName: '&x&B&B&4&6&3&1Ghast Yumurtası'
+      DisplayItem: 'GHAST_SPAWN_EGG'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% ghast_spawn_egg 2'
+      BlackListed-Permissions: {}
+    19:
+      DisplayName: '&x&B&B&4&6&3&1Blaze Yumurtası'
+      DisplayItem: 'BLAZE_SPAWN_EGG'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% blaze_spawn_egg 2'
+      BlackListed-Permissions: {}
+    20:
+      DisplayName: '&x&B&B&4&6&3&1Piglin Yumurtası'
+      DisplayItem: 'PIGLIN_SPAWN_EGG'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% piglin_spawn_egg 1'
+      BlackListed-Permissions: {} 
+    21:
+      DisplayName: '&x&B&B&4&6&3&1Endermite Yumurtası'
+      DisplayItem: 'ENDERMITE_SPAWN_EGG'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 12
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% endermite_spawn_egg 1'
+      BlackListed-Permissions: {}
+    22:
+      DisplayName: '&x&B&B&4&6&3&1Köylü Yumurtası'
+      DisplayItem: 'VILLAGER_SPAWN_EGG'
+      DisplayAmount: 4
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% villager_spawn_egg 4'
+      BlackListed-Permissions: {}
+    23:
+      DisplayName: '&x&B&B&4&6&3&1Lama Yumurtası'
+      DisplayItem: 'LLAMA_SPAWN_EGG'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 25
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% llama_spawn_egg 2'
+      BlackListed-Permissions: {}      

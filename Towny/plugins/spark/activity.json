@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Blach",
+      "uniqueId": "ff939de2-63d3-3b7a-82e8-f80202874bef"
+    },
+    "time": 1662050561818,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins\\spark\\heap-2022-09-01_19.42.33.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Blach",
+      "uniqueId": "ff939de2-63d3-3b7a-82e8-f80202874bef"
+    },
+    "time": 1662049205739,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins\\spark\\heap-2022-09-01_19.19.58.hprof"
+    }
+  }
+]

@@ -1,0 +1,61 @@
+# Translation author: OasisAkari (GitHub)
+Messages:
+  Prefix: '&x&f&3&f&3&a&0[&6BetterRTP&x&f&3&f&3&a&0] '
+  Success:
+    Paid: '&a你花费了&x&e&8&e&8&5&0$%price%&x&f&3&f&3&a&0，被传送到了&x&f&3&f&3&a&0 x=%x% y=%y%
+      z=%z%。共尝试&f%attempts%&x&f&3&f&3&a&0次！'
+    Bypass: '&a你被传送到了&x&f&3&f&3&a&0 x=%x% y=%y% z=%z%。共尝试&f%attempts%&x&f&3&f&3&a&0次！'
+    Loading: '&a安全位置已定位！&x&f&3&f&3&a&0加载区块中……'
+    Teleport: '&a传送中……&f直到我们找到安全的位置之前请等一下！'
+  Failed:
+    Price: '&x&e&8&e&8&5&0你的钱不够了，&x&f&3&f&3&a&0你至少要有$%price%&x&f&3&f&3&a&0才能随机传送！'
+    NotSafe: '&x&e&8&e&8&5&0由于在%attempts%次尝试内未能找到安全的位置，&x&f&3&f&3&a&0你未被传送！'
+    Hunger: '&x&f&3&f&3&a&0你太饿了，&x&e&8&e&8&5&0传送之前先吃点东西再说！'
+  Other:
+    Success: '&a%player%被传送到了&x&f&3&f&3&a&0 x=%x% y=%y% z=%z%。共尝试&f%attempts%&x&f&3&f&3&a&0次！'
+    NotSafe: '&x&e&8&e&8&5&0由于在%attempts%次尝试内未能找到安全的位置，&x&f&3&f&3&a&0%player%未被传送！'
+    Biome: '&x&e&8&e&8&5&0看上去&x&f&3&f&3&a&0%biome%&x&e&8&e&8&5&0群系不存在，&x&f&3&f&3&a&0试试使用Tab表查找！'
+  Reload: '&e配置成功重载！'
+  NoPermission:
+    Basic: '&x&e&8&e&8&5&0对不起，&x&f&3&f&3&a&0你没有权限使用此命令！'
+    World: '&x&e&8&e&8&5&0对不起，&x&f&3&f&3&a&0你并没有被准许在%world%世界传送！'
+  DisabledWorld: '&x&e&8&e&8&5&0%world%世界已被禁止使用此命令，&x&f&3&f&3&a&0无法传送！'
+  Cooldown: '&x&e&8&e&8&5&0对不起，&x&f&3&f&3&a&0你需要在&x&e&8&e&8&5&0%time%&x&f&3&f&3&a&0秒后才能传送！'
+  Locked: '&x&e&8&e&8&5&0对不起，&x&f&3&f&3&a&0你已经用完了你的随机传送次数了！'
+  Invalid: '&x&e&8&e&8&5&0无效的参数，使用''/%command% help''查看帮助。'
+  NotOnline: '&x&e&8&e&8&5&0玩家&x&f&3&f&3&a&0%player%&x&e&8&e&8&5&0不在线！'
+  Delay: '&a即将在&f%time%&a秒后传送，乖乖站好！'
+  Moved: '&x&e&8&e&8&5&0你移动了，&x&f&3&f&3&a&0随机传送被取消了！'
+  NotExist: '&x&e&8&e&8&5&0看上去&x&f&3&f&3&a&0%world%&x&e&8&e&8&5&0世界并不存在！'
+  Already: '&x&e&8&e&8&5&0啊嘞嘞，&x&f&3&f&3&a&0看上去你已经在随机传送中了，请耐心点！'
+  Sign: '&x&f&3&f&3&a&0命令标记已被创建！&x&f&3&f&3&a&0命令为''&f/rtp %command%&x&f&3&f&3&a&0'''
+  Edit:
+    Error: '&x&e&8&e&8&5&0错误，&x&f&3&f&3&a&0提供的参数无效！'
+    Set: '&b成功，&x&f&3&f&3&a&0%type%设置为%value%。'
+    Remove: '&x&e&8&e&8&5&0已移除，&x&f&3&f&3&a&0你移除了自定义世界%world%。'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| 帮助菜单 &e&m-----'
+  Main: ' &x&f&3&f&3&a&0- &e/%command% &x&f&3&f&3&a&0- 将你随机传送！'
+  Biome: ' &x&f&3&f&3&a&0- &e/%command% biome <生物群系1, 生物群系2...> &x&f&3&f&3&a&0- 在这些指定的群系中随机传送。'
+  Edit: ' &x&f&3&f&3&a&0- &e/%command% edit <默认/世界> [参数...] &x&f&3&f&3&a&0- 修改插件设置。'
+  Help: ' &x&f&3&f&3&a&0- &e/%command% help &x&f&3&f&3&a&0- 打开帮助菜单。'
+  Info: ' &x&f&3&f&3&a&0- &e/%command% info [world/particles/shapes/potion_effects]
+    &x&f&3&f&3&a&0- 查看有关插件参数的特定信息。'
+  Player: ' &x&f&3&f&3&a&0- &e/%command% player <玩家> [世界] [生物群系1，生物群系2...] &x&f&3&f&3&a&0-
+    指定一个玩家随机传送。'
+  Reload: ' &x&f&3&f&3&a&0- &e/%command% reload &x&f&3&f&3&a&0- 重载插件。'
+  Settings: ' &x&f&3&f&3&a&0- &e/%command% settings &x&f&3&f&3&a&0- 打开GUI设置。'
+  Test: ' &x&f&3&f&3&a&0- &e/%command% test &x&f&3&f&3&a&0- 测试传送后的插件效果。'
+  Version: ' &x&f&3&f&3&a&0- &e/%command% version &x&f&3&f&3&a&0- 显示目前使用的插件版本。'
+  World: ' &x&f&3&f&3&a&0- &e/%command% world <世界> [生物群系1, 生物群系2...] &x&f&3&f&3&a&0-
+    在其他世界随机传送。'
+Usage:
+  Player: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% player <玩家> [世界] [生物群系1, 生物群系2]'
+  World: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% world <世界> [生物群系1, 生物群系2...]'
+  Biome: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% biome <生物群系1, 生物群系2...>'
+  Edit:
+    Base: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% edit <default/世界> [参数...]'
+    Default: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% edit default <max/min/useworldborder/center>
+      <值>'
+    World: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% edit world <world> <max/min/useworldborder/center>
+      <值>'

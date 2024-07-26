@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/ender_eye"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"itemsadder:item/ufo_toy"},{"predicate":{"custom_model_data":10001},"model":"minecraft:item/ender_eye"}]}

@@ -1,0 +1,13 @@
+name: lord
+permissions:
+- auctionmaster.limit.auctions.19
+- backpack.size.5
+- essentials.joinfullserver
+- mcmmo.perks.xp.40percentboost.all
+- townyflight.command.tfly
+- weight.13
+parents:
+- izinler
+prefixes:
+- '%img_lord%':
+    priority: 1

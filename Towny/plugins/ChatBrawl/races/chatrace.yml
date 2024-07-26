@@ -1,0 +1,76 @@
+#    _____ _           _   ____                     _ 
+#   / ____| |         | | |  _ \                   | |
+#  | |    | |__   __ _| |_| |_) |_ __ __ ___      _| |
+#  | |    | '_ \ / _` | __|  _ <| '__/ _` \ \ /\ / / |
+#  | |____| | | | (_| | |_| |_) | | | (_| |\ V  V /| |
+#   \_____|_| |_|\__,_|\__|____/|_|  \__,_| \_/\_/ |_|
+#                                                     
+#   For a detailed explanation of all settings visit:         
+#       https://github.com/woutzah/ChatBrawl/wiki    
+# 
+#   Need help? Join the Discord server: https://discord.gg/TvTUWvG 
+
+enabled: true
+chance: 14
+duration: 600
+words:
+  '1':
+    word: TavuhNW
+    rewards:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+  '2':
+    word: Keşkekçinin keşkeklenmiş keşkek kepçesi
+    rewards:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+  '3':
+    word: Sivas Kangalı
+    rewards:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+enable-firework: true
+enable-actionbar: true
+broadcast:
+  center-messages: false
+  enable-start: true
+  enable-end: true
+sound:
+  enabled: true
+  begin-race: BLOCK_ANVIL_PLACE
+  end-race: BLOCK_NOTE_BLOCK_PLING
+language:
+  actionbar: '&8⇴ &eYazı Yarışı &8⥈ &fCümle: &e<word> &8⬰'
+  start:
+  - ' \n'
+  - '&x&4&b&4&b&4&9&m--------&x&e&8&e&8&5&0 Yazı Yarışı &x&4&b&4&b&4&9&m--------&r\n'
+  - ' \n'
+  - ' &r&x&f&3&f&3&a&0Aşağıdaki cümleyi ilk yazan kazanır!\n'
+  - ' \n'
+  - ' &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0<word>\n'
+  - ' \n'
+  - '&x&4&b&4&b&4&9&m--------------------------&r\n'
+  - ' '
+  ended:
+  - '&6&lTOWYN⇴ &x&e&8&e&8&5&0Yazı Yarışı &x&f&3&f&3&a&0kazananı olmadı!'
+  winner:
+  - ' \n'
+  - '&x&4&b&4&b&4&9&m--------&x&e&8&e&8&5&0 Yazı Yarışı &x&4&b&4&b&4&9&m--------&r\n'
+  - ' \n'
+  - '  &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0<player> &r&x&f&3&f&3&a&0kazandı, tebrikler!\n'
+  - ' \n'
+  - '&x&4&b&4&b&4&9&m--------------------------&r\n'
+  - ' '
+  winner-personal: '&6&lTOWYN⇴ &x&e&8&e&8&5&0Yazı Yarışı &x&f&3&f&3&a&0kazananı sensin, tebrikler!'

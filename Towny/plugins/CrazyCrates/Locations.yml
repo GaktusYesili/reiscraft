@@ -1,0 +1,91 @@
+Locations:
+  '1':
+    Crate: gumus
+    World: world
+    X: 27
+    Y: 79
+    Z: -37
+  '2':
+    Crate: altin
+    World: world
+    X: 30
+    Y: 79
+    Z: -37
+  '3':
+    Crate: elmas
+    World: world
+    X: 33
+    Y: 79
+    Z: -37
+  '4':
+    Crate: anahtar
+    World: world
+    X: 36
+    Y: 79
+    Z: -37
+  '5':
+    Crate: veldorya
+    World: world
+    X: 38
+    Y: 79
+    Z: -35
+  '6':
+    Crate: spawner
+    World: world
+    X: 38
+    Y: 79
+    Z: -32
+  '7':
+    Crate: asil
+    World: world
+    X: 38
+    Y: 79
+    Z: -29
+  '8':
+    Crate: para
+    World: world
+    X: 38
+    Y: 79
+    Z: -26
+  '9':
+    Crate: razor
+    World: baslangic
+    X: 42
+    Y: 36
+    Z: 28
+  '12':
+    Crate: yumurta
+    World: baslangic
+    X: 45
+    Y: 36
+    Z: 35
+  '13':
+    Crate: lider
+    World: baslangic
+    X: 42
+    Y: 36
+    Z: 38
+  '14':
+    Crate: yumurta
+    World: baslangic
+    X: 45
+    Y: 36
+    Z: 35
+  '10':
+    Crate: oy
+    World: baslangic
+    X: 45
+    Y: 36
+    Z: 31
+  '11':
+    Crate: sezar
+    World: baslangic
+    X: 42
+    Y: 36
+    Z: 24
+  '15':
+    Crate: kozmetik
+    World: baslangic
+    X: 45
+    Y: 36
+    Z: 27

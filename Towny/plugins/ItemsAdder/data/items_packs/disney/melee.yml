@@ -1,0 +1,126 @@
+info:
+  namespace: disney
+items:
+  keyblade:
+    enabled: true
+    display_name: Keyblade
+    lore:
+    - '&5Kingdom Hearts'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/weapons/keyblade
+  makini_staff:
+    enabled: true
+    display_name: Makini's Bakora staff
+    lore:
+    - '&5The Lion King'
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/weapons/makini_staff
+  rafiki_staff:
+    enabled: true
+    display_name: Rafiki's Bakora staff
+    lore:
+    - '&5The Lion King'
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/weapons/rafiki_staff
+  infinity_gauntlet:
+    enabled: true
+    display_name: '&x&c&e&a&2&1&3Sonsuzluk Eldiveni'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/weapons/infinity_gauntlet
+  mjolnir:
+    enabled: true
+    display_name: '&x&c&e&a&2&1&3Mjolnir'
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: item/weapons/mjolnir  
+  mickey_glove:
+    enabled: true
+    display_name: Mickey mouse glove
+    lore:
+    - '&5Mickey Mouse'
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/weapons/mickey_glove
+  maui_fishhook:
+    enabled: true
+    display_name: Maui's magical fish hook
+    lore:
+    - '&5Moana'
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/weapons/maui_fishhook
+  hook:
+    enabled: true
+    display_name: Captain Hook's Hook
+    lore:
+    - '&5Peter Pan'
+    resource:
+      material: GOLDEN_SWORD
+      generate: false
+      model_path: item/weapons/hook
+  hooks_sword:
+    enabled: true
+    display_name: Hook's sword
+    lore:
+    - '&5Peter Pan'
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/weapons/hooks_sword
+  pan_dagger:
+    enabled: true
+    display_name: Peter Pan's dagger
+    lore:
+    - '&5Peter Pan'
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/weapons/pan_dagger
+  frying_pan:
+    enabled: true
+    display_name: Rapunzel's frying pan
+    lore:
+    - '&5Tangled'
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/weapons/frying_pan
+  wolverine_claws:
+    enabled: true
+    display_name: wolverine claws
+    lore:
+    - '&5X men'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/weapons/wolverine_claws
+  mandalorian_darksaber:
+    enabled: true
+    display_name: Mandalorian Darksaber
+    lore:
+    - '&5Star Wars'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/weapons/mandalorian_darksaber 
+  sith_lightsaber:
+    enabled: true
+    display_name: Lightsaber
+    lore:
+    - '&6Recolorable'
+    - '&5Star Wars'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/weapons/lightsabers/sith_lightsaber

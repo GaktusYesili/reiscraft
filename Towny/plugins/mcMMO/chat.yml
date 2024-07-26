@@ -1,0 +1,12 @@
+# Settings for the chat channels in mcMMO
+Chat:
+    Enable: true
+    Channels:
+        Party:
+            Enable: true
+            Use_Display_Names: true
+            Spies:
+                Automatically_Enable_Spying: false
+        Admin:
+            Enable: true
+            Use_Display_Names: true

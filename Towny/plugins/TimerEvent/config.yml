@@ -1,0 +1,48 @@
+Ayarlar:
+  İsim-Event-Kalmadı: '&x&e&8&e&8&5&0Bugün daha event yok'
+  Zaman-Event-Kalmadı: '&x&e&8&e&8&5&0-----------'
+  Zaman-Formatı: '&2%saat% &asaat &2%dakika% &adakika &2%saniye% &asaniye'
+
+Etkinlikler:
+  Monday:
+    Etkinlik2:
+      İsim: '&aYeniden Başlatma2'
+      Zaman: '06:00'
+      Komutlar:
+        - 'stop'
+  Tuesday:
+    Etkinlik2:
+      İsim: '&aYeniden Başlatma2'
+      Zaman: '06:00'
+      Komutlar:
+        - 'stop'
+  Wednesday:
+    Etkinlik2:
+      İsim: '&aYeniden Başlatma2'
+      Zaman: '06:00'
+      Komutlar:
+        - 'stop'
+  Thursday:
+    Etkinlik2:
+      İsim: '&aYeniden Başlatma2'
+      Zaman: '06:00'
+      Komutlar:
+        - 'stop'
+  Friday:
+    Etkinlik2:
+      İsim: '&aYeniden Başlatma2'
+      Zaman: '06:00'
+      Komutlar:
+        - 'stop'
+  Saturday:
+    Etkinlik2:
+      İsim: '&aYeniden Başlatma2'
+      Zaman: '06:00'
+      Komutlar:
+        - 'stop'
+  Sunday:
+    Etkinlik2:
+      İsim: '&aYeniden Başlatma2'
+      Zaman: '06:00'
+      Komutlar:
+        - 'stop'

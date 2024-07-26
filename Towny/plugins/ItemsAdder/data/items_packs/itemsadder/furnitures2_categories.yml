@@ -1,0 +1,47 @@
+info:
+  namespace: itemsadder
+categories:
+  chairs:
+    enabled: true
+    name: display-category-chairs
+    icon: itemsadder:simple_chair
+    permission: ia.menu.chairs
+    font_image:
+      name: "mcguis:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - itemsadder:oak_wood_park_bench
+      - itemsadder:spruce_wood_park_bench
+      - itemsadder:birch_wood_park_bench
+      - itemsadder:jungle_wood_park_bench
+      - itemsadder:acacia_wood_park_bench
+      - itemsadder:dark_oak_wood_park_bench
+  furnitures:
+    enabled: true
+    name: display-category-furnitures
+    icon: itemsadder:old_clock
+    permission: ia.menu.furnitures
+    font_image:
+      name: "mcguis:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - itemsadder:bamboo_plant_in_pot
+      - itemsadder:cactus_plant_in_pot
+      - itemsadder:white_modern_lamp
+      - itemsadder:orange_modern_lamp
+      - itemsadder:magenta_modern_lamp
+      - itemsadder:light_blue_modern_lamp
+      - itemsadder:yellow_modern_lamp
+      - itemsadder:lime_modern_lamp
+      - itemsadder:pink_modern_lamp
+      - itemsadder:gray_modern_lamp
+      - itemsadder:light_gray_modern_lamp
+      - itemsadder:cyan_modern_lamp
+      - itemsadder:purple_modern_lamp
+      - itemsadder:blue_modern_lamp
+      - itemsadder:brown_modern_lamp
+      - itemsadder:green_modern_lamp
+      - itemsadder:red_modern_lamp
+      - itemsadder:black_modern_lamp

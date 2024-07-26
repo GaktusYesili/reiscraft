@@ -1,0 +1,42 @@
+location: baslangic:30.500:39.000:-16.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&uEn Çok Oynayan 10 Kişi'
+    height: 0.3
+  - content: '&8⇴ &#DCB900#1 &8- &#e8e850%PlayTimes_toptime1% &#f3f3a0oynama süresiyle
+      &#e8e850%PlayTimes_topname1% &8⬰'
+    height: 0.3
+  - content: '&8⇴ &#DCB900#2 &8- &#e8e850%PlayTimes_toptime2% &#f3f3a0oynama süresiyle
+      &#e8e850%PlayTimes_topname2% &8⬰'
+    height: 0.3
+  - content: '&8⇴ &#DCB900#3 &8- &#e8e850%PlayTimes_toptime3% &#f3f3a0oynama süresiyle
+      &#e8e850%PlayTimes_topname3% &8⬰'
+    height: 0.3
+  - content: '&8⇴ &#DCB900#4 &8- &#e8e850%PlayTimes_toptime4% &#f3f3a0oynama süresiyle
+      &#e8e850%PlayTimes_topname4% &8⬰'
+    height: 0.3
+  - content: '&8⇴ &#DCB900#5 &8- &#e8e850%PlayTimes_toptime5% &#f3f3a0oynama süresiyle
+      &#e8e850%PlayTimes_topname5% &8⬰'
+    height: 0.3
+  - content: '&8⇴ &#DCB900#6 &8- &#e8e850%PlayTimes_toptime6% &#f3f3a0oynama süresiyle
+      &#e8e850%PlayTimes_topname6% &8⬰'
+    height: 0.3
+  - content: '&8⇴ &#DCB900#7 &8- &#e8e850%PlayTimes_toptime7% &#f3f3a0oynama süresiyle
+      &#e8e850%PlayTimes_topname7% &8⬰'
+    height: 0.3
+  - content: '&8⇴ &#DCB900#8 &8- &#e8e850%PlayTimes_toptime8% &#f3f3a0oynama süresiyle
+      &#e8e850%PlayTimes_topname8% &8⬰'
+    height: 0.3
+  - content: '&8⇴ &#DCB900#9 &8- &#e8e850%PlayTimes_toptime9% &#f3f3a0oynama süresiyle
+      &#e8e850%PlayTimes_topname9% &8⬰'
+    height: 0.3
+  - content: '&8⇴ &#DCB900#10 &8- &#e8e850%PlayTimes_toptime10% &#f3f3a0oynama süresiyle
+      &#e8e850%PlayTimes_topname10% &8⬰'
+    height: 0.3
+  actions: {}

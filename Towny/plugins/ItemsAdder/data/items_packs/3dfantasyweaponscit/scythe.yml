@@ -1,0 +1,18 @@
+info:
+  namespace: 3dfantasyweaponscit
+items:
+  azure_scythe:
+    display_name: display-name-azure_scythe
+    permission: 3dfantasyweaponscit.scythe.azure_scythe
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/scythe/azure_scythe
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562

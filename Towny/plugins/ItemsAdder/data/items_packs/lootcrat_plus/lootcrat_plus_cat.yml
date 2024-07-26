@@ -1,0 +1,25 @@
+info:
+  namespace: lootcrat_plus
+categories:
+  lootcrat_plus:
+    enabled: true
+    skip_if_already: false
+    icon: "lootcrat_plus:amethyst_box_rare"
+    name: "&6&lLoot Crate &2&lPlus"
+    permission: lootcrat.plus
+    items:
+     #common
+      - "lootcrat_plus:amethyst_box"
+      - "lootcrat_plus:amethyst_key"
+      - "lootcrat_plus:iron_box"
+      - "lootcrat_plus:iron_key"
+      #rare
+      - "lootcrat_plus:amethyst_box_rare"
+      - "lootcrat_plus:amethyst_key_rare"
+      - "lootcrat_plus:iron_box_rare"
+      - "lootcrat_plus:iron_key_rare" 
+    
+      
+
+  
+

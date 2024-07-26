@@ -1,0 +1,209 @@
+#
+# Plugin by fergydanny (https://sysadamant.com). Check out my other plugins at https://www.spigotmc.org/resources/authors/fergydanny.25236/
+#
+
+#
+# General
+#
+global:
+  # Enable/Disable backwards compatibility (Checks spawner item lore/name). Not recommended unless you have too many old
+  # spawners in circulation that you don't want to manually trade for new ones. When this is disabled, you can safely let
+  # people rename spawners.
+  backwards-compatibility: false
+  # Enable/Disable showing a list of available entities in server console on plugin start
+  show-available: false
+  # Set how spawners look. Available placeholder: %mob% => mob name
+  display:
+    name: '&x&e&8&e&8&5&0%mob% Doğurucu'
+    lore:
+      - ''
+      - '&x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Değerli ve bir o'
+      - '&x&f&3&f&3&a&0kadar da önemli doğurucu.'
+      - ''
+      - '&x&D&C&B&9&0&0&n&oKoy&x&f&3&f&3&a&0&o ve çalıştır!'
+    lore-enabled: true
+
+#
+# /mineablespawners command
+#
+main:
+  # The help message will only show the commands a player has access to.
+  help-message:
+    title: '&x&e&8&e&8&5&0Spawner Sistemi:'
+    give: '&x&e&8&e&8&5&0/ms give <oyuncu> <spawner> <adet> &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Oyuncuya doğurucu verir.'
+    set: '&x&e&8&e&8&5&0/ms set <spawner> &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Baktığın spawnerı dönüştürür.'
+    types: '&x&e&8&e&8&5&0/ms types &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucu türlerini listeler.'
+    reload: '&x&e&8&e&8&5&0/ms reload &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Eklentiyi yeniler.'
+
+#
+# /mineablespawners give command
+#
+give:
+  # Whether or not to require the permisison "mineablespawners.give" to give spawners.
+  require-permission: true
+  # Whether or not to drop the spawner at the players feet if their inventory is full
+  drop-if-full: true
+  messages:
+    no-permission: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yeterli iznin yok.'
+    player-does-not-exist: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0Oyuncu &x&f&3&f&3&a&0bulunamadı.'
+    invalid-type: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0Doğurucu &x&f&3&f&3&a&0bulunamadı.'
+    invalid-amount: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Adet olarak girdiğin değer sadece &x&e&8&e&8&5&0sayı &x&f&3&f&3&a&0olabilir.'
+    inventory-full: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Oyuncunun envanteri dolu. &x&e&8&e&8&5&0Doğurucu &x&f&3&f&3&a&0verilemedi.'
+    # Here you can use the placeholders: %amount% => amount given, %mob% => mob name, %target% => player receiving spawners
+    success: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%target% &x&f&3&f&3&a&0adlı oyuncuya başarıyla &x&e&8&e&8&5&0%amount% &x&f&3&f&3&a&0adet &x&e&8&e&8&5&0%mob% Doğurucu &x&f&3&f&3&a&0verdin!'
+    received: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%amount% &x&f&3&f&3&a&0adet &x&e&8&e&8&5&0%mob% Doğurucu &x&f&3&f&3&a&0aldın!'
+
+#
+# /mineablespawners set command
+#
+set:
+  # Whether or not to require the permisison "mineablespawners.set" to set a spawners type while looking at it.
+  require-permission: true
+  # Whether or not to require the permission "mineablespawners.set.<type>" to set a spawners type while looking at it.
+  require-individual-permission: true
+  # Configure worlds players will not be able to change spawners in.
+  blacklisted-worlds:
+    - 'worldname'
+  messages:
+    no-permission: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yeterli iznin yok.'
+    no-individual-permission: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu bu türe dönüştürmek için yeterli iznin yok.'
+    invalid-type: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0Doğurucu &x&f&3&f&3&a&0bulunamadı.'
+    not-looking-at: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Bir doğurucuya bakmıyorsun.'
+    already-type: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu kendi türüne dönüştüremezsin.'
+    # Here you can use the placeholders: %from% => mob its changing from, %to% => mob its changing to.
+    success: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu başarıyla şuna dönüştürdün: &x&e&8&e&8&5&0%to%'
+    blacklisted: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Bunu bu dünyada yapamazsın.'
+
+#
+# /mineablespawners types command
+#
+types:
+  # Whether or not to require the permisison "mineablespawners.types" to set a spawners type while looking at it.
+  require-permission: true
+  messages:
+    no-permission: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yeterli iznin yok.'
+    title: '&x&e&8&e&8&5&0Mevcut Doğurucular: '
+    # This just sets how the mobs are listed. Available placeholder: %mob%
+    entries: '&x&f&3&f&3&a&0%mob%&x&e&8&e&8&5&0, '
+
+#
+# Renaming spawners with anvils
+#
+anvil:
+  prevent-anvil: true
+  messages:
+    prevented: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuların adını değiştiremezsin.'
+
+#
+# Changing spawners with eggs
+#
+eggs:
+  # Whether or not to require the permission "mineablespawners.eggchange" to change a spawner type with a spawn egg.
+  require-permission: true
+  # Whether or not to require the permission "mineablespawners.eggchange.<type>" to change a spawner type with a spawn egg.
+  require-individual-permission: true
+  # Configure worlds in which players cant change spawners with eggs
+  blacklisted-worlds:
+    - 'worldname'
+  messages:
+    no-permission: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yeterli iznin yok.'
+    no-individual-permission: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu bu türe dönüştürmek için yeterli iznin yok.'
+    already-type: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu kendi türüne dönüştüremezsin.'
+    # Here you can use the placeholders: %from% => mob its changing from, %to% => mob its changing to.
+    success: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu başarıyla şuna dönüştürdün: &x&e&8&e&8&5&0%to%'
+    blacklisted: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Bunu bu dünyada yapamazsın.'
+
+#
+# Exploding spawners
+#
+explode:
+  drop: false
+  # The chance it will drop in percentage from 0-100
+  chance: 0
+  # Configure worlds spawners will not drop when exploded
+  blacklisted-worlds:
+    - 'worldname'
+
+#
+# Mining spawners
+#
+mining:
+  # Whether or not to require the permission "mineablespawners.mine" to mine a spawner.
+  require-permission: false
+  # Whether or not to require the permission "mineablespawners.mine.<type>" to mine a spawner.
+  require-individual-permission: false
+  # Which tools should be used to mine spawners
+  tools:
+    - 'DIAMOND_PICKAXE'
+    - 'IRON_PICKAXE'
+  # Whether or not to require silk touch to mine a spawner.
+  require-silktouch: true
+  # Should a different of silk touch be required? "required-level" has no effect if "require-silktouch-level" is false.
+  require-silktouch-level: false
+  required-level: 1
+  # The chance it will drop in percentage from 0-100
+  chance: 100
+  # Should we instead use perm based chances?
+  use-perm-based-chances: false
+  # Configure them from best (top) to worse (bottom). Format: <permission>:<% chance from 0-100>
+  perm-based-chances:
+    - 'minechance.1:100' # 100% chance
+    - 'minechance.2:50' # 50% chance
+  # Should the drop go straight to the players inventory?
+  drop-to-inventory: true
+  # Should exp be dropped when mining spawners.
+  drop-exp: false
+  # Should the spawner break (but not drop) if any of the above conditions are not met?
+  still-break: false
+  # Here you can translate the requirements that will be shown when the still break message is sent.
+  requirements:
+    wrong-tool: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu bu aletle kıramazsın.'
+    permission: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu kırmak için &x&e&8&e&8&5&0ipeksi dokunuş &x&f&3&f&3&a&0büyüsüne ihtiyacın var.'
+    individual-permission: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu kırmak için &x&e&8&e&8&5&0ipeksi dokunuş &x&f&3&f&3&a&0büyüsüne ihtiyacın var.'
+    silktouch: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu kırmak için &x&e&8&e&8&5&0ipeksi dokunuş &x&f&3&f&3&a&0büyüsüne ihtiyacın var.'
+    # Available placeholder: %level% => required level
+    silktouch-level: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu kırmak için &x&e&8&e&8&5&0ipeksi dokunuş %level% &x&f&3&f&3&a&0büyüsüne ihtiyacın var.'
+  # Configure worlds players will not be able to change spawners in.
+  blacklisted-worlds:
+    - 'worldname'
+  # Charge players to mine spawners? use type "ALL" to charge the same price for all spawners. Format: <mob>:<price>. Requires the plugin Vault and a compatible economy plugin.
+  charge: false
+  prices:
+    - 'PIG:10000'
+  messages:
+    wrong-tool: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu bu aletle kıramazsın.'
+    no-permission: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yeterli iznin yok.'
+    no-individual-permission: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yeterli iznin yok.'
+    blacklisted: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Bunu bu dünyada yapamazsın.'
+    no-silktouch: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu kırmak için &x&e&8&e&8&5&0ipeksi dokunuş &x&f&3&f&3&a&0büyüsüne ihtiyacın var.'
+    # Available placeholder: %level% => required level
+    not-level-required: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Doğurucuyu kırmak için &x&e&8&e&8&5&0ipeksi dokunuş %level% &x&f&3&f&3&a&0büyüsüne ihtiyacın var.'
+    inventory-full: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Oyuncunun envanteri dolu. &x&e&8&e&8&5&0Doğurucu &x&f&3&f&3&a&0verilemedi.'
+    # Available placeholder: %requirement% => missing requirement
+    still-break: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Kırdığın doğurucuyu elde edemedin çünkü gereksinimleri karşılamıyorsun: &x&e&8&e&8&5&0%requirement%'
+    # Available placeholder: %missing% => amount of money missing, %cost% => cost to ppalce spawner.
+    not-enough-money: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Bunu yapmak için gereksinimleri karşılamıyorsun: &x&e&8&e&8&5&0%missing%'
+    # Available placeholders: %type% => type of spawner, %balance% => players balance, %cost% => cost to place spawner.
+    transaction-success: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%cost% &x&f&3&f&3&a&0oyun parası karşılığında &x&e&8&e&8&5&0%type% Doğurucu &x&f&3&f&3&a&0aldın!'
+    # Message sent when players didn't get the spawner because of their odds (chance setting)
+    out-of-luck: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Şansına küs, doğurucuyu elde edemedin.'
+
+#
+# Placing spawners
+#
+placing:
+  # Should the plugin log in console every time a player places a spawner?
+  log: true
+  # Configure worlds players will not be able to place spawners in.
+  blacklisted-worlds:
+    - 'worldname'
+  # Charge players to place spawners? use type "ALL" to charge the same price for all spawners. Format: <mob>:<price>. Requires the plugin Vault and a compatible economy plugin.
+  charge: false
+  prices:
+    - 'PIG:10000'
+  messages:
+    blacklisted: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Bunu bu dünyada yapamazsın.'
+    # Available placeholder: %missing% => amount of money missing, %cost% => cost to ppalce spawner.
+    not-enough-money: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Bunu yapmak için gereksinimleri karşılamıyorsun: &x&e&8&e&8&5&0%missing%'
+    # Available placeholders: %type% => type of spawner, %balance% => players balance, %cost% => cost to place spawner.
+    transaction-success: '&x&9&0&f&b&6&fᴀ&x&9&8&f&6&7&4ʟ&x&a&1&f&1&7&8ᴏ&x&a&9&e&c&7&dɴ&x&b&2&e&8&8&1ᴇ&x&b&a&e&3&8&6ᴡ&x&c&2&d&e&8&bᴏ&x&c&b&d&9&8&fʟ&x&d&3&d&4&9&4ғ &x&d&b&c&f&9&9ᴛ&x&e&4&c&b&9&dᴏ&x&e&c&c&6&a&2ᴡ&x&f&5&c&1&a&6ɴ&x&f&d&b&c&a&bʏ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%cost% &x&f&3&f&3&a&0oyun parası karşılığında &x&e&8&e&8&5&0%type% Doğurucu &x&f&3&f&3&a&0aldın!'

@@ -1,0 +1,534 @@
+info:
+  namespace: "gardenplus"
+recipes:
+  crafting_table:
+    banc_acacia_gauche:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "ACACIA_PLANKS"
+        B: "STICK"
+      pattern:
+        - "AXX"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_acacia_gauche"
+        amount: 1
+    banc_acacia_droit:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "ACACIA_PLANKS"
+        B: "STICK"
+      pattern:
+        - "XXA"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_acacia_droit"
+        amount: 1       
+    banc_birch_gauche:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BIRCH_PLANKS"
+        B: "STICK"
+      pattern:
+        - "AXX"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_birch_gauche"
+        amount: 1
+    banc_birch_droit:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BIRCH_PLANKS"
+        B: "STICK"
+      pattern:
+        - "XXA"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_birch_droit"
+        amount: 1 
+    banc_crimson_gauche:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "CRIMSON_PLANKS"
+        B: "STICK"
+      pattern:
+        - "AXX"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_crimson_gauche"
+        amount: 1
+    banc_crimson_droit:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "CRIMSON_PLANKS"
+        B: "STICK"
+      pattern:
+        - "XXA"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_crimson_droit"
+        amount: 1  
+    banc_darkoak_gauche:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "DARK_OAK_PLANKS"
+        B: "STICK"
+      pattern:
+        - "AXX"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_darkoak_gauche"
+        amount: 1
+    banc_darkoak_droit:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "DARK_OAK_PLANKS"
+        B: "STICK"
+      pattern:
+        - "XXA"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_darkoak_droit"
+        amount: 1
+    banc_jungle_gauche:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "JUNGLE_PLANKS"
+        B: "STICK"
+      pattern:
+        - "AXX"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_jungle_gauche"
+        amount: 1
+    banc_jungle_droit:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "JUNGLE_PLANKS"
+        B: "STICK"
+      pattern:
+        - "XXA"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_jungle_droit"
+        amount: 1 
+    banc_oak_gauche:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "OAK_PLANKS"
+        B: "STICK"
+      pattern:
+        - "AXX"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_oak_gauche"
+        amount: 1
+    banc_oak_droit:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "OAK_PLANKS"
+        B: "STICK"
+      pattern:
+        - "XXA"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_oak_droit"
+        amount: 1   
+    banc_spruce_gauche:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "SPRUCE_PLANKS"
+        B: "STICK"
+      pattern:
+        - "AXX"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_spruce_gauche"
+        amount: 1
+    banc_spruce_droit:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "SPRUCE_PLANKS"
+        B: "STICK"
+      pattern:
+        - "XXA"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_spruce_droit"
+        amount: 1   
+    banc_warped_gauche:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "WARPED_PLANKS"
+        B: "STICK"
+      pattern:
+        - "AXX"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_warped_gauche"
+        amount: 1
+    banc_warped_droit:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "WARPED_PLANKS"
+        B: "STICK"
+      pattern:
+        - "XXA"
+        - "AAA"
+        - "BXB"
+      result:
+        item: "gardenplus:banc_warped_droit"
+        amount: 1 
+        
+items:
+  banc_acacia_gauche:
+    display_name: "Acacia bench left"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_acacia_gauche"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+  banc_acacia_droit:
+    display_name: "Acacia bench right"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_acacia_droit"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+  banc_birch_gauche:
+    display_name: "Birch bench left"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_birch_gauche"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+  banc_birch_droit:
+    display_name: "Birch bench right"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_birch_droit"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+  banc_crimson_gauche:
+    display_name: "Crimson bench left"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_crimson_gauche"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+  banc_crimson_droit:
+    display_name: "Crimson bench right"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_crimson_droit"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8    
+  banc_darkoak_gauche:
+    display_name: "Dark oak bench left"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_darkoak_gauche"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+  banc_darkoak_droit:
+    display_name: "Dark oak bench right"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_darkoak_droit"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8     
+  banc_jungle_gauche:
+    display_name: "Jungle bench left"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_jungle_gauche"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+  banc_jungle_droit:
+    display_name: "Jungle bench right"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_jungle_droit"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+  banc_oak_gauche:
+    display_name: "Oak bench left"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_oak_gauche"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+  banc_oak_droit:
+    display_name: "Oak bench right"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_oak_droit"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8          
+  banc_spruce_gauche:
+    display_name: "Spruce bench left"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_spruce_gauche"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+  banc_spruce_droit:
+    display_name: "Spruce bench right"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_spruce_droit"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8   
+  banc_warped_gauche:
+    display_name: "Warped bench left"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_warped_gauche"
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+  banc_warped_droit:
+    display_name: "warped bench right"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus Meuble"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "bancs/banc_warped_droit"
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8 

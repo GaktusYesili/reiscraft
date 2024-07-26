@@ -1,0 +1,33 @@
+info:
+  namespace: 3dfantasyweaponscit
+items:
+  azure_sabre:
+    display_name: display-name-azure_sabre
+    permission: 3dfantasyweaponscit.katana.azure_sabre
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/katana/azure_sabre
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  bloody_vengeance_blade:
+    display_name: display-name-bloody_vengeance_blade
+    permission: 3dfantasyweaponscit.katana.bloody_vengeance_blade
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/katana/bloody_vengeance_blade
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562

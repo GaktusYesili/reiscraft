@@ -1,0 +1,9 @@
+# 
+#  mcMMO child skill configuration
+#  Last updated on 2.1.218-SNAPSHOT-b${BUILD_NUMBER}
+Salvage:
+- Fishing
+- Repair
+Smelting:
+- Mining
+- Repair

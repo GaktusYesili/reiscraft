@@ -1,0 +1,296 @@
+#          ___      _   _           ___          __ _ _                   Our plugins: https://alonsoaliaga.com/plugins
+#         | _ ) ___| |_| |_ ___ _ _| _ \_ _ ___ / _(_) |___ ___           Support server: https://alonsoaliaga.com/discord
+#         | _ \/ -_)  _|  _/ -_) '_|  _/ '_/ _ \  _| | / -_|_-<           Youtube: https://alonsoaliaga.com/play
+#         |___/\___|\__|\__\___|_| |_| |_| \___/_| |_|_\___/__/           Test server: plugins.alonsoaliaga.com
+#                           by AlonsoAliaga                               Twitch: https://alonsoaliaga.com/twitch
+#         Considering donating? https://alonsoaliaga.com/donate           Thanks for downloaded my plugin <3.
+# ======================================================================================================================================
+# |              Downloaded this jar in a server setup? Tell the author he is NOT allowed to upload someone else work!                 |
+# |   Update to latest version as soon as possible. Support WON'T be given when using old versions. Specially from downloaded setups.  |
+# | Remember: Support is only provided for .jar files downloaded DIRECTLY from spigotmc.org! Other files will be considered as invalid |
+# |        as they are NOT the same .jar file the developer (me) uploaded and I cannot guarantee that the file is safe or not.         |
+# |                   If you have issues with setup configs. Tell the setup author to update his config file.                          |
+# ======================================================================================================================================
+Messages:
+  No-permission: "&cYou don't have permission to do this."
+  View-command-no-permission: "&cYou must right click a player to open profile. Purchase &a[RANK] &cto use this command."
+  #Message sent to player if doesn't have permission to open profiles ON INTERACT. Set to "none" to not send any message.
+  View-interact-no-permission: "&cYou cannot view players' profiles. Purchase &a[RANK] &cto view profiles."
+  Reloaded: "&aSome messages and options have been reloaded. Other may require a restart!"
+  Invalid-player: "#dcdc00&lV#e1e122&lE#e6e645&lL#ebeb67&lD#f0f089&lO#f5f5ab&lR#faface&lY#fffff0&lA #4b4b49⇴ #f7fe9bOyuncu bulunamadı!"
+  Disabled-world: "#dcdc00&lV#e1e122&lE#e6e645&lL#ebeb67&lD#f0f089&lO#f5f5ab&lR#faface&lY#fffff0&lA #4b4b49⇴ #f7fe9bBu dünyada profil devre dışı!"
+  Please-reconnect: "&cSomething went wrong! Please reconnect to the server."
+  Please-reconnect-other: "&cSomething went wrong! Player needs to reconnect to the server."
+  Profile-disabled-command: "&cCommand disabled! Right click the player to view profile!"
+  Profile:
+    #Suport PlaceholderAPI if available.
+    Title: "&f:offset_-10::こ:"
+    Profile-is-locked: "#dcdc00&lV#e1e122&lE#e6e645&lL#ebeb67&lD#f0f089&lO#f5f5ab&lR#faface&lY#fffff0&lA #4b4b49⇴ #f7fe9bBu oyuncunun profili kapalı durumda."
+  Toggle-profiles:
+    No-permission: "&cYou don't have permission to do this."
+    Profiles-locked: "&cProfiles disabled! You won't view players' profile now."
+    Profiles-unlocked: "&aProfiles enabled! You'll see players' profiles now."
+  Toggle-profile:
+    No-permission: "&cYou don't have permission to do this."
+    Profile-locked: "#dcdc00&lV#e1e122&lE#e6e645&lL#ebeb67&lD#f0f089&lO#f5f5ab&lR#faface&lY#fffff0&lA #4b4b49⇴ #f7fe9bProfil: #cc3333Kapalı! #f7fe9bOyuncular artık profilini görüntüleyemez."
+    Profile-unlocked: "#dcdc00&lV#e1e122&lE#e6e645&lL#ebeb67&lD#f0f089&lO#f5f5ab&lR#faface&lY#fffff0&lA #4b4b49⇴ #f7fe9bProfil: #90ee90Açık! #f7fe9bOyuncular artık profilini görüntüleyebilir."
+  Help:
+    Admin:
+    - "&6 /profile &f- &eCheck your profile"
+    - "&6 /profile <player> &f- &eCheck player's profile"
+    - "&6 /betterprofiles &f- &eCheck your profile"
+    - "&6 /betterprofiles view <player> &f- &eOpen player's profile"
+    - "&6 /betterprofiles toggle <viewer/profile>&f- &eToggle viewing/showing profiles"
+    - "&6 /betterprofiles reload &f- &eReload configuration"
+    User:
+    - "&6 /profile &f- &eCheck your profile"
+    - "&6 /betterprofiles &f- &eCheck your profile"
+    - "&6 /betterprofiles view <player> &f- &eCheck player's profile"
+    - "&6 /betterprofiles toggle <viewer/profile>&f- &eToggle viewing/showing profiles"
+  WorldGuard:
+    #Set it to "" to disable this message.
+    Disabled-region: "&cYou cannot view profiles in this region!"
+
+Items:
+  No-main-hand:
+    #In case you use a custom texture pack. (1.14+ ONLY)
+    #Set to 0 if you don't know what is it.
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "#ffe500Ana El"
+    #Permission to view this slot. Set to "none" to not require permission
+    Permission: "none"
+    Lore:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBoş."
+    Lore-hidden:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBurayı görmek için yeterli iznin yok."
+  No-off-hand:
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "#ffe500İkinci El"
+    Permission: "none"
+    Lore:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBoş."
+    Lore-hidden:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBurayı görmek için yeterli iznin yok."
+  No-helmet:
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "#ffe500Kask"
+    Permission: "none"
+    Lore:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBoş."
+    Lore-hidden:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBurayı görmek için yeterli iznin yok."
+  No-chestplate:
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "#ffe500Göğüslük"
+    Permission: "none"
+    Lore:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBoş."
+    Lore-hidden:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBurayı görmek için yeterli iznin yok."
+  No-leggings:
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "#ffe500Pantolon"
+    Permission: "none"
+    Lore:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBoş."
+    Lore-hidden:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBurayı görmek için yeterli iznin yok."
+  No-boots:
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "#ffe500Bot"
+    Permission: "none"
+    Lore:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBoş."
+    Lore-hidden:
+    - ""
+    - "#4b4b49⇴ #f7fe9bBurayı görmek için yeterli iznin yok."
+  Close:
+    Custom-model-data: 0
+    Displayname: "#ffe500Kapat"
+    Lore: []
+
+Options:
+  #To apply changes for aliases you must RESTART the server.
+  #Plugman or similar plugins are NOT and will NEVER be supported.
+  #Use /reload or restart your server.
+  Main:
+    Aliases:
+    - "betterprofile"
+    - "bprofiles"
+    - "bprofile"
+  Profile:
+    Aliases:
+    - "perfil"
+    - "profil"
+  Debug: false
+  #This option is for 1.9+ servers.
+  #THIS PREVENTS profiles being opened IF player holds a SHIELD in main hand or off hand.
+  Prevent-shield: true
+  #THIS cancels interaction with entity for other plugins listening to the event.
+  Prevent-interact: true
+  #Enabling this makes the profile only accessible when right clicking while sneaking.
+  Only-sneak: false
+  #If enabled the plugin will attempt to update the inventory if the player updates the equipment.
+  #Includes main hand and off hand if available. Modifying this requires a restart.
+  Update-equipment: true
+  #Fill ALL empty slots with custom Frame item. It DOES not support displayname and lore.
+  #Frame item is black stained glass pane.
+  Fill-empty:
+    Enabled: false
+    #Custom model data for frame item. In case you want to use a custom texture pack and make it look like a real RPG inventory.
+    #Available only in 1.14 and above. Set to 0 if you are not going to use a custom resource pack in your server.
+    Custom-model-data: 0
+    #THIS APPLIES TO ALL ITEMS USED IN FRAME.
+    #Allowed colors are: WHITE,ORANGE,MAGENTA,LIGHT_BLUE,YELLOW,LIME,PINK,GRAY,LIGHT_GRAY,CYAN,PURPLE,BLUE,BROWN,GREEN,RED,BLACK
+    Color-frame: BLACK
+  Empty-slot:
+    #THIS APPLIES TO ALL ITEMS USED IF PLAYER EQUIPMENT SLOT IS EMPTY.
+    #Allowed colors are: WHITE,ORANGE,MAGENTA,LIGHT_BLUE,YELLOW,LIME,PINK,GRAY,LIGHT_GRAY,CYAN,PURPLE,BLUE,BROWN,GREEN,RED,BLACK
+    Color-frame: WHITE
+  Hidden-slot:
+    #THIS APPLIES TO ALL SLOTS THAT CANNOT BE SEEN BY THE PLAYER.
+    Color-frame: RED
+  #This option will send the message in "Invalid player" if the player that performs the
+  #action/command cannot see the player model. (Should make vanish plugins compatible)
+  Check-visibility: true
+  Profiles:
+    #Amount of rows the profile inventory has.
+    Rows: 6
+  Slots:
+    #Set to -1 to disable.
+    Close: 49
+    Helmet: 10
+    Chestplate: 19
+    Leggings: 28
+    Boots: 37
+    Main-hand: 20
+    Off-hand: 29
+  View:
+    #If true, profiles can be opened by right clicking.
+    Interact: false
+    #If true, profiles can be opened by using the command.
+    Command: true
+  #Worlds in which profile won't open when right clicking or using the command.
+  #This does NOT affect players with admin permission.
+  Disabled-worlds:
+  - "arena"
+  #Set sounds to "none" to disable sound.
+  Sounds:
+    #Sound when opening a player's profile.
+    Open: "CHEST_OPEN"
+    #Sound when closing a player's profile.
+    Close: "CHEST_CLOSE"
+  #This is the amount of ticks the plugin will wait before loading data.
+  #Useful if your have issues with players "losing" their stats on server change or reconnect.
+  #Set to 0 to disable. If enabled, it's like that some plugins that send messages on join will not fetch correct data from placeholders.
+  #To "fix" this use this plugin made by our team which adds messages on player join with an option to set delay.
+  #We also support placeholder check to prevent message to be sent when player is in vanish mode. (Using placeholder to check if player is vanished)
+  #Check our plugin on https://alonsoaliaga.com/AlonsoJoin (If available)
+  Data-delay: 20
+  WorldGuard:
+    Warning:
+    - "Default flag:"
+    - " This is the default behavior if the flag is not specified BUT you are inside in a WorldGuard region."
+    - "  true - Players can view profiles."
+    - "  false - Players cannot view profiles."
+    Default-flag: true
+
+Permissions:
+  Admin: "betterprofiles.admin"
+  #Permission to view profiles by right clicking.
+  #Set to "none" to disable permission.
+  View-interact: "none"
+  #Permission to view profiles by using the command /betterprofiles view <player> or /profile <player>
+  #Set to "none" to disable permission.
+  View-command: "betterprofiles.view.command"
+  #Permission to toggle inventory view for others.
+  #Enable/disable viewing other's profiles. Set to "none" to disable permission.
+  Toggle-view-profiles: "none" #Example: "betterprofiles.toggle.others-profiles"
+  #Permission to toggle inventory view from others. Others can/cannot see your profile.
+  #Enable/disable other's from viewing your profile. Set to "none" to disable permission.
+  Toggle-profile: "betterprofiles.toggle.profile"
+  #Bypass toggled profiles. Ignore if player disabled profile viewing for others.
+  Bypass: "betterprofiles.view.bypass"
+  #Permission to view your own profile using /profile
+  Own-profile: "none" #Example: "betterprofiles.view.myprofile"
+
+Database:
+  #Available types: SQLite, MySQL, HikariCP and IwantMySQL
+  #You can use MySQL to make it global or you can use SQLite to make it local.
+  #MySQL requires a server (local or external) it uses HikariCP <=========== BY DEFAULT as it's faster.
+  #SQLite doesn't require anything, it's saved in a db file in the folder.
+  #IN CASE YOU WANT TO USE MYSQL AND NOT HIKARICP YOU MUST USE
+  #      Type: "IWantMySQL"    <---- Yes, like that.
+  Type: "SQLite"
+  Table: "betterprofiles"
+  #If type is SQLite
+  File: "database-betterprofiles"
+  #If type is MySQL
+  Host: 127.0.0.1
+  Port: 3306
+  Database: "betterprofiles"
+  Username: "root"
+  Password: "12345"
+  #This option has been added to prevent connection timeout.
+  #Time is in minutes. Every X minutes the plugin will run a test query to keep connection alive.
+  #This option is no longer used as HikariCP was implemented.
+  #Remember this only applies if you are using "IWantMySQL"
+  Keep-alive-interval: 30
+  #Modify this just if you know what you are doing.
+  #This will be added at the end of database url (Not in SQLITE, only in MySQL).
+  #Useful if you want to set useSSL or autoReconnect or any other modifier.
+  #This option is no longer used as HikariCP was implemented. Please use "HikariCP.Source-properties" options.
+  #Remember this only applies if you are using "IWantMySQL", for "MySQL" and "HikariCP" you need to use options below.
+  Additional-url: ""
+  HikariCP:
+    Warning:
+    - "========================================================================================"
+    - "You don't need to edit this text, it's ONLY displayed in config so you can read it."
+    - "========================================================================================"
+    - "HikariCP is experimental. Remember that only modify the following IF YOU KNOW HOW IT WORKS."
+    - "If you don't want to use HikariCP and want the usually MySQL set Type to \"IWantMySQL\""
+    - "You will not get support for HikariCP configurations as 1) I'm not a HikariCP advanced user"
+    - "and 2) Customization depends on the owner and his knowledge level."
+    - "Related to Source-properties, if you KNOW and want to add custom properties follow the format:"
+    - "Source-properties:"
+    - '  thePropertySelected1: "theValue1"'
+    - '  thePropertySelected2: "theValue2"'
+    - "[!] Remember to modify data only if you know what you are doing."
+    - "Available source properties can be found here: https://alonsoaliaga.com/HikariCP-sp"
+    - "Available source class names can be found here: https://alonsoaliaga.com/HikariCP-cn"
+    Max-pool-size: 15
+    #Set your custom source class name ONLY IF YOU KNOW WHAT IT IS.
+    Custom-source-class-name: "default"
+    #This is the source properties to modify your HikariCP configurations.
+    #It allows you to select and specify custom configs IF YOU KNOW WHAT YOU ARE DOING.
+    #Source properties can be found here: https://links.alonsoaliaga.com/HikariCP-sp
+    Source-properties: []
+
+Updates:
+  #Auto update configuration? Enabling will delete comments.
+  Auto-update-configuration: true
+  #Check for updates? Recommended to keep it enabled.
+  Check-updates: false
+  #Notify updates when player with permission joins the server?
+  Notify-updates: false
+  #Permission required to receive update message.
+  Permission: "betterprofiles.update"
+  #Message to send when update is found.
+  Message: "&6[BetterProfiles] &eA new update has been found! You are using version {CURRENT}. Download version {NEW} here &c{LINK}"

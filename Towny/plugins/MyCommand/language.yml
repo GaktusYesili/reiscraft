@@ -1,0 +1,44 @@
+#-----------------------------------------------------------------------------------------------------------#
+#							  MyCommand Language config file (last update v5.6.9)							#
+#		   Use & as color code ,and %s for variables - COOLDOWN accept $days$hours$minutes$seconds			#
+#						BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/					#
+#-----------------------------------------------------------------------------------------------------------#
+LANGUAGE:
+ PREFIX: "&x&d&c&d&c&0&0&lV&x&e&1&e&1&2&2&lE&x&e&6&e&6&4&5&lL&x&e&b&e&b&6&7&lD&x&f&0&f&0&8&9&lO&x&f&5&f&5&a&b&lR&x&f&a&f&a&c&e&lY&x&f&f&f&f&f&0&lA
+    &x&4&b&4&b&4&9⇴ "
+ ECONOMY_COST: "&6This command cost %s. New balance %s"
+ ECONOMY_NO_MONEY: "&6You need &e%s&6$ for run this command."
+ DEBUG_EXECUTE: "Executing: "
+ COMMAND_ARGS_LINE1: "Not enough arguments... You typed "
+ COMMAND_ARGS_LINE2: "-> Output command(s) :"
+ ITEM_NOSET: "&dThere are no command(s) on this item"
+ NO_PERMISSIONS: "&x&e&8&e&8&5&0You can't do that. Insufficent permissions."
+ SIGN_REMOVED: "Sign removed!."
+ SIGN_EMPTY: "All lines are empty."
+ SIGN_CREATED: "&aSign created! &2Check /mycmd-signset for more options."
+ BLOCK_REMOVED: "Block removed!."
+ BLOCK_DELAY: "&x&e&8&e&8&5&0You can interact again with this block in %ss"
+ NPCS_DELAY: "&x&e&8&e&8&5&0You must wait %s seconds for interact again"
+ NPCS_NO_COMMAND: "&x&e&8&e&8&5&0This NPC doesn't have command(s) to execute."
+ HOLOGRAM_DELAY: "&x&e&8&e&8&5&0You can interact again with this hologram in %ss"
+ INTERACTION_DELAY: "&x&e&8&e&8&5&0You must wait %s seconds for interact again"
+ WARMUP1: "&6The command will be performed in &e%s &6seconds"
+ WARMUP2: "&aYou've skipped the warmup on this command"
+ WARMUP3: "&x&e&8&e&8&5&0You're already warming up for this command. Wait &e%s&x&e&8&e&8&5&0 seconds"
+ COOLDOWN1: "&x&e&8&e&8&5&0Wait $days$hours$minutes$seconds before you can use this command again"
+ COOLDOWN2: "&x&e&8&e&8&5&0You've skipped the cooldown from this command"
+ RUN_AS_CONSOLE_MESSAGE: "&aCheck the console for the output."
+ DENY_CONSOLE_EXECUTION: "&x&e&8&e&8&5&0You can't run this command from the console"
+ CHARACTERS_NOT_ALLOWED: "&x&f&3&f&3&a&0Yanlış kullanım!"
+ SKIPPED_EXECUTE_MODE: "&eYou've skipped the command execution mode check."
+ BROADCAST_RADIUS_NOT_FOUND: "&x&e&8&e&8&5&0No one received this message"
+ TIME_DAYS: "days "
+ TIME_DAY: "day "
+ TIME_SECONDS: "seconds"
+ TIME_SECOND: "second"
+ TIME_HOURS: "hours "
+ TIME_HOUR: "hour "
+ TIME_MINUTES: "minutes "
+ TIME_MINUTE: "minute "
+ #The PLAYERDATA_ERROR_MESSAGE is used also to check when a value isn't stored at all.
+ PLAYERDATA_ERROR_MESSAGE: "NoData"

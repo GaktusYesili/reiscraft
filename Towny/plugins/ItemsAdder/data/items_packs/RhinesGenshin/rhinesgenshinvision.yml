@@ -1,0 +1,192 @@
+info:
+  namespace: rhinesgenshin
+items:
+  anemo_vision_1:
+    display_name: display-name-anemo1_vision
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/anemo1
+    behaviours:
+      hat: true
+  anemo_vision_2:
+    display_name: display-name-anemo2_vision
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/anemo2
+    behaviours:
+      hat: true
+  anemo_vision_3:
+    display_name: display-name-anemo3_vision
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/anemo3
+    behaviours:
+      hat: true
+  cryo_vision_1:
+    display_name: display-name-cryo_vision_1
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/cryo1
+    behaviours:
+      hat: true
+  cryo_vision_2:
+    display_name: display-name-cryo_vision_2
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/cryo2
+    behaviours:
+      hat: true
+  cryo_vision_3:
+    display_name: display-name-cryo_vision_3
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/cryo3
+    behaviours:
+      hat: true
+  hydro_vision_1:
+    display_name: display-name-hydro_vision_1
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/hydro1
+    behaviours:
+      hat: true
+  hydro_vision_2:
+    display_name: display-name-hydro_vision_2
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/hydro2
+    behaviours:
+      hat: true
+  hydro_vision_3:
+    display_name: display-name-hydro_vision_3
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/hydro3
+    behaviours:
+      hat: true
+  electro_vision_1:
+    display_name: display-name-electro_vision_1
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/electro1
+    behaviours:
+      hat: true
+  electro_vision_2:
+    display_name: display-name-electro_vision_2
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/electro2
+    behaviours:
+      hat: true
+  electro_vision_3:
+    display_name: display-name-electro_vision_3
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/electro3
+    behaviours:
+      hat: true
+  geo_vision_1:
+    display_name: display-name-geo_vision_1
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/geo1
+    behaviours:
+      hat: true
+  geo_vision_2:
+    display_name: display-name-geo_vision_2
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/geo2
+    behaviours:
+      hat: true
+  geo_vision_3:
+    display_name: display-name-geo_vision_3
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/geo3
+    behaviours:
+      hat: true
+  pyro_vision_1:
+    display_name: display-name-pyro_vision_1
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/pyro1
+    behaviours:
+      hat: true
+  pyro_vision_2:
+    display_name: display-name-pyro_vision_2
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/pyro2
+    behaviours:
+      hat: true
+  pyro_vision_3:
+    display_name: display-name-pyro_vision_3
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/pyro3
+    behaviours:
+      hat: true
+  empty_vision_1:
+    display_name: display-name-empty_vision_1
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/empty1
+    behaviours:
+      hat: true
+  empty_vision_2:
+    display_name: display-name-empty_vision_2
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/empty2
+    behaviours:
+      hat: true
+  empty_vision_3:
+    display_name: display-name-empty_vision_3
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vision/empty3
+    behaviours:
+      hat: true

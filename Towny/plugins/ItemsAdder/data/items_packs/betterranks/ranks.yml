@@ -1,0 +1,375 @@
+info:
+  namespace: betterranks
+font_images:
+  kozmetikkasa:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "昨"
+    path: "font/rank/kozmetikkasa.png"
+    y_position: 20
+  sezarkasa:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "明"
+    path: "font/rank/sezarkasa.png"
+    y_position: 20
+  yumurtakasa:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "ヵ"
+    path: "font/rank/yumurtakasa.png"
+    y_position: 20
+  oykasa:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "ほ"
+    path: "font/rank/oykasa.png"
+    y_position: 20
+  liderkasa:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "ま"
+    path: "font/rank/liderkasa.png"
+    y_position: 20
+  menu:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/veldoryamenu.png"
+    y_position: 20
+  warp:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/warp.png"
+    y_position: 20
+  vipbilgi:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/vipbilgi.png"
+    y_position: 20
+  komutlar:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/komutlar.png"
+    y_position: 20
+  kurallar:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/kurallar.png"
+    y_position: 20
+  kaptan:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/kaptan.png"
+    y_position: 20
+  takas:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "ト"
+    path: "font/rank/takas.png"
+    y_position: 20
+  sosyalmedya:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "ぴ"
+    path: "font/rank/sosyalmedya.png"
+    y_position: 20
+  profil:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "こ"
+    path: "font/rank/profil.png"
+    y_position: 20
+  tuccar:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "㍾"
+    path: "font/rank/tuccar.png"
+    y_position: 20
+  tuccar2:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "キ"
+    path: "font/rank/tuccar2.png"
+    y_position: 20
+  tuccar3:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "オ"
+    path: "font/rank/tuccar3.png"
+    y_position: 20
+  ihale:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "㍽"
+    path: "font/rank/ihale.png"
+    y_position: 20
+  ihale2:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "㋿"
+    path: "font/rank/ihale2.png"
+    y_position: 20
+  ihale3:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "音"
+    path: "font/rank/ihale3.png"
+    y_position: 20
+  ihale4:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "読"
+    path: "font/rank/ihale4.png"
+    y_position: 20
+  ihale5:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "み"
+    path: "font/rank/ihale5.png"
+    y_position: 20
+  ihale6:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "ネ"
+    path: "font/rank/ihale6.png"
+    y_position: 20
+  ihale7:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "た"
+    path: "font/rank/ihale7.png"
+    y_position: 20
+  ihale8:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "け"
+    path: "font/rank/ihale8.png"
+    y_position: 20
+  ihale9:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "高"
+    path: "font/rank/ihale9.png"
+    y_position: 20
+  youtube:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/youtube.png"
+    scale_ratio: 8
+    y_position: 7
+  kilic:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/kilic.png"
+    scale_ratio: 9
+    y_position: 9
+  altin:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/gold_ingot.png"
+    scale_ratio: 11
+    y_position: 9
+  kupab:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/kupab.png"
+    scale_ratio: 10
+    y_position: 9
+  kupa:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/kupa.png"
+    scale_ratio: 10
+    y_position: 9
+  pusula:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/compass_00.png"
+    scale_ratio: 11
+    y_position: 9
+  saat:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/clock_00.png"
+    scale_ratio: 10
+    y_position: 9
+  dunya2:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/dunya.png"
+    scale_ratio: 8
+    y_position: 8
+  dunya:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/dunya.png"
+    scale_ratio: 12
+    y_position: 8
+  kalp:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/kalp.png"
+    scale_ratio: 8
+    y_position: 8
+  hatabordo:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_bordo.png"
+    scale_ratio: 9
+    y_position: 8
+  hatasari:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_sari.png"
+    scale_ratio: 9
+    y_position: 8
+  hatayesil:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_yesil.png"
+    scale_ratio: 9
+    y_position: 8
+  hatamor:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_mor.png"
+    scale_ratio: 9
+    y_position: 8
+  hatakirmizi:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_kirmizi.png"
+    scale_ratio: 9
+    y_position: 8
+  hatagri:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_gri.png"
+    scale_ratio: 9
+    y_position: 8
+  afk:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/afk.png"
+    scale_ratio: 8
+    y_position: 7
+  baron:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/baron.png"
+    scale_ratio: 8
+    y_position: 7
+  lord:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/lord.png"
+    scale_ratio: 8
+    y_position: 7
+  elit:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/elit.png"
+    scale_ratio: 8
+    y_position: 7
+  vezir:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/vezir.png"
+    scale_ratio: 8
+    y_position: 7
+  soylu:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/soylu.png"
+    scale_ratio: 8
+    y_position: 7
+  tablogo:
+    permission: "betterranks.tablogo"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/tablogo.png"
+    scale_ratio: 96
+    y_position: 32
+  kurucu:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/kurucu.png"
+    scale_ratio: 8
+    y_position: 7
+  admin:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/admin.png"
+    scale_ratio: 8
+    y_position: 7
+  moderator:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/moderator.png"
+    scale_ratio: 8
+    y_position: 7
+  rehber:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/rehber.png"
+    scale_ratio: 8
+    y_position: 7
+  halk:
+    permission: "betterranks.player"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/halk.png"
+    scale_ratio: 8
+    y_position: 7

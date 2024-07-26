@@ -1,0 +1,21 @@
+info:
+  namespace: disney
+categories:
+  disney_weapons:
+    enabled: true
+    skip_if_already: false
+    icon: disney:keyblade
+    name: Disney Weapons
+    items:
+      - disney:keyblade
+      - disney:hook
+      - disney:hooks_sword
+      - disney:infinity_gauntlet
+      - disney:maui_fishhook
+      - disney:mickey_glove
+      - disney:mjolnir
+      - disney:pan_dagger
+      - disney:rafiki_staff
+      - disney:makini_staff
+      - disney:mandalorian_darksaber
+      - disney:sith_lightsaber

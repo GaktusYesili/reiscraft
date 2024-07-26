@@ -1,0 +1,36 @@
+# LPC Configuration File
+# It is recommended to read the guide at https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta before setting up the plugin.
+#
+# Built-in Placeholders:
+# {world} = world name
+# {prefix} = user's primary prefix
+# {prefixes} = user's prefixes sorted by the highest priority
+# {name} = player name
+# {displayname} = player display name e.g. nickname
+# {suffix} = user's primary suffix
+# {suffixes} = user's suffixes sorted by the highest priority
+# {username-color} = username color for a group or a player
+# {message-color} = message color for a group or a player
+# For extra placeholders, install PlaceholderAPI.
+#
+# To make changes in game, reload this configuration file by running '/lpc reload' command (make sure you have the 'lpc.reload' permission).
+#
+# More information can be found at https://www.spigotmc.org/resources/68965.
+
+# A standard chat format for all chat, which will meet almost every user's expectations.
+chat-format: "&#DCF6FF{name} &#4b4b49⇴ &#E0E0E0{message}"
+
+# Use group formats, if you need e.g. a different placeholder arrangement for different groups or want to display custom Unicode using resource pack.
+# Make sure to remove the '#' to allow the setting to be read.
+group-formats:
+   default: '%townyadvanced_town%{prefix} &#DCF6FF{name} &#4b4b49⇴ &#E0E0E0{message}'
+   soylu: '%townyadvanced_town%{prefix} &#FFDC00{name} &#4b4b49⇴ &#FFFFDD{message}'
+   vezir: '%townyadvanced_town%{prefix} &#FFDC00{name} &#4b4b49⇴ &#FFFFDD{message}'
+   elit: '%townyadvanced_town%{prefix} &#ff2400{name} &#4b4b49⇴ &#FFFFDD{message}'
+   lord: '%townyadvanced_town%{prefix} &#007CFF{name} &#4b4b49⇴ &#FFFFDD{message}'
+   baron: '%townyadvanced_town%{prefix} &#F51FC9{name} &#4b4b49⇴ &#FFFFDD{message}'
+   youtuber: '%townyadvanced_town%{prefix} &c{name} &#4b4b49⇴ &#FFFFDD{message}'
+   rehber: '%townyadvanced_town%{prefix} &#69FF69{name} &#4b4b49⇴ &#49FFB7{message}'
+   moderator: '%townyadvanced_town%{prefix} &5{name} &#4b4b49⇴ &d{message}'
+   admin: '{prefix} &5{name} &#4b4b49⇴ &d{message}'
+   kurucu: '{prefix} &#F72727{name} &#4b4b49⇴ &#FF4343{message}'

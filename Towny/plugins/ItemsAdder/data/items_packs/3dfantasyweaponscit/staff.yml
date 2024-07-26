@@ -1,0 +1,123 @@
+info:
+  namespace: 3dfantasyweaponscit
+items:
+  night_staff:
+    display_name: display-name-night_staff
+    permission: 3dfantasyweaponscit.shotgun.night_staff
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/night_staff
+    specific_properties:
+      crossbow:
+        multishot: true
+  staff_of_unholy_wisdom:
+    display_name: display-name-staff_of_unholy_wisdom
+    permission: 3dfantasyweaponscit.shotgun.staff_of_unholy_wisdom
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/staff_of_unholy_wisdom
+    specific_properties:
+      crossbow:
+        multishot: true
+  bermunde_hermit_staff:
+    display_name: display-name-bermunde_hermit_staff
+    permission: 3dfantasyweaponscit.shotgun.bermunde_hermit_staff
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/bermunde_hermit_staff
+    specific_properties:
+      crossbow:
+        multishot: true
+  northgate_guardian_staff:
+    display_name: '&x&c&e&a&2&1&3Krallık Büyücüsünün Asası'
+    permission: 3dfantasyweaponscit.shotgun.northgate_guardian_staff
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/northgate_guardian_staff
+    specific_properties:
+      crossbow:
+        multishot: true
+  northgate_golden_crook:
+    display_name: '&x&c&e&a&2&1&3Hazine Koruyucusunun Asası'
+    permission: 3dfantasyweaponscit.shotgun.golden_crook
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/golden_crook
+    specific_properties:
+      crossbow:
+        multishot: true
+  holy_celtic_staff:
+    display_name: display-name-holy_celtic_staff
+    permission: 3dfantasyweaponscit.shotgun.holy_celtic_staff
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/holy_celtic_staff
+    specific_properties:
+      crossbow:
+        multishot: true
+  goblin_witch_staff:
+    display_name: display-name-goblin_witch_staff
+    permission: 3dfantasyweaponscit.shotgun.goblin_witch_staff
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/goblin_witch_staff
+    specific_properties:
+      crossbow:
+        multishot: true
+  sagrada_winged_staff:
+    display_name: display-name-sagrada_winged_staff
+    permission: 3dfantasyweaponscit.shotgun.sagrada_winged_staff
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/sagrada_winged_staff
+    specific_properties:
+      crossbow:
+        multishot: true
+  divine_staff:
+    display_name: display-name-divine_staff
+    permission: 3dfantasyweaponscit.shotgun.divine_staff
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/divine_staff
+    specific_properties:
+      crossbow:
+        multishot: true
+  olwen_staff:
+    display_name: display-name-olwen_staff
+    permission: 3dfantasyweaponscit.shotgun.olwen_staff
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/olwen_staff
+    specific_properties:
+      crossbow:
+        multishot: true
+  lich_staff:
+    display_name: display-name-lich_staff
+    permission: 3dfantasyweaponscit.shotgun.lich_staff
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/lich_staff
+    specific_properties:
+      crossbow:
+        multishot: true
+  black_snake_staff:
+    display_name: display-name-black_snake_staff
+    permission: 3dfantasyweaponscit.shotgun.black_snake_staff
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/staff/black_snake_staff
+    specific_properties:
+      crossbow:
+        multishot: true

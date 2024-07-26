@@ -1,0 +1,78 @@
+info:
+  namespace: 3dfantasyweaponscit
+items:
+  azure_greatsword:
+    display_name: display-name-azure_greatsword
+    permission: 3dfantasyweaponscit.swords.azure_greatsword
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/swords/azure_greatsword
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  dragon_sword:
+    display_name: '&x&c&e&a&2&1&3Phoenix''in Kılıcı'
+    permission: 3dfantasyweaponscit.swords.dragon_sword
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/swords/dragon_sword
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  spider_sword:
+    display_name: display-name-spider_sword
+    permission: 3dfantasyweaponscit.swords.spider_sword
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/swords/spider_sword
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  demonic_sword:
+    display_name: display-name-demonic_sword
+    permission: 3dfantasyweaponscit.swords.demonic_sword
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/swords/demonic_sword
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  nature_sword:
+    display_name: display-name-nature_sword
+    permission: 3dfantasyweaponscit.swords.nature_sword
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/swords/nature_sword
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562

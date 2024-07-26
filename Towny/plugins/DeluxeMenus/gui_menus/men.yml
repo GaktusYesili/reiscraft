@@ -1,0 +1,442 @@
+menu_title: ':offset_-8::menu:'
+open_command:
+- menu
+- menü
+- yardım
+- bilgi
+- help
+size: 54
+items:
+  komutlar1:
+    material: AIR
+    slot: 0
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+  komutlar2:
+    material: AIR
+    slot: 1
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+  komutlar3:
+    material: AIR
+    slot: 2
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+  komutlar4:
+    material: AIR
+    slot: 3
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+  komutlar5:
+    material: AIR
+    slot: 9
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+  komutlar6:
+    material: AIR
+    slot: 10
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+  komutlar7:
+    material: AIR
+    slot: 11
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+  komutlar8:
+    material: AIR
+    slot: 12
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] komutlar'
+  vip:
+    material: AIR
+    slot: 5
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+  vip1:
+    material: AIR
+    slot: 6
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+  vip2:
+    material: AIR
+    slot: 7
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+  vip3:
+    material: AIR
+    slot: 8
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+  vip4:
+    material: AIR
+    slot: 14
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+  vip5:
+    material: AIR
+    slot: 15
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+  vip6:
+    material: AIR
+    slot: 16
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+  vip7:
+    material: AIR
+    slot: 17
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] vipbilgi'
+  ihale:
+    material: AIR
+    slot: 18
+    left_click_commands:
+    - '[close]'
+    - '[player] ah'
+    right_click_commands:
+    - '[close]'
+    - '[player] ah'
+  ihale1:
+    material: AIR
+    slot: 19
+    left_click_commands:
+    - '[close]'
+    - '[player] ah'
+    right_click_commands:
+    - '[close]'
+    - '[player] ah'
+  ihale2:
+    material: AIR
+    slot: 20
+    left_click_commands:
+    - '[close]'
+    - '[player] ah'
+    right_click_commands:
+    - '[close]'
+    - '[player] ah'
+  ihale3:
+    material: AIR
+    slot: 21
+    left_click_commands:
+    - '[close]'
+    - '[player] ah'
+    right_click_commands:
+    - '[close]'
+    - '[player] ah'
+  ihale4:
+    material: AIR
+    slot: 27
+    left_click_commands:
+    - '[close]'
+    - '[player] ah'
+    right_click_commands:
+    - '[close]'
+    - '[player] ah'
+  ihale5:
+    material: AIR
+    slot: 28
+    left_click_commands:
+    - '[close]'
+    - '[player] ah'
+    right_click_commands:
+    - '[close]'
+    - '[player] ah'
+  ihale6:
+    material: AIR
+    slot: 29
+    left_click_commands:
+    - '[close]'
+    - '[player] ah'
+    right_click_commands:
+    - '[close]'
+    - '[player] ah'
+  ihale7:
+    material: AIR
+    slot: 30
+    left_click_commands:
+    - '[close]'
+    - '[player] ah'
+    right_click_commands:
+    - '[close]'
+    - '[player] ah'
+  tuccar:
+    material: AIR
+    slot: 23
+    left_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+    right_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+  tuccar1:
+    material: AIR
+    slot: 24
+    left_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+    right_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+  tuccar2:
+    material: AIR
+    slot: 25
+    left_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+    right_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+  tuccar3:
+    material: AIR
+    slot: 26
+    left_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+    right_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+  tuccar4:
+    material: AIR
+    slot: 32
+    left_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+    right_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+  tuccar5:
+    material: AIR
+    slot: 33
+    left_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+    right_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+  tuccar6:
+    material: AIR
+    slot: 34
+    left_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+    right_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+  tuccar7:
+    material: AIR
+    slot: 35
+    left_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+    right_click_commands:
+    - '[close]'
+    - '[player] tuccar'
+  kaptan:
+    material: AIR
+    slot: 36
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+  kaptan1:
+    material: AIR
+    slot: 37
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+  kaptan2:
+    material: AIR
+    slot: 38
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+  kaptan3:
+    material: AIR
+    slot: 39
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+#    nbt_int: CustomModelData:10030
+  kaptan4:
+    material: AIR
+    slot: 45
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+  kaptan5:
+    material: AIR
+    slot: 46
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+  kaptan6:
+    material: AIR
+    slot: 47
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+  kaptan7:
+    material: AIR
+    slot: 48
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] kaptan'
+  isinlanma:
+    material: AIR
+    slot: 41
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+  isinlanma1:
+    material: AIR
+    slot: 42
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+  isinlanma2:
+    material: AIR
+    slot: 43
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+  isinlanma3:
+    material: AIR
+    slot: 44
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+  isinlanma4:
+    material: AIR
+    slot: 50
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+  isinlanma5:
+    material: AIR
+    slot: 51
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+  isinlanma6:
+    material: AIR
+    slot: 52
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+  isinlanma7:
+    material: AIR
+    slot: 53
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'

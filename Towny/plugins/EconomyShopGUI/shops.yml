@@ -1,0 +1,247 @@
+#File Generated: 20210624-1812 | MCversion: 1.08 | ESGUI ver: 3.3
+#Please check out the wiki for more information about configuring this file
+#@ https://gpplugins.gitbook.io/economyshopgui/file-configuration/shops.yml
+
+#==================== Blocks ====================#
+
+Blocks: {}
+
+#==================== Decoration ====================#
+
+Decoration: {}
+
+#==================== Dyes ====================#
+
+Dyes: {}
+
+#==================== Enchanting ====================#
+
+Enchanting: {}
+
+#==================== Farming ====================#
+
+Farming:
+  1:
+    material: "SUGAR_CANE"
+    buy: -1
+    sell: 0.2
+  2:
+    material: "WHEAT"
+    buy: -1
+    sell: 0.1
+  3:
+    material: "PUMPKIN"
+    buy: -1
+    sell: 0.5
+  4:
+    material: "MELON_SLICE"
+    buy: -1
+    sell: 0.25
+  5:
+    material: "CACTUS"
+    buy: -1
+    sell: 0.1
+  6:
+    material: "NETHER_WART"
+    buy: 15.0
+    sell: 0.3
+  7:
+    material: "CARROT_ITEM"
+    buy: -1
+    sell: 0.06
+  8:
+    material: "POTATO_ITEM"
+    buy: -1
+    sell: 0.1
+  9:
+    material: "BAMBOO"
+    buy: -1
+    sell: 0.015
+  10:
+    material: "HONEYCOMB"
+    buy: -1
+    sell: 0.5
+  11:
+    material: "POPPY"
+    buy: -1
+    sell: 0.05
+
+#==================== Food ====================#
+
+Food:
+  1:
+    material: "APPLE"
+    buy: -1
+    sell: 10
+  2:
+    material: "RAW_CHICKEN"
+    buy: -1
+    sell: 0.05
+  3:
+    material: "MUTTON"
+    buy: -1
+    sell: 0.02
+  4:
+    material: "RAW_BEEF"
+    buy: -1
+    sell: 0.02
+  5:
+    material: "PORK"
+    buy: -1
+    sell: 0.02
+  6:
+    material: "RABBIT"
+    buy: -1
+    sell: 0.01
+  13:
+    material: "COD"
+    buy: -1
+    sell: 0.01
+  14:
+    material: "SALMON"
+    buy: -1
+    sell: 0.05
+  15:
+    material: "TROPICAL_FISH"
+    buy: -1
+    sell: 2
+  15:
+    material: "PUFFERFISH"
+    buy: -1
+    sell: 2
+
+#==================== Mobs ====================#
+
+Mobs:
+  1:
+    material: "ROTTEN_FLESH"
+    buy: -1
+    sell: 0.03
+  2:
+    material: "BONE"
+    buy: -1
+    sell: 0.05
+  3:
+    material: "STRING"
+    buy: -1
+    sell: 0.5
+  5:
+    material: "BLAZE_ROD"
+    buy: -1
+    sell: 0.2
+  6:
+    material: "SPIDER_EYE"
+    buy: -1
+    sell: 0.1
+  7:
+    material: "ENDER_PEARL"
+    buy: 500.0
+    sell: 5
+  8:
+    material: "PRISMARINE_CRYSTALS"
+    buy: -1
+    sell: 0.01
+  9:
+    material: "PRISMARINE_SHARD"
+    buy: -1
+    sell: 0.01
+  10:
+    material: "LEATHER"
+    buy: -1
+    sell: 0.02
+  11:
+    material: "RABBIT_HIDE"
+    buy: -1
+    sell: 0.02
+  12:
+    material: "RABBIT_FOOT"
+    buy: -1
+    sell: 0.02
+  13:
+    material: "INK_SAC"
+    buy: -1
+    sell: 0.1
+  14:
+    material: "ARROW"
+    buy: -1
+    sell: 0.05
+  15:
+    material: "FEATHER"
+    buy: -1
+    sell: 0.05
+  15:
+    material: "WHITE_WOOL"
+    buy: -1
+    sell: 0.08
+
+#==================== Music ====================#
+
+Music: {}
+
+#==================== Ores ====================#
+
+Ores:
+  1:
+    material: "COAL"
+    buy: -1
+    sell: 0.2
+  2:
+    material: "REDSTONE"
+    buy: -1
+    sell: 0.1
+  3:
+    material: "GOLD_NUGGET"
+    buy: -1
+    sell: 0.11
+  4:
+    material: "LAPIS_LAZULI"
+    buy: -1
+    sell: 0.1
+  5:
+    material: "IRON_INGOT"
+    buy: -1
+    sell: 0.7
+  6:
+    material: "GOLD_INGOT"
+    buy: -1
+    sell: 1
+  9:
+    material: "DIAMOND"
+    buy: -1
+    sell: 7
+  10:
+    material: "EMERALD"
+    buy: -1
+    sell: 5
+  13:
+    material: "QUARTZ"
+    buy: 10
+    sell: -1
+
+#==================== Others ====================#
+
+Others: {}
+
+#==================== Potions ====================#
+
+Potions: {}
+
+#==================== Redstone ====================#
+
+Redstone: {}
+
+#==================== SpawnEggs ====================#
+
+SpawnEggs: {}
+
+#==================== Spawners ====================#
+
+Spawners: {}
+
+#==================== Workstations ====================#
+
+Workstations: {}
+
+#==================== Z_EverythingElse ====================#
+
+Z_EverythingElse: {}

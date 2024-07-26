@@ -1,0 +1,37 @@
+[02/02/2024 15:04:01]:           __             _       
+[02/02/2024 15:04:01]:   _ __   / /  ___   __ _(_)_ __  
+[02/02/2024 15:04:01]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[02/02/2024 15:04:01]:  | | | / /__| (_) | (_| | | | | |
+[02/02/2024 15:04:01]:  |_| |_\____/\___/ \__, |_|_| |_|
+[02/02/2024 15:04:01]:                   |___/            
+[02/02/2024 15:04:01]:  By: www.nickuc.com - V 10.2.38
+[02/02/2024 15:04:01]:  
+[02/02/2024 15:04:02]: [nLogin] [DEBUG] All settings were loaded in 809 ms.
+[02/02/2024 15:04:02]: [nLogin] [DEBUG] Loading the messages_en.yml message file...
+[02/02/2024 15:04:02]: [nLogin] [DEBUG] All plugin messages were loaded in 650 ms (languageByClient=false).
+[02/02/2024 15:04:02]: [nLogin] [DEBUG] All proxy settings were loaded in 6 ms.
+[02/02/2024 15:04:02]: [nLogin] [DEBUG] Loading database...
+[02/02/2024 15:04:04]: [nLogin] [DEBUG] Starting logger filter...
+[02/02/2024 15:06:26]: [nLogin] 
+[02/02/2024 15:06:26]: [nLogin]  Thank you so much for choosing nLogin! <3
+[02/02/2024 15:06:26]: [nLogin] 
+[02/02/2024 15:06:26]: [nLogin]  For your safety, please read the message below:
+[02/02/2024 15:06:26]: [nLogin]   Never download nLogin from unknown sources.
+[02/02/2024 15:06:26]: [nLogin]   A modified version may contain malicious software.
+[02/02/2024 15:06:26]: [nLogin] 
+[02/02/2024 15:06:26]: [nLogin]  Trusted sources:
+[02/02/2024 15:06:26]: [nLogin]   www.nickuc.com
+[02/02/2024 15:06:26]: [nLogin]   www.github.com/nickuc
+[02/02/2024 15:06:26]: [nLogin]   OpeNLogin installer (from Spigot or GitHub)
+[02/02/2024 15:06:26]: [nLogin] 
+[02/02/2024 15:06:26]: [nLogin]  Official support channels:
+[02/02/2024 15:06:26]: [nLogin]   Discord group: www.nickuc.com/discord
+[02/02/2024 15:06:26]: [nLogin]   Documentation: docs.nickuc.com/nlogin/
+[02/02/2024 15:06:26]: [nLogin]   Email: support@nickuc.com
+[02/02/2024 15:06:26]: [nLogin]   YouTube: youtube.com/nickuc
+[02/02/2024 15:06:26]: [nLogin] 
+[02/02/2024 15:06:26]: [nLogin]  To remove this warning, log in with "nlogin.admin" permission on the server
+[02/02/2024 15:06:26]: [nLogin]  and click the "Setup plugin" button to configure your plugin.
+[02/02/2024 15:06:26]: [nLogin] 
+[02/02/2024 17:41:45]: [nLogin] Update was successfully queued, do not forcibly stop your server. (v10.2.38 2be984 => v10.2.49 7a1cce)
+[02/02/2024 17:41:45]: [nLogin] Successful plugin core shutdown (took 4.97s)

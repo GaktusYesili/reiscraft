@@ -1,0 +1,28 @@
+location: baslangic:45.500:41.000:31.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 90.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ENTITY: PHANTOM'
+    height: 1.2
+  - content: <#4f8ccb>&lOY</#FFFFFF> <#FFFFFF>&lKASA</#4f8ccb>
+    height: 0.3
+  - content: '&#81bef0(&#81bef0★★&#4f8ccb★)'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&#81bef0Açmak için &#4f8ccb<#ANIM:typewriter>&nsağ tıkla</#ANIM>&#f5dcf2!'
+    height: 0.3
+  - content: '&#81bef0Bakmak için &#4f8ccb<#ANIM:typewriter>&nsol tıkla</#ANIM>&#f5dcf2!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: ' '
+    height: 0.3
+  - content: '&#4f8ccbᛎ'
+    height: 0.3
+  actions: {}

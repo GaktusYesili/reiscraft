@@ -1,0 +1,139 @@
+Items:
+  #Create as many items you want. REMEMBER EACH ITEM MUST HAVE A UNIQUE SLOT.
+  #IN CASE YOU ADD MORE THAN 1 ITEM FOR THE SAME SLOT.
+  #It will be read in order. SO MAKE SURE YOU ADD THE ITEM with higher priority first here.
+  #IMPORTANTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  #FOR SECURITY REASONS DO NOT USE more than one item in the same slot if at least one of the items
+  #has "PLACEHOLDER" material.
+  #IMPORTANTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  player:
+    Slot: 22
+    #This is ONLY REQUIRED if Material is "DYNAMIC"
+    #Dynamic material displays the current item in player inventory at the moment the profile was opened.
+    #These items DON'T UPDATE automatically.
+    Dynamic-slot: 0
+    #Set to "none" to not require permission.
+    Permission: "none" #Example: "betterprofiles.item.profile"
+    #Available materials are normal materials plus special materials:
+    # CUSTOM_HEAD => Requires a texture.
+    # PROFILE_OWNER => Profile owner head.
+    # DYNAMIC => Displays the item in the slot specified in "Dynamic-slot" (DOESN'T UPDATE AUTOMATICALLY)
+    # PLACEHOLDER => Displays the item if the parsed placeholder result is EQUAL to the value in "Accepted"
+    # When using PLACEHOLDER item, you must specify an material or CUSTOM_HEAD after it like:
+    # "PLACEHOLDER:DIAMOND_BLOCK" or "PLACEHOLDER:CUSTOM_HEAD" and add a Texture value.
+    # See example at the end.
+    Material: "PROFILE_OWNER"
+    #This is durability data for old versions.
+    #This can be used for example to use a red dye in old versions by specifying INK_SACK and 14 in data slot.
+    #This will be ignored in all dynamic items, PROFILE_OWNER and CUSTOM_HEAD. Set to -1 to disable.
+    #USE ONLY IF YOU REALLY REQUIRE TO SPECIFY A VALUE.
+    Data: -1
+    #Custom model data for the item. In case you want to use a custom texture pack and make it look like a real RPG inventory.
+    #Available only in 1.14 and above. Set to 0 if you are not going to use a custom resource pack in your server.
+    #It won't take effect if Material is PROFILE_OWNER or CUSTOM_HEAD
+    #If material is DYNAMIC, custom model data will be applied to the frame used.
+    Custom-model-data: 0
+    #Available placeholder: {OWNER} replaced by profile owner name.
+    # {PLAYER} replaced by player that is viewing the profile.
+    #PlaceholderAPI supported if available.
+    #If material is "DYNAMIC" displayname will be used in "no item here" item if slot is empty.
+    Displayname: "#ffe500{OWNER}"
+    #Available placeholder: {OWNER} replaced by profile owner name.
+    # {PLAYER} replaced by player that is viewing the profile.
+    #PlaceholderAPI supported if available.
+    #If material is "DYNAMIC" displayname will be used in "no item here" item for lore if slot is empty.
+    Lore:
+    - ""
+    - "#f7fe9bCan: #ffe500%player_health_rounded% ❤"
+    - "#f7fe9bZıplama: #ffe500%statistic_jump%"
+    - "#f7fe9bYaratık Öldürme: #ffe500%statistic_mob_kills%"
+    - "#f7fe9bBlok Kırma: #ffe500%statistic_mine_block%"
+    - "#f7fe9bEşya Kullanma: #ffe500%statistic_use_item%"
+    - "#f7fe9bEşya Kırma: #ffe500%statistic_break_item%"
+    - "#f7fe9bEşya Oluşturma: #ffe500%statistic_craft_item%"
+    - "#f7fe9bEşya Büyüleme: #ffe500%statistic_item_enchanted%"
+    - "#f7fe9bBalık Tutma: #ffe500%statistic_fish_caught%"
+    - "#f7fe9bSandık Açma: #ffe500%statistic_chest_opened%"
+    - "#f7fe9bVerilen Hasar: #ffe500%statistic_damage_dealt%"
+    - "#f7fe9bAlınan Hasar: #ffe500%statistic_damage_taken%"
+    - "#f7fe9bHayvan Besleme: #ffe500%statistic_animals_bred%"
+    - "#f7fe9bOynama Süresi: #ffe500%PlayTimes_playtime%"
+    - "#f7fe9bBaşlangıç Tarihi: #ffe500%PlayTimes_joindate%"
+    #If true the profile will be closed before running the commands.
+    Close-on-click: false
+    #These commands will be run AS the player. Available placeholders:
+    # {PLAYER} the player that is clicking.
+    # {TARGET} the profile owner.
+    # {PLAYER_WORLD} the world of the player that is clicking.
+    # {PLAYER_UUID} the uuid of the player that is clicking.
+    # {TARGET_UUID} the uuid of the profile owner.
+    #Set to " Commands: [] " to disable commands.
+    Commands: []
+  request-tpa:
+    Slot: 15
+    Permission: "none"
+    Material: "CUSTOM_HEAD"
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI1ODcxYzcyOTg3MjY2ZTE1ZjFiZTQ5YjFlYzMzNGVmNmI2MThlOTY1M2ZiNzhlOTE4YWJkMzk1NjNkYmI5MyJ9fX0="
+    Displayname: "#ffe500Işınlanma İsteği"
+    Lore:
+    - ""
+    - "#ffe500{OWNER} #f7fe9badlı oyuncuya ışınlanma"
+    - "#f7fe9bisteği göndermek için #ffe500&ntıkla#f7fe9b!"
+    Close-on-click: true
+    Commands:
+    - "tpa {TARGET}"
+  trade-request:
+    Slot: 16
+    Permission: "none"
+    Material: "CUSTOM_HEAD"
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI1ODcxYzcyOTg3MjY2ZTE1ZjFiZTQ5YjFlYzMzNGVmNmI2MThlOTY1M2ZiNzhlOTE4YWJkMzk1NjNkYmI5MyJ9fX0="
+    Displayname: "#ffe500Takas İsteği"
+    Lore:
+    - ""
+    - "#ffe500{OWNER} #f7fe9badlı oyuncuya takas"
+    - "#f7fe9bisteği göndermek için #ffe500&ntıkla#f7fe9b!"
+    Close-on-click: true
+    Commands:
+    - "takas {TARGET}"
+  kd:
+    Slot: 33
+    Permission: "none"
+    Material: "CUSTOM_HEAD"
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRkY2RjZTZjMjkyN2RlZjcxNTk0NzNjMzg1ZTRjMzgwODk4NjMwZWZiMDBmZGVmZWU4MWVmMmNmZDI5Y2I3OSJ9fX0="
+    Displayname: "#ffe500K/D"
+    Close-on-click: false
+    Lore:
+    - ""
+    - "#f7fe9bÖldürme: #ffe500%statistic_player_kills%"
+    - "#f7fe9bÖlüm: #ffe500%statistic_deaths%"
+    Commands: []
+    Commands: []
+  economy:
+    Slot: 42
+    Permission: "none"
+    Material: "CUSTOM_HEAD"
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM4YjU2OGVhNjZjM2JlNjNjMjdmNDZjNzY2MjQ5ZTFkZDYzNmZmMzZiZWU3NjYxNGJmMmNiMWZiMDhmNTk5NSJ9fX0="
+    Displayname: "#ffe500Bakiye"
+    Close-on-click: false
+    Lore:
+    - ""
+    - "#f7fe9bAltın: #ffe500%vault_eco_balance_formatted%⛁"
+    Commands: []
+  media:
+    Slot: 43
+    Permission: "none"
+    Material: "CUSTOM_HEAD"
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjEyNzA5Nzk1Y2RmZTAyMTI0YmE4ZmIzMDBmM2I3ZGNhZWYxMzk2YTQxOTI4YjUzMWZhOTdmMGViYzI4ZTFkMyJ9fX0="
+    Displayname: "#ffe500Sosyal Medya"
+    Close-on-click: true
+    Lore:
+    - ""
+    - "#ffe500{OWNER} #f7fe9badlı oyuncunun sosyal"
+    - "#f7fe9bmedya hesaplarını görmek için #ffe500&ntıkla#f7fe9b!"
+    Commands:
+    - "bettersocial media {TARGET}"

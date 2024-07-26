@@ -1,0 +1,9 @@
+name: default
+permissions:
+- betterranks.player
+- weight.1
+parents:
+- izinler
+prefixes:
+- '%img_halk%':
+    priority: 1

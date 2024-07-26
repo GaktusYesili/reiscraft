@@ -1,0 +1,225 @@
+info:
+  namespace: mcicons
+items:
+  icon_left_gray:
+    display_name: display-name-icon_left_gray
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_left_gray.png
+  icon_left_blue:
+    display_name: display-name-icon_left_blue
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_left_blue.png
+  icon_right_gray:
+    display_name: display-name-icon_right_gray
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_right_gray.png
+  icon_right_blue:
+    display_name: display-name-icon_right_blue
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_right_blue.png
+  icon_up_gray:
+    display_name: display-name-icon_up_gray
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_up_gray.png
+  icon_up_blue:
+    display_name: display-name-icon_up_blue
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_up_blue.png
+  icon_down_gray:
+    display_name: display-name-icon_down_gray
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_down_gray.png
+  icon_down_blue:
+    display_name: display-name-icon_down_blue
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_down_blue.png
+  icon_next_white:
+    display_name: display-name-icon_next_white
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_next_white.png
+  icon_next_orange:
+    display_name: display-name-icon_next_orange
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_next_orange.png
+  icon_back_white:
+    display_name: display-name-icon_back_white
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_back_white.png
+  icon_back_orange:
+    display_name: display-name-icon_back_orange
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_back_orange.png
+  icon_cancel:
+    display_name: display-name-icon_cancel
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_cancel.png
+  icon_confirm:
+    display_name: display-name-icon_confirm
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_confirm.png
+  icon_lock:
+    display_name: display-name-icon_lock
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_lock.png
+  icon_unlock:
+    display_name: display-name-icon_unlock
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_unlock.png
+  icon_web:
+    display_name: display-name-icon_web
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_web.png
+  icon_ender_chest:
+    display_name: display-name-icon_ender_chest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_ender_chest.png
+  icon_refresh:
+    display_name: display-name-icon_refresh
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_refresh.png
+  icon_time_day:
+    display_name: display-name-icon_time_day
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_time_day.png
+  icon_time_midnight:
+    display_name: display-name-icon_time_midnight
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_time_midnight.png
+  icon_time_night:
+    display_name: display-name-icon_time_night
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_time_night.png
+  icon_time_noon:
+    display_name: display-name-icon_time_noon
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_time_noon.png
+  icon_time_sunrise:
+    display_name: display-name-icon_time_sunrise
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_time_sunrise.png
+  icon_time_sunset:
+    display_name: display-name-icon_time_sunset
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_time_sunset.png
+  icon_toggle_off:
+    display_name: display-name-icon_toggle_off
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_toggle_off.png
+  icon_toggle_on:
+    display_name: display-name-icon_toggle_on
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_toggle_on.png
+  icon_arrow_chest:
+    display_name: display-name-icon_arrow_chest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_arrow_chest.png
+  icon_plus:
+    display_name: display-name-icon_plus
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_plus.png
+  icon_color_picker:
+    display_name: display-name-icon_color_picker
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_color_picker.png
+  bos_item:
+    display_name: ''
+    resource:
+      material: PAPER
+      generate: true
+  icon_search:
+    display_name:
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon_search.png

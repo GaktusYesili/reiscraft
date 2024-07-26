@@ -1,0 +1,188 @@
+# Customize this file to change all shop items inside the main shop screen
+# For more info about this file, please visit our wiki here: https://gpplugins.gitbook.io/economyshopgui/file-configuration/sections.yml
+
+ShopSections:
+  Farming:
+    enable: true
+    material: WHEAT
+    displayname: '&x&e&8&e&8&5&0Tarımlar'
+    place: 10
+  Food:
+    enable: true
+    material: COOKED_BEEF
+    displayname: '&x&e&8&e&8&5&0Yemekler'
+    place: 12
+  Mobs:
+    enable: true
+    material: SPIDER_EYE
+    displayname: '&x&e&8&e&8&5&0Canavar Eşyaları'
+    place: 14
+  Ores:
+    enable: true
+    material: DIAMOND
+    displayname: '&x&e&8&e&8&5&0Madenler'
+    place: 16
+
+  Blocks:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cBlocks'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aBlocks'
+    place: 0
+    title: '&c&lExample section'
+  Decoration:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cDecoration'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aDecoration'
+    place: 0
+    title: '&c&lExample section'
+  Dyes:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cDyes'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aDyes'
+    place: 0
+    title: '&c&lExample section'
+  Enchanting:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cEnchanting'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aEnchanting'
+    place: 0
+    title: '&c&lExample section'
+  Music:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cMusic'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aMusic'
+    place: 0
+    title: '&c&lExample section'
+  Others:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cOthers'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aOthers'
+    place: 0
+    title: '&c&lExample section'
+  Potions:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cPotions'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aPotions'
+    place: 0
+    title: '&c&lExample section'
+  Redstone:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cRedstone'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aRedstone'
+    place: 0
+    title: '&c&lExample section'
+  SpawnEggs:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cSpawnEggs'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aSpawnEggs'
+    place: 0
+    title: '&c&lExample section'
+  Spawners:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cSpawners'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aSpawners'
+    place: 0
+    title: '&c&lExample section'
+  Workstations:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cWorkstations'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aWorkstations'
+    place: 0
+    title: '&c&lExample section'
+  Z_EverythingElse:
+    material: BEACON
+    hidden: false
+    lore:
+    - '&4This example shop section'
+    - '&4was added to shop'
+    - '&4because the sections.yml config'
+    - '&4did not contain section &cZ_EverythingElse'
+    enable: true
+    enchantment-glint: false
+    displayname: '&aZ_EverythingElse'
+    place: 0
+    title: '&c&lExample section'
+
+Fill-item:
+  material: BLACK_STAINED_GLASS_PANE
+# displayname: "&8Nothing here"
+  #Disable this item by setting this value to false
+  enable: true
+  name: ' '

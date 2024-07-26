@@ -1,0 +1,1084 @@
+last-created-npc-id: 24
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid-name: guppity
+      cached-skin-uuid: 9c78d71e-a3c6-4404-9e67-dd2f09032f01
+      nameplate-visible: 'true'
+    name: §x§d§c§d§c§0§0§lT§x§e§0§e§0§1§8§lÜ§x§e§3§e§3§3§0§lC§x§e§7§e§7§4§8§lC§x§e§a§e§a§6§0§lA§x§e§e§e§e§7§8§lR
+      §x§f§1§f§1§9§0§lM§x§f§5§f§5§a§8§lO§x§f§8§f§8§c§0§lR§x§f§c§f§c§d§8§lA§x§f§f§f§f§f§0§lX
+    uuid: 7cb0f5c5-0b36-4c5f-b8b8-cf9eaebd9451
+    traits:
+      spawned: true
+      owner:
+        uuid: b4acb40b-614c-3497-b6a5-b8060f5c98c3
+      inventory:
+        '0':
+          type_key: iron_sword
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAP3siaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJSYWZpa2kncyBCYWtvcmEgc3RhZmYifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzcQB+AAR4cHVxAH4ABgAAAAJ0AD17Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19wdXJwbGUiLCJ0ZXh0IjoiVGhlIExpb24gS2luZyJ9dABDeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0IjoiRGF5YW7EsWtsxLFsxLFrOiAyNTAgLyAyNTAifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAACcRdACgSDRzSUFBQUFBQUFBLzIzTE1RcUVNQkJHNFI4RmlXRkJMTHlQTndtenpnUUdOMUV5RWRhclcyMnhqWVd2L09CNXdNTnJsV1RFTEtYRmxPZ2Jsc1BxbGdJZmhkNzYwWG9DdUJ6NlRFbHNwMFhRc1ZxVzA2RlJ4cXRRMUZXRFZZcXh4Zmk0ZHhnaXJYTFRlWnZ4N3dmREZtVGdod0FBQUE9PQ==
+        '39':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAAueyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IldvbGYifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAChudABgSDRzSUFBQUFBQUFBL3dYQlFRcUFNQXdFd01XTE1aK1UwS3hZYUtzMGdlTHZuVkZBb1RYWnc5dzVCY2V3em5pdEVEdmJsOU5Dc0ZXSDNKYm5ldG9GL0lsaE44bzJBQUFB
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait: {}
+      skintrait:
+        fetchDefaultSkin: true
+        signature: gwJUePyZkOoI/vN+UuZ6K8Y0AIJZdPR602rsT30QGLnNsavvDsqnPfK6qzxx/LMyDprQP068ZxTDwCa30X2fSfCCZ6vE3+xOHFs90DCZPt9dKJrqYr9sIh87/9P4oRIZmYh2h/WbBlGsYqCo9O2wTiys5SywEttegqgPme3j/934NfEPUilYSmtV6MGyN4CQ0/r09VHqTh6i4VEUH1MUDi35k+3gRWSaORDWckhh+aMj/x5/wamVjxKfQEZ+lgHmGR23DUBjNPnEHMAIZ1uUiVUn9JadygZO8u1DWiZHN0efcFyKIIDsaGcPGPmVppnvyDmb+/5xPqGy/3904KygAyivaDD2yjK+NR1wc7rzJToMz7jROZWfu91mLRBVH4gC1J0Mx9tGWMSs7cccXooaQjUGvGQHHEFgvxzgxbOw2iK7kczBb6s0MuDbPz2OOoKE3vMX056qhz24Y7zoTCozmayDAFkm8JutpjZav9d311bao+iz4bfh84cnyuf8UJVVAWVKatcHzrpGmuPD+v1X6G1LMVnxeuOTQfAf4k8m2uL4FDLOIj8FdrIxkJRDkGhoLsStKypBsWFqYOQa3WgA0i2FEcw8MBAy/iM5cKxBNNKxKEmueF2vf64hyisczs8UFoCC1/PmWWgDi2D2tBYkGQOhLMdCaKQOzQhV2ZmaCJ0=
+        skinName: Guppity
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2MDk5NjQ2NjY1MiwKICAicHJvZmlsZUlkIiA6ICI5Yzc4ZDcxZWEzYzY0NDA0OWU2N2RkMmYwOTAzMmYwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdXBwaXR5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RjMmVhZDk3MjIyNzdiN2IxMzkyMzk3OGEwZTYzZjY4MGMxNzk4ZmNkODkyYjQwOTY5Y2U2ZmFmZTEzZDMzYmYiCiAgICB9CiAgfQp9
+        updateSkins: false
+      type: PLAYER
+      location:
+        bodyYaw: 82.511734
+        world: baslangic
+        x: '50.6008'
+        y: '33.0'
+        z: '49.4972'
+        yaw: '82.5117'
+        pitch: '-24.7306'
+      sneak:
+        sneaking: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: tuccar
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      equipment:
+        hand:
+          type_key: iron_sword
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAP3siaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJSYWZpa2kncyBCYWtvcmEgc3RhZmYifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzcQB+AAR4cHVxAH4ABgAAAAJ0AD17Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19wdXJwbGUiLCJ0ZXh0IjoiVGhlIExpb24gS2luZyJ9dABDeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0IjoiRGF5YW7EsWtsxLFsxLFrOiAyNTAgLyAyNTAifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAACcRdACgSDRzSUFBQUFBQUFBLzIzTVFRcURNQkJHNFI4RmlhRWdMcnlQTndsVFp3S0RUWlJNaEhwMVY2VTdGNzc5OXp6ZzRiVktNbUtXMG1KSzlBM0xZWFZMZ1k5Q2IvMW9QUUZjRG4ybUpMYlRJdWhZTGN2cDBDampWU2pxcXNFcXhkaGhpTFRLRGMvYmpIOHR4c2N4OEFNa0l1eW1od0FBQUE9PQ==
+        helmet:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAAueyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IldvbGYifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAChudABgSDRzSUFBQUFBQUFBL3dYQlFRcUFNQXdFd01XTE1aK1UwS3hZYUtzMGdlTHZuVkZBb1RYWnc5dzVCVnQxeUcxNXJxZGRnbU5ZWjd4V2lKM3R5MmtCL0hBVVJ4RTJBQUFB
+    traitnames: mounttrait,hologramtrait,type,inventory,owner,sneak,skintrait,scoreboardtrait,lookclose,equipment,spawned,location,smoothrotationtrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    metadata:
+      cached-skin-uuid-name: jacksparrows
+      cached-skin-uuid: 49c586a8-7d62-4ce3-b807-d803c5fc048f
+      nameplate-visible: 'false'
+    name: §r
+    uuid: f3d7518e-447c-4751-a29b-47091936afdc
+    traits:
+      location:
+        bodyYaw: 29.084892
+        world: baslangic
+        x: '23.5'
+        y: '35.0'
+        z: '13.5'
+        yaw: '29.0849'
+        pitch: '-25.7106'
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Uo7hxeMIDL86Qgj5mNEZZ7mbZQdu0B1Zlcn0abxTBI7Tq8oMp56hcrhpIiGg7FAgDi//SSM0mJxe+NGTa4V34N0fNHbQLihmcwAFH9VmeYGr0bB5ysqAQgX4+eWq2McarqzwlJppr3NmHzUE/xJK9VyvcO89oaRPaBm9ZYRdP8Q4momg3IAi+7wqh97dpAKYVxa5CeOf3G4fg3kfadfOY76sAyHkEi3ZNZ1JjwRqFynNCfffvRmRWVocEXwJ2e6nDvLdQqJCzBxY7XhumtxiMeXDPUdFzbDseu5zyp2YSbFAtgrKJqst5cYrKy7pQEnE77CEtb5QXIVmjJmg+sIHrU257yNuweaigdoBPirhjtnqZUY9TM5lEzPdKLSpd+rM539z/QNUKtGaJTO8r/bLpQxFPbgAoVyDhTQdxdh2zpZh5hL9gNF38DP5yffLHlFiCzTRrlnZ+n+5iKYZ+bZhnpYi+XLV2QNRFZpIxr2gF7ein97sZZcXIYxHwXCNC9zO0aJ4gDzKPgCwrDR5CAk/SttQ0hmx825Ycdatq5+bG1m2wsZwkJC9CQe0/yBII4W3CiQttUcHcv0XaFI2amUDjipoJnfwREy+UU7FJ5b5mM/zPhgLNp2Vor+s8u8Mn5eVDW5zg1Jj5M1jYiULMv5SQHuA5CqaQmWB7y2hri5C6tA=
+        skinName: jacksparrows
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODAwNTQ3ODgyMSwKICAicHJvZmlsZUlkIiA6ICI0OWM1ODZhODdkNjI0Y2UzYjgwN2Q4MDNjNWZjMDQ4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYWNrU3BhcnJvd3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg0ODU0ODAyZGQwNzM2MzI5MjFlOGY1NzMyNTI3MTg2YThhYzg4YWU5M2U2NDZjOWUzMWRjZTE5Mzc2YTljYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        updateSkins: false
+      spawned: true
+      type: PLAYER
+      owner:
+        uuid: ff939de2-63d3-3b7a-82e8-f80202874bef
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: kaptan
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      equipment:
+        boots:
+          type_key: netherite_boots
+          amount: 1
+        hand:
+          type_key: golden_sword
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAPXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJDYXB0YWluIEhvb2sncyBIb29rIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3EAfgAEeHB1cQB+AAYAAAACdAA5eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfcHVycGxlIiwidGV4dCI6IlBldGVyIFBhbiJ9dABBeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0IjoiRGF5YW7EsWtsxLFsxLFrOiAzMiAvIDMyIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAnEHQAlEg0c0lBQUFBQUFBQS8yM01RUTVBTUJCRzRUOUlVOTJJaGIyanVJa01NMkpDVmJRU2JpK3hzdkQyMzNPQWc5TWtQaEt6SERrYVQxYy9uakVGMy9ONTBLQ3JwaHRBYTFGdTVDWHVOQW9NYTl6a3RzaVVVY3doTEFiVlJJdDhVTmZoTFVmOU93UWVNeThZNlg4QUFBQT0=
+        offhand:
+          type_key: iron_sword
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QANnsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJIb29rJ3Mgc3dvcmQifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzcQB+AAR4cHVxAH4ABgAAAAJ0ADl7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19wdXJwbGUiLCJ0ZXh0IjoiUGV0ZXIgUGFuIn10AEN7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSIsInRleHQiOiJEYXlhbsSxa2zEsWzEsWs6IDI1MCAvIDI1MCJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJxR0AKBINHNJQUFBQUFBQUEvMjNNTVE2RE1BeEc0VjlGUWpRTWlLSDM0U2FSaTQyd2FIQVZCN1ZjbmFsaTY4RGJ2eGVBZ0tCRmtoT3o1QXFQUk44NGJsNHNSZDR5UGZXbFpRZHdOTGl2bE1UZk5BcHFWbDlsYjNCVFJqdWJMUjc5WTVscmRCTXQ4bWNIRzNCV29iLzhBait1Mkl2SGhnQUFBQT09
+        helmet:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAAyeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IlNweWdsYXNzIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoZnQAaEg0c0lBQUFBQUFBQS93M0dNUTZBSUJBRXdJMk5lSTFQSkJ1NUtBa1l3bDdENzNXcU1jQmdOYnlMcGZoTTJHckIrVEN5eHJvYnBmOEp4OHZ1R3J3Y3U3Y1Zrd0krYnBUNVFUMEFBQUE9
+      inventory:
+        '0':
+          type_key: golden_sword
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAPXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJDYXB0YWluIEhvb2sncyBIb29rIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3EAfgAEeHB1cQB+AAYAAAACdAA5eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfcHVycGxlIiwidGV4dCI6IlBldGVyIFBhbiJ9dABBeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0IjoiRGF5YW7EsWtsxLFsxLFrOiAzMiAvIDMyIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAnEHQAlEg0c0lBQUFBQUFBQS8yM0xNUTVBUUJCRzRUL0labTBqQ3IyanVJa01NMkxDV3JFcjRmWWFoY0lyditRNXdNRnBFaCtKV1k0Y2phZXJIOCtZZ3UvNVBHalFWZE1Ob0xVb04vSVNkeG9GaGpWdWNsdGt5aWptRUpZYzllOW1VRTIweUVlN0RtOFB1bFFwMzM4QUFBQT0=
+        '36':
+          type_key: netherite_boots
+          amount: 1
+        '39':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAAyeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IlNweWdsYXNzIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoZnQAaEg0c0lBQUFBQUFBQS93M0dNUTZBSUJBRXdJMk5lSTFQSkJ1NUtBa1l3bDdENzNXcU1jQmdOYnlMcGZoTU9GNTIxK0RsMkwydG1GVENWZ3ZPaDVFMTF0MG8vUWMrdHR6RHFUMEFBQUE9
+        '40':
+          type_key: iron_sword
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QANnsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJIb29rJ3Mgc3dvcmQifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzcQB+AAR4cHVxAH4ABgAAAAJ0ADl7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19wdXJwbGUiLCJ0ZXh0IjoiUGV0ZXIgUGFuIn10AEN7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSIsInRleHQiOiJEYXlhbsSxa2zEsWzEsWs6IDI1MCAvIDI1MCJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJxR0AKBINHNJQUFBQUFBQUEvMjNMTVFxRFFCQkc0WjhJWXRaQ0xISWZiN0pNbkJFSHMwN1lXVW04dWxVS214Uys4b01YZ0lDZ1JaSVRzK1FLajBUZk9HNWVMRVhlTWozMXBXVUhjRFM0cjVURTN6UUthbFpmWlc5d1UwWTdteTBlL1dPWksvU1hkNDF1b2tYK2RMQUJaejlKN0FPQmhnQUFBQT09
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,type,inventory,sneak,owner,skintrait,scoreboardtrait,lookclose,equipment,spawned,location,smoothrotationtrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '12':
+    metadata:
+      cached-skin-uuid: 61307162-c23f-4878-afb4-2b5ccb7fdec9
+      cached-skin-uuid-name: ooitshannah
+      nameplate-visible: 'false'
+    name: §r
+    uuid: 8a171480-d41b-41c0-b49a-aeeb6db18802
+    traits:
+      type: PLAYER
+      age:
+        age: 0
+        locked: true
+      owner:
+        uuid: b4acb40b-614c-3497-b6a5-b8060f5c98c3
+      skintrait:
+        fetchDefaultSkin: true
+        signature: kr5V/ABN8M3skY0hq4GHPvxImEeW5ipaRWJE5Utr9vI48gGgaZx1c+kwFBXzUZkcpioaii07WQ65mJcepqN8MTHeLkPdv43dDfkzVCZMvR3NeirssvgYNj8P2L1p6c5D9jcWFEtmMrRtPuDaJSj9TZgfC28NOAZcOrEG15fL7WCLfoXkZWYGXJ98mYIRHbU5trNV/vWdoSULBZqSxKSRKS2Yi5qP8NxsvO6mfTWFTzNqJHsWdJVKehZufSVGAspXQrYAja2jxMHkuc+nj0nV76TVIMiYceb/xg9JNXXJ1ZTxMFJkCMxJ/JnIglWoeGYuMxmJwn1hsPoUxW+5zzmyvo5IJdAroX5Z3dOdGzIA4UT7eEBoDKz6UjRZNne41sTil9UJi99voynMfguuRHakduf7Vs1bes2ZmGVf8mB1hymu/3UKdqhgIPRXbDXTy9uJtHWZ2EowYCn2HR5qP4DclErb5uxdrK1y8wgWh/4KjdoRUvHiKcEhW31Yml9k13ZeYgI9PNKdXdK0cAX5YXPvqwMxkP6lMloGqrehq9mpL5Jqw9ltLQweljy4iGv3fKUosfArIOU/mAJfHFy41iarJHaspXDJST+jGi9kAoecaNosyMS1KXKpcCNQFKtKBjqXOoOB8T0XMS2M9UtPf2JieCHfju5e3Bvk3LwEOiBkeaM=
+        skinName: Ooitshannah
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2MDY2Mjk5MjgyOCwKICAicHJvZmlsZUlkIiA6ICI2MTMwNzE2MmMyM2Y0ODc4YWZiNDJiNWNjYjdmZGVjOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPb2l0c2hhbm5haCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMzBjZDY1YmE1YmUzOGU3YTkzY2ZkNDVmYThhMzgwZTk1ZDhhNzY5ODZjOWI2MGI1NTRlZTBlYzJjM2VjNGViIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+      spawned: true
+      location:
+        bodyYaw: 135.27278
+        world: baslangic
+        x: '66.5'
+        y: '31.0'
+        z: '70.5'
+        yaw: '170.2728'
+        pitch: '-16.0761'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: menu
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      equipment:
+        hand:
+          type_key: crossbow
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAd0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdAAHY2hhcmdlZHVxAH4ABgAAAAd0AAhJdGVtTWV0YXQACENST1NTQk9XdAA0eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IkxpY2ggU3RhZmYifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzcQB+AAR4cHVxAH4ABgAAAAF0AEN7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSIsInRleHQiOiJEYXlhbsSxa2zEsWzEsWs6IDMyNiAvIDMyNiJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJxp0AKxINHNJQUFBQUFBQUEvMjNOd1EzQ01BeEc0Ujhxb1pKTGhSQ1RzQUFuMWtqZDJCRVdUVnJWcnFEYkkyNGNlQU44THdBQlFWMktFYk1zRFM2RjNqR3Q1bE9KdkM0MDZLaStBYnQ3aTJPbElqWlRFcHl2bktrNjJmWVNtcWRxU2IzRlhobGgxUFNJNXBUekFWMm1wL3c0TisveHJjSHA3d1A0QUpzMmZHU1NBQUFBc3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc+u4CAAFaAAV2YWx1ZXhwAA==
+        helmet:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA8eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS1nYW55dSJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAKBt0AGRINHNJQUFBQUFBQUEvK05pWU9CaTRNb3NTYzB0VGt4SlNTM2lZR0RLVEdGZ1RVL01xeXpsWU9ETVM4eE5MUzVJVEU1bDRDM0t5TXhMTFU1UHpTc0dNaGdZQUc0ZHNFRTVBQUFB
+      inventory:
+        '0':
+          type_key: crossbow
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAd0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdAAHY2hhcmdlZHVxAH4ABgAAAAd0AAhJdGVtTWV0YXQACENST1NTQk9XdAA0eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IkxpY2ggU3RhZmYifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzcQB+AAR4cHVxAH4ABgAAAAF0AEN7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSIsInRleHQiOiJEYXlhbsSxa2zEsWzEsWs6IDMyNiAvIDMyNiJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJxp0AKxINHNJQUFBQUFBQUEvMjNNTVE3Q01BeEc0Ujhxb1pLbFFvaVRjQUVtcnBHNnNTTXNtclNxWFVGdno4REN3QnUvNFFVZ0lLaExNV0tXcGNHbDBEdW0xWHdxa2RlRkJoM1ZOMkIzYjNHc1ZNUm1Tb0x6bFROVko5dGVRdk5VTGFtMzJDc2pqSm9lMFp4eWJuRDZlenFneS9TVUg3MTVqMjhmb0pyOExaSUFBQUE9c3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc+u4CAAFaAAV2YWx1ZXhwAA==
+        '39':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA8eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS1nYW55dSJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAKBt0AGRINHNJQUFBQUFBQUEvK05pWU9CaTRNb3NTYzB0VGt4SlNTM2lZT0RNUzh4TkxTNUlURTVsNEMzS3lNeExMVTVQelNzR01qZ1ltREpUR0ZqVEUvTXFTeGtZQUN4OW9zODVBQUFB
+    traitnames: mounttrait,age,type,inventory,owner,skintrait,scoreboardtrait,lookclose,equipment,spawned,location,smoothrotationtrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    metadata:
+      cached-skin-uuid: aacec9bc-cdbc-41be-afb8-f88726b2a766
+      nameplate-visible: 'true'
+      cached-skin-uuid-name: knightt
+    name: §x§d§c§d§c§0§0§lM§x§e§0§e§0§1§b§lO§x§e§4§e§4§3§5§lR§x§e§8§e§8§5§0§lA §x§e§c§e§c§6§b§lA§x§e§f§e§f§8§5§lS§x§f§3§f§3§a§0§lK§x§f§7§f§7§b§b§lE§x§f§b§f§b§d§5§lR§x§f§f§f§f§f§0§lI
+    uuid: 92798f33-c1fb-449b-b106-09ca8db66443
+    traits:
+      type: PLAYER
+      age:
+        age: 0
+        locked: true
+      equipment:
+        hand:
+          type_key: netherite_sword
+          amount: 1
+        helmet:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA7eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS14aWFvIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoHnQAZEg0c0lBQUFBQUFBQS8rTmlZT0JpNE1vc1NjMHRUa3hKU1MzaVlHREtUR0ZncWNoTXpPZGc0TXhMekUwdExraE1UbVhnTGNySXpFc3RUay9OS3dZeUdCZ0FmUytqOERnQUFBQT0=
+        chestplate:
+          type_key: netherite_chestplate
+          amount: 1
+        leggings:
+          type_key: netherite_leggings
+          amount: 1
+        boots:
+          type_key: netherite_boots
+          amount: 1
+        offhand:
+          type_key: shield
+          amount: 1
+      owner:
+        uuid: b4acb40b-614c-3497-b6a5-b8060f5c98c3
+      skintrait:
+        fetchDefaultSkin: true
+        signature: uFummPKE7yfm7Pdc8UMOqPaKwQFU+RIJHIB5fFWUecWLbEEX1yJwj5CPlYDCZSm2FkO7x9FGCSX3QirYylhIwJo7N2gDi6n4GZbvxRnus7HwsKO3+7ZusjaRiu3DZ9bfcchmF4E5QTmMUa7Mz3aROYlaCEEXrnI1B5DgO9EDgv9VrhFEBdXwWNxGneOwDFSS/eUBevFX9Gu+bALF2e37S/LD8P/1N5Jp95xnsxZUFFyvaGjS/yGevaeyjl2Hde+kTXnRKFFTNM3V9ZYv08vU05VkJUSFKzSQM3S0DgccJRTbzVsj33lZ4rXMDt/sPaTADCxhX5YHutZo4ZsQZcBwMkCdBe/behgi66XxTtJaTvUReFRFtTfk5n813k/p5VDLciT+4Ubo/CZzJcdIfJKLe0uByKZpu3LXZ2IUTb8OeY+vR1iZAwV6mKsh13Cr6nNZGFy6PAcfQQHi619WS+fQv07yxgxcBv7bmSHuPoUML1+wWVzVxAM167a4DSydzVKICgRZ19rva0EDRzihDYAQKum94lhOBObUpXPd5Bm17/5g5Fa6K5N7zdEbjgvJTbLtkv6InOZ/tfzVhTK4t8MZn8sXwh2Svq2nBkQXYepDMs7a+X+QfRsnHABAAHHlrtnuWjJiTfXvlQza8kGL46UZClZoKERSpt8uOJ/uBEBJzfs=
+        skinName: knightt
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2MDcxNjkzOTUzMSwKICAicHJvZmlsZUlkIiA6ICJhYWNlYzliY2NkYmM0MWJlYWZiOGY4ODcyNmIyYTc2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJLbmlnaHR0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzczYWE3ZmJmOTQ1OWQxMTU4ZTQ5MDBmOWY4MTQwMzQ5ZDJlMTE2YmZmMTUyZDM5ZTA0NDg3OGQ3Mzk3YTI1OTEiCiAgICB9CiAgfQp9
+        updateSkins: false
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory:
+        '0':
+          type_key: netherite_sword
+          amount: 1
+        '36':
+          type_key: netherite_boots
+          amount: 1
+        '37':
+          type_key: netherite_leggings
+          amount: 1
+        '38':
+          type_key: netherite_chestplate
+          amount: 1
+        '39':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA7eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS14aWFvIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoHnQAZEg0c0lBQUFBQUFBQS8rTmlZT0JpNE1vc1NjMHRUa3hKU1MzaVlPRE1TOHhOTFM1SVRFNWw0QzNLeU14TExVNVB6U3NHTWpnWW1ESlRHRmdxTWhQekdSZ0FESGVGWVRnQUFBQT0=
+        '40':
+          type_key: shield
+          amount: 1
+      location:
+        bodyYaw: 112.34041
+        world: baslangic
+        x: '105.5'
+        y: '29.0'
+        z: '77.5'
+        yaw: '106.1694'
+        pitch: '0.0'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: kurallar
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+    traitnames: mounttrait,age,hologramtrait,type,inventory,owner,skintrait,scoreboardtrait,lookclose,equipment,spawned,location,smoothrotationtrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '14':
+    metadata:
+      cached-skin-uuid: 457b7d2c-258f-4a1b-9243-78835e4f1e23
+      nameplate-visible: 'true'
+      cached-skin-uuid-name: knight
+    name: §x§d§c§d§c§0§0§lM§x§e§0§e§0§1§b§lO§x§e§4§e§4§3§5§lR§x§e§8§e§8§5§0§lA §x§e§c§e§c§6§b§lA§x§e§f§e§f§8§5§lS§x§f§3§f§3§a§0§lK§x§f§7§f§7§b§b§lE§x§f§b§f§b§d§5§lR§x§f§f§f§f§f§0§lI
+    uuid: 1bbc0ecf-9d59-4721-a17a-ce43c59d198d
+    traits:
+      type: PLAYER
+      age:
+        age: 0
+        locked: true
+      equipment:
+        hand:
+          type_key: netherite_sword
+          amount: 1
+        helmet:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA7eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS14aWFvIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoHnQAZEg0c0lBQUFBQUFBQS8rTmlZT0JpNE1vc1NjMHRUa3hKU1MzaVlHREtUR0ZncWNoTXpPZGc0TXhMekUwdExraE1UbVhnTGNySXpFc3RUay9OS3dZeUdCZ0FmUytqOERnQUFBQT0=
+        chestplate:
+          type_key: netherite_chestplate
+          amount: 1
+        leggings:
+          type_key: netherite_leggings
+          amount: 1
+        boots:
+          type_key: netherite_boots
+          amount: 1
+        offhand:
+          type_key: shield
+          amount: 1
+      owner:
+        uuid: b4acb40b-614c-3497-b6a5-b8060f5c98c3
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Ladv1+Od9cqORB4qDHEC2L4LWoBVx2TqEBOCZwZ5Po1kiImBhZG0yuOk1Kbmh/f/GvbtfdnzXx/TbHLMc8bBy5zvn6yus1E9t/yuP+RZc4jA+riTnPHQdakbL8f/SF0KOQKd4hGca/9CCsvEEXY2v43L6iW9f9z4GL1WzhJK6jLAvmh7rjI1m/ubK9gPh3EU/mRWkEPx0zvUpHcsUV75I1LmKdkvyTxFNE22QBbc2U2URUsbiuzZmPhD3o0fdNUvQkIjVxifsvJiBYc4dUYDflJ33rnjRpS8qrhFmlui0KIfF2ylMVcBs+AH6hIEDv90ETL++2ax1sc+9dslvxL2sJ9mNek0zABS3Tm+N2N7mjowYsHzDHpiluNUdaOgVEbLhRHLnv+9XgjoZlKnEUf8PCgl57tYqc3YN6XsBNcfZtdt2xb+BUIkIjGuRDqfX1mSILzDK2FyDbNTrvu0dC898kyLvpm/I6DqSOVzohH7cPBJylyA1Hew+uA4UWYgF1pidRuFUA7kCT21JJFXKKTVsz7ABhL8mAZRpsH/0EXdqzh584AiHzbMYFXjUR4/W8Vt8sWlU/kEdJsHu/h3yxGTL4CK8Em4QNSrZVno+V5/up6sKzoVprVMguP6BsYUMpv43tgVZsmNpceKlyekHdWsulbUA836zR/UYCLZwdK7HHQ=
+        skinName: knight
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2MDY2ODQ0MTMwOSwKICAicHJvZmlsZUlkIiA6ICI0NTdiN2QyYzI1OGY0YTFiOTI0Mzc4ODM1ZTRmMWUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLbmlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQwNjkxYzdmNmIwYTE4M2U1MjU5MGUzZmU5YmQwN2U2ODdkZWQ3NzJmZmRlZmQ5NWFhMDI2Mjc0MTQ0Zjk1NiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        updateSkins: false
+      spawned: true
+      inventory:
+        '0':
+          type_key: netherite_sword
+          amount: 1
+        '36':
+          type_key: netherite_boots
+          amount: 1
+        '37':
+          type_key: netherite_leggings
+          amount: 1
+        '38':
+          type_key: netherite_chestplate
+          amount: 1
+        '39':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA7eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS14aWFvIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoHnQAZEg0c0lBQUFBQUFBQS8rTmlZT0JpNE1vc1NjMHRUa3hKU1MzaVlPRE1TOHhOTFM1SVRFNWw0QzNLeU14TExVNVB6U3NHTWpnWW1ESlRHRmdxTWhQekdSZ0FESGVGWVRnQUFBQT0=
+        '40':
+          type_key: shield
+          amount: 1
+      location:
+        bodyYaw: -241.09921
+        world: baslangic
+        x: '101.5'
+        y: '29.0'
+        z: '83.5'
+        yaw: '118.9008'
+        pitch: '-4.9502'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: kurallar
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+    traitnames: mounttrait,age,hologramtrait,skintrait,scoreboardtrait,type,inventory,equipment,spawned,owner,location,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '13':
+    metadata:
+      cached-skin-uuid: f3e115b5-4dcc-4f71-bc6b-66a0d7743201
+      nameplate-visible: 'true'
+      cached-skin-uuid-name: mcowen
+    name: §x§d§c§d§c§0§0§lB§x§e§0§e§0§1§b§lL§x§e§4§e§4§3§5§lA§x§e§8§e§8§5§0§lC§x§e§c§e§c§6§b§lK§x§e§f§e§f§8§5§lS§x§f§3§f§3§a§0§lM§x§f§7§f§7§b§b§lI§x§f§b§f§b§d§5§lT§x§f§f§f§f§f§0§lH
+    uuid: 44f72601-a3a9-45e2-9d92-9b7b534d5e95
+    traits:
+      type: PLAYER
+      age:
+        age: 0
+        locked: true
+      equipment:
+        hand:
+          type_key: netherite_axe
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAMXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJNam9sbmlyIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3EAfgAEeHB1cQB+AAYAAAACdAA0eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfcHVycGxlIiwidGV4dCI6IlRob3IifXQARXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6IkRheWFuxLFrbMSxbMSxazogMjAzMSAvIDIwMzEifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAACcQdACgSDRzSUFBQUFBQUFBLytOaVlPQmk0TW9zU2MwdFRreEpTUzFpWmhETlRheUlUeTR0THNuUGpVOHBMVXBNeXN6SkxLbGtZR0IvejhIQW1aZVltMXBja0ppY3lzQ1drbG1jbDFySndjQ1VtY0xBbnB1Vm41T1hXY1RHd0orV21KMktwTTloL2g0R0VHQm1FTVJxSmdNREFOOXFSNXFDQUFBQQ==
+        leggings:
+          type_key: netherite_leggings
+          amount: 1
+      owner:
+        uuid: ff939de2-63d3-3b7a-82e8-f80202874bef
+      skintrait:
+        fetchDefaultSkin: true
+        signature: iQfM5YBf+AxFmop8QZ7+Ev4157MBKBh5y+DMoHoqXtHTb6PUtkP22/hFhn2p0B8OsFiVg1+h/kh72LShkFHAhQYJ0/yEwgQnLXodpVNptxjhsMYOm84Um1WqF6bcCP1ZGPBjA8eSCShgsSXspKNeTsagPUfx/7iVLbbIe1Axf/s6FCdeh7OPXJ1LS+jw1xmTJf2q8ZJR1n2QdskpTGMmuvHnDar+gNvk4tiyPm9x2hnSrCh2ufxthdRhSPF7X7TdissJzkYCxDdtw2xFjjSiaI/Vh8azoFJNiEPNi96kmgmKdR4wmS7mkJQsF3zUAoDMx5Xbq3D0Y6cuwJPu5CDcoOUz9L/9eMO1tv/1UneIbnCMUT/8BcCy6xxRAIRtEBUjJi0KqThQPEAcfLXHCmKgszxV+7pJ6EqMDIjXaDjnbsdV6oR84w1xdz8RRTkjX/5h8akRo//v6jCxNQT/U0S0pQVgjY1yzmkiTyFDIWbSgQGVWk/T9GtAYdI3vAuL+2JTwH0Rq9VY8cNN+Op6rdG1vDO9REyb9cZsWSXid+ChtGvDmxnM+8l4T1LNKLuz83Eg/79gtbQas6Fsjbm67jqe0frxd0btMuE5O3945G7JIMpkmFtaybaz6tCuQFndzdxKYm5uoCRGZFDAiFpsNiWh1LZ8ZhDbNP7+TQWuvSXUHGg=
+        skinName: MCOwen
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2MDcyODk0NDc5MCwKICAicHJvZmlsZUlkIiA6ICJmM2UxMTViNTRkY2M0ZjcxYmM2YjY2YTBkNzc0MzIwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNQ093ZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjJhZmE0MmQyZWYxZWRhYWE2MzA2NzgyNDRiODdmOWM2MDM1Mzg1YjlkY2E5Yzk1NmU3NDdhYWJlNTRhZjAwZiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory:
+        '0':
+          type_key: netherite_axe
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAMXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJNam9sbmlyIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3EAfgAEeHB1cQB+AAYAAAACdAA0eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfcHVycGxlIiwidGV4dCI6IlRob3IifXQARXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6IkRheWFuxLFrbMSxbMSxazogMjAzMSAvIDIwMzEifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAACcQdACcSDRzSUFBQUFBQUFBLytOaVlPQmk0TW9zU2MwdFRreEpTUzFpWmhETlRheUlUeTR0THNuUGpVOHBMVXBNeXN6SkxLbGtZR0IvejhIQW1aZVltMXBja0ppY3lzQ1drbG1jbDFySndjQ1VtY0xBbnB1Vm41T1hDZFF0aUZVbkd3Ti9XbUoyS3BLb3cvdzlEQkFBQU93SmtGQ0NBQUFB
+        '37':
+          type_key: netherite_leggings
+          amount: 1
+      location:
+        bodyYaw: 106.74574
+        world: baslangic
+        x: '79.4347'
+        y: '29.0'
+        z: '102.5164'
+        yaw: '93.4327'
+        pitch: '-27.023'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+    traitnames: mounttrait,age,hologramtrait,type,inventory,owner,skintrait,scoreboardtrait,lookclose,equipment,spawned,location,smoothrotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '18':
+    metadata:
+      cached-skin-uuid: 69553fcc-5eab-40bb-9e6b-a5b7f420d5e9
+      nameplate-visible: 'true'
+      cached-skin-uuid-name: floraaa
+    name: §x§d§c§d§c§0§0§lF§x§e§5§e§5§3§c§lL§x§e§e§e§e§7§8§lO§x§f§6§f§6§b§4§lR§x§f§f§f§f§f§0§lA
+    uuid: e3dae233-c5aa-4945-8e05-0edb84e178ec
+    traits:
+      type: PLAYER
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      location:
+        bodyYaw: -49.162685
+        world: baslangic
+        x: '83.5979'
+        y: '31.0625'
+        z: '52.6267'
+        yaw: '-49.1627'
+        pitch: '-8.3593'
+      owner:
+        uuid: ff939de2-63d3-3b7a-82e8-f80202874bef
+      skintrait:
+        fetchDefaultSkin: true
+        signature: UMx68nHA+JlFGFXdOGrczLSTqmwvKzleoZFHjwTUJRl2829zsDSPmalYsO5eqdMpEQzXwv0qICplHXjAhSuWLeubDXMsi3Mo6FnnD/ECXT3H9oJfp/Soxwuy5lI6cJc8JowIo+JQdNo+JZBEb1phpz/icjfEucU/j6UuFTtr7hf9LAesJphPjH2GW0TXKJV08Y6yO5Ai+IbSZ34/+vu/RFMdKA9VmxOWG6+xg6Ny0T7VYdVKuuwNN/TSxfXURgL9J0zoRf7TopNN9TCgK7i5gycbZkLkKZxnR3TVX4VfDUCjTyQTPLr/uZk1F6gO3n3HWwdfY+/m6o0jcOZo9II/z1AMw8MNV7Ap9Eerxt9L2n0c8xeqCMEMNnYca5VBDv42wb4yjuezk1nfNHvr9m21UTMoEJ2qi07hbiijh5GbvrKGR28hjUqWbDqHXRuG+HEInTxYDMz2ucKoIqFxAgcDOfhL+Qja9UuaHP3HbUDuNsTA16T5pyh6asitvGtGaU+F90zJ9DOyVJCLLShYVa4afiyRrzHX5tVZCd1jcxhBAchSK0afoX7R1XI8XNFhb6UOuEnPjorWVejKiJDa10TDLQTsXgoyDCdEDhpdURNJxRaoWBjz7PdUc02P7J2jfzAPJAwnIbCboW9qzfvwVpProGiYQBJoL1tsCOdaVRbrl0E=
+        skinName: floraaa
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2MDk5NjQyMDU0NiwKICAicHJvZmlsZUlkIiA6ICI2OTU1M2ZjYzVlYWI0MGJiOWU2YmE1YjdmNDIwZDVlOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJmbG9yYWFhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM2NzkxYmIwMmZmZDZiYjExODJlZTQ0NDk2ODk1NTI4ZmZhMDY4MmVhNTdkYTk5MzBlMDFkNmVhN2E1NTIwNjUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      equipment:
+        hand:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAPHsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJCaXJjaCBwb3Qgb2YgUGVvbnkifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzcQB+AAR4cHVxAH4ABgAAAAF0AD17Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSIsInRleHQiOiJnYXJkZW5wbHVzIGJ5IFlhc3NvdSJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJ3h0AGhINHNJQUFBQUFBQUEvd1hCUVE2QU1BZ0V3STJuaW84MFdJaVN0RWhBRC83ZUdRSUlaSS9PWWhITmhzVUVXK2p0MzM1WTlxdGhkWjVhd1YxQko2ZW94M2dMK0FFTFBlLzlQQUFBQUE9PQ==
+        helmet:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdABKeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS1ldmVybGFzdGluZ21vb25nbG93In1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoGnQAcEg0c0lBQUFBQUFBQS93M0dRUTZBSUF3RXdJMG5KUEhrQ3h2WllCTmFDQ1g2ZlozVFpDQWo2NktGbE1LWnNHbkJ5WWV6U1N6MWFyMTdiZjFOMkYyTU1lUWlqbm1yTXlvOS9nQWZRT3ZwVUVjQUFBQT0=
+      inventory:
+        '0':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAPHsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJCaXJjaCBwb3Qgb2YgUGVvbnkifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzcQB+AAR4cHVxAH4ABgAAAAF0AD17Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSIsInRleHQiOiJnYXJkZW5wbHVzIGJ5IFlhc3NvdSJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJ3h0AGhINHNJQUFBQUFBQUEvd1hCUVE2QU1BZ0V3STJuaW84MFdJaVN0RWhBRC83ZUdRSUlaSS9PWWhITmh0VjVhZ1YzQloyY29oN2pyWWJGQkZ2bzdkOStXUFlMK0FGbi9mNTlQQUFBQUE9PQ==
+        '39':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdABKeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS1ldmVybGFzdGluZ21vb25nbG93In1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoGnQAcEg0c0lBQUFBQUFBQS93M0dRUTZBSUF3RXdJMG5KUEhrQ3h2WllCTmFDQ1g2ZlozVFpDQWo2NktGbE1LWnNMc1lZOGhGSFBOV1oxUjYvRW5ZdE9Ea3c5a2tsbnExM3IyMi9nSWZvNU9CUGtjQUFBQT0=
+    traitnames: mounttrait,age,hologramtrait,type,inventory,owner,skintrait,scoreboardtrait,lookclose,equipment,spawned,location,smoothrotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    metadata:
+      nameplate-visible: 'false'
+    name: kedi1
+    uuid: 84267dd2-99f6-411c-9045-cdbf8ace876a
+    traits:
+      type: CAT
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      location:
+        bodyYaw: 339.28467
+        world: baslangic
+        x: '12.5123'
+        y: '35.0'
+        z: '56.4952'
+        yaw: '147.0873'
+        pitch: '0.0'
+      owner:
+        uuid: ff939de2-63d3-3b7a-82e8-f80202874bef
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,age,skintrait,scoreboardtrait,lookclose,type,inventory,owner,spawned,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    metadata:
+      nameplate-visible: 'false'
+    name: kopek1
+    uuid: 5864e613-01ba-43b7-ab70-c4abed4d115a
+    traits:
+      type: WOLF
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      location:
+        bodyYaw: 299.0116
+        world: baslangic
+        x: '-19.6859'
+        y: '39.0'
+        z: '53.3301'
+        yaw: '54.938'
+        pitch: '0.0'
+      owner:
+        uuid: ff939de2-63d3-3b7a-82e8-f80202874bef
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,age,skintrait,scoreboardtrait,lookclose,type,inventory,spawned,owner,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '19':
+    metadata:
+      cached-skin-uuid: 17b75bbd-a5a9-4dde-9954-38660339d4bf
+      nameplate-visible: 'false'
+      cached-skin-uuid-name: tamsu
+    name: ihale
+    uuid: eec3b5c5-bc06-4786-a4a1-0c0857ef040d
+    traits:
+      location:
+        bodyYaw: 128.51382
+        world: baslangic
+        x: '21.5'
+        y: '35.0'
+        z: '62.5'
+        yaw: '163.5138'
+        pitch: '-25.0238'
+      owner:
+        uuid: ff939de2-63d3-3b7a-82e8-f80202874bef
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: UA36Bup1E9z9bQ5F3GFFuKWmCbLqonGzZCW34L6ZEMdREsW+zlE2mP4R1k3hqyLmDJsEXXQ/HZX7uIXWgUNyNZcyE/6v3Xq6kLBNd39Qekpqqc3KWSF+qunWZc1+nf37qrWcOl1a73eU7xYQJmvY616TaKyLf0ZemwpTOXySbMMdhgtMz0rhfr6yJ02dckLNiltnp/HZsYQ2muVwEjWQuTKpXIwtsI4jDGs3pZRhBeRD8aeU4Y8yd1rh4lDMous5VjSkGhj2UuxwXfKTRUjLsqgI71XFd+JD4hJsb9V0CU8SXeGqNML543SN5+XVBERew3W2+rNi/xT2CTZ7B2x+5UHAQdVnnyPtWM/i2qt4ka8KimPm3wyxwAGVYTkqeWrDIjtZbj5yol8S5F60m7tML5fS30n5KUO2XyYOes9hM5mD5NjzvaIlS+6LvHXpb0TCRMmrJB2DpeVwU6dV7YOEeTNhly4rgEMhfXtyOUKZ31BSVai5KIY88LJ513a5eZmDUDyuShpM6QgomsctbBhxaryzxmsN5tAce7HdpKx42/6VLzD+9uDIA5tt3m/ZEF6OiGA3vHJ3KJFTqD45hsHEf0uWd7BTHTRV8cFMw58mSi6kG0V69eAZejb+bcbmjQtjF1kP3vh4+j8Xmlh1TUchzPoK2+9Q2eYG7UKxHKR3r44=
+        skinName: Tamsu
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2MDc0ODk4NTkwNSwKICAicHJvZmlsZUlkIiA6ICIxN2I3NWJiZGE1YTk0ZGRlOTk1NDM4NjYwMzM5ZDRiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYW1zdSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMzEwNTdkY2MzMzU2OTM0YTk4MTQ2MjhhZjk5ODRhM2U3ZjFlNDEwOTcwNzk1ZGFhZjM4Y2U5MDc2YzAzNzYwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc5MTI3OTBmZjE2NGI5MzE5NmYwOGJhNzFkMGU2MjEyOTMwNDc3NmQwZjM0NzMzNGY4YTZlYWU1MDlmOGE1NiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      type: PLAYER
+      age:
+        age: 0
+        locked: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: pazar
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      equipment:
+        hand:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QANXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJTdG9yYWdlIEJveCJ9c3IANmNvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlTGlzdCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgABWwAIZWxlbWVudHNxAH4ABHhwdXEAfgAGAAAAAXQAPnsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6Ikl0ZW0gU2hvcCArIGJ5IFlhc3NvdSJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJ+d0AGhINHNJQUFBQUFBQUEveDNLMFFxQUlBd0YwRXRQdXZySG1HMlVvRzA0Z3o0LzZEd2ZBZ2hVcC9aZ0VSMEpTeFdzTVczd3FYdXhOeUhmM0RXY0Q4WDJ6OHZjMnhQQUIvcURpVVErQUFBQQ==
+        helmet:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdABEeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS1hbmVtbzFfdmlzaW9uIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoBHQAbEg0c0lBQUFBQUFBQS93M0dRUXFBTUF3RXdNVlREZWhmK3FJUzdLSTVKSlZHZkwvT2FRUVFpRDMwMU40NUN4YnIyRFhvbzcyV05xTFZnalhVbWJjZXhEWXZDK2JKeUQvQUI5UWlDK3RDQUFBQQ==
+      inventory:
+        '0':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAZ0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdXEAfgAGAAAABnQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QANXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJTdG9yYWdlIEJveCJ9c3IANmNvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlTGlzdCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgABWwAIZWxlbWVudHNxAH4ABHhwdXEAfgAGAAAAAXQAPnsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6Ikl0ZW0gU2hvcCArIGJ5IFlhc3NvdSJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJ+d0AGhINHNJQUFBQUFBQUEveDNJMFFxQUlBd0YwRXRQdXZySG1HMlVvRzA0Z3o0LzZEd2VBZ2hVcC9aZ0VSMEorZWF1NFh3b3R2OHZjMjlQSkN4VnNNYTB3YWZ1eFY3Z0EzYnM3KzArQUFBQQ==
+        '39':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdABEeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS1hbmVtbzFfdmlzaW9uIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoBHQAbEg0c0lBQUFBQUFBQS93M0dRUXFBTUF3RXdNVlREZWhmK3FJUzdLSTVKSlZHZkwvT2FRUVFpRDMwMU40NUM5WlFaOTU2RU51OExKZ25JLzhVTE5heGE5QkhleTF0Ukt2QUIxWlRibDlDQUFBQQ==
+    traitnames: mounttrait,age,type,inventory,owner,skintrait,scoreboardtrait,lookclose,equipment,spawned,location,smoothrotationtrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '20':
+    metadata:
+      cached-skin-uuid: 16f59b24-b36b-49ce-be4f-455b3e276490
+      nameplate-visible: 'false'
+      cached-skin-uuid-name: cynet
+    name: kit
+    uuid: f8f1fbf5-f7bf-44a7-86c9-17a604d0561a
+    traits:
+      location:
+        bodyYaw: 7.4892654
+        world: baslangic
+        x: '35.5'
+        y: '35.0'
+        z: '18.5'
+        yaw: '7.4893'
+        pitch: '0.0'
+      owner:
+        uuid: ff939de2-63d3-3b7a-82e8-f80202874bef
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ChqhKzOWNAtkb/Zb21yYhX//Nhg2yYrCYlKrDNzmHV0hhRHahYGI+c0iKX7mJhX9Q0zpDynXKs8c/wtNPVWeu+wpD9ZNh48YoRBshs4hLm7WPqhn6JQJDpl/TKSIkhMFL4aENB9j2XFcH+ZIgugNTuK1bxtWy95hEOlFia0cAh47QSAXRYa4uSNFdYi4KwZ6SbGOCceA+Ow3j9HK7QhRyiIkQgOVxccgXJC0DT+cXv7f0Oxxohz5ECWj1tOHdNfN4BbYiUHVlmjpd9WkWpbIX/bkE4WOdPhORHTwYF8IBl3g4NALeB/Ql96Mzqb10YQOPRpIs3RD3xmSCWmfFzMaDVJgst/v6Gc/B5Sbds+9SasgxTmQZa8E4PVrOFe+2u8K88maDPR12SPbw0xTYjFfD+mkhpBzC8ghZ+QDTF2BX2Jv2FMgf4NakMsQTyntJPE7vXNH7nGl2bpFuRX8eDi2P9wf85xB63sSwXzdLcWkGuTgH8Frm5kuaAwFZ7/9z3DLR198pmEx4Tgs09EvN2IF2X1QKu72TblMKUI+tPbe5pclFL2+Ae3qSEDGv6p1r6C8zV7bpvWubNUEfmdAm8JZ8TvFSZug8TAMTUK4rys9B0WuXXFyMd+bCdDyoWpalHnzBfKSod80Bq65YiC3FFEWO+ThC9ZnN7a7slg0SI4CLaA=
+        skinName: Cynet
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2MDk5NjQ5NzY2OCwKICAicHJvZmlsZUlkIiA6ICIxNmY1OWIyNGIzNmI0OWNlYmU0ZjQ1NWIzZTI3NjQ5MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDeW5ldCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NzZiM2MxMGI5MzE4ZTAyNTg1ZmVmNzBkNjUyZThkMTM0NTJmZTQwYzcxZGYzMTBlZTcyNGQ4ZDBhN2FlZGE3IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      type: PLAYER
+      age:
+        age: 0
+        locked: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: vipbilgi
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      equipment:
+        hand:
+          type_key: diamond_sword
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAh0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQAE2F0dHJpYnV0ZS1tb2RpZmllcnN0AAlJdGVtRmxhZ3N0AAhpbnRlcm5hbHVxAH4ABgAAAAh0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUN0ADZ7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiRHJhZ29uIFN3b3JkIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3EAfgAEeHB1cQB+AAYAAAAGdAAaeyJpdGFsaWMiOmZhbHNlLCJ0ZXh0IjoiIn10AAt7InRleHQiOiIifXQANnsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6IkFuYSBlbGRleWtlbjoifXQAWXsiaXRhbGljIjpmYWxzZSwiZXh0cmEiOlt7ImNvbG9yIjoiZGFya19ncmVlbiIsInRleHQiOiI3IFNhbGTEsXLEsSBIYXNhcsSxIn1dLCJ0ZXh0IjoiICJ9dABaeyJpdGFsaWMiOmZhbHNlLCJleHRyYSI6W3siY29sb3IiOiJkYXJrX2dyZWVuIiwidGV4dCI6IjEuNiBTYWxkxLFyxLEgSMSxesSxIn1dLCJ0ZXh0IjoiICJ9dABFeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0IjoiRGF5YW7EsWtsxLFsxLFrOiAxNTYyIC8gMTU2MiJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJxJzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAJ0ABVHRU5FUklDX0FUVEFDS19EQU1BR0VzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAZxAH4ACHQABmFtb3VudHQABG5hbWV0AARzbG90dAAEdXVpZHQACW9wZXJhdGlvbnVxAH4ABgAAAAZ0ACZvcmcuYnVra2l0LmF0dHJpYnV0ZS5BdHRyaWJ1dGVNb2RpZmllcnNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4AHkAUAAAAAAAAdAAKaXRlbXNhZGRlcnQABEhBTkR0ACQ5ZmQ0YTRhOS0wMjQzLTQyYTUtOGNmMy0zZjM2M2I3NGRmNzVzcQB+AB0AAAAAeHQAFEdFTkVSSUNfQVRUQUNLX1NQRUVEc3EAfgAkAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAZxAH4ACHEAfgApcQB+ACpxAH4AK3EAfgAscQB+AC11cQB+AAYAAAAGcQB+AC9zcQB+ADDAAzMzMzMzM3EAfgAycQB+ADN0ACRmZWY1NDRlYi1lODQ5LTRlYTQtYjhmNi04NDA5NDhhMWUxOGFxAH4ANXh4AHNxAH4AJAAAAAF3BAAAAAF0AA9ISURFX0FUVFJJQlVURVN4dACwSDRzSUFBQUFBQUFBLzIzTlFRckNNQkJHNFI4THBRWkJSTng0RFMvZ1RjS1ltY3FnU1VwbVN1MU5QSzY0YytFN3dQY0NFQkRVSlJzeFMrdHd5dlNLYVRhdk9mTGM2S1pQOVJYb3p3TzJoYkxZUkVsd3ZQQkl4Y25XUldpcXhaTDZnSTB5ZHR6b1hrdTBwVGJ1c1IvcElUL1M5YzM0MXVIdzl3SjhBS3IxN0phVUFBQUE=
+        helmet:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA7eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS14aWFvIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoHnQAZEg0c0lBQUFBQUFBQS8rTmlZT0JpNE1vc1NjMHRUa3hKU1MzaVlHREtUR0ZncWNoTXpPZGc0TXhMekUwdExraE1UbVhnTGNySXpFc3RUay9OS3dZeUdCZ0FmUytqOERnQUFBQT0=
+      inventory:
+        '0':
+          type_key: diamond_sword
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAh0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQAE2F0dHJpYnV0ZS1tb2RpZmllcnN0AAlJdGVtRmxhZ3N0AAhpbnRlcm5hbHVxAH4ABgAAAAh0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUN0ADZ7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiRHJhZ29uIFN3b3JkIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3EAfgAEeHB1cQB+AAYAAAAGdAAaeyJpdGFsaWMiOmZhbHNlLCJ0ZXh0IjoiIn10AAt7InRleHQiOiIifXQANnsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6IkFuYSBlbGRleWtlbjoifXQAWXsiaXRhbGljIjpmYWxzZSwiZXh0cmEiOlt7ImNvbG9yIjoiZGFya19ncmVlbiIsInRleHQiOiI3IFNhbGTEsXLEsSBIYXNhcsSxIn1dLCJ0ZXh0IjoiICJ9dABaeyJpdGFsaWMiOmZhbHNlLCJleHRyYSI6W3siY29sb3IiOiJkYXJrX2dyZWVuIiwidGV4dCI6IjEuNiBTYWxkxLFyxLEgSMSxesSxIn1dLCJ0ZXh0IjoiICJ9dABFeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0IjoiRGF5YW7EsWtsxLFsxLFrOiAxNTYyIC8gMTU2MiJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJxJzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAJ0ABVHRU5FUklDX0FUVEFDS19EQU1BR0VzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAZxAH4ACHQABmFtb3VudHQABG5hbWV0AARzbG90dAAEdXVpZHQACW9wZXJhdGlvbnVxAH4ABgAAAAZ0ACZvcmcuYnVra2l0LmF0dHJpYnV0ZS5BdHRyaWJ1dGVNb2RpZmllcnNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4AHkAUAAAAAAAAdAAKaXRlbXNhZGRlcnQABEhBTkR0ACQ5ZmQ0YTRhOS0wMjQzLTQyYTUtOGNmMy0zZjM2M2I3NGRmNzVzcQB+AB0AAAAAeHQAFEdFTkVSSUNfQVRUQUNLX1NQRUVEc3EAfgAkAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAZxAH4ACHEAfgApcQB+ACpxAH4AK3EAfgAscQB+AC11cQB+AAYAAAAGcQB+AC9zcQB+ADDAAzMzMzMzM3EAfgAycQB+ADN0ACRmZWY1NDRlYi1lODQ5LTRlYTQtYjhmNi04NDA5NDhhMWUxOGFxAH4ANXh4AHNxAH4AJAAAAAF3BAAAAAF0AA9ISURFX0FUVFJJQlVURVN4dACwSDRzSUFBQUFBQUFBLzIzTVFRckNNQkJHNFI4THBRWkJSTng0RFMvZ1RjS1ltY3FnU1VwbVN1MU5QSzRMTnk1OHkyL3hBaEFRMUNVYk1VdnJjTXIwaW1rMnJ6bnkzT2ltVC9VVjZNOER0b1d5MkVSSmNMendTTVhKMWtWb3FzV1Mrb0NOTW5iYzZGNUx0S1UyN25ENCsrcXhIK2toUDNwOU03NTlBT1d1M2NTVUFBQUE=
+        '39':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA7eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS14aWFvIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAoHnQAZEg0c0lBQUFBQUFBQS8rTmlZT0JpNE1vc1NjMHRUa3hKU1MzaVlPRE1TOHhOTFM1SVRFNWw0QzNLeU14TExVNVB6U3NHTWpnWW1ESlRHRmdxTWhQekdSZ0FESGVGWVRnQUFBQT0=
+    traitnames: mounttrait,age,type,inventory,owner,skintrait,scoreboardtrait,lookclose,equipment,spawned,location,smoothrotationtrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '21':
+    metadata:
+      cached-skin-uuid: 56f9e7e0-151f-459d-8ea6-30a0369f61fc
+      nameplate-visible: 'false'
+      cached-skin-uuid-name: kedi2
+    name: kedi2
+    uuid: 10367138-f5e9-4cab-9dc2-19b27462f03f
+    traits:
+      type: CAT
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: ff939de2-63d3-3b7a-82e8-f80202874bef
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: rqwrZCmnig0lYgzzMd7TRHBjV2dSaXHSztBROhYRKmN7oZ0b0HG6/Fb5SQc9gddwpzzIt474m59536cMn2AzIdaCoaA4pIBH8iMz7Aghtt7mwcK5GA1eYaX+BS9Pm4nyeqOGyKLyOSfJDBwIPDkSiEvwcft7lLqL/pfloU8qTEY4iT/JNh65gJKHnY6gun53lAs6syVozMkJ5wuecy0MgLuK+fouiMUTK/nkpcZ2tBYAdVJJGeB344Gsi683LiJRoDKKVcrdaLN3K90KbenmW2PLWo+tl6pHD+hLERKVlg/v6pqc6v0lZwwpFxQtCZ35CYGbI/XnjKjUM6NVZ3RysYtC9Vh10OHossWpXRZbj/NqBfi3cHxVIxYQMnTWeI81pPU46nqqF/Ct2wcs7sWNd97nhoqblqNdtGk6Xn5xe8UFKNiLy/ULCQ8iYO8AT4aKH65gx4QM8c4fy+2XO6xBDNMKE2Um2F1VM7gCdmZ5yCLbNcX0v9htNQ36kQJhpMbepHTntMorK/YILyCelLnSMavScksrTK21T4IOftrDjSxzjb1s7peDaeNNrehXudmiX+9hWiH/fVahmoMKq2sWt8RwCltKalyhvxB1vAGEbHTkHCENKF3HFf16uQ5voMu6qZmKHd4Dr71pa+MhP94iRjh0HHVD/0G4ZpNmneqQnto=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2MDg0NDgwNDU1OCwKICAicHJvZmlsZUlkIiA6ICI1NmY5ZTdlMDE1MWY0NTlkOGVhNjMwYTAzNjlmNjFmYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLRURJMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNThiNjRmN2Q0M2EwZmJjNDg0MTdkOGU2OWI3OWMxNDYwZWRhNzhlMDFhZDBhYTcwZDgwNGQxY2Y4NTEzOGNlIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      age:
+        age: 0
+        locked: true
+      location:
+        bodyYaw: 38.840446
+        world: baslangic
+        x: '49.5111'
+        y: '33.0'
+        z: '48.4877'
+        yaw: '26.7878'
+        pitch: '0.0'
+    traitnames: mounttrait,age,skintrait,scoreboardtrait,lookclose,type,inventory,equipment,owner,spawned,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    metadata:
+      cached-skin-uuid: 221757c7-67de-4c8f-928d-7da8cdbcfec6
+      nameplate-visible: 'false'
+      cached-skin-uuid-name: stickermaniac
+      minecraft-ai: true
+      swim: false
+    name: sosyalmedya
+    uuid: 9d1a1e3d-6dcc-435d-8cd8-2786fde599ae
+    traits:
+      owner:
+        uuid: ff939de2-63d3-3b7a-82e8-f80202874bef
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: KG7Qr1oWYEM8LYL3vRR4Hn9j1gC/gWSh86zjZneXK7j9LfOLtTpBftCp08QvruX0UpBVQ8Vo5sNVQv7rYCCaK732zP0fVfIyuZLFn7heZ4II6eBm4SeHNBjJK7gmcLEp7TOfWWBUCe2fGGE9PdISTZn0puVzrPKLKbDpvrPRfwCIILwrBVn1Is4Gd+X/Hu/xuQ/ZrhmGVyZdgeYLMZn9pmgjNWxeUtLsAbiBNB3/lFDx0J2bt1C+drzYE4Kzo7bHz3RmpnIPJGlwrxKpckLRIh7Ah7umAQPCAy612BRlYddoczOJwXF7A0GV1kcEHIu7903dmIg6iXnTEAhy2s0jlfnMF30hnqhHe1k5LVuKrOf/w+ND188YKumuB2DyLWe5vqWVuW7alcMhf9O9jUgLsc+Bkv5LwRpbOB6xdAKeuF/2wM5o0jJnzmiyilzNW6uVMD9cbtacZKYc7ZfO+nX8Dh7WDiSN8Dk8SAvB77zG9w3sBZxAO1hcDqHJNiiFG0WNgOvOtYxYELhV6CVVI2kTUYEcZ97B7X20TVZN0c4E3bmGJkY/+CuPMa4aC7OhSlw877dMCfqbX2UAaOYYjkng7l86/YRc3ylyOeWgYIJQyGog8nDfQ5DmhWhMIeXGDkTIir3XdGd/IjCAHMea7Sa1kJ3Vl1Hok3DAum2mt2yfCGQ=
+        skinName: StickerManiac
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2MTc2MzEwODk2MCwKICAicHJvZmlsZUlkIiA6ICIyMjE3NTdjNzY3ZGU0YzhmOTI4ZDdkYThjZGJjZmVjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGlja2VyTWFuaWFjIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwMWYwNzYxNDYwMmY3YWMwYWU5NmZiMDZkMWU0NDI2YmJiYjc5MGFlY2Q1MjM1NjhiMDkyYjNkZmQ5NzZiYzkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: -117.61922
+        world: baslangic
+        x: '7.5'
+        y: '35.0'
+        z: '54.5'
+        yaw: '-117.6192'
+        pitch: '-22.5966'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      mounttrait:
+        mountedon: 64ac1b46-08c1-4206-af55-4fdab9991292
+      type: PLAYER
+      age:
+        age: 0
+        locked: true
+      inventory:
+        '0':
+          type_key: crossbow
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAd0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdAAHY2hhcmdlZHVxAH4ABgAAAAd0AAhJdGVtTWV0YXQACENST1NTQk9XdAA+eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IlNhZ3JhZGEgV2luZ2VkIFN0YWZmIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3EAfgAEeHB1cQB+AAYAAAABdABDeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0IjoiRGF5YW7EsWtsxLFsxLFrOiAzMjYgLyAzMjYifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAACcXdAC0SDRzSUFBQUFBQUFBLzIzTU1RNkNRQkNGNGFja0JtbU1VVS9pQmF5NHh2cGtac2xHZHlITUVPVDJGallXL3VWWC9BM1FvRW11MlNpaVU0Vkw1anQwcy9tUWc4d1RIK21WZkFVMmJZMTlZVlliMlNsT1Y0a3NUbHNYNVRnVTY1TFgyQ2JCMmRoUEZJWWxsVjRsbURQR0NzZS96eDBPa1UvOTBadmY4ZTBEQmNzY2tKd0FBQUE9c3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc+u4CAAFaAAV2YWx1ZXhwAA==
+        '39':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAAteyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IkZveCJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAKDN0AGBINHNJQUFBQUFBQUEvd1hCUVFxQU1Bd0V3TVZMYXo0cGkxbXhZS3MwT2Vqdm5USEFZQzNWZys2YUZldGdWenpjaGFMcnk4bW9XSnFqbk16dHVGL2dCK1ZSeWdZMUFBQUE=
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: sosyalmedya edit
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      equipment:
+        hand:
+          type_key: crossbow
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAd0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQACGludGVybmFsdAAHY2hhcmdlZHVxAH4ABgAAAAd0AAhJdGVtTWV0YXQACENST1NTQk9XdAA+eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IlNhZ3JhZGEgV2luZ2VkIFN0YWZmIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3EAfgAEeHB1cQB+AAYAAAABdABDeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0IjoiRGF5YW7EsWtsxLFsxLFrOiAzMjYgLyAzMjYifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAACcXdAC0SDRzSUFBQUFBQUFBLzIzTlFRNkNRQkJFMFZJU2cyeU1VVS9pQlZ4eGpiR2tlOGhFWnlCMEUrVDJ4cDBML3dIZWI0QUdUWExOUmhHZEtsd3kzNkdielljY1pKNzRTSy9rSzdCcGErd0xzOXJJVG5HNlNtUngycm9veDZGWWw3ekdOZ25PeG42aU1DeXA5Q3JCbkRIdWNJaDg2bzk0OHp1K1ZUait2UUVmUG1lYzJad0FBQUE9c3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc+u4CAAFaAAV2YWx1ZXhwAA==
+        helmet:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAAteyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IkZveCJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAKDN0AGBINHNJQUFBQUFBQUEvd1hCUVFxQU1Bd0V3TVZMYXo0cGkxbXhZS3MwT2Vqdm5USEFZQzNWZys2YUZVdHpsSk81SGZkYnNRNTJ4Y05kS0xxK25BemdCL0p4YVBJMUFBQUE=
+    traitnames: mounttrait,age,type,inventory,owner,skintrait,scoreboardtrait,lookclose,equipment,spawned,location,smoothrotationtrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '24':
+    metadata:
+      cached-skin-uuid: 5f470046-b246-48fa-ad2c-bbc850d0a254
+      nameplate-visible: 'false'
+      cached-skin-uuid-name: carrybou
+    name: profil
+    uuid: 1f418eb5-322b-4b6e-85a0-b2e3273c99e3
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: profil
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        uuid: b4acb40b-614c-3497-b6a5-b8060f5c98c3
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: UrWoQ/C7O9LgKulFBupWOw9Vwedietvizxz6pUICpmPK8zxndHTraYCAngKn3we/8gyruKsCDa4BT8Cn/erDxYU26ivIpXK+tqIJsQ1W5wGklSfL1DmkLImY2URbWWk1JLZ+V1Z2mvl+JL++A9y216dU2FMaU1KknO7GOU8EBs5CBbn8nMmTK4EBWyjkqBHpWBuczl0rep0Dhzjvyp97lo6kUcCaIjlP4oVMyVSB+BcUimxH0FeFVdWGnuXXdCIbNIT97HprLmjl3X8JEpuyJXp1TG2Gm5nIwpnM/IDHbQoz+PWdsQSzVfXmnRXYwLl4/TW9LnTGuFySgIy7tvnLBOXKiOY8rohexwtZTKd78crOBJ9L1qBfA8LEJ6RZMOmXjAFzTqw5BMyfyGXR357cOnq5fwIIZ/kJFYy5wEcdLtbo2gFOp3FR5AbCYcgReVHPB9rTUnPq1brTcnLZ7uQK2MB7qc05MCtoD+u4XjPftpWcPc82GeWOCPdrz9iUFg1d6nXH1I4aKEgR0/ZxV3Y6WqatOsi868cgpRqKyAvRjRuQUTLnysF101E4vKrgjYAWQgwdWxk6i5VQPHLYZdtmvm2FS9fccyNoATc+Ntny8uEsRaU3jrJjTqqB7RUaAXSSS7Y/AmSaplEwpnXnodeJWtqQX6BfCqV3sIpIiMltZM0=
+        skinName: CarryBou
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2MTc2NzU5Mzg5NSwKICAicHJvZmlsZUlkIiA6ICI1ZjQ3MDA0NmIyNDY0OGZhYWQyY2JiYzg1MGQwYTI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXJyeUJvdSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jN2M0OTk1OGViMmE5NDMzMmNlZmRiMWU3Nzk1MTBiZWJkNzJiYTEzZTkzN2IxNzBlMDBlYjQwYzU1NmU0ZjVmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+      location:
+        bodyYaw: -135.25844
+        world: baslangic
+        x: '59.5'
+        y: '31.0'
+        z: '65.5'
+        yaw: '-135.2584'
+        pitch: '-27.7895'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      age:
+        age: 0
+        locked: true
+      inventory:
+        '0':
+          type_key: stick
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA+eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS1iYXJiYXJhIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAnGHQAZEg0c0lBQUFBQUFBQS93M0dRUXFBTUF3RXdNV0xOZUFqMDJiUkhCcEs0dit4TUljUlFDRCtjWmFhTVJ1dTBNbGFPb2c3WHcvV3c2aWRoc01OWjlmY0ZQZ0JvTklTekRzQUFBQT0=
+        '39':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA8eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS1odXRhbyJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAKBx0AGRINHNJQUFBQUFBQUEvdzNHUVFxQU1Bd0V3RVVRYXNCSEJyUFlISnBLMC82L3pta0VFSWhQdGxRempvSXJ0REUvZlloN1ZBL215OGcvQlljYnpycW1kbUFEdlp2aER6a0FBQUE9
+      equipment:
+        hand:
+          type_key: stick
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA+eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS1iYXJiYXJhIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAnGHQAZEg0c0lBQUFBQUFBQS93M0dRUXFBTUF3RXdNV0xOZUFqMDJiUkhCcEs0dit4TUljUlFDRCtjWmFhTVJzT041eGRjOU9HSzNTeWxnN2l6dGVEOVRCcUIvZ0JiVUtkT1RzQUFBQT0=
+        helmet:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAA8eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImRpc3BsYXktbmFtZS1odXRhbyJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAKBx0AGRINHNJQUFBQUFBQUEvdzNHUVFxQU1Bd0V3RVVRYXNCSEJyUFlISnBLMC82L3pta0VFSWhQdGxRempvTEREV2RkVTN2QkZkcVluejdFUGFvSDgyWGtIMkFEUUIzUExEa0FBQUE9
+    traitnames: mounttrait,age,type,inventory,owner,skintrait,scoreboardtrait,lookclose,equipment,spawned,location,smoothrotationtrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

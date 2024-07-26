@@ -1,0 +1,82 @@
+# Translation author: OasisAkari (GitHub)
+Messages:
+  Prefix: '&x&f&3&f&3&a&0[&6BetterRTP&x&f&3&f&3&a&0] '
+  Success:
+    Paid: '&aAi fost teleportat la coordonatele &x&f&3&f&3&a&0 x=%x% y=%y% z=%z% pentru
+      &x&e&8&e&8&5&0$%price%&x&f&3&f&3&a&0 in &f%attempts% &x&f&3&f&3&a&0incercari!'
+    Bypass: '&aAi fost teleportat la coordonatele &x&f&3&f&3&a&0 x=%x% y=%y% z=%z%
+      in &f%attempts% &x&f&3&f&3&a&0incercari'
+    Loading: '&aUn loc sigur a fost gasit! &x&f&3&f&3&a&0Se incarca chunk-urile...'
+    Teleport: '&aTe teleportezi... &fte rugam sa astepti pana gasim un loc sigur!'
+  Failed:
+    Price: '&x&e&8&e&8&5&0Nu te-am putut teleporta fiindca nu ai fonduri suficiente!
+      &x&f&3&f&3&a&0Trebuie sa ai macar $%price% &x&f&3&f&3&a&0pentru a te teleporta!'
+    NotSafe: '&x&e&8&e&8&5&0Nu am putut gasi un loc sigur in %attempts% incercari!
+      &x&f&3&f&3&a&0Nu ai fost teleportat/a!'
+    Hunger: '&x&e&8&e&8&5&0Nu te-am putut teleporta pentru ca esti... &x&f&3&f&3&a&0prea
+      infometat&x&e&8&e&8&5&0, mananca ceva!'
+  Other:
+    Success: '&a%player% a fost teleportat la coordonatele &x&f&3&f&3&a&0 x=%x% y=%y%
+      z=%z% in &f%attempts% &x&f&3&f&3&a&0incercari!'
+    NotSafe: '&x&e&8&e&8&5&0Nu am putut gasi un loc sigur in %attempts% incercari!
+      &x&f&3&f&3&a&0%player% nu a fost teleportat/a!'
+    Biome: '&x&e&8&e&8&5&0Se pare ca biome-ul &x&f&3&f&3&a&0 %biome%&x&e&8&e&8&5&0
+      nu exista! &x&f&3&f&3&a&0Incerca sa folosesti Tab-ul!'
+  Reload: '&eConfiguratia a fost reincarcata cu success!'
+  NoPermission:
+    Basic: '&x&e&8&e&8&5&0Scuze! &x&f&3&f&3&a&0Nu ai permisiunile necesare pentru
+      a folosi aceasta comanda!'
+    World: '&x&e&8&e&8&5&0Scuze! &x&f&3&f&3&a&0Nu ai voie sa te teleportezi in lumea
+      %world%!'
+  DisabledWorld: '&x&e&8&e&8&5&0Lumea %world% este dezactivata! &x&f&3&f&3&a&0Nu te-am
+    putut teleporta!'
+  Cooldown: '&x&e&8&e&8&5&0Scuze! &x&f&3&f&3&a&0Nu te mai poti teleporta pentru inca
+    &x&e&8&e&8&5&0%time% &x&f&3&f&3&a&0secunde!'
+  Locked: '&x&e&8&e&8&5&0Scuze! &x&f&3&f&3&a&0Ti-ai folosit toate rtp-urile!'
+  Invalid: '&x&e&8&e&8&5&0Argument Invalid. Incearca ''/%command% help'''
+  NotOnline: '&x&e&8&e&8&5&0Jucatorul &x&f&3&f&3&a&0%player% &x&e&8&e&8&5&0nu este
+    online!'
+  Delay: '&aTe teleportezi in &f%time% &asecunde! NU TE MISCA!'
+  Moved: '&x&e&8&e&8&5&0Te-ai miscat! &x&f&3&f&3&a&0Teleportarea a fost anulata!'
+  NotExist: '&x&e&8&e&8&5&0Se pare ca lumea &x&f&3&f&3&a&0%world% &x&e&8&e&8&5&0nu
+    exista!'
+  Already: '&x&e&8&e&8&5&0Whoops! &x&f&3&f&3&a&0Se pare ca te teleportezi deja, ai
+    putina rabdare!'
+  Sign: '&x&f&3&f&3&a&0Sign Command-ul a fost creat! &x&f&3&f&3&a&0Comanda este...
+    ''&f/rtp %command%&x&f&3&f&3&a&0'''
+  Edit:
+    Error: '&x&e&8&e&8&5&0Eroare! &x&f&3&f&3&a&0Argumente Invalide!'
+    Set: '&bSuccess! &x&f&3&f&3&a&0%type% setat la %value%'
+    Remove: '&x&e&8&e&8&5&0Sters! &x&f&3&f&3&a&0Ai sters lumea custom %world%'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| Ajutor &e&m-----'
+  Main: ' &x&f&3&f&3&a&0- &e/%command% &x&f&3&f&3&a&0- Te teleporteaza random!'
+  Biome: ' &x&f&3&f&3&a&0- &e/%command% biome <biome1, biome2...> &x&f&3&f&3&a&0-
+    Te teleporteaza random intre aceste biome-uri'
+  Edit: ' &x&f&3&f&3&a&0- &e/%command% edit <default/world> [args...] &x&f&3&f&3&a&0-
+    Editeaza niste setari ale plugin-ului'
+  Help: ' &x&f&3&f&3&a&0- &e/%command% help &x&f&3&f&3&a&0- Arata pagina de ajutor
+    al acestui plugin'
+  Info: ' &x&f&3&f&3&a&0- &e/%command% info [world/particles/shapes/potion_effects]
+    &x&f&3&f&3&a&0- Vezi informatii specifice despre niste parametrii ai acestui plugin'
+  Player: ' &x&f&3&f&3&a&0- &e/%command% player <player> [world] [biome1, biome2...]
+    &x&f&3&f&3&a&0- Teleporteaza random alt jucator'
+  Reload: ' &x&f&3&f&3&a&0- &e/%command% reload &x&f&3&f&3&a&0- Reincarca plugin-ul'
+  Settings: ' &x&f&3&f&3&a&0- &e/%command% settings &x&f&3&f&3&a&0- Apare un GUI si
+    poti edita niste setari'
+  Test: ' &x&f&3&f&3&a&0- &e/%command% test &x&f&3&f&3&a&0- Testezi efectele teleportarii
+    fara a te misca'
+  Version: ' &x&f&3&f&3&a&0- &e/%command% version &x&f&3&f&3&a&0- Vezi versiunea curenta'
+  World: ' &x&f&3&f&3&a&0- &e/%command% world <world> [biome1, biome2...] &x&f&3&f&3&a&0-
+    Te teleporteaza random in alta lume'
+Usage:
+  Player: '&x&e&8&e&8&5&0Folosire&x&f&3&f&3&a&0: /%command% player <nume> [world]
+    [biome1, biome2]'
+  World: '&x&e&8&e&8&5&0Folosire&x&f&3&f&3&a&0: /%command% world <lume> [biome1, biome2...]'
+  Biome: '&x&e&8&e&8&5&0Folosire&x&f&3&f&3&a&0: /%command% biome <biome1, biome2...>'
+  Edit:
+    Base: '&x&e&8&e&8&5&0Folosire&x&f&3&f&3&a&0: /%command% edit <default/world> [args...]'
+    Default: '&x&e&8&e&8&5&0Folosire&x&f&3&f&3&a&0: /%command% edit default <max/min/useworldborder/center>
+      <value>'
+    World: '&x&e&8&e&8&5&0Folosire&x&f&3&f&3&a&0: /%command% edit world <world> <max/min/useworldborder/center>
+      <value>'

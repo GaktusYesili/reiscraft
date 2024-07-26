@@ -1,0 +1,23 @@
+name: kurucu
+permissions:
+- antixray.bypass
+- antixray.recieve
+- chatsentinel.bypass.caps
+- chatsentinel.bypass.cooldown
+- event.yap
+- spawngonder
+- sohbet.sil
+- sohbet.kilit
+- sohbet.bypass
+- sv.use
+- sv.see
+- sv.use.70
+- sv.see.71
+- sv.others
+- sv.list
+- weight.22
+parents:
+- izinler
+prefixes:
+- '%img_kurucu%':
+    priority: 1

@@ -1,0 +1,1767 @@
+info:
+  namespace: "gardenplus"
+recipes:
+    bamboo_oak:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "OAK_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:bamboo_oak"
+        amount: 1  
+    bamboo_dark_oak:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "DARK_OAK_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:bamboo_dark_oak"
+        amount: 1    
+    bamboo_birch:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "BIRCH_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:bamboo_birch"
+        amount: 1  
+    bamboo_brick:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "BRICKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:bamboo_brick"
+        amount: 1  
+    bamboo_cobble:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "COBBLESTONE"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:bamboo_cobble"
+        amount: 1  
+        
+    plantesuspendu:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "OAK_PLANKS"
+        C: "CHAIN"
+        D: "DIRT"
+      pattern:
+        - "CAC"
+        - "BDB"
+        - "BBB"
+      result:
+        item: "gardenplus:plantesuspendu"
+        amount: 1 
+
+    plantesuspendu_birch:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "BIRCH_PLANKS"
+        C: "CHAIN"
+        D: "DIRT"        
+      pattern:
+        - "CAC"
+        - "BDB"
+        - "BBB"
+      result:
+        item: "gardenplus:plantesuspendu_birch"
+        amount: 1 
+
+
+    plantesuspendu_darkoak:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "DARK_OAK_PLANKS"
+        C: "CHAIN"
+        D: "DIRT"        
+      pattern:
+        - "CAC"
+        - "BDB"
+        - "BBB"
+      result:
+        item: "gardenplus:plantesuspendu_darkoak"
+        amount: 1     
+    plantesuspendu_crimson:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "CRIMSON_PLANKS"
+        C: "CHAIN"
+        D: "DIRT"        
+      pattern:
+        - "CAC"
+        - "BDB"
+        - "BBB"
+      result:
+        item: "gardenplus:plantesuspendu_crimson"
+        amount: 1     
+    plantesuspendu_jungle:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "JUNGLE_PLANKS"
+        C: "CHAIN"
+        D: "DIRT"        
+      pattern:
+        - "CAC"
+        - "BDB"
+        - "BBB"
+      result:
+        item: "gardenplus:plantesuspendu_jungle"
+        amount: 1     
+    plantesuspendu_spruce:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "SPRUCE_PLANKS"
+        C: "CHAIN"
+        D: "DIRT"        
+      pattern:
+        - "CAC"
+        - "BDB"
+        - "BBB"
+      result:
+        item: "gardenplus:plantesuspendu_spruce"
+        amount: 1     
+    plantesuspendu_warped:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "WARPED_PLANKS"
+        C: "CHAIN"
+        D: "DIRT"        
+      pattern:
+        - "CAC"
+        - "BDB"
+        - "BBB"
+      result:
+        item: "gardenplus:plantesuspendu_warped"
+        amount: 1     
+    plantesuspendu_acacia:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "BAMBOO"
+        B: "ACACIA_PLANKS"
+        C: "CHAIN"
+        D: "DIRT"        
+      pattern:
+        - "CAC"
+        - "BDB"
+        - "BBB"
+      result:
+        item: "gardenplus:plantesuspendu_acacia"
+        amount: 1     
+        
+    rosier_oak:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "ROSE_BUSH"
+        B: "OAK_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:rosier_oak"
+        amount: 1  
+    rosier_dark_oak:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "ROSE_BUSH"
+        B: "DARK_OAK_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:rosier_dark_oak"
+        amount: 1  
+    rosier_spruce:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "ROSE_BUSH"
+        B: "SPRUCE_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:rosier_spruce"
+        amount: 1  
+    rosier_birch:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "ROSE_BUSH"
+        B: "BIRCH_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:rosier_birch"
+        amount: 1         
+    lilas_birch:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "LILAC"
+        B: "BIRCH_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:lilas_birch"
+        amount: 1   
+    lilas_oak:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "LILAC"
+        B: "OAK_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:lilas_oak"
+        amount: 1          
+    lilas_spruce:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "LILAC"
+        B: "SPRUCE_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:lilas_spruce"
+        amount: 1 
+    lilas_dark_oak:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "LILAC"
+        B: "DARK_OAK_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:lilas_dark_oak"
+        amount: 1  
+    peony_birch:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "PEONY"
+        B: "BIRCH_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:peony_birch"
+        amount: 1   
+    peony_oak:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "PEONY"
+        B: "OAK_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:peony_oak"
+        amount: 1          
+    peony_spruce:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "PEONY"
+        B: "SPRUCE_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:peony_spruce"
+        amount: 1 
+    peony_dark_oak:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "PEONY"
+        B: "DARK_OAK_PLANKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:peony_dark_oak"
+        amount: 1  
+    peony_big_barrel:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "PEONY"
+        B: "BARREL"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:peony_big_barrel"
+        amount: 1  
+    peony_big_brick:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "PEONY"
+        B: "BRICKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:peony_big_brick"
+        amount: 1  
+    peony_big_cobble:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "PEONY"
+        B: "COBBLESTONE"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:peony_big_cobble"
+        amount: 1  
+    rose_big_barrel:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "ROSE_BUSH"
+        B: "BARREL"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:rose_big_barrel"
+        amount: 1  
+    rose_big_brick:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "ROSE_BUSH"
+        B: "BRICKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:rose_big_brick"
+        amount: 1  
+    rose_big_cobble:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "ROSE_BUSH"
+        B: "COBBLESTONE"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:rose_big_cobble"
+        amount: 1  
+    lilac_big_barrel:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "LILAC"
+        B: "BARREL"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:lilac_big_barrel"
+        amount: 1  
+    lilac_big_brick:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "LILAC"
+        B: "BRICKS"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:lilac_big_brick"
+        amount: 1  
+    lilac_big_cobble:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        A: "LILAC"
+        B: "COBBLESTONE"
+        C: "DIRT"
+      pattern:
+        - "XAX"
+        - "BCB"
+        - "BBB"
+      result:
+        item: "gardenplus:lilac_big_cobble"
+        amount: 1  
+    windowpotside_acacia_pink:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        L: "LILAC"
+        R: "ROSE_BUSH"
+        P: "PEONY"
+        A: "ACACIA_PLANKS"
+        D: "DIRT"
+        S: "STICK"
+      pattern:
+        - "LRP"
+        - "SDS"
+        - "AAA"
+      result:
+        item: "gardenplus:windowpotside_acacia_pink"
+        amount: 1  
+    windowpotside_barrel_pink:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        L: "LILAC"
+        R: "ROSE_BUSH"
+        P: "PEONY"
+        A: "BARREL"
+        D: "DIRT"
+        S: "STICK"
+      pattern:
+        - "LRP"
+        - "SDS"
+        - "AAA"
+      result:
+        item: "gardenplus:windowpotside_barrel_pink"
+        amount: 1  
+    windowpotside_birch_pink:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        L: "LILAC"
+        R: "ROSE_BUSH"
+        P: "PEONY"
+        A: "BIRCH_PLANKS"
+        D: "DIRT"
+        S: "STICK"
+      pattern:
+        - "LRP"
+        - "SDS"
+        - "AAA"
+      result:
+        item: "gardenplus:windowpotside_birch_pink"
+        amount: 1  
+    windowpotside_brick_pink:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        L: "LILAC"
+        R: "ROSE_BUSH"
+        P: "PEONY"
+        A: "BRICKS"
+        D: "DIRT"
+        S: "STICK"
+      pattern:
+        - "LRP"
+        - "SDS"
+        - "AAA"
+      result:
+        item: "gardenplus:windowpotside_brick_pink"
+        amount: 1  
+    windowpotside_cobble_pink:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        L: "LILAC"
+        R: "ROSE_BUSH"
+        P: "PEONY"
+        A: "COBBLESTONE"
+        D: "DIRT"
+        S: "STICK"
+      pattern:
+        - "LRP"
+        - "SDS"
+        - "AAA"
+      result:
+        item: "gardenplus:windowpotside_cobble_pink"
+        amount: 1  
+    windowpotside_crimson_pink:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        L: "LILAC"
+        R: "ROSE_BUSH"
+        P: "PEONY"
+        A: "CRIMSON_PLANKS"
+        D: "DIRT"
+        S: "STICK"
+      pattern:
+        - "LRP"
+        - "SDS"
+        - "AAA"
+      result:
+        item: "gardenplus:windowpotside_crimson_pink"
+        amount: 1  
+    windowpotside_darkoak_pink:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        L: "LILAC"
+        R: "ROSE_BUSH"
+        P: "PEONY"
+        A: "DARK_OAK_PLANKS"
+        D: "DIRT"
+        S: "STICK"
+      pattern:
+        - "LRP"
+        - "SDS"
+        - "AAA"
+      result:
+        item: "gardenplus:windowpotside_darkoak_pink"
+        amount: 1  
+    windowpotside_jungle_pink:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        L: "LILAC"
+        R: "ROSE_BUSH"
+        P: "PEONY"
+        A: "JUNGLE_PLANKS"
+        D: "DIRT"
+        S: "STICK"
+      pattern:
+        - "LRP"
+        - "SDS"
+        - "AAA"
+      result:
+        item: "gardenplus:windowpotside_jungle_pink"
+        amount: 1  
+    windowpotside_oak_pink:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        L: "LILAC"
+        R: "ROSE_BUSH"
+        P: "PEONY"
+        A: "OAK_PLANKS"
+        D: "DIRT"
+        S: "STICK"
+      pattern:
+        - "LRP"
+        - "SDS"
+        - "AAA"
+      result:
+        item: "gardenplus:windowpotside_oak_pink"
+        amount: 1  
+    windowpotside_spruce_pink:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        L: "LILAC"
+        R: "ROSE_BUSH"
+        P: "PEONY"
+        A: "SPRUCE_PLANKS"
+        D: "DIRT"
+        S: "STICK"
+      pattern:
+        - "LRP"
+        - "SDS"
+        - "AAA"
+      result:
+        item: "gardenplus:windowpotside_spruce_pink"
+        amount: 1  
+    windowpotside_warped_pink:
+      permission: itemsadder.gardenplus    
+      enabled: true
+      ingredients:
+        L: "LILAC"
+        R: "ROSE_BUSH"
+        P: "PEONY"
+        A: "WARPED_PLANKS"
+        D: "DIRT"
+        S: "STICK"
+      pattern:
+        - "LRP"
+        - "SDS"
+        - "AAA"
+      result:
+        item: "gardenplus:windowpotside_warped_pink"
+        amount: 1  
+                    
+items:
+ 
+  leafplanteoak:
+    display_name: "Oak pot of dripleaf"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/dreapleafplante"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  leafplantedarkoak:
+    display_name: "Dark oak pot of dripleaf"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/dreapleafplante_darkoak"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1          
+         
+          
+  leafplantebirch:
+    display_name: "Birch pot of dripleaf"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/dreapleafplante_birch"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1          
+  leafplantecrimson:
+    display_name: "Crimson pot of dripleaf"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/dreapleafplante_crimson"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1 
+
+  leafplantespruce:
+    display_name: "Spruce pot of dripleaf"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/dreapleafplante_spurce"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1 
+  dreapleafplante_warped:
+    display_name: "Warped pot of dripleaf"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/dreapleafplante_warped"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1 
+  dreapleafplante_cobble:
+    display_name: "Cobblestone pot of dripleaf"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/dreapleafplante_cobble"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1  
+          
+  dreapleafplante_jungle:
+    display_name: "Jungle pot of dripleaf"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/dreapleafplante_jungle"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1          
+
+  dreapleafplante_brick:
+    display_name: "Brick pot of dripleaf"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/dreapleafplante_brick"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1          
+                    
+          
+  bamboo_oak:
+    display_name: "Oak Pot of Bamboo"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/bamboo_oak"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1 
+  bamboo_dark_oak:
+    display_name: "Dark oak Pot of Bamboo"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/bamboo_dark_oak"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1 
+          
+  bamboo_birch:
+    display_name: "Birch Pot of Bamboo"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/bamboo_birch"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1 
+  bamboo_brick:
+    display_name: "Brick Pot of Bamboo"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/bamboo_brick"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1 
+  bamboo_cobble:
+    display_name: "Cobblestone Pot of Bamboo"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/bamboo_cobble"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1 
+
+  plantesuspendu:
+    display_name: "Oak hanging plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/plantesuspendu"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  plantesuspendu_birch:
+    display_name: "Birch hanging plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/plantesuspendu_birch"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true   
+
+  plantesuspendu_darkoak:
+    display_name: "Dark Oak hanging plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/plantesuspendu_darkoak"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  plantesuspendu_crimson:
+    display_name: "Crimson hanging plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/plantesuspendu_crimson"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  plantesuspendu_jungle:
+    display_name: "Jungle hanging plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/plantesuspendu_jungle"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  plantesuspendu_spruce:
+    display_name: "Spruce hanging plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/plantesuspendu_spruce"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  
+  plantesuspendu_warped:
+    display_name: "Warped hanging plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/plantesuspendu_warped"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  plantesuspendu_acacia:
+    display_name: "Acacia hanging plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/plantesuspendu_acacia"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+          
+  rosier_oak:
+    display_name: "Oak pot of roses"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/rosier_oak"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1                     
+  rosier_dark_oak:
+    display_name: "Dark Oak pot of Roses"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/rosier_dark_oak"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1 
+          
+  rosier_spruce:
+    display_name: "Spruce Pot of roses"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/rosier_spruce"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1   
+  rosier_birch:
+    display_name: "Birch pot of roses"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/rosier_birch"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1    
+  lilas_birch:
+    display_name: "Birch Pot of Lilac"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/lilas_birch"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1     
+  lilas_spruce:
+    display_name: "Spruce pot of Lilac"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/lilas_spruce"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1            
+  lilas_oak:
+    display_name: "Oak pot of Lilac"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/lilas_oak"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1            
+  lilas_dark_oak:
+    display_name: "Dark oak pot of Lilac"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/lilas_dark_oak"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1                
+
+  peony_birch:
+    display_name: "Birch pot of Peony"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/peony_birch"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1     
+  peony_spruce:
+    display_name: "Spruce pot of Peony"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/peony_spruce"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1            
+  peony_oak:
+    display_name: "Oak pot of Peony"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/peony_oak"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1            
+  peony_dark_oak:
+    display_name: "Dark oak pot of Peony"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/peony_dark_oak"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1       
+  peony_big_barrel:
+    display_name: "Barrel big pot peony"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/peony_big_barrel"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1       
+  peony_big_brick:
+    display_name: "Bricks big pot peony"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/peony_big_brick"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1       
+  peony_big_cobble:
+    display_name: "Cobblestone big pot peony"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/peony_big_cobble"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1       
+  rose_big_barrel:
+    display_name: "Barrel big pot roses"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/rose_big_barrel"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1       
+  rose_big_brick:
+    display_name: "Bricks big pot roses"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/rose_big_brick"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1       
+  rose_big_cobble:
+    display_name: "Cobblestone big pot roses"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/rose_big_cobble"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1       
+  lilac_big_barrel:
+    display_name: "Barrel big pot lilac"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/lilac_big_barrel"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1       
+  lilac_big_brick:
+    display_name: "Bricks big pot lilac"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/lilac_big_brick"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1       
+  lilac_big_cobble:
+    display_name: "Cobblestone big pot lilac"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/lilac_big_cobble"
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1       
+          
+  windowpotside_acacia_pink:
+    display_name: "Acacia window-side plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/windowpotside_acacia_pink"
+    behaviours:
+      furniture:
+        fixed_rotation: true        
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  windowpotside_barrel_pink:
+    display_name: "Barrel window-side plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/windowpotside_barrel_pink"
+    behaviours:
+      furniture:
+        fixed_rotation: true        
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  windowpotside_birch_pink:
+    display_name: "Birch window-side plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/windowpotside_birch_pink"
+    behaviours:
+      furniture:
+        fixed_rotation: true        
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  windowpotside_brick_pink:
+    display_name: "Brick window-side plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/windowpotside_brick_pink"
+    behaviours:
+      furniture:
+        fixed_rotation: true        
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  windowpotside_cobble_pink:
+    display_name: "Cobblestone window-side plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/windowpotside_cobble_pink"
+    behaviours:
+      furniture:
+        fixed_rotation: true        
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  windowpotside_crimson_pink:
+    display_name: "Crimson window-side plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/windowpotside_crimson_pink"
+    behaviours:
+      furniture:
+        fixed_rotation: true        
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  windowpotside_darkoak_pink:
+    display_name: "Dark oak window-side plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/windowpotside_darkoak_pink"
+    behaviours:
+      furniture:
+        fixed_rotation: true        
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  windowpotside_jungle_pink:
+    display_name: "Jungle window-side plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/windowpotside_jungle_pink"
+    behaviours:
+      furniture:
+        fixed_rotation: true        
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  windowpotside_oak_pink:
+    display_name: "Oak window-side plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/windowpotside_oak_pink"
+    behaviours:
+      furniture:
+        fixed_rotation: true        
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  windowpotside_spruce_pink:
+    display_name: "Spruce window-side plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/windowpotside_spruce_pink"
+    behaviours:
+      furniture:
+        fixed_rotation: true        
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+  windowpotside_warped_pink:
+    display_name: "Warped window-side plante"
+    permission: itemsadder.gardenplus
+    lore:
+      - "&7gardenplus by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "plantes/windowpotside_warped_pink"
+    behaviours:
+      furniture:
+        fixed_rotation: true        
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true 
+          

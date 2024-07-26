@@ -1,0 +1,265 @@
+metrics: true
+update-checker: true
+disable-plugin-loading-messages_DONT_ASK_ME_FOR_SUPPORT_IF_YOU_SET_TRUE__THANKS: false
+ignore-server-compatibility-check: false
+resource-pack:
+  hosting:
+    no-host:
+      enabled: false
+    auto-external-host:
+      enabled: false
+    self-host:
+      enabled: false
+      server-ip: 127.0.0.1
+      pack-port: 8163
+    external-host:
+      enabled: true
+      url: https::/linkgerekiyor.com
+      skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: false
+  apply-on-join: true
+  kick-player-on-decline: false
+  kick-player-on-fail: false
+  delay-ticks: 1
+  notify-other-plugins-interfering: true
+  title:
+    enabled: true
+  1_19_3_atlas_support: true
+  fix_force_unicode_font_images: true
+  protect-player:
+    black-screen: true
+    hide-hud: true
+    cancel-movement: true
+    lock-player: true
+  command:
+    usage-cooldown-seconds: 60
+  custom-font:
+    enabled: false
+    name: ipaexg.ttf
+    shift: '[0,0]'
+    size: 11.0
+    oversample: 2.0
+  thin-font:
+    enabled: false
+  zip:
+    protect-file-from-unzip:
+      protection_1: true
+      protection_2: true
+    compress-png-files: true
+    compress-json-files: true
+    generate-custom-armors-textures:
+      vanilla_1_17: true
+      optifine: true
+    disable-overwrite-leather-armor-layers-textures: false
+    fix_transparent_noteblocks: false
+    ignore-files-ext:
+    - db
+    - yml
+    - xcf
+    - psd
+    - html
+    - gz
+    - rar
+    - zip
+    - 7z
+    extract_internal_utility_assets: true
+    contents-folders-priority:
+    - vanilla
+    - _iainternal
+    merge_other_plugins_resourcepacks_folders:
+    - ModelEngine/resource pack
+  items:
+    CustomModelData-starting-value:
+      ALL: 10000
+      DIAMOND: 11000
+config_files:
+  lang: tr
+  dictionaries-lang: tr
+  force-sync-loading: false
+blocks:
+  light-api: true
+  fix-liquids-flow: true
+  fix-floating-blocks: true
+  fix-glitched-blocks:
+    enabled: true
+    only-new-chunks: false
+  cancel-break-wrong-tool:
+    enabled: true
+    send-actionbar: true
+  campfire_enhancements:
+    enable: true
+    unlit_on_place: true
+    allow_any_item: true
+    drop_when_broken: false
+  disable-REAL: false
+  disable-REAL_NOTE: false
+  disable-REAL_TRANSPARENT: false
+  disable-REAL_WIRE: true
+  disable-FIRE: false
+  convert-vanilla-blocks:
+    enabled: false
+    only-new-chunks: true
+  convert-legacy-ia-region-files: true
+  remove-unused-palettes-on-region-save: false
+items:
+  fix-show-attack-and-damage-as-lore: true
+  give_death_location_maps: true
+  hide-custom-durability-lore: false
+  handle-wear-held-actions-on-unexpected-inventory-changes: true
+liquids:
+  enabled: true
+huds:
+  enabled: true
+loots:
+  allow-loots-drop-from-spawners-using-silk-touch: true
+mobs:
+  disable-MOB-behaviour__DISABLE_AT_YOUR_OWN_RISK: false
+compatibility:
+  worldguard:
+    show_legacy_furniture_flags: false
+font_images:
+  replace-in-customitems-name-and-lore: true
+  chat:
+    enabled: true
+    add-hover-suggestion: true
+    tab-autocompletion_1_19_1_plus: true
+  command:
+    enabled: true
+    commandblocks: true
+    excluded:
+    - home
+    - sethome
+    - tpa
+  sign:
+    enabled: true
+  book:
+    enabled: true
+  anvil:
+    enabled: true
+  inventory-title:
+    enabled: true
+  vault-prefix-suffix:
+    enabled: true
+    update-every-ticks: 1200
+  scoreboard-teams:
+    enabled: false
+    update-every-ticks: 3600
+  player-display-name:
+    enabled: true
+    update-every-ticks: 1200
+  iaimage-book:
+    max-line-length: 18
+    placeholder-font: minecraft:default
+effects:
+  hide-scoreboard-numbers: false
+  text-effects:
+    enabled: true
+    replace-in-customitems-name-and-lore: true
+    chat:
+      enabled: true
+    sign:
+      enabled: true
+    book:
+      enabled: true
+    anvil:
+      enabled: true
+entities:
+  max-furniture-vehicles-per-chunk: 30
+  allow-removing-old-furnitures_2_3_11: false
+  custom-entitites:
+    enabled: true
+    emotes: true
+    interval-rendering-packets-ticks: 1
+    optimized-packets: true
+recipes:
+  hide-vanilla-unrecognized-recipe-errors: true
+  fix-packet-too-large-kick: false
+  show-no-permission-popup-in-recipebook: true
+  show-no-permission-chat-message: false
+  custom-recipes:
+    unlock:
+      all-on-join: false
+      on-pickup:
+        any: true
+        ingredients: true
+      on-item-click:
+        any: true
+        ingredients: true
+  remove-vanilla-recipes:
+    enabled: true
+    list:
+      DIAMOND_SWORD: false
+      IRON_INGOT: false
+debug:
+  benchmark: false
+  items:
+    log-files-loading: false
+    log-items-loading: false
+    log-items-loading-disabled: false
+    log-font-images-loading: false
+    log-huds-loading: false
+    log-attribute-modifiers-loading: false
+    log-warnings: false
+    log-loots-loading: false
+    log-loots-loading-disabled: false
+    log-armors-loading: false
+  recipes:
+    log-recipes-loading: false
+    log-recipes-loading-disabled: false
+    log-recipes-removed-vanilla: false
+    log-recipes-unknown-item: false
+    log-fix-packet-too-large: false
+  resource-pack:
+    log-extract-default-resources: false
+    log-not-extract-default-resources-already-exist: false
+  blocks:
+    log-save-load:
+      enabled: false
+      min-ms: 0
+    log-mined-unknown-blocks: true
+    log-convert-vanilla-blocks: false
+    log-fix-bugged-blocks: false
+    log-unusual-block-break: false
+  worlds-populators:
+    log-loading: false
+    log-loading-disabled: false
+    log-loading-no-populators: false
+    log-loading-no-world: true
+    log-generation: false
+  trees-populators:
+    log-loading: false
+    log-loading-disabled: false
+    log-loading-no-populators: false
+    log-loading-no-world: true
+    log-generation: false
+  surface-decorators:
+    log-loading: false
+    log-loading-disabled: false
+    log-loading-no-decorators: false
+    log-loading-no-world: true
+    log-generation: false
+  cave-decorators:
+    log-loading: false
+    log-loading-disabled: false
+    log-loading-no-decorators: false
+    log-loading-no-world: true
+    log-generation: false
+  player-stats:
+    log-save: false
+  performance:
+    loading-ms: true
+  huds:
+    log-triggers: false
+  other:
+    log-dictionaries-loading: false
+    log-liquids-loading: false
+    log-minecraft_lang_overwrite-loading: false
+  categories:
+    log-total-loaded: true
+    log-single-loaded: false
+    log-single-loaded-overwrite: false
+    log-single-skip: false
+    log-icon-failed-load: false
+  entities:
+    log-files-loading: false
+    log-entities-loading: false
+    log-entities-loading-disabled: false

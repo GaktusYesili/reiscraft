@@ -1,0 +1,44 @@
+Sounds:
+  Enabled: false
+  ProtocolLibSound: false
+  Delay: entity_generic_explode
+  Success: entity_generic_explode
+Titles:
+  Enabled: true
+  NoDelay:
+    Title: '&x&e&8&e&8&5&0Işınlanıyorsun...'
+    Subtitle: '&x&f&3&f&3&a&0Lütfen bekle!'
+    SendMessage: true
+  Teleport:
+    Title: '&x&e&8&e&8&5&0Işınlandın!'
+    Subtitle: '&x&f&3&f&3&a&0XYZ: %x% / %y% / %z%'
+    SendMessage: true
+  Delay:
+    Title: ''
+    Subtitle: '&x&f&3&f&3&a&0%time% saniye içinde ışınlanacaksın...'
+    SendMessage: true
+  Cancelled:
+    Title: '&x&e&8&e&8&5&0Hareket ettin!'
+    Subtitle: '&x&f&3&f&3&a&0RTP iptal edildi!'
+    SendMessage: true
+  Loading:
+    Title: '&x&e&8&e&8&5&0Işınlanıyorsun...'
+    Subtitle: '&x&f&3&f&3&a&0Lütfen bekle!'
+    SendMessage: true
+  Failed:
+    Title: ''
+    Subtitle: '&x&f&3&f&3&a&0Tekrar dene!'
+    SendMessage: true
+Particles:
+  Enabled: true
+  Type:
+  - EXPLOSION_NORMAL
+  - CRIT
+  Shape: EXPLODE
+Invincible:
+  Enabled: false
+  Seconds: 5
+Potions:
+  Enabled: true
+  Types:
+  - Blindness:60:1

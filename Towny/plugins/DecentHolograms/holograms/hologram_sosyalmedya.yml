@@ -1,0 +1,24 @@
+location: baslangic:7.500:39.000:54.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#e8e850&lPRENSES İLAYDA'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&#f3f3a0Sosyal medya hesaplarını bağlayıp'
+    height: 0.3
+  - content: '&#e8e850&ndiğer oyuncular&#f3f3a0 ile paylaşabilirsin!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&#f3f3a0Göz atmak için tıkla&#e8e850!'
+    height: 0.3
+  - content: '&#e8e850▾'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,48 @@
+info:
+  namespace: 3dfantasyweaponscit
+items:
+  azure_greataxe:
+    display_name: display-name-azure_greataxe
+    permission: 3dfantasyweaponscit.axe.azure_greataxe
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/axe/azure_greataxe
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  skeleton_axe:
+    display_name: display-name-skeleton_axe
+    permission: 3dfantasyweaponscit.axe.skeleton_axe
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/axe/skeleton_axe
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  treacherous_axe:
+    display_name: display-name-treacherous_axe
+    permission: 3dfantasyweaponscit.axe.treacherous_axe
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/axe/treacherous_axe
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562

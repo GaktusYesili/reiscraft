@@ -1,0 +1,44 @@
+# Customize this file to change all shop items inside the main shop screen
+# For more info about this file, please visit our wiki here: https://gpplugins.gitbook.io/economyshopgui/file-configuration/sections.yml
+
+ShopSections:
+
+  Blocks:
+  Decoration:
+  Dyes:
+  Enchanting:
+  Farming:
+    enable: true
+    material: WHEAT
+    displayname: '&x&e&8&e&8&5&0Tarımlar'
+    place: 10
+  Food:
+    enable: true
+    material: COOKED_BEEF
+    displayname: '&x&e&8&e&8&5&0Yemekler'
+    place: 12
+  Mobs:
+    enable: true
+    material: SPIDER_EYE
+    displayname: '&x&e&8&e&8&5&0Canavar Eşyaları'
+    place: 14
+  Music:
+  Ores:
+    enable: true
+    material: DIAMOND
+    displayname: '&x&e&8&e&8&5&0Madenler'
+    place: 16
+  Others:
+  Potions:
+  Redstone:
+  Spawners:
+  Workstations:
+  SpawnEggs:
+  Z_EverythingElse:
+
+Fill-item:
+  material: BLACK_STAINED_GLASS_PANE
+# displayname: "&8Nothing here"
+  #Disable this item by setting this value to false
+  enable: true
+  name: ' '

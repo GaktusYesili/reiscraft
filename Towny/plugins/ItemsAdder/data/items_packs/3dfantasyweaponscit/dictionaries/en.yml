@@ -1,0 +1,40 @@
+info:
+  namespace: 3dfantasyweaponscit
+  dictionary-lang: "en"
+dictionary:
+  display-name-3dfantasyweaponscit: FantasyWeapons - nongfu
+  display-name-3dmysticstavescit: MysticStaves - nongfu
+  display-name-azure_greataxe: Azure Great Axe
+  display-name-skeleton_axe: Skeleton Axe
+  display-name-treacherous_axe: Treacherous Axe
+  display-name-azure_shortsword: Azure Short Sword
+  display-name-claymore: Claymore
+  display-name-crimson_cleaver: Crimson Cleaver
+  display-name-treacherous_cleaver: Treacherous Cleaver
+  display-name-treacherous_bludgeon: Treacherous Bludgeon
+  display-name-wooden_bludgeon: Wooden Bludgeon
+  display-name-iron_mace: Iron Mace
+  display-name-vindicator: Vindicator
+  display-name-azure_sabre: Azure Sabre
+  display-name-bloody_vengeance_blade: Bloody Vengeance Blade
+  display-name-piercer: Piercer
+  display-name-runic_piercer: Runic Piercer
+  display-name-iron_polearm: Iron Polearm
+  display-name-azure_scythe: Azure Scythe
+  display-name-azure_greatsword: Azure Greatsword
+  display-name-dragon_sword: Dragon Sword
+  display-name-spider_sword: Spider Sword
+  display-name-demonic_sword: Demonic Sword
+  display-name-nature_sword: Nature Sword 
+  display-name-night_staff: Night Staff
+  display-name-staff_of_unholy_wisdom: Staff of Unholy Wisdom
+  display-name-bermunde_hermit_staff: Bermunde Hermit Staff
+  display-name-northgate_guardian_staff: Northgate Guardian Staff
+  display-name-golden_crook: Golden Crook Staff
+  display-name-holy_celtic_staff: Holy Celtic Staff
+  display-name-goblin_witch_staff: Goblin Witch Staff
+  display-name-sagrada_winged_staff: Sagrada Winged Staff
+  display-name-divine_staff: Divine Staff
+  display-name-olwen_staff: Olwen Staff
+  display-name-lich_staff: Lich Staff
+  display-name-black_snake_staff: Black Snake Staff

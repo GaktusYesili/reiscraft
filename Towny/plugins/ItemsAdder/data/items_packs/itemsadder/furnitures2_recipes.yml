@@ -1,0 +1,310 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    bamboo_plant_in_pot:
+      enabled: true
+      permission: itemsadder.bamboo_plant_in_pot
+      pattern:
+        - XOX
+        - XPX
+        - XTX
+      ingredients:
+        O: BAMBOO
+        P: FLOWER_POT
+        T: WHITE_TERRACOTTA
+      result:
+        item: bamboo_plant_in_pot
+    cactus_plant_in_pot:
+      enabled: true
+      permission: itemsadder.cactus_plant_in_pot
+      pattern:
+        - XOX
+        - XPX
+        - XTX
+      ingredients:
+        O: CACTUS
+        P: FLOWER_POT
+        T: WHITE_TERRACOTTA
+      result:
+        item: cactus_plant_in_pot
+    oak_wood_park_bench:
+      enabled: true
+      permission: itemsadder.oak_wood_park_bench
+      pattern:
+        - CXC
+        - CWC
+        - WXW
+      ingredients:
+        C: BLACK_CONCRETE
+        W: ACACIA_PLANKS
+      result:
+        item: oak_wood_park_bench
+    spruce_wood_park_bench:
+      enabled: true
+      permission: itemsadder.spruce_wood_park_bench
+      pattern:
+        - CXC
+        - CWC
+        - WXW
+      ingredients:
+        C: BLACK_CONCRETE
+        W: SPRUCE_PLANKS
+      result:
+        item: spruce_wood_park_bench
+    birch_wood_park_bench:
+      enabled: true
+      permission: itemsadder.birch_wood_park_bench
+      pattern:
+        - CXC
+        - CWC
+        - WXW
+      ingredients:
+        C: BLACK_CONCRETE
+        W: BIRCH_PLANKS
+      result:
+        item: birch_wood_park_bench
+    jungle_wood_park_bench:
+      enabled: true
+      permission: itemsadder.jungle_wood_park_bench
+      pattern:
+        - CXC
+        - CWC
+        - WXW
+      ingredients:
+        C: BLACK_CONCRETE
+        W: JUNGLE_PLANKS
+      result:
+        item: jungle_wood_park_bench
+    acacia_wood_park_bench:
+      enabled: true
+      permission: itemsadder.acacia_wood_park_bench
+      pattern:
+        - CXC
+        - CWC
+        - WXW
+      ingredients:
+        C: BLACK_CONCRETE
+        W: ACACIA_PLANKS
+      result:
+        item: acacia_wood_park_bench
+    dark_oak_wood_park_bench:
+      enabled: true
+      permission: itemsadder.dark_oak_wood_park_bench
+      pattern:
+        - CXC
+        - CWC
+        - WXW
+      ingredients:
+        C: BLACK_CONCRETE
+        W: DARK_OAK_PLANKS
+      result:
+        item: dark_oak_wood_park_bench
+    white_modern_lamp:
+      enabled: true
+      permission: itemsadder.white_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: WHITE_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: white_modern_lamp
+    orange_modern_lamp:
+      enabled: true
+      permission: itemsadder.orange_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: ORANGE_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: orange_modern_lamp
+    magenta_modern_lamp:
+      enabled: true
+      permission: itemsadder.magenta_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: MAGENTA_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: magenta_modern_lamp
+    light_blue_modern_lamp:
+      enabled: true
+      permission: itemsadder.light_blue_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: LIGHT_BLUE_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: light_blue_modern_lamp
+    yellow_modern_lamp:
+      enabled: true
+      permission: itemsadder.yellow_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: YELLOW_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: yellow_modern_lamp
+    lime_modern_lamp:
+      enabled: true
+      permission: itemsadder.lime_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: LIME_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: lime_modern_lamp
+    pink_modern_lamp:
+      enabled: true
+      permission: itemsadder.pink_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: PINK_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: pink_modern_lamp
+    gray_modern_lamp:
+      enabled: true
+      permission: itemsadder.gray_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: GRAY_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: gray_modern_lamp
+    light_gray_modern_lamp:
+      enabled: true
+      permission: itemsadder.light_gray_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: LIGHT_GRAY_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: light_gray_modern_lamp
+    cyan_modern_lamp:
+      enabled: true
+      permission: itemsadder.cyan_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: CYAN_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: cyan_modern_lamp
+    purple_modern_lamp:
+      enabled: true
+      permission: itemsadder.purple_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: PURPLE_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: purple_modern_lamp
+    blue_modern_lamp:
+      enabled: true
+      permission: itemsadder.blue_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: BLUE_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: blue_modern_lamp
+    brown_modern_lamp:
+      enabled: true
+      permission: itemsadder.brown_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: BROWN_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: brown_modern_lamp
+    green_modern_lamp:
+      enabled: true
+      permission: itemsadder.green_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: GREEN_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: green_modern_lamp
+    red_modern_lamp:
+      enabled: true
+      permission: itemsadder.red_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: RED_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: red_modern_lamp
+    black_modern_lamp:
+      enabled: true
+      permission: itemsadder.black_modern_lamp
+      pattern:
+        - GTG
+        - GTG
+        - XRX
+      ingredients:
+        G: BLACK_STAINED_GLASS
+        T: TORCH
+        R: REDSTONE
+      result:
+        item: black_modern_lamp

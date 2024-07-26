@@ -1,0 +1,13 @@
+name: elit
+permissions:
+- auctionmaster.limit.auctions.14
+- backpack.size.4
+- essentials.joinfullserver
+- mcmmo.perks.xp.30percentboost.all
+- townyflight.command.tfly
+- weight.12
+parents:
+- izinler
+prefixes:
+- '%img_elit%':
+    priority: 1

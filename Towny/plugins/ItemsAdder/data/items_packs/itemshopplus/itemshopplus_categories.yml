@@ -1,0 +1,57 @@
+info:
+  namespace: itemshopplus
+categories:
+  itemshopplus:
+    enabled: true
+    skip_if_already: false
+    icon: "itemshopplus:red_shop_cover"
+    name: Item Shop +
+    permission: ia.menu.itemshopplus
+    items:
+      - "itemshopplus:black_shop_cover"
+      - "itemshopplus:blue_shop_cover"
+      - "itemshopplus:brown_shop_cover"
+      - "itemshopplus:cyan_shop_cover"
+      - "itemshopplus:gray_shop_cover"
+      - "itemshopplus:light_gray_shop_cover"
+      - "itemshopplus:green_shop_cover"
+      - "itemshopplus:lime_shop_cover"
+      - "itemshopplus:light_blue_shop_cover"
+      - "itemshopplus:magenta_shop_cover"
+      - "itemshopplus:pink_shop_cover"
+      - "itemshopplus:purple_shop_cover"
+      - "itemshopplus:orange_shop_cover"
+      - "itemshopplus:red_shop_cover"
+      - "itemshopplus:white_shop_cover"
+      - "itemshopplus:yellow_shop_cover"
+      - "itemshopplus:storage_box"
+      - "itemshopplus:storage_box_mini"
+#####      
+      - "itemshopplus:apple_sellbox"
+      - "itemshopplus:beetroot_sellbox"
+      - "itemshopplus:carrot_sellbox"
+      - "itemshopplus:copper_sellbox"
+      - "itemshopplus:fish_sellbox"
+      - "itemshopplus:gapple_sellbox"
+      - "itemshopplus:glowberry_sellbox"
+      - "itemshopplus:melon_sellbox"
+      - "itemshopplus:minerals_sellbox"
+      - "itemshopplus:potato_sellbox"
+      - "itemshopplus:sugar_cane_sellbox"
+      - "itemshopplus:sweet_berries_sellbox"
+      - "itemshopplus:terracotta_sellbox"
+      - "itemshopplus:wood_sellbox"
+      - "itemshopplus:wool_sellbox"
+      - "itemshopplus:sword_sellbox"
+      - "itemshopplus:tools_sellbox"
+      - "itemshopplus:books_sellbox"
+#####
+      - "itemshopplus:cash_register_black"
+      - "itemshopplus:cash_register_blue"
+      - "itemshopplus:cash_register_brown"
+      - "itemshopplus:cash_register_cyan"
+      - "itemshopplus:cash_register_green"
+      - "itemshopplus:cash_register_orange"
+      - "itemshopplus:cash_register_pink"
+      - "itemshopplus:cash_register_red"
+      - "itemshopplus:cash_register_yellow"

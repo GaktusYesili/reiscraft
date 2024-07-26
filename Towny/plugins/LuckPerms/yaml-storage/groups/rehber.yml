@@ -1,0 +1,12 @@
+name: rehber
+permissions:
+- chatsentinel.bypass.caps
+- chatsentinel.bypass.cooldown
+- sohbet.bypass
+- sohbet.sil
+- weight.17
+parents:
+- izinler
+prefixes:
+- '%img_rehber%':
+    priority: 1

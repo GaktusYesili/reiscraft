@@ -1,0 +1,12 @@
+{
+    "sesler.ilkgiris":{
+        "sounds":[
+            "sesler/ilkgiris"
+        ]
+    },
+    "sesler.hergiris":{
+        "sounds":[
+            "sesler/hergiris"
+        ]
+    }
+}

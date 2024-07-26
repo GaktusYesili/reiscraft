@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1706890939285
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1706889413876
+  login: 1706890400550
+  command-cooldowns:
+  - pattern: .*( .*)?
+    value: 1706889584542
+money: '0.0'
+last-account-name: Salam62
+lastlocation:
+  world: bfbd5e6b-57e7-45c7-9c1d-84a1f5773521
+  world-name: baslangic
+  x: 2.4940063032496287
+  y: 40.0
+  z: 2.221628673196765
+  yaw: 318.41571044921875
+  pitch: 10.193785667419434
+logoutlocation:
+  world: bfbd5e6b-57e7-45c7-9c1d-84a1f5773521
+  world-name: baslangic
+  x: 1.6141114416305318
+  y: 40.0
+  z: -0.018523195920885638
+  yaw: 63.133148193359375
+  pitch: 18.3802433013916

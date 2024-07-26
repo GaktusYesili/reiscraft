@@ -1,0 +1,77 @@
+main-menu:
+  size: 54
+  close-menu-slot: 23
+  browsing-menu-slot: 2
+  view-bids-menu-slot: 4
+  manage-auctions-menu-slot: 6
+  delivery-menu-slot: 21
+create-auction-menu:
+  size: 54
+  preview-item-slot: 4
+  create-auction-button-slot: 20
+  starting-bid-slot: 22
+  duration-slot: 24
+  go-back-slot: 50
+  switch-type-slot: 48
+duration-select-menu:
+  size: 54
+  first-item:
+    hours: 1
+    material: '159:14'
+    slot: 1
+  second-item:
+    hours: 6
+    material: '159:6'
+    slot: 2
+  third-item:
+    hours: 12
+    material: '159:1'
+    slot: 3
+  forth-item:
+    hours: 24
+    material: '159:4'
+    slot: 4
+  fifth-item:
+    hours: 48
+    material: '159:0'
+    slot: 5
+  custom-time-item-slot: 7
+  custom-time-item-material: '347'
+  go-back-slot: 22
+create-auction-confirm-menu:
+  size: 54
+  confirm-item-slot: 12
+  cancel-item-slot: 14
+browsing-menu:
+  #Which category is the default on open
+  #Options: weapons, armor, tools, consumables, blocks, others, global
+  default-category: 'weapons'
+  #Use slots from 1 to 6 for normal categories
+  #Make sure there are not 2 slots with same value
+  #Set the value to -1 to disable category
+  weapons-slot: 1
+  armor-slot: 2
+  tools-slot: 3
+  consumables-slot: 4
+  blocks-slot: 5
+  others-slot: 6
+  #This slot is from 0 to 53
+  #It can be any slot but make sure to not put
+  #it where the auctions should be
+  global-slot: 50
+  go-back-slot: 49
+  search-slot: 48
+  bin-filter-slot: 51
+  sort-filter-slot: 52
+  previous-page-slot: 46
+  next-page-slot: 53
+view-auction-menu:
+  size: 54
+  auction-display-slot: 4
+  place-bid-slot: 20
+  buy-it-now-slot: 31
+  bid-amount-change-slot: 31
+  end-own-auction-slot: 40
+  bid-history-slot: 24
+  go-back-slot: 31
+  admin-view-slot: 13

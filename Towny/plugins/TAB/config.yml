@@ -1,0 +1,171 @@
+scoreboard-teams:
+  enabled: true
+  invisible-nametags: false
+  anti-override: false
+  enable-collision: true
+  sorting-types:
+  - GROUPS:kurucu,admin,moderator,rehber,youtuber,baron,lord,elit,vezir,soylu,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  disable-in-worlds:
+  - disabledworld
+  unlimited-nametag-mode:
+    enabled: true
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: false
+    disable-in-worlds:
+    - disabledworld
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+    disable-in-servers: []
+tablist-name-formatting:
+  enabled: true
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-in-worlds:
+  - disabledworld
+header-footer:
+  enabled: true
+  disable-in-worlds:
+  - disabledworld
+  header:
+  - '&e'
+  - '&e&lTOWNY - V2.0'
+  - '&e'
+  - '&x&f&b&0&0&0&0s&x&f&9&0&4&0&6ɪ&x&f&7&0&8&0&bᴢ&x&f&5&0&c&1&1ʟ&x&f&3&1&1&1&6ᴇ&x&f&1&1&5&1&cʀ &x&e&f&1&9&2&1ɪ&x&e&d&1&d&2&7ᴄ&x&e&b&2&1&2&cɪ&x&e&9&2&5&3&2ɴ &x&e&7&2&a&3&7ᴘ&x&e&5&2&e&3&dᴀ&x&e&3&3&2&4&2ᴋ&x&e&1&3&6&4&8ᴇ&x&d&f&3&a&4&dᴛ&x&d&d&3&e&5&3ɪ &x&d&b&4&2&5&8ɪ&x&d&9&4&7&5&eʏ&x&d&7&4&b&6&3ɪ&x&d&5&4&f&6&9ʟ&x&d&3&5&3&6&eᴇ&x&d&1&5&7&7&4s&x&c&f&5&b&7&9ᴛ&x&c&d&6&0&7&fɪ&x&c&b&6&4&8&4ʀ&x&c&9&6&8&8&aᴅ&x&c&7&6&c&8&fɪ&x&c&5&7&0&9&5ᴋ &x&c&3&7&4&9&aᴠ&x&c&1&7&8&a&0ᴇ &x&b&f&7&d&a&5s&x&b&d&8&1&a&bᴏ&x&b&b&8&5&b&0ʀ&x&b&9&8&9&b&6ᴜ&x&b&7&8&d&b&bɴ&x&b&5&9&1&c&1ʟ&x&b&3&9&5&c&6ᴀ&x&b&1&9&a&c&cʀ&x&a&f&9&e&d&1ɪ &x&a&d&a&2&d&7ғ&x&a&b&a&6&d&cɪ&x&a&9&a&a&e&2x&x&a&7&a&e&e&7ʟ&x&a&5&b&3&e&dᴇ&x&a&3&b&7&f&2ᴅ&x&a&1&b&b&f&8ɪ&x&9&f&b&f&f&dᴋ'
+  - '&x&f&b&f&3&2&aᴋ&x&f&a&f&3&2&aᴀ&x&f&9&f&3&2&bʟ&x&f&8&f&4&2&bɪ&x&f&6&f&4&2&bᴛ&x&f&5&f&4&2&cᴇ&x&f&4&f&4&2&cʏ&x&f&3&f&5&2&cɪ &x&f&2&f&5&2&cɪ&x&f&1&f&5&2&dʟ&x&f&0&f&5&2&dɪ&x&e&e&f&6&2&dᴋ&x&e&d&f&6&2&eʟ&x&e&c&f&6&2&eᴇ&x&e&b&f&6&2&eʀ&x&e&a&f&6&2&fɪ&x&e&9&f&7&2&fɴ&x&e&8&f&7&2&fᴇ &x&e&6&f&7&2&fᴋ&x&e&5&f&7&3&0ᴀ&x&e&4&f&8&3&0ᴅ&x&e&3&f&8&3&0ᴀ&x&e&2&f&8&3&1ʀ &x&e&1&f&8&3&1ʜ&x&e&0&f&9&3&1ɪ&x&d&f&f&9&3&2s&x&d&d&f&9&3&2s&x&d&c&f&9&3&2ᴇ&x&d&b&f&a&3&2ᴛ&x&d&a&f&a&3&3ᴍ&x&d&9&f&a&3&3ᴇ&x&d&8&f&a&3&3ʏ&x&d&7&f&a&3&4ᴇ &x&d&5&f&b&3&4ʜ&x&d&4&f&b&3&4ᴀ&x&d&3&f&b&3&5ᴢ&x&d&2&f&b&3&5ɪ&x&d&1&f&c&3&5ʀ &x&d&0&f&c&3&5ᴍ&x&c&f&f&c&3&6ɪ&x&c&d&f&c&3&6s&x&c&c&f&d&3&6ɪ&x&c&b&f&d&3&7ɴ&x&c&a&f&d&3&7?'
+  - '&e'
+  - '&8&m-------------------------------------------------------'
+  footer:
+  - '&8&m-------------------------------------------------------'
+  - '&e'
+  - '&6&lTOWNY SUNUCUSU! &x&c&5&b&d&6&2- &x&c&8&b&9&6&2ᴡ&x&c&b&b&6&6&3ᴡ&x&c&e&b&2&6&3ᴡ&x&d&1&a&f&6&4.&x&d&4&a&b&6&4s&x&d&7&a&8&6&5ɪ&x&d&a&a&4&6&6ᴛ&x&d&e&a&1&6&6ᴇ&x&e&1&9&d&6&7ᴀ&x&e&4&9&a&6&7ᴅ&x&e&7&9&6&6&8ʀ&x&e&a&9&3&6&9ᴇ&x&e&d&8&f&6&9s&x&f&0&8&c&6&aɪ&x&f&4&8&8&6&a.&x&f&7&8&5&6&bᴄ&x&f&a&8&1&6&bᴏ&x&f&d&7&e&6&cᴍ>
+    &x&4&b&4&b&4&9⬰'
+  - '&e'
+  - '&x&2&5&f&b&f&bᴀ&x&2&c&f&3&f&bᴋ&x&3&3&e&c&f&bᴛ&x&3&a&e&4&f&bɪ&x&4&1&d&c&f&bғ &x&4&8&d&5&f&cᴏ&x&4&f&c&d&f&cʏ&x&5&6&c&5&f&cᴜ&x&5&d&b&e&f&cɴ&x&6&3&b&6&f&cᴄ&x&6&a&a&f&f&cᴜ &x&7&1&a&7&f&cs&x&7&8&9&f&f&cᴀ&x&7&f&9&8&f&dʏ&x&8&6&9&0&f&dɪ&x&8&d&8&8&f&ds&x&9&4&8&1&f&dɪ &x&9&b&7&9&f&d: &x&f&b&0&0&0&0&x&f&c&3&c&3&c&x&f&c&7&8&7&8&x&f&d&b&4&b&4&x&f&d&f&0&f&0%server_online%
+    Oyuncu&x&4&b&4&b&4&9 ⬰'
+  - '&e'
+  per-world:
+    world2-world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+    world1:
+      footer:
+      - header/footer and prefix/suffix
+      header:
+      - an example of world with custom
+yellow-number-in-tablist:
+  enabled: false
+  value: ''
+  disable-in-worlds:
+  - disabledworld
+belowname-objective:
+  enabled: false
+  number: '%clans_prefix%'
+  text: []
+  disable-in-worlds:
+  - disabledworld
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: true
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  default-bars:
+  - hud
+  bars:
+    hud:
+      style: PROGRESS
+      color: WHITE
+      progress: '0'
+      text: '&f%img_dunya2%%hwr_world% &f%img_kalp% discord.gg/tavuhnw &f%img_altin% %vault_eco_balance_formatted%'
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  disable-in-worlds:
+  - disabledworld
+  respect-other-plugins: true
+  scoreboards:
+    scoreboard:
+      title: '&6&lTAVUHNW - TOWNY' 
+      lines:
+      - ''
+      - ' &x&4&b&4&b&4&9⇴ &x&e&d&f&b&4&ds&x&f&4&f&c&4&eᴇ&x&f&a&f&d&4&eɴ: #f5f5eb%player%'
+      - ' &x&4&b&4&b&4&9⇴ &x&e&d&f&b&4&dʀ&x&f&0&f&b&4&dᴜ&x&f&2&f&c&4&dᴛ&x&f&5&f&c&4&eʙ&x&f&7&f&d&4&eᴇ&x&f&a&f&d&4&eɴ: &f%luckperms_prefix%'
+      - ' &x&4&b&4&b&4&9⇴ &x&e&d&f&b&4&dᴋ&x&f&4&f&c&4&e/&x&f&a&f&d&4&eᴅ: #f5f5eb%statistic_player_kills%&8/#f5f5eb%statistic_deaths%'
+      - ''
+      - ' &x&4&b&4&b&4&9⇴ &x&e&d&f&b&4&dᴋ&x&e&f&f&b&4&dᴀ&x&f&1&f&c&4&ds&x&f&4&f&c&4&eᴀ&x&f&6&f&c&4&eʙ&x&f&8&f&d&4&eᴀ&x&f&a&f&d&4&eɴ: #f5f5eb%townyadvanced_town%'
+      - ' &x&4&b&4&b&4&9⇴ &x&e&d&f&b&4&dᴜ&x&f&0&f&b&4&dʟ&x&f&2&f&c&4&dᴜ&x&f&5&f&c&4&es&x&f&7&f&d&4&eᴜ&x&f&a&f&d&4&eɴ: #f5f5eb%townyadvanced_nation%'
+      - ''
+      - ' &x&4&b&4&b&4&9⇴ &x&e&d&f&b&4&dᴋ&x&e&e&f&b&4&dᴀ&x&e&f&f&b&4&ds&x&f&1&f&c&4&dᴀ&x&f&2&f&c&4&dʙ&x&f&3&f&c&4&dᴀ &x&f&4&f&c&4&eᴀ&x&f&5&f&c&4&eʟ&x&f&6&f&c&4&eᴛ&x&f&8&f&d&4&eɪ&x&f&9&f&d&4&eɴ&x&f&a&f&d&4&eɪ: #f5f5eb%townyadvanced_town_balance%
+        &f%img_altin%'
+      - ' &x&4&b&4&b&4&9⇴ &x&e&d&f&b&4&dᴜ&x&e&e&f&b&4&dʟ&x&f&0&f&b&4&dᴜ&x&f&1&f&c&4&ds &x&f&3&f&c&4&dᴀ&x&f&4&f&c&4&eʟ&x&f&6&f&c&4&eᴛ&x&f&7&f&d&4&eɪ&x&f&9&f&d&4&eɴ&x&f&a&f&d&4&eɪ: #f5f5eb%townyadvanced_nation_balance%
+        &f%img_altin%'
+      - ''
+      - '   &8%time%'
+      - '       &fplay.tavuhnw.com'
+ping-spoof:
+  enabled: false
+  value: 0
+fix-pet-names:
+  enabled: false
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: dd.MM.yyyy ᠃ HH:mm:ss
+  time-offset: 0
+  register-tab-expansion: true
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&x&6&6&C&E#f3f3a0#f3f3a0| Vanished'
+    'no': ''
+  '%tps%':
+    '20': '&aPerfect'
+  '%afk%':
+    'true': ''
+    'false': ''
+conditions: {}
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  server:
+    '%server_uptime%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Helper
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password

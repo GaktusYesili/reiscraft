@@ -1,0 +1,1468 @@
+info:
+  namespace: "itemshopplus"
+recipes:
+  crafting_table:
+    black_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "BLACK_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:black_shop_cover"
+        amount: 1
+    blue_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "BLUE_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:blue_shop_cover"
+        amount: 1
+    brown_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "BROWN_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:brown_shop_cover"
+        amount: 1
+    cyan_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "CYAN_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:cyan_shop_cover"
+        amount: 1
+    gray_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "GRAY_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:gray_shop_cover"
+        amount: 1
+    green_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "GREEN_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:green_shop_cover"
+        amount: 1
+    light_blue_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "LIGHT_BLUE_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:light_blue_shop_cover"
+        amount: 1
+    light_gray_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "LIGHT_GRAY_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:light_gray_shop_cover"
+        amount: 1
+    lime_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "LIME_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:lime_shop_cover"
+        amount: 1
+    magenta_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "MAGENTA_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:magenta_shop_cover"
+        amount: 1
+    orange_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "ORANGE_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:orange_shop_cover"
+        amount: 1
+    pink_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "PINK_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:pink_shop_cover"
+        amount: 1
+    purple_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "PURPLE_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:purple_shop_cover"
+        amount: 1
+    red_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "RED_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:red_shop_cover"
+        amount: 1
+    white_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "www"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:white_shop_cover"
+        amount: 1
+    yellow_shop_cover:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        B: "YELLOW_WOOL"
+        W: "WHITE_WOOL"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "itemshopplus:yellow_shop_cover"
+        amount: 1
+    storage_box:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "PXP"
+        - "SPS"
+        - "PXP"
+      result:
+        item: "itemshopplus:storage_box"
+        amount: 1
+    storage_box_mini:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "xxx"
+        - "SPS"
+        - "PXP"
+      result:
+        item: "itemshopplus:storage_box_mini"
+        amount: 1
+    apple_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "APPLE"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:apple_sellbox"
+        amount: 1
+    beetroot_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "BEETROOT"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:beetroot_sellbox"
+        amount: 1
+    carrot_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "CARROT"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:carrot_sellbox"
+        amount: 1
+    fish_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "COD"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:fish_sellbox"
+        amount: 1
+    gapple_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "GOLDEN_APPLE"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:gapple_sellbox"
+        amount: 1
+    melon_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "MELON_SLICE"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:melon_sellbox"
+        amount: 1
+    minerals_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        E: "EMERALD"
+        D: "DIAMOND"
+        G: "GOLD_INGOT"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "IED"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:minerals_sellbox"
+        amount: 1
+    potato_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "POTATO"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:potato_sellbox"
+        amount: 1
+    sugar_cane_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "SUGAR_CANE"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:sugar_cane_sellbox"
+        amount: 1
+    sweet_berries_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "SWEET_BERRIES"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:sweet_berries_sellbox"
+        amount: 1
+    terracotta_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "TERRACOTTA"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:terracotta_sellbox"
+        amount: 1
+    wood_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "OAK_LOG"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:wood_sellbox"
+        amount: 1
+    wool_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        R: "BLUE_WOOL"
+        Y: "YELLOW_WOOL"
+        G: "GREEN_WOOL"
+        K: "PINK_WOOL"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "RYG"
+        - "PKP"
+        - "PPP"
+      result:
+        item: "itemshopplus:wool_sellbox"
+        amount: 1
+        
+    sword_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "IRON_SWORD"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:sword_sellbox"
+        amount: 1
+    sword_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "IRON_SWORD"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:sword_sellbox"
+        amount: 1
+    tools_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "DIAMOND_PICKAXE"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:tools_sellbox"
+        amount: 1
+    books_sellbox:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        G: "BOOK"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "itemshopplus:books_sellbox"
+        amount: 1
+    cash_register_black:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "BLACK_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "itemshopplus:cash_register_black"
+        amount: 1
+    cash_register_blue:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "BLUE_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "itemshopplus:cash_register_blue"
+        amount: 1
+    cash_register_brown:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "BROWN_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "itemshopplus:cash_register_brown"
+        amount: 1
+    cash_register_cyan:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "CYAN_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "itemshopplus:cash_register_cyan"
+        amount: 1
+    cash_register_green:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "GREEN_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "itemshopplus:cash_register_green"
+        amount: 1
+    cash_register_orange:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "ORANGE_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "itemshopplus:cash_register_orange"
+        amount: 1
+    cash_register_pink:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "PINK_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "itemshopplus:cash_register_pink"
+        amount: 1
+    cash_register_red:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "RED_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "itemshopplus:cash_register_red"
+        amount: 1
+    cash_register_yellow:
+      permission: itemsadder.itemshopplus    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "YELLOW_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "itemshopplus:cash_register_yellow"
+        amount: 1
+ 
+
+items:
+
+  black_shop_cover:
+    display_name: "&fBlack shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/black_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  blue_shop_cover:
+    display_name: "&1Blue shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/blue_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  brown_shop_cover:
+    display_name: "&6brown shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/brown_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cyan_shop_cover:
+    display_name: "&3Cyan shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cyan_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  gray_shop_cover:
+    display_name: "&8Gray shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/gray_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  green_shop_cover:
+    display_name: "&2Green shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/green_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  light_blue_shop_cover:
+    display_name: "&blight blue shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/light_blue_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  light_gray_shop_cover:
+    display_name: "&8Light gray shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/light_gray_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  lime_shop_cover:
+    display_name: "&aLime shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/lime_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  magenta_shop_cover:
+    display_name: "&dMagenta shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/magenta_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  orange_shop_cover:
+    display_name: "&6Orange shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/orange_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  pink_shop_cover:
+    display_name: "&dPink shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/pink_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  purple_shop_cover:
+    display_name: "&5Purple shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/purple_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  red_shop_cover:
+    display_name: "&4Red shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/red_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  white_shop_cover:
+    display_name: "&fWhite shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/white_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  yellow_shop_cover:
+    display_name: "&eYellow shop cover"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/yellow_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+#####               
+  storage_box:
+    display_name: "&fStorage Box"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/storage_box        
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: true
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  storage_box_mini:
+    display_name: "&fStorage Box Mini"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/storage_box_mini        
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+#####     
+  apple_sellbox:
+    display_name: "&fApple sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/apple_sellbox        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  beetroot_sellbox:
+    display_name: "&fBeetroot sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/beetroot_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  carrot_sellbox:
+    display_name: "&fCarrot sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/carrot_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  copper_sellbox:
+    display_name: "&fCopper sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/copper_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  fish_sellbox:
+    display_name: "&fFish sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/fish_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  gapple_sellbox:
+    display_name: "&fGolden apple sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/gapple_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  glowberry_sellbox:
+    display_name: "&fGlow Berry sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/glowberry_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  glowberry_sellbox:
+    display_name: "&fGlow Berry sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/glowberry_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  melon_sellbox:
+    display_name: "&fMelon sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/melon_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  minerals_sellbox:
+    display_name: "&fMinerals sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/minerals_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  potato_sellbox:
+    display_name: "&fMinerals sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/potato_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  sugar_cane_sellbox:
+    display_name: "&fSugar cane sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/sugar_cane_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  sweet_berries_sellbox:
+    display_name: "&fSweet berries sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/sweet_berries_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  terracotta_sellbox:
+    display_name: "&fTerracotta sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/terracotta_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  wood_sellbox:
+    display_name: "&fWood sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/wood_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  wool_sellbox:
+    display_name: "&fWool sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/wool_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  sword_sellbox:
+    display_name: "&fSwords sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/sword_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  tools_sellbox:
+    display_name: "&fTools sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/tools_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  books_sellbox:
+    display_name: "&fbooks sellbox"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/books_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+####cash
+  cash_register_black:
+    display_name: "&fBlack cash Register"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_black         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_blue:
+    display_name: "&fBlue cash Register"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_blue         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_brown:
+    display_name: "&fBrown cash Register"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_brown         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_cyan:
+    display_name: "&fCyan cash Register"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_cyan         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_green:
+    display_name: "&fGreen cash Register"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_green         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_orange:
+    display_name: "&fOrange cash Register"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_orange         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_pink:
+    display_name: "&fPink cash Register"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_pink         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_red:
+    display_name: "&fRed cash Register"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_red         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_yellow:
+    display_name: "&fYellow cash Register"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7Item Shop + by Yassou"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_yellow         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+          

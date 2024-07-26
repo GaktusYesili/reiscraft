@@ -1,0 +1,223 @@
+#             ___      _   _           ___          _      _                Our plugins: https://alonsoaliaga.com/plugins
+#            | _ ) ___| |_| |_ ___ _ _/ __| ___  __(_)__ _| |               Support server: https://alonsoaliaga.com/discord
+#            | _ \/ -_)  _|  _/ -_) '_\__ \/ _ \/ _| / _` | |               Youtube: https://alonsoaliaga.com/play
+#            |___/\___|\__|\__\___|_| |___/\___/\__|_\__,_|_|               Test server: plugins.alonsoaliaga.com
+#                           by AlonsoAliaga                                 Twitch: https://alonsoaliaga.com/twitch
+#          Considering donating? https://alonsoaliaga.com/donate            Thanks for using my plugin! <3
+Messages:
+  No-permission: "&cYou don't have permission to do this."
+  No-permission-edit: "&cYou don't have permission edit your social media :("
+  Reloaded: "&aSome messages and options have been reloaded. Other may require a restart!"
+  Invalid-player: "#dcdc00&lV#e1e122&lE#e6e645&lL#ebeb67&lD#f0f089&lO#f5f5ab&lR#faface&lY#fffff0&lA #4b4b49⇴ #f7fe9bOyuncu bulunamadı!"
+  Invalid-player-in-database: "#dcdc00&lV#e1e122&lE#e6e645&lL#ebeb67&lD#f0f089&lO#f5f5ab&lR#faface&lY#fffff0&lA #4b4b49⇴ #f7fe9bOyuncu bulunamadı!"
+  Unknown-error: "&cUnexpected error! Try again later, if problem persists contact an administrator."
+  Unknown-error-search-other: "&cUnexpected error! Try again later, if problem persists contact an administrator."
+  No-input: "&cYou didn't provide a valid input. Social media will not be updated!"
+  Please-reconnect: "&cUnexpected error! Please reconnect to the server."
+  Please-reconnect-other: "&cUnexpected error! Please tell {PLAYER} to reconnect to the server."
+  Keys:
+    None: "#f3f3a0Bağlı değil!"
+  Social:
+    Title: "&f:offset_-10::ぴ:"
+  Remove:
+    Not-linked: "#dcdc00&lV#e1e122&lE#e6e645&lL#ebeb67&lD#f0f089&lO#f5f5ab&lR#faface&lY#fffff0&lA #4b4b49⇴ #f7fe9bBu sosyal medya bağlı değil."
+    Removed: "#dcdc00&lV#e1e122&lE#e6e645&lL#ebeb67&lD#f0f089&lO#f5f5ab&lR#faface&lY#fffff0&lA #4b4b49⇴ #f7fe9bBu sosyal medya bağlantısını kaldırdın."
+  Placeholders:
+    Value-none: "#f3f3a0Bağlı değil!"
+    Status-linked: "#f3f3a0Bağlı!"
+    Status-unlinked: "#f3f3a0Bağlı değil!"
+  Help:
+    Admin:
+      - "&9 /bettersocial edit <player> &f- &bOpen edit GUI for player"
+      - "&9 /bettersocial <menu/media> <player> &f- &bOpen media GUI"
+      - "&9 /bettersocial reload &f- &bReload configuration"
+    User:
+      - "&9 /bettersocial edit &f- &bOpen edit GUI"
+      - "&9 /bettersocial menu <player> &f- &bOpen media GUI"
+
+Permissions:
+  Admin: "bettersocial.admin"
+  #Permission to be able to open "/bettersocial edit" to edit social media.
+  Edit: "none" #Example: "bettersocial.edit"
+  #Permission to check others social media. Set to "none" to disable.
+  Others: "none" #Example: "bettersocial.others"
+  #Permission to check offline players' social media. Set to "none" to disable.
+  Offline: "bettersocial.offline"
+
+Options:
+  #To apply changes for aliases you must RESTART the server.
+  #Plugman or similar plugins are NOT and will NEVER be supported.
+  #Use /reload or restart your server.
+  Aliases:
+  - "social"
+  - "bsocial"
+  - "sosyal"
+  - "sosyalmedya"
+  #Enable only if developer asks you to do it.
+  Debug-mode: false
+  #Should we fill empty slots?
+  Fill-empty-slots: false
+  #Amount of rows the inventory will have. Minimum 1, maximum 6.
+  Size: 4
+  #This command will be run as the player that views the profile.
+  #Set to "none" to disable command. Available placeholders:
+  # {TARGET} replaced by player name (The name of the player that views the profile)
+  # {PLAYER} replaced by target name (The name of the player owner of the profile)
+  #This is the command that will be run when clicking back button while editing social media.
+  Back-edit-command: "profile {PLAYER}" #Example: "profile {PLAYER}"
+  #This is the command that will be run when clicking back button while viewing social media.
+  Back-media-command: "profile {TARGET}" #Example: "profile {TARGET}"
+  Sounds:
+    #Sound when opening a player's media.
+    Open: "CHEST_OPEN"
+  #This is the amount of ticks the plugin will wait before loading data.
+  #Useful if your have issues with players "losing" their data on server change or reconnect.
+  #Set to 0 to disable. If enabled, it's like that some plugins that send messages on join will not fetch correct data from placeholders.
+  #To "fix" this use this plugin made by our team which adds messages on player join with an option to set delay.
+  #We also support placeholder check to prevent message to be sent when player is in vanish mode. (Using placeholder to check if player is vanished)
+  #Check our plugin on https://alonsoaliaga.com/AlonsoJoin (If available)
+  Data-delay: 20
+  #Saves each X amount of minutes the data modified for online players.
+  #This will allow checking it form other servers. HOWEVER ITS LIMITED TO SOME MINUTES.
+  #I wouldn't recommend to decrease the value lower than 15 minutes tbh.
+  #Set it to 0 to disable.
+  Auto-save:
+    Interval: 15
+
+Items:
+  Player:
+    #Set to -1 to disable.
+    Slot: -1
+    #Item added if target player IS online.
+    #Supports PlaceholderAPI. Default placeholder available.
+    #Placeholders will be updated for the target player.
+    # {PLAYER} replaced with profile owner name.
+    # {VIEWER} replaced by the name of the player viewing the profile.
+    Online:
+      Displayname: "&a&l{PLAYER}"
+      Lore:
+      - "&fGamemode: &7%player_gamemode%"
+      - "&fHealth: &7%player_health_rounded%"
+      - "&fFirst join: &7%player_first_join_date%"
+      #Command that will be run if player clicks the item.
+      #Placeholder available are: {PLAYER} replaced by profile owner name.
+      #{VIEWER} replaced with viewer name.
+      Command: "none" #Example: "tell {PLAYER} Hello!"
+    #Item added if target player IS online.
+    #DON'T SUPPORT PlaceholderAPI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    #Default placeholder available.
+    # {PLAYER} replaced with profile owner name.
+    # {VIEWER} replaced by the name of the player viewing the profile.
+    Offline:
+      Displayname: "&c&l{PLAYER}"
+      Lore:
+      - "&7Profile owner doesn't seem to be online :("
+      #Command that will be run if player clicks the item.
+      #Remember player is offline so use only commands that support offline players.
+      #Placeholder available are: {PLAYER} replaced by profile owner name.
+      #{VIEWER} replaced with viewer name.
+      Command: "none" #Example: "mail {PLAYER} Hello! I'm {VIEWER}!"
+  Back:
+    Material: ARROW
+    Slot: 31
+    Displayname: "#f3f3a0Profile Dön"
+    #Placeholder available is {PLAYER} replaced by viewer name.
+    # {TARGET} replaced by the name of the owner of the social media.
+    #The name of the player that owns the profile.
+    #Supports PlaceholderAPI if available. Information replaced by the viewer's data.
+  Media:
+    #Used if link is less than 32 than characters.
+    Lore-short:
+    - ""
+    - "#f7fe9bKullanıcı: #f3f3a0{CURRENT}"
+    - ""
+    - "#f7fe9bDeğiştirmek için #f3f3a0&nsol tıkla#f7fe9b!"
+    - "#f7fe9bSilmek için #f3f3a0&nsağ tıkla#f7fe9b!"
+    #Used if link is greater or equal than 32 characters.
+    Lore-long:
+    - ""
+    - "#f7fe9bKullanıcı: #f3f3a0{CURRENT}"
+    - ""
+    - "#f7fe9bDeğiştirmek için #f3f3a0&nsol tıkla#f7fe9b!"
+    - "#f7fe9bSilmek için #f3f3a0&nsağ tıkla#f7fe9b!"
+  No-media:
+    Material: GLASS_BOTTLE
+    Slot: 13
+    Displayname: "#f3f3a0Sosyal Medya"
+    #Placeholders available {PLAYER} replaced by player name.
+    #Supports PlaceholderAPI if available.
+    Lore:
+    - ""
+    - "#f3f3a0{PLAYER} #f7fe9badlı oyuncu hiç"
+    - "#f7fe9bsosyal medya hesabı bağlamamış."
+  Visit:
+    Available:
+      Lore:
+      - ""
+      - "#4b4b49▶ #f7fe9bZiyaret etmek için #f3f3a0&ntıkla#f7fe9b!"
+    Unavailable:
+      Lore:
+      - ""
+      - "#f7fe9bKullanıcı: #f3f3a0Bağlı değil!"
+  Frame:
+    Color: "BLACK"
+    #Only 1.14+
+    Custom-model-data: 0
+
+Database:
+  #Available types: MySQL and SQLite
+  #You can use MySQL to make it global or you can use SQLite to make it local.
+  #MySQL requires a server (local or external)
+  #SQLite doesn't require anything, it's saved in a db file in the folder.
+  Type: "SQLite"
+  Table: "bettersocial"
+  #If type is SQLite
+  File: "database-bettersocial"
+  #If type is MySQL
+  Host: 127.0.0.1
+  Port: 3306
+  Database: "bettersocial"
+  Username: "root"
+  Password: "12345"
+  #Modify this just if you know what you are doing.
+  #This will be added at the end of database url (Not in SQLITE, only in MySQL).
+  #Useful if you want to set useSSL or autoReconnect or any other modifier.
+  Additional-url: ""
+  #This option has been added to prevent connection timeout.
+  #Time is in minutes. Every X minutes the plugin will run a test query to keep connection alive.
+  #No longer used as HikariCP was implemented.
+  Keep-connection-interval: 30
+  HikariCP:
+    Warning:
+    - "========================================================================================"
+    - "You don't need to edit this text, it's ONLY displayed in config so you can read it."
+    - "========================================================================================"
+    - "HikariCP is experimental. Remember that only modify the following IF YOU KNOW HOW IT WORKS."
+    - "You will not get support for HikariCP configurations as 1) I'm not a HikariCP advanced user"
+    - "and 2) Customization depends on the owner and his knowledge level."
+    - "Related to Source-properties, if you KNOW and want to add custom properties follow the format:"
+    - "Source-properties:"
+    - '  thePropertySelected1: "theValue1"'
+    - '  thePropertySelected2: "theValue2"'
+    - "[!] Remember to modify data only if you know what you are doing."
+    - "Available source properties can be found here: https://alonsoaliaga.com/HikariCP-sp"
+    - "Available source class names can be found here: https://alonsoaliaga.com/HikariCP-cn"
+    Max-pool-size: 15
+    #Set your custom source class name ONLY IF YOU KNOW WHAT IT IS.
+    Custom-source-class-name: "default"
+    #This is the source properties to modify your HikariCP configurations.
+    #It allows you to select and specify custom configs IF YOU KNOW WHAT YOU ARE DOING.
+    #Source properties can be found here: https://links.alonsoaliaga.com/HikariCP-sp
+    Source-properties: []
+
+Updates:
+  #Auto update configuration? Enabling will delete comments.
+  Auto-update-configuration: true
+  #Check for updates? Recommended to keep it enabled.
+  Check-updates: false
+  #Notify updates when player with permission joins the server?
+  Notify-updates: false
+  #Permission required to receive update message.
+  Permission: "bettersocial.update"
+  #Message to send when update is found.
+  Message: "&9[BetterSocial] &eA new update has been found! You are using version {CURRENT}. Download version {NEW} here &c{LINK}"

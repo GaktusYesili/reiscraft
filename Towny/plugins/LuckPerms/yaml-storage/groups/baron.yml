@@ -1,0 +1,13 @@
+name: baron
+permissions:
+- auctionmaster.limit.auctions.25
+- backpack.size.6
+- essentials.joinfullserver
+- mcmmo.perks.xp.50percentboost.all
+- townyflight.command.tfly
+- weight.14
+parents:
+- izinler
+prefixes:
+- '%img_baron%':
+    priority: 1

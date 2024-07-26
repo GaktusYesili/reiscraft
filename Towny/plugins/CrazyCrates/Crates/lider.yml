@@ -1,0 +1,147 @@
+Crate:
+  CrateType: QuickCrate #Type of crate (CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War/Cosmic(This requires a additional info to work.)).
+  CrateName: '&x&6&a&b&f&4&dLider Kasa' #Name of the Inventory if a GUI crate.
+  StartingKeys: 0 #Starting amount of keys when the player 1st joins.
+  InGUI: true #If the crate shows in the /cc GUI. (If the crate type is QuickCrate/CrateOnTheGo/FireCracker then the Crate will not work. Quick Crate requires a Physical Crate.)
+  Slot: 21 #Slot the item is in the GUI.
+  OpeningBroadCast: false #Enables/Disables the Broadcasts message when they open a crate.
+  BroadCast: '' #Message that is broadcasted when opening the crate.
+  Item: 'CHEST' #Item the crate is in the GUI
+  Glowing: false #If the crate in the main /cc GUI is glowing or not.
+  Name: '&f:offset_-10::ま:' #Name of the item in the GUI.
+  Lore: #The lore of the item in the GUI.
+    - '&x&a&d&e&e&9&7This crate contains strange objects.' 
+    - '&x&a&d&e&e&9&7You have &6%Keys% keys &x&a&d&e&e&9&7to open this crate with.'
+    - '&x&a&d&e&e&9&7&l(&x&6&a&b&f&4&d&l!&x&a&d&e&e&9&7&l) Right click to view rewards.'
+  PhysicalKey:
+    Name: '&x&4&b&4&b&4&9⇴ &x&6&a&b&f&4&dLider &x&a&d&e&e&9&7Kasa Anahtarı &8⬰'
+    Lore:
+      - ''
+      - '&x&4&b&4&b&4&9⇴ &x&a&d&e&e&9&7Bu anahtarı &x&6&a&b&f&4&d/warp kasalar&x&a&d&e&e&9&7''da kullanabilirsin!'
+      - '&x&4&b&4&b&4&9⇴ &x&a&d&e&e&9&7Değer: &x&6&a&b&f&4&dYüksek &x&a&d&e&e&9&7(&x&6&a&b&f&4&d★★★&x&a&d&e&e&9&7)'
+    Item: 'FEATHER'
+    Glowing: false #Makes the key look enchanted.
+#         For Cosmic Crates Only
+#############################################
+#  Tiers: #The tiers in the Crate
+#    Basic: #The Config Name for the Crate
+#      Name: '&8Basic Prize' #The in-game name of the Crate
+#      Color: 7 #Use the MetaData for the color of the glass
+#      Chance: 80 #Chance of that item getting picked. It would be 80/100 chance because MaxRange is 100.
+#      MaxRange: 100 #The max raccccccccccnge that the chance will go though.
+#    UnCommon:
+#      Name: '&aUnCommon Prize'
+#      Color: 5
+#      Chance: 105
+#      MaxRange: 100
+#    Rare:
+#      Name: '&4Rare Prize'
+#      Color: 14
+#      Chance: 10
+#      MaxRange: 100
+#############################################
+  Prizes:                      
+    1:
+      DisplayName: '&x&6&a&b&f&4&dElitra'
+      DisplayItem: 'ELYTRA' 
+      DisplayAmount: 1 
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% elytra 1'
+      BlackListed-Permissions: {}
+    2:
+      DisplayName: '&x&6&a&b&f&4&dNether Yıldızı'
+      DisplayItem: 'NETHER_STAR' 
+      DisplayAmount: 1 
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% nether_star 1'
+      BlackListed-Permissions: {}
+    3:
+      DisplayName: '&x&6&a&b&f&4&dElmas Blok'
+      DisplayItem: 'DIAMOND_BLOCK' 
+      DisplayAmount: 3 
+      MaxRange: 100
+      Chance: 12
+      Firework: false
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% diamond_block 3'
+      BlackListed-Permissions: {}
+    4a:
+      DisplayName: '&x&6&a&b&f&4&d128 Adet Altın Külçesi'
+      DisplayItem: 'GOLD_INGOT' 
+      DisplayAmount: 64
+      MaxRange: 100
+      Chance: 6
+      Firework: false
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% gold_ingot 128'
+      BlackListed-Permissions: {}
+      BlackListed-Permissions: {}
+    8:
+      DisplayName: '&x&6&a&b&f&4&dNetherit Hurdası'
+      DisplayItem: 'NETHERITE_SCRAP'
+      DisplayAmount: 5
+      MaxRange: 100
+      Chance: 8
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% netherite_scrap 5'
+      BlackListed-Permissions: {}
+    6:
+      DisplayName: '&x&6&a&b&f&4&d2 Adet Shulker Kutusu'
+      DisplayItem: 'SHULKER_BOX'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 6
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% shulker_box 1'
+    7:
+      DisplayName: '&x&6&a&b&f&4&dShulker Kabuğu'
+      DisplayItem: 'SHULKER_SHELL'
+      DisplayAmount: 3
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% shulker_shell 3'
+      BlackListed-Permissions: {}
+    5:
+      DisplayName: '&x&6&a&b&f&4&dBoş'
+      DisplayItem: 'DEAD_BUSH'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 37
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %player% dead_bush 1'
+      BlackListed-Permissions: {}

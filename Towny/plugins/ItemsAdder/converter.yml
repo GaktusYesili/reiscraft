@@ -1,0 +1,48 @@
+# Convert old ItemsAdder 1.0 items/blocks to 2.0 version.
+# Converts old blocks when a chunk is loaded and items when inventory is opened
+enabled: false
+items-conversion:
+  debug: false
+  debug-exceptions: false
+players:
+  inventory:
+    enabled: true
+blocks-on-chunk-load:
+  enabled: false
+  delete-ores: false
+  debug: false
+  debug-exceptions: true
+worlds:
+- world
+- world_nether
+- world_the_end
+blocks:
+  conversion-map:
+    '1': itemsadder:ruby_block
+    '2': itemsadder:crystal_block
+    '3': itemsadder:spinel_block
+    '4': itemsadder:turquoise_block
+    '5': itemsadder:aqua_aura_block
+    '6': itemsadder:amethyst_block
+    '7': itemsadder:amethyst_prism_block
+    '8': itemsadder:crying_obsidian
+    '9': itemsadder:nice_stone
+    '10': itemsadder:nice_wood
+    '11': itemsadder:modern_stone
+    '12': itemsadder:modern_sandstone
+    '13': itemsadder:modern_quartz
+    '14': itemsadder:ruby_ore
+    '15': itemsadder:spinel_ore
+    '16': itemsadder:turquoise_ore
+    '17': itemsadder:aqua_aura_ore
+    '18': itemsadder:amethyst_ore
+    '19': itemsadder:bronze_ore
+    '20': itemsadder:mysterious_ore
+    '21': itemsadder:end_ore
+    '22': itemsadder:restoration_table
+    '23': itemsadder:customization_table
+    '24': itemsadder:iron_dirt_ore
+    '25': itemsadder:gold_dirt_ore
+    '26': itemsadder:coal_dirt_ore
+    '27': itemsadder:blaze_powder_ore
+    '28': itemsadder:nether_alchemy_ore

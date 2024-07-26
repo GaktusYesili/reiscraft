@@ -1,0 +1,51 @@
+#    _____ _           _   ____                     _ 
+#   / ____| |         | | |  _ \                   | |
+#  | |    | |__   __ _| |_| |_) |_ __ __ ___      _| |
+#  | |    | '_ \ / _` | __|  _ <| '__/ _` \ \ /\ / / |
+#  | |____| | | | (_| | |_| |_) | | | (_| |\ V  V /| |
+#   \_____|_| |_|\__,_|\__|____/|_|  \__,_| \_/\_/ |_|
+#                                                     
+#   For a detailed explanation of all settings visit:         
+#       https://github.com/woutzah/ChatBrawl/wiki    
+# 
+#   Need help? Join the Discord server: https://discord.gg/TvTUWvG 
+
+lang: EN_US
+general:
+  helpmenu:
+  - '&x&4&b&4&b&4&9&m--------&x&e&8&e&8&5&0 ChatBrawl Yardım &x&4&b&4&b&4&9&m--------&r\n'
+  - ' \n'
+  - '  &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0/cb help &8- &x&f&3&f&3&a&0Yardım mesajı gönderir.\n'
+  - '  &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0/cb current &8- &x&f&3&f&3&a&0Aktif olan yarışı
+    gösterir.\n'
+  - '  &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0/cb disable &8- &x&f&3&f&3&a&0Yarışı durdurur.\n'
+  - '  &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0/cb enable &8- &x&f&3&f&3&a&0Yarışı başlatır.\n'
+  - '  &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0/cb stop &8- &x&f&3&f&3&a&0Yarışmayı sonlandırır.\n'
+  - '  &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0/cb leaderboard &8- &x&f&3&f&3&a&0En yüksek skorları
+    gösterir.\n'
+  - '  &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0/cb reload &8- &x&f&3&f&3&a&0Yapılandırmayı yeniler.\n'
+  - ' \n'
+  - '&x&4&b&4&b&4&9&m----------------------------------------&x&4&b&4&b&4&9&m\n'
+  started-creating: '&x&f&3&f&3&a&0Yarış başlatıldı.'
+commands:
+  no-permission: '&x&f&3&f&3&a&0Yeterli iznin yok!'
+  subcommand-not-exist: '&x&f&3&f&3&a&0Böyle bir alt komut mevcut değil!'
+  stopped-race: '&x&e&8&e&8&5&0<race> &x&f&3&f&3&a&0yarışı durduruldu!'
+  start-race-usage: '&x&f&3&f&3&a&0Kullanımı: &x&e&8&e&8&5&0/cb start <yarış>'
+  started-race: '&x&e&8&e&8&5&0<race> &x&f&3&f&3&a&0yarışı başlatıldı!'
+  racetype-not-exist: '&x&f&3&f&3&a&0Yarış bulunamadı.'
+  race-still-running: '&x&f&3&f&3&a&0Yarış zaten devam ediyor.'
+  no-race-running: '&x&f&3&f&3&a&0Şu anda bir yarış yok.'
+  disabled: '&x&f&3&f&3&a&0Yarış iptal edildi!'
+  already-disabled: '&x&f&3&f&3&a&0Yarış zaten iptal edilmiş.'
+  enabled: '&x&f&3&f&3&a&0Yarış başladı!'
+  already-enabled: '&x&f&3&f&3&a&0Yarış zaten başlamış!'
+leaderboards:
+  specify-type: '&x&e&8&e&8&5&0specify leaderboard type: &x&f&3&f&3&a&0(&ftotal&7/&fuser&7/&frace&7)'
+  specify--valid-type: '&x&e&8&e&8&5&0specify valid leaderboard type: &x&f&3&f&3&a&0(&ftotal&7/&fuser&7/&frace&7)'
+  specify-subtype: '&x&e&8&e&8&5&0specify leaderboard subtype: &x&f&3&f&3&a&0(&fwins&7/&ftime&7)'
+  specify-valid-subtype: '&x&e&8&e&8&5&0specify leaderboard subtype: &x&f&3&f&3&a&0(&fwins&7/&ftime&7)'
+  specify-race: '&x&e&8&e&8&5&0specify race'
+  specify-valid-race: '&x&e&8&e&8&5&0specify valid race'
+  specify-user: '&x&e&8&e&8&5&0specify user'
+  not-played-before: '&x&e&8&e&8&5&0user hasn''t played before'

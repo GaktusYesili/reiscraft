@@ -1,0 +1,40 @@
+info:
+  namespace: rhinesgenshin
+categories:
+  RhinesGenshinVision:
+    enabled: true
+    skip_if_already: false
+    icon: "rhinesgenshin:empty_vision_1"
+    name: RhinesGenshinVisions
+    permission: ia.menu.rhinesgenshinVisions
+    items:
+      - "rhinesgenshin:anemo_vision_1"
+      - "rhinesgenshin:anemo_vision_2"
+      - "rhinesgenshin:anemo_vision_3"
+      - "rhinesgenshin:cryo_vision_1"
+      - "rhinesgenshin:cryo_vision_2"
+      - "rhinesgenshin:cryo_vision_3"
+      - "rhinesgenshin:hydro_vision_1"
+      - "rhinesgenshin:hydro_vision_2"
+      - "rhinesgenshin:hydro_vision_3"
+      - "rhinesgenshin:electro_vision_1"
+      - "rhinesgenshin:electro_vision_2"
+      - "rhinesgenshin:electro_vision_3"
+      - "rhinesgenshin:geo_vision_1"
+      - "rhinesgenshin:geo_vision_2"
+      - "rhinesgenshin:geo_vision_3"
+      - "rhinesgenshin:pyro_vision_1"
+      - "rhinesgenshin:pyro_vision_2"
+      - "rhinesgenshin:pyro_vision_3" 
+      - "rhinesgenshin:empty_vision_1" 
+      - "rhinesgenshin:empty_vision_2" 
+      - "rhinesgenshin:empty_vision_3"       
+
+      
+
+      
+ 
+      
+      
+
+

@@ -1,0 +1,71 @@
+announce-command-usage: |-
+  Usage: /tab announce <type> <name> <length>
+  Currently supported types: &lbar, scoreboard
+bossbar-feature-not-enabled: '&x&e&8&e&8&5&0This command requires the bossbar feature
+  to be enabled.'
+bossbar-announce-command-usage: 'Usage: /tab announce bar <bar name> <length>'
+bossbar-not-found: '&x&e&8&e&8&5&0No bossbar found with the name "%name%"'
+bossbar-already-announced: '&x&e&8&e&8&5&0This bossbar is already being announced'
+group-data-removed: '&3[TAB] All data has been successfully removed from group &e%group%'
+group-value-assigned: '&3[TAB] %property% ''&r%value%&r&3'' has been successfully
+  assigned to group &e%group%'
+group-value-removed: '&3[TAB] %property% has been successfully removed from group
+  &e%group%'
+user-data-removed: '&3[TAB] All data has been successfully removed from player &e%player%'
+user-value-assigned: '&3[TAB] %property% ''&r%value%&r&3'' has been successfully assigned
+  to player &e%player%'
+user-value-removed: '&3[TAB] %property% has been successfully removed from player
+  &e%player%'
+parse-command-usage: 'Usage: /tab parse <player> <placeholder>'
+send-command-usage: |-
+  Usage: /tab send <type> <player> <bar name> <length>
+  Currently supported types: &lbar
+send-bar-command-usage: 'Usage: /tab send bar <player> <bar name> <length>'
+team-feature-required: This command requires scoreboard teams feature enabled
+collision-command-ussage: 'Usage: /tab setcollision <player> <true/false>'
+no-permission: '&x&e&8&e&8&5&0I''m sorry, but you do not have permission to perform
+  this command. Please contact the server administrators if you believe that this
+  is in error.'
+command-only-from-game: '&x&e&8&e&8&5&0This command must be ran from the game'
+player-not-online: '&x&e&8&e&8&5&0No online player found with the name "%player%"'
+unlimited-nametag-mode-not-enabled: '&x&e&8&e&8&5&0[TAB] Warning! To make this feature
+  work, you need to enable unlimited-nametag-mode in the config!'
+invalid-number: '"%input%" is not a number!'
+scoreboard-feature-not-enabled: '&4This command requires the scoreboard feature to
+  be enabled.'
+scoreboard-announce-command-usage: 'Usage: /tab announce scoreboard <scoreboard name>
+  <length>'
+scoreboard-not-found: '&x&e&8&e&8&5&0No scoreboard found with the name "%name%"'
+nametag-preview-on: '&x&f&3&f&3&a&0Preview mode &aactivated&x&f&3&f&3&a&0.'
+nametag-preview-of: '&x&f&3&f&3&a&0Preview mode &3deactivated&x&f&3&f&3&a&0.'
+reload-success: '&3[TAB] Successfully reloaded'
+reload-fail-file: '&3[TAB] &4Failed to reload, file %file% has broken syntax. Check
+  console for more info.'
+scoreboard-toggle-on: '&x&d&c&d&c&0&0&lV&x&e&1&e&1&2&2&lE&x&e&6&e&6&4&5&lL&x&e&b&e&b&6&7&lD&x&f&0&f&0&8&9&lO&x&f&5&f&5&a&b&lR&x&f&a&f&a&c&e&lY&x&f&f&f&f&f&0&lA
+  &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Tabloyu başarıyla &x&e&8&e&8&5&0aktif &x&f&3&f&3&a&0ettin!'
+scoreboard-toggle-off: '&x&d&c&d&c&0&0&lV&x&e&1&e&1&2&2&lE&x&e&6&e&6&4&5&lL&x&e&b&e&b&6&7&lD&x&f&0&f&0&8&9&lO&x&f&5&f&5&a&b&lR&x&f&a&f&a&c&e&lY&x&f&f&f&f&f&0&lA
+  &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Tabloyu başarıyla &x&e&8&e&8&5&0devre dışı &x&f&3&f&3&a&0bıraktın!'
+bossbar-toggle-on: '&2Bossbar is now visible'
+bossbar-toggle-off: '&x&f&3&f&3&a&0Bossbar is no longer visible. Magic!'
+help-menu:
+- '&m                                                                                '
+- ' &8>> &3&l/tab reload'
+- '    &7Reloads plugin and config'
+- ' &8>> &3&l/tab &9group&3/&9player &3<name> &9<property> &3<value...>'
+- '    &7Do &8/tab group/player &7to show properties'
+- ' &8>> &3&l/tab nametag preview'
+- '    &7Shows your nametag for yourself, for testing purposes'
+- ' &8>> &3&l/tab announce bar &3<name> &9<seconds>'
+- '    &7Temporarily displays bossbar to all players'
+- ' &8>> &3&l/tab parse <player> <placeholder> '
+- '    &7Test if a placeholder works'
+- ' &8>> &3&l/tab debug [player]'
+- '    &7displays debug information about player'
+- ' &8>> &3&l/tab cpu'
+- '    &7shows CPU usage of the plugin'
+- ' &8>> &3&l/tab group/player <name> remove'
+- '    &7Clears all data about player/group'
+- '&m                                                                                '
+nametag-help-menu:
+- /tab nametag preview - toggles armor stand preview mode
+- /tab nametag toggle - toggles nametags on all players for command sender

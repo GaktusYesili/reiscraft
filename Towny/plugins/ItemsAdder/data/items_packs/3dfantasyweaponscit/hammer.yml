@@ -1,0 +1,63 @@
+info:
+  namespace: 3dfantasyweaponscit
+items:
+  treacherous_bludgeon:
+    display_name: display-name-treacherous_bludgeon
+    permission: 3dfantasyweaponscit.hammer.treacherous_bludgeon
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/hammer/treacherous_bludgeon
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  wooden_bludgeon:
+    display_name: display-name-wooden_bludgeon
+    permission: 3dfantasyweaponscit.hammer.wooden_bludgeon
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/hammer/wooden_bludgeon
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  iron_mace:
+    display_name: display-name-iron_mace
+    permission: 3dfantasyweaponscit.hammer.iron_mace
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/hammer/iron_mace
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  vindicator:
+    display_name: display-name-vindicator
+    permission: 3dfantasyweaponscit.hammer.vindicator
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/hammer/vindicator
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562

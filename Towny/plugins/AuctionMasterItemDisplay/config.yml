@@ -1,0 +1,35 @@
+title-line-1: '&x&0&0&b&d&e&7#%top-position% %auction-name%'
+title-line-2: '&x&f&7&f&e&9&bSatıcı: &x&f&f&e&5&0&0%seller-display-name%'
+
+display-use-permission: 'auctionmaster.display'
+no-permission-message: '&cYou don''t have permission to use this.'
+
+no-auction-display-click-message:
+  - '&x&7&b&f&b&2&cᴀ&x&8&4&f&0&2&fʟ&x&8&c&e&5&3&1ᴏ&x&9&5&d&9&3&4ɴ&x&9&e&c&e&3&6ᴇ &x&a&6&c&3&3&9ᴡ&x&a&f&b&8&3&cᴏ&x&b&8&a&d&3&eʟ&x&c&0&a&1&4&1ғ &x&c&9&9&6&4&3ᴏ&x&d&2&8&b&4&6ғ&x&d&a&8&0&4&9ғ&x&e&3&7&5&4&bɪ&x&e&c&6&9&4&eᴄ&x&f&4&5&e&5&0ᴀ&x&f&d&5&3&5&3ʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Burada ihale yok!'
+
+#The sign is pretty limited you can
+#use %position% for auction position
+#use %coins% for auction coins
+#use %bids% for the number of bids
+sign-line-1: '&e#%position%. İhale'
+sign-line-2: '&6%coins% para'
+sign-line-3: '&d%bids% Teklif'
+sign-line-4: '&4[CAMA TIKLA]'
+
+#The units displayed on the sign
+#you can put more than one letter but
+#keep in mind that it has to
+#have enough space on a row
+units:
+  #Unit for 1.000
+  first-unit: 'K'
+  #Unit for 1.000.000
+  second-unit: 'M'
+  #Unit for 1.000.000.000
+  third-unit: 'T'
+  #Unit for 1.000.000.000.000
+  forth-unit: 'T'
+  #If you need more units you are crazy
+
+#Please do not modify
+version: 1.0

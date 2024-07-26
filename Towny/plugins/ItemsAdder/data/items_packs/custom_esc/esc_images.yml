@@ -1,0 +1,13 @@
+info:
+  namespace: "custom_esc"
+font_images:
+  top_logo_1:
+    path: "top_logo_1.png"
+    y_position: 48
+    scale_ratio: 112
+  quit_button:
+    path: "quit_button.png"
+    y_position: 126
+  you_died:
+    path: "you_died.png"
+    y_position: 35

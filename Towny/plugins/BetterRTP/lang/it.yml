@@ -1,0 +1,78 @@
+# Translation author: OasisAkari (GitHub)
+Messages:
+  Prefix: '&x&f&3&f&3&a&0[&6BetterRTP&x&f&3&f&3&a&0] '
+  Success:
+    Paid: '&aSei stato teletrasportato a&x&f&3&f&3&a&0 x=%x% y=%y% z=%z% in &f%attempts%
+      &x&f&3&f&3&a&0tentativi, pagando &x&e&8&e&8&5&0$%price%&x&f&3&f&3&a&0! '
+    Bypass: '&aSei stato teletrasportato a&x&f&3&f&3&a&0 x=%x% y=%y% z=%z% in &f%attempts%
+      &x&f&3&f&3&a&0tentativi!'
+    Loading: '&aLuogo sicuro localizzato! &x&f&3&f&3&a&0Caricamento...'
+    Teleport: '&aTeletrasporto in corso... ricerca di un luogo sicuro...'
+  Failed:
+    Price: '&x&e&8&e&8&5&0Teletrasporto non avvenuto per la seguente ragione: &fdevi
+      spendere $%price% per teletrasportarti randomicamente!'
+    NotSafe: '&x&e&8&e&8&5&0Teletrasporto non avvenuto per la seguente ragione: &fluogo
+      sicuro non localizzato dopo %attempts% tentativi!'
+    Hunger: '&x&e&8&e&8&5&0Teletrasporto non avvenuto per la seguente ragione: &fdevi
+      recuperare la fame prima di teletrasportarti!'
+  Other:
+    Success: '&a%player% è stato teletrasportato a&x&f&3&f&3&a&0 x=%x% y=%y% z=%z%
+      in &f%attempts% &x&f&3&f&3&a&0tentativi!'
+    NotSafe: '&x&e&8&e&8&5&0Teletrasporto non avvenuto in seguito a %attempts% tentativi!
+      &x&f&3&f&3&a&0%player% non è stato spostato, perché nessun luogo sicuro è stato
+      trovato.'
+    Biome: '&x&e&8&e&8&5&0Il bioma &fc%biome%&x&e&8&e&8&5&0 non esiste! &x&f&3&f&3&a&0Prova
+      a utilizzare la lista inclusa nel Tab completer.'
+  Reload: '&eConfigurazioni riavviate con successo!'
+  NoPermission:
+    Basic: '&x&e&8&e&8&5&0Non hai il permesso di usare questo comando!'
+    World: '&x&e&8&e&8&5&0Non hai i permessi per teletrasportati nel mondo &f%world%&x&e&8&e&8&5&0!'
+  DisabledWorld: '&x&e&8&e&8&5&0Il mondo &f%world%&x&e&8&e&8&5&0 è disabilitato! &x&f&3&f&3&a&0Teletrasporto
+    non avvenuto!'
+  Cooldown: '&x&e&8&e&8&5&0Attendi ancora &f%time% &x&f&3&f&3&a&0secondi &x&e&8&e&8&5&0prima
+    di teletrasportarti nuovamente!'
+  Locked: '&x&e&8&e&8&5&0Hai esaurito tutti i tuoi RTP disponibili!'
+  Invalid: '&x&e&8&e&8&5&0Argomento non valido, digita ''/%command% help'''
+  NotOnline: '&x&e&8&e&8&5&0Il giocatore &x&f&3&f&3&a&0%player% &x&e&8&e&8&5&0non
+    è online!'
+  Delay: '&aTeletrasporto fra &f%time% &asecondi! NON MUOVERTI!'
+  Moved: '&x&e&8&e&8&5&0Ti sei mosso, l''&x&f&3&f&3&a&0RTP è stato cancellato!'
+  NotExist: '&x&e&8&e&8&5&0Il mondo &x&f&3&f&3&a&0%world% &x&e&8&e&8&5&0non esiste!'
+  Already: '&x&e&8&e&8&5&0Attendi, un teletrasporto è già in corso!'
+  Sign: '&x&f&3&f&3&a&0Cartello creato, il comando che eseguirà è: ''&f/rtp %command%&x&f&3&f&3&a&0'''
+  Edit:
+    Error: '&x&e&8&e&8&5&0Errore! &x&f&3&f&3&a&0Input digitato non corretto!'
+    Set: '&f%type% &aimpostato su &f%value%'
+    Remove: '&x&e&8&e&8&5&0Rimosso il mondo %world%'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| Help &e&m-----'
+  Main: ' &x&f&3&f&3&a&0- &e/%command% &x&f&3&f&3&a&0- Teletrasporto randomico!'
+  Biome: ' &x&f&3&f&3&a&0- &e/%command% biome <bioma1, bioma2...> &x&f&3&f&3&a&0-
+    Teletrasporto randomico con bioma scelto da te.'
+  Edit: ' &x&f&3&f&3&a&0- &e/%command% edit <default/mondo> [argomenti...] &x&f&3&f&3&a&0-
+    Modifica alcuni settings del plugin.'
+  Help: ' &x&f&3&f&3&a&0- &e/%command% help &x&f&3&f&3&a&0- Mostra la lista dei comandi'
+  Info: ' &x&f&3&f&3&a&0- &e/%command% info [mondo/effetti/forme/effetti pozione]
+    &x&f&3&f&3&a&0- Vedi alcuni parametri impostati suoi config'
+  Player: ' &x&f&3&f&3&a&0- &e/%command% player <player> [mondo] [bioma1, bioma2...]
+    &x&f&3&f&3&a&0- Teletrasporta randomicamente un altro utente'
+  Reload: ' &x&f&3&f&3&a&0- &e/%command% reload &x&f&3&f&3&a&0- Riavvia le configurazioni'
+  Settings: ' &x&f&3&f&3&a&0- &e/%command% settings &x&f&3&f&3&a&0- Apri una gui e
+    modifica alcune impostazioni'
+  Test: ' &x&f&3&f&3&a&0- &e/%command% test &x&f&3&f&3&a&0- Testa gli effetti generati
+    dall''RTP, ma senza teletrasportarti'
+  Version: ' &x&f&3&f&3&a&0- &e/%command% version &x&f&3&f&3&a&0- Visualizza la versione
+    del plugin'
+  World: ' &x&f&3&f&3&a&0- &e/%command% world <mondo> [bioma1, bioma2...] &x&f&3&f&3&a&0-
+    Teletrasporto randomico in un altro mondo'
+Usage:
+  Player: '&x&e&8&e&8&5&0Usa&x&f&3&f&3&a&0: /%command% player <giocatore> [mondo]
+    [bioma1, bioma2]'
+  World: '&x&e&8&e&8&5&0Usa&x&f&3&f&3&a&0: /%command% world <mondo> [bioma1, bioma2...]'
+  Biome: '&x&e&8&e&8&5&0Usa&x&f&3&f&3&a&0: /%command% biome <bioma1, bioma2...>'
+  Edit:
+    Base: '&x&e&8&e&8&5&0Usa&x&f&3&f&3&a&0: /%command% edit <default/mondo> [argomenti...]'
+    Default: '&x&e&8&e&8&5&0Usa&x&f&3&f&3&a&0: /%command% edit default <max/min/useworldborder/center>
+      <value>'
+    World: '&x&e&8&e&8&5&0Usa&x&f&3&f&3&a&0: /%command% edit world <world> <max/min/useworldborder/center>
+      <value>'

@@ -1,0 +1,92 @@
+# Translation author: OasisAkari (GitHub)
+Messages:
+  Prefix: '&x&f&3&f&3&a&0 [&6BetterRTP &x&f&3&f&3&a&0]'
+  Success:
+    Paid: '&aDu har blitt teleportert til &x&f&3&f&3&a&0 x=%x%, y=%y%, z=%z%, for
+      &x&e&8&e&8&5&0 $%price%&x&f&3&f&3&a&0 i &f%forsøk%&x&f&3&f&3&a&0 forsøk!'
+    Bypass: '&aYou have been teleportert to &x&f&3&f&3&a&0 x=%x% y=%y% z=%z% etter
+      &f%forsøk%&x&f&3&f&3&a&0 forsøk'
+    Loading: 'Trygt sted funnet! &x&f&3&f&3&a&0Laster biter ... '
+    Teleport: '&a Teleportering ... &x&f&3&f&3&a&0vent, mens vi finner et trygt sted!'
+  Failed:
+    Price: '&x&e&8&e&8&5&0Kan ikke teleportere på grunn av manglende penger! &x&f&3&f&3&a&0Du
+      må ha minst $%price% &x&f&3&f&3&a&0til rtp! '
+    NotSafe: '&x&e&8&e&8&5&0Kan ikke finne et trygt sted innen%forsøk%forsøk! &x&f&3&f&3&a&0Du
+      ble ikke teleportert! '
+    Hunger: '&x&e&8&e&8&5&0Kan ikke rtp fordi du er ... &x&f&3&f&3&a&0for sulten &x&e&8&e&8&5&0,
+      spis noe!'
+  Other:
+    Success: '&en%spiller% er blitt teleportert til &x&f&3&f&3&a&0 x=%x% y=%y% z =%z%
+      i &f%forsøk%&x&f&3&f&3&a&0 forsøk!'
+    NotSafe: '&x&e&8&e&8&5&0Kan ikke finne et trygt sted innen %forsøk% forsøk! &x&f&3&f&3&a&0%spiller%
+      ble ikke teleportert! '
+    Biome: '&x&e&8&e&8&5&0Ser ut som at %biome%&x&e&8&e&8&5&0 ikke eksisterer! &x&f&3&f&3&a&0Prøv
+      å bruke fanelisten! '
+    Reload: '&eKonfigurasjonsfil lastet inn på nytt!'
+  Reload: '&e配置成功重载！'
+  NoPermission:
+    Basic: '&x&e&8&e&8&5&0Beklager! &x&f&3&f&3&a&0Du har ikke tillatelse til å bruke
+      denne kommandoen! '
+    World: '&x&e&8&e&8&5&0Beklager! &x&f&3&f&3&a&0Du har ikke tillatelse rtp i %world%! '
+  DisabledWorld: '&x&e&8&e&8&5&0Deaktivert verden %world%! &x&f&3&f&3&a&0Kan ikke
+    RTP! '
+  Cooldown: '&x&e&8&e&8&5&0Beklager! &x&f&3&f&3&a&0Du kan ikke bruke RTP før om &x&e&8&e&8&5&0%tid%
+    &x&f&3&f&3&a&0sekunder! '
+  Locked: '&x&e&8&e&8&5&0Beklager! &x&f&3&f&3&a&0Du har brukt opp alle RTP-ene dine! '
+  Invalid: '&x&e&8&e&8&5&0Ugyldig argument. Prøv '' /%command% help '' '
+  NotOnline: '&x&e&8&e&8&5&0Spilleren &x&f&3&f&3&a&0%player% &x&e&8&e&8&5&0er ikke
+    online!'
+  Delay: '&aTeleporterer om &f%tid% &asekunder! Ikke flytt deg! '
+  Moved: '&x&e&8&e&8&5&0Du har flyttet deg! &x&f&3&f&3&a&0RTP ble kansellert! '
+  NotExist: '&x&e&8&e&8&5&0Ser ut som &x&f&3&f&3&a&0%world% &x&e&8&e&8&5&0Ikke eksisterer!'
+  Already: '&x&e&8&e&8&5&0Whoops! &x&f&3&f&3&a&0 Ser ut som om du allerede rtp''er,
+    ha litt tålmodighet! '
+  Sign: '&x&f&3&f&3&a&0Kommandoskilt er opprettet! &x&f&3&f&3&a&0Kommandoen er ...
+    '' &f/rtp %command%&x&f&3&f&3&a&0 '' '
+  Edit:
+    Error: '&x&e&8&e&8&5&0Error! &x&f&3&f&3&a&0Ugyldig verdi er gitt! '
+    Set: '&bSuksess! &x&f&3&f&3&a&0%type% satt til %verdi%'
+    Remove: '&x&e&8&e&8&5&0Fjernet! &x&f&3&f&3&a&0Du fjernet egendefinert verden %world%'
+Help:
+  Prefix: '&e &m ----- &6 &l BetterRTP &8 | Hjelp &e &m ----- '
+  Main: '&x&f&3&f&3&a&0- &e /%command%&x&f&3&f&3&a&0- Teleporterer deg tilfeldig!'
+  Biome: '&x&f&3&f&3&a&0- &e /%command% biome <biome1, biome2 ...> &x&f&3&f&3&a&0-
+    Tilfeldig teleportering med disse biomene'
+  Edit: '&x&f&3&f&3&a&0- &e /%command% edit <default / world> [args ...] &x&f&3&f&3&a&0-
+    Edit some plugin settings'
+  Help: '&x&f&3&f&3&a&0- &e /%command% help &x&f&3&f&3&a&0- viser hjelpeliste'
+  Info: '&x&f&3&f&3&a&0- &e /%command% info [verden / partikler / former / potion_effects]
+    &x&f&3&f&3&a&0- Vis spesifikk informasjon om plugin-parametere'
+  Player: '&x&f&3&f&3&a&0- &e /%command% player <spiller> [verden] [biome1, biome2
+    ...] &x&f&3&f&3&a&0- Tilfeldig teleportere en annen spiller'
+  Reload: '&x&f&3&f&3&a&0- &e /%command% reload &x&f&3&f&3&a&0- Last inn plugin'
+  Settings: '&x&f&3&f&3&a&0- &e /%command% settings &x&f&3&f&3&a&0- Trekk opp en gui
+    og rediger noen innstillinger'
+  Test: '&x&f&3&f&3&a&0- &e /%command% test &x&f&3&f&3&a&0- Test ut plugin-effekter
+    etter en teleport uten å bevege seg'
+  Version: '&x&f&3&f&3&a&0- &e /%command% version &x&f&3&f&3&a&0- Vis for øyeblikket
+    kjørende versjon'
+  World: '&x&f&3&f&3&a&0- &e /%command% world <world> [biome1, biome2 ...] &x&f&3&f&3&a&0-
+    Tilfeldig teleportering i en annen verden'
+  Location: '&x&f&3&f&3&a&0- &e /%command% location <location_name> &x&f&3&f&3&a&0-
+    Rtp using a specific location'
+Usage:
+  Player: '&x&e&8&e&8&5&0Usage &x&f&3&f&3&a&0: /%command% player <player> [world]
+    [biome1, biome2]'
+  World: '&x&e&8&e&8&5&0Usage &x&f&3&f&3&a&0: /%command% world <world> [biome1, biome2
+    ...]'
+  Biome: '&x&e&8&e&8&5&0Usage &x&f&3&f&3&a&0: /%command% biome <biome1, biome2 ...>'
+  Edit:
+    Base: '&x&e&8&e&8&5&0Usage &x&f&3&f&3&a&0: /%command% edit <default / world> [args
+      ...]'
+    Default: '&x&e&8&e&8&5&0Usage &x&f&3&f&3&a&0: /%command% edit default <max / min
+      / useworldborder / center> <value>'
+    World: '&x&e&8&e&8&5&0Usage &x&f&3&f&3&a&0: /%command% edit world <world> <max
+      / min / useworldborder / center> <value>'
+    Worldtype: '&x&e&8&e&8&5&0Usage &x&f&3&f&3&a&0: /%command% edit world_type <world>
+      <NETHER / NORMAL>'
+    Override: '&x&e&8&e&8&5&0Usage &x&f&3&f&3&a&0: /%command% edit override <world>
+      <world_to>'
+    BlacklistedBlocks: '&x&e&8&e&8&5&0Usage &x&f&3&f&3&a&0: /%command% edit blacklistedblocks
+      <add / remove> <block_id>'
+  Location: '&x&e&8&e&8&5&0Usage &x&f&3&f&3&a&0: /%command% location <location_name>'

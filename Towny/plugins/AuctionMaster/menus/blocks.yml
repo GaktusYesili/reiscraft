@@ -1,0 +1,17 @@
+blocks-menu-item: '4'
+blocks-menu-name: '&x&e&8&e&8&5&0Bloklar'
+blocks-menu-lore:
+  - '&x&f&3&f&3&a&0Kategori'
+  - ''
+  - '&x&f&3&f&3&a&0Örnekler:'
+  - '&8■ &x&e&8&e&8&5&0Toprak'
+  - '&8■ &x&e&8&e&8&5&0Taş'
+  - '&8■ &x&e&8&e&8&5&0Herhangi bir blok'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&x&f&3&f&3&a&0&lExample &x&f&3&f&3&a&0&lItem'
+
+custom-item-ids:
+  - '2266'

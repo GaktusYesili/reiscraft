@@ -1,0 +1,106 @@
+settings:
+  cut_titles_with_length_grether_than: 25
+  categories_view:
+    font_image:
+      name: mcguis:blank_menu
+      x_position_pixels: -16
+    title_position_pixels: 0
+    title_color: '&0'
+    icons:
+      search:
+        item: mcicons:icon_search
+  category_view:
+    font_image:
+      name: mcguis:blank_menu
+      x_position_pixels: -16
+    title_position_pixels: 0
+    title_color: '&0'
+    icons:
+      back:
+        item: mcicons:icon_cancel
+      previous_page:
+        item: mcicons:icon_back_orange
+      next_page:
+        item: mcicons:icon_next_orange
+  crafting_preview:
+    craft_font_image:
+      name: mcguis:crafting
+      x_position_pixels: -8
+    cook_font_image:
+      name: mcguis:cooking
+      x_position_pixels: -8
+    anvil_repair_font_image:
+      name: mcguis:anvil_repair
+      x_position_pixels: -8
+    title_position_pixels: 17
+    title_color: '&0'
+    icons:
+      previous_recipe:
+        item: mcicons:icon_left_blue
+      next_recipe:
+        item: mcicons:icon_right_blue
+      get_item:
+        item: mcicons:icon_arrow_chest
+      loot_blocks:
+        item: DIAMOND_PICKAXE
+      worlds_populators:
+        item: CHEST
+      surface_populators:
+        item: GRASS
+      trees_populators:
+        item: OAK_SAPLING
+      seed_result:
+        item: WHEAT_SEEDS
+      loot_mobs:
+        item: CREEPER_HEAD
+      loot_fishing:
+        item: FISHING_ROD
+      vehicle_fuel:
+        item: COAL
+    no_recipe_font_image:
+      name: z_iainternal:no_recipe
+      x_position_pixels: -16
+    smithing_font_image:
+      name: _iainternal:smithing
+      x_position_pixels: -16
+categories:
+  all:
+    enabled: true
+    icon: itemsadder:ruby_block
+    name: display-category-all
+    show_all_items: true
+    hide_items:
+    - mcicons:icon_left_grey
+    - mcicons:icon_left_blue
+    - mcicons:icon_right_grey
+    - mcicons:icon_right_blue
+    - mcicons:icon_up_grey
+    - mcicons:icon_up_blue
+    - mcicons:icon_next_white
+    - mcicons:icon_next_orange
+    - mcicons:icon_back_white
+    - mcicons:icon_back_orange
+    - mcicons:icon_cancel
+    - mcicons:icon_confirm
+    - mcicons:icon_lock
+    - mcicons:icon_unlock
+    - mcicons:icon_web
+    - itemsadder:light_blue_coupon
+    - itemsadder:turquoise_coupon
+    - itemsadder:purple_coupon
+    - itemsadder:green_coupon
+    - itemsadder:red_coupon
+    - itemsadder:black_coupon
+    - itemsadder:white_coupon
+    - itemsadder:golden_coupon
+    - itemsadder:blue_ring
+    - itemsadder:light_blue_ring
+    - itemsadder:turquoise_ring
+    - itemsadder:purple_ring
+    - itemsadder:green_ring
+    - itemsadder:red_ring
+    - itemsadder:black_ring
+    - itemsadder:white_ring
+    - itemsadder:golden_ring
+    - itemsadder:marriage_ring
+    permission: ia.menu.seecategory.all

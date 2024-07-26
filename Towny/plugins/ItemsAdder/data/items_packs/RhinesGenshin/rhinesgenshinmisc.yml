@@ -1,0 +1,66 @@
+info:
+  namespace: rhinesgenshin
+items:
+  barbara:
+    display_name: '&x&c&e&a&2&1&3Veldorya''nın Kitabı'
+    permission: rhinesgenshin
+    resource:
+      material: STICK
+      generate: false
+      model_path: misc/barbara
+    behaviours:
+      hat: false
+  barbatos:
+    display_name: display-name-barbatos
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: misc/barbatos
+    behaviours:
+      hat: true
+  everlastingmoonglow:
+    display_name: '&x&c&e&a&2&1&3Ay Parıltısı'
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: misc/everlastingmoonglow
+    behaviours:
+      hat: true
+  ganyu:
+    display_name: display-name-ganyu
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: misc/ganyu
+    behaviours:
+      hat: true
+  hutao:
+    display_name: '&x&c&e&a&2&1&3Rünlü Şapka'
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: misc/hutao
+    behaviours:
+      hat: true
+  venti:
+    display_name: '&x&c&e&a&2&1&3Rüzgarın Şapkası'
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: misc/venti
+    behaviours:
+      hat: true
+  xiao:
+    display_name: '&x&c&e&a&2&1&3Şeytan Maskesi'
+    permission: RhinesGenshin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: misc/xiao
+    behaviours:
+      hat: true

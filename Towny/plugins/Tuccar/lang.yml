@@ -1,0 +1,157 @@
+TuccarGui: '&f:offset_-10::㍾:                                                                                                                                                                                 '
+CategoryGui: '&f:offset_-10::キ:                                                                                                                                                                                                         '
+itemGui: '&f:offset_-10::キ:                                                                                                                                                                                                             '
+confirmationGui: '&8Menü ⇴ Onaylama                                                                                                                                                                            '
+selfProducts: '&f:offset_-10::キ:                                                                                                                                                                              '
+Messages:
+  productSold: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0{amount} &x&f&3&f&3&a&0adet &x&e&8&e&8&5&0{product}
+    &x&f&3&f&3&a&0satıldı. &a+{price}'
+  listItem: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Ürün başarıyla listelendi!'
+  dontHavePerm: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Bunun için yetkin yok!'
+  inputMustInteger: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Fiyat bir sayı olmalı!'
+  notEnoughItem: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yeterli sayıda ürün bulunamadı!'
+  couldntFindStock: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Stok bulunamadı!'
+  notInAllowedWorld: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Bunun için doğru dünyada değilsin!'
+  priceLow: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Fiyat en az &x&e&8&e&8&5&0{min} &x&f&3&f&3&a&0olmalı!'
+  rePrice: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Ürünün fiyatını güncellemek için sohbete fiyatı
+    &x&e&8&e&8&5&010 saniye &x&f&3&f&3&a&0içinde yaz.'
+  rePriceSuccess: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yeniden fiyat ayarlaması tamamlandı.'
+  cannotBuyOwnItem: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Kendi ürününü satın alamazsın!'
+  couldntFindItem: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Böyle bir ürün bulunamadı!'
+  setNpcSuccess: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0Tüccar &x&f&3&f&3&a&0başarıyla kondu.'
+  reload: '&x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yenileme işlemi başarıyla gerçekleştirildi.'
+  help:
+  - ''
+  - '                            &x&d&c&d&c&0&0&lT&x&e&3&e&3&3&0&lÜ&x&e&a&e&a&6&0&lC&x&f&1&f&1&9&0&lC&x&f&8&f&8&c&0&lA&x&f&f&f&f&f&0&lR
+    &e&m-&e&l YARDIM'
+  - ''
+  - '&x&e&8&e&8&5&0/tüccar ekle [Birim Fiyatı] &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Elindeki
+    ürünü satışa sunar.'
+  - '&x&e&8&e&8&5&0/tüccar stokekle &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Elindeki ürünü satışa
+    sunduysan stok ekler.'
+  - '&x&e&8&e&8&5&0/tüccar ürünlerim &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Satışa sunduğun
+    ürünlerini gösterir.'
+  - ''
+  - '&x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Tüccar menüsünden ürünlerini &x&e&8&e&8&5&0iptal
+    edip&x&e&8&e&8&5&0/&x&e&8&e&8&5&0düzenleyebilirsin.'
+  - ''
+Titles:
+  processCancelled:
+    title: '&eOnay'
+    subTitle: '&x&e&8&e&8&5&0Onay verilmedi!'
+  processSuccess:
+    title: '&eOnay'
+    subTitle: '&aOnay alındı!'
+  errorConfirmation:
+    title: '&x&e&8&e&8&5&0Hata'
+    subTitle: '&x&e&8&e&8&5&0Satın alınamadı!'
+  notEnoughSpace:
+    title: '&x&e&8&e&8&5&0Hata'
+    subTitle: '&x&e&8&e&8&5&0Envanter dolu!'
+  notEnoughMoney:
+    title: '&x&e&8&e&8&5&0Hata'
+    subTitle: '&x&e&8&e&8&5&0Yeterli paran yok!'
+Gui:
+  myProducts:
+    slot: 1
+    material: CHEST
+    name: '&x&e&8&e&8&5&0Ürünlerim'
+    lore:
+    - ''
+    - '&x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Buradan daha önce tüccara'
+    - '&x&f&3&f&3&a&0eklemiş olduğun ürünleri görebilirsin.'
+  itemCategoryTemplate:
+  - ''
+  - '&x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Satıcı Sayısı: &x&e&8&e&8&5&0{seller_amount}'
+  - '&x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Minimum Fiyat: &x&e&8&e&8&5&0{min_price}'
+  - ''
+  cancelTemplate:
+  - ''
+  - ' &x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Kategori: &x&e&8&e&8&5&0{category}'
+  - ' &x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Adet: &x&e&8&e&8&5&0{amount}'
+  - ' &x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Satıcı: &x&e&8&e&8&5&0{seller}'
+  - ' &x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Fiyat: &x&e&8&e&8&5&0{price}'
+  - ''
+  filter:
+    material: HOPPER
+    name: '&x&e&8&e&8&5&0Filtreleyici'
+    lore:
+    - ''
+    - '&x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Satışı olmayan ürünleri filtreler.'
+    - '&x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Mevcut durum: &x&e&8&e&8&5&0{filter_status}'
+  empty:
+    material: BARRIER
+    name: '&x&e&8&e&8&5&0Sekme Boş'
+    lore:
+    - ''
+    - '&x&f&3&f&3&a&0▪ Bu menü boş görünüyor!'
+  nextPage:
+    material: ARROW
+    name: '&x&e&8&e&8&5&0Sonraki Sayfa'
+    lore:
+    - ''
+    - '&x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Sonraki sayfaya geç!'
+  previousPage:
+    material: ARROW
+    name: '&x&e&8&e&8&5&0Önceki Sayfa'
+    lore:
+    - ''
+    - '&x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Önceki sayfaya dön!'
+  backToMenu:
+    material: ARROW
+    name: '&x&e&8&e&8&5&0Geri Dön'
+    lore:
+    - ''
+    - '&x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Önceki menüye dön!'
+  help:
+    slot: 10
+    material: BOOK
+    name: '&x&e&8&e&8&5&0Bilgi'
+    lore:
+    - ''
+    - '&x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Tüccar eşyalarını satışa çıkarır'
+    - '&x&f&3&f&3&a&0ve buradan yaptığın satışlar'
+    - '&x&f&3&f&3&a&0ile para kazanabilirsin!'
+  selfProductHelp:
+    slot: 45
+    material: BOOK
+    name: '&x&e&8&e&8&5&0Bilgi'
+    lore:
+    - ''
+    - '&x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Burada kendi sattığın ürünleri'
+    - '&x&f&3&f&3&a&0görebilirsin ve onları iptal edebilirsin.'
+  selfProductTemplate:
+    lore:
+    - ''
+    - ' &x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Stok: &x&e&8&e&8&5&0{stock}'
+    - ' &x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Fiyat: &x&e&8&e&8&5&0{price}'
+    - ' &x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Kategori: &x&e&8&e&8&5&0{category}'
+    - ''
+    - '&x&e&8&e&8&5&01 adet iptal etmek için &x&e&8&e&8&5&0[Sol Tık]'
+    - '&x&e&8&e&8&5&01 stack iptal etmek için &x&e&8&e&8&5&0[Sağ Tık]'
+    - '&x&e&8&e&8&5&0Hepsini iptal etmek için &x&e&8&e&8&5&0[Shift + Sağ Tık]'
+    - '&x&e&8&e&8&5&0Fiyatı güncellemek için &x&e&8&e&8&5&0[Orta Tık]'
+  itemTemplate:
+    lore:
+    - ''
+    - ' &x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Satıcı: &x&e&8&e&8&5&0{seller}'
+    - ' &x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Stok: &x&e&8&e&8&5&0{stock}'
+    - ' &x&4&b&4&b&4&9▪ &x&f&3&f&3&a&0Fiyat: &x&e&8&e&8&5&0{price}'
+    - ''
+    - '&x&e&8&e&8&5&01 Adet satın almak için &x&e&8&e&8&5&0[Sol Tık]'
+    - '&x&e&8&e&8&5&01 Stack satın almak için &x&e&8&e&8&5&0[Sağ Tık]'
+    - '&x&e&8&e&8&5&0Envanterini doldurmak için &x&e&8&e&8&5&0[Shift + Sağ Tık]'

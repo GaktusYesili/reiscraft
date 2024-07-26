@@ -1,0 +1,74 @@
+# SuperVanish v6.2.6 - Messages
+#
+# Information:
+# <..> means that .. is required; [..] means that .. is optional and can be left out; | inside [] or <> stands for 'OR'
+# You can use the & character for color codes; Example: '&x&e&8&e&8&5&0The color of this text would be red!'
+# You can use #XXXXXX for HEX color codes. Example: '#663EF6This text would be purple!'
+# You can use %p% to get the player's name; Example: '&4&l%p%, you aren't allowed to execute this command!'
+# You can use %other% to get the name of the target or cause
+# You can use %d% to get the player's display name; if you use Essentials then the display name contains the prefix too
+# You can use %tab% to get the player's name in the player list (TAB)
+# You can use %prefix% to get the player's prefix (Requires Vault)
+# You can use %suffix% to get the player's suffix (Requires Vault)
+# You can use %group% to get the player's group (Requires Vault)
+# You can use %nick% to get the player's nickname (Requires Essentials)
+# Some messages allow different, unique variables too
+#
+# NOTE: You can get WAY more placeholders by installing PlaceholderAPI or MVdWPlaceholderAPI
+#
+# Empty messages will not be sent
+# Using \n starts a new line
+#
+# Important:
+# You must double single quotes if you want to use them inside a message.
+# You must NOT use any tab characters inside this file (indent key) otherwise YAML will spam your console with errors!
+# !! If there are errors in the console after editing this file paste it into an online YAML parser to see if
+# there are any YAML syntax errors !!
+Messages:
+  NoPermission: '&x&e&8&e&8&5&0Hata &8⇴ &x&f&3&f&3&a&0Sunucuda geçerli olmayan bir komut girdiniz!'
+  InvalidUsage: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yanlış kullanım!'
+  VanishMessage: '&e%p% left the game'
+  ReappearMessage: '&e%p% joined the game'
+  VanishMessageWithPermission: '&a[SV] %p% vanished.'
+  ReappearMessageWithPermission: '&a[SV] %p% reappeared.'
+  OnVanish: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Görünmezlik: &x&e&8&e&8&5&0açık!'
+  OnReappear: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Görünmezlik: &x&e&8&e&8&5&0kapalı!'
+  OnVanishCausedByOtherPlayer: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%other% &x&f&3&f&3&a&0adlı yetkili seni görünmez yaptı!'
+  OnReappearCausedByOtherPlayer: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%other% &x&f&3&f&3&a&0adlı yetkili seni görünür yaptı!'
+  AlreadyVanishedError: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Zaten görünmezsin!'
+  NotVanishedError: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Görünmez değilsin!'
+  SilentJoinMessageForAdmins: '&a[SV] %p% joined silently.'
+  SilentQuitMessageForAdmins: '&a[SV] %p% left silently.'
+  SilentDeathMessage: '&a[SV] %deathmsg%'
+  RemindingMessage: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Hala görünmezsin!'
+  ListMessagePrefix: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Görünmez olanlar: &f%l'
+  ActionBarMessage: '&a⇴ Şu an diğer oyuncular seni göremiyor! ◀'
+  HideOtherMessage: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%other% &x&f&3&f&3&a&0adlı oyuncunun görünmezliği: &aaçık!'
+  ShowOtherMessage: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%other% &x&f&3&f&3&a&0adlı oyuncunun görünmezliği: &x&e&8&e&8&5&0kapalı!'
+  CannotHideOtherPlayer: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%other% &x&f&3&f&3&a&0adlı oyuncunun görünmezliğini değiştiremezsin!'
+  AlreadyInvisibleMessage: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%other% &x&f&3&f&3&a&0adlı oyuncu zaten görünmez!'
+  AlreadyVisibleMessage: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&e&8&e&8&5&0%other% &x&f&3&f&3&a&0adlı oyuncu zaten görünmez değil!'
+  PluginReloaded: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Başarıyla yenilendi! (&x&e&8&e&8&5&0%time%ms&x&f&3&f&3&a&0)'
+  InvalidSender: '&x&e&8&e&8&5&0You must be a player to execute this command!'
+  PlayerNotOnline: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Bu oyuncu aktif değil!'
+  PlayerNonExistent: '&x&e&8&e&8&5&0That player doesn''t exist!'
+  ToggledPickingUpItemsOn: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yerdeki eşyaları toplama: &aaçık!'
+  ToggledPickingUpItemsOff: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Yerdeki eşyaları toplama: &x&e&8&e&8&5&0kapalı!'
+  UpdateWarning: '&x&e&8&e&8&5&0Warning! Recreating %updates% resets %changes%. Please use &e/sv recreatefiles confirm&x&e&8&e&8&5&0 if you''d like to continue.'
+  RecreatedConfig: '&aSuccessfully recreated %updates%! Please check %changes%.'
+  NoConfigUpdateAvailable: '&eYour SuperVanish-files are up to date!'
+  RecreationRequiredMsg: '&x&e&8&e&8&5&0[SV] Your SuperVanish-files are not up to date, you can use &e/sv recreatefiles&x&e&8&e&8&5&0 to recreate them
+  or use /sv recreatefiles dismiss to dismiss this message.
+  Recreating SuperVanish''s files gives you access to newer settings and features of the plugin.'
+  DismissedRecreationWarning: '&eYou are no longer receiving notifications about this recreation.'
+  UndismissedRecreationWarning: '&eYou are now receiving notifications about this recreation.'
+  PrintedStacktrace: '&eSuccessfully created a stacktrace, see console!'
+  EntityHitDenied: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Görünmezken oyunculara veya varlıklara vuramazsın!'
+  BlockPlaceDenied: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Görünmezken blok koyamazsın!'
+  BlockBreakDenied: '&x&f&b&f&9&3&bᴀ&x&f&6&f&3&3&cʟ&x&f&1&e&d&3&eᴏ&x&e&c&e&6&3&fɴ&x&e&7&e&0&4&0ᴇ &x&e&2&d&a&4&1ᴡ&x&d&d&d&4&4&3ᴏ&x&d&8&c&e&4&4ʟ&x&d&2&c&7&4&5ғ &x&c&d&c&1&4&6ᴏ&x&c&8&b&b&4&8ғ&x&c&3&b&5&4&9ғ&x&b&e&a&f&4&aɪ&x&b&9&a&8&4&bᴄ&x&b&4&a&2&4&dᴀ&x&a&f&9&c&4&eʟ &x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&0Görünmezken blok kıramazsın!'
+  PluginOutdated: '&x&e&8&e&8&5&0[SV] Your current version of SuperVanish is outdated. New version: ''%new%''; Currently: ''%current%'''
+  DynmapFakeJoin: '%d% joined'
+  DynmapFakeQuit: '%d% quit'
+  HelpHeader: "&a<---------------&e SuperVanish-Help &a--------------->"
+  HelpFormat: "&6%usage% &x&f&3&f&3&a&0- &x&e&8&e&8&5&0%description% &x&e&8&e&8&5&0(%permission%)"
+MessagesVersion: 6.2.6

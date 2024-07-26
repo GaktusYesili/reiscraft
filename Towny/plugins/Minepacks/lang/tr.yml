@@ -1,0 +1,126 @@
+# To simplify the customisation and translation process please check out the editor: https://ptp.pcgamingfreaks.at
+
+Language:
+  NotFromConsole: "&cKomut konsoldan kullanılabilir değil."
+  Ingame:
+    NoPermission: "&cBunu yapmak için iznin yok."
+    WorldDisabled: "&cÇantaların kullanımı bu dünyada devredışı."
+    NaN: "[\"\",{\"text\":\"Girilen değer sayı değil!\",\"color\":\"red\"}]"
+    OwnBackpackClose: "&8⇴ &eSırt çantası kapatıldı! &8⬰"
+    OwnBackpackClose_SendMethod: "action_bar"
+    #Parameter: {OwnerName}, {OwnerDisplayName}
+    PlayerBackpackClose: "{OwnerName} adlı kişinin çantası kapandı!"
+    PlayerBackpackClose_SendMethod: "action_bar"
+    InvalidBackpack: "Geçersiz çanta."
+    NotAllowedInBackpack: "&c{ItemName} çanta içinde bulundurulamaz."
+    NotAllowedInBackpack_SendMethod: "action_bar"
+    DontRemoveShortcut: "&fSırt çantanı yere atamazsın!"
+    DontRemoveShortcut_SendMethod: "action_bar"
+    BackpackShrunk: "&cYour backpack shrunk! Some items fell to the ground!"
+    Open:
+      #Parameter: {TimeLeft} time in seconds till the backpack can be reopened, {TimeSpanLeft} time formatted as string till the backpack can be reopened
+      Cooldown: "[{\"text\":\"Çantanızı geri açana kadar lütfen \",\"color\":\"dark_green\"},{\"text\":\"{TimeSpanLeft}\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"{TimeLeft} seconds\"}},{\"text\":\" bekleyin.\"}]"
+      #Parameter: {CurrentGameMode}, {AllowedGameModes}
+      WrongGameMode: "Şu anki oyun modunda çantanızı açamazsınız."
+    Clean:
+      BackpackCleaned: "Çanta temizlendi."
+      BackpackCleanedBy: "Your backpack has been cleared by {DisplayName}&r."
+      BackpackCleanedOther: "{DisplayName}'s&r backpack has been cleared."
+    Sort:
+      Sorted: "Backpack sorted."
+    Help:
+      Header: "                     &8⇴ &eMinepacks Komutları &8⬰"
+      Footer: ""
+    Reload:
+      Reloading: "&1Tekrar Yükleniyor ..."
+      Reloaded: "&1Tekrar Yüklendi!"
+    Update:
+      CheckingForUpdates: "&1Güncellemeler denetleniyor ..."
+      Updated: "[\"\",{\"text\":\"Eklenti güncellendi, diğer restart/reload işleminde yüklenecek.\",\"color\":\"yellow\"}]"
+      NoUpdate: "[\"\",{\"text\":\"Eklenti güncellemesi bulunmuyor.\",\"color\":\"gold\"}]"
+      UpdateFail: "[\"\",{\"text\":\"Güncelleme denetlenirken bir hata oluştu! Lütfen konsolu kontrol edin!\",\"color\":\"red\"}]"
+      # You can change this message if you like to, but don't cry if the link isn't linking to the plugin anymore!
+      UpdateAvailable: "[{\"text\":\"Güncelleme mevcut! Yüklemek için \\\"\",\"color\":\"green\"},{\"text\":\"https://www.spigotmc.org/resources/19286/\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.spigotmc.org/resources/19286/\"}},{\"text\":\"\\\" adresini kullanın!\"}]"
+    Backup:
+      Created: "Çanta yedeklendi."
+      NoBackpack: "Oyuncunun bir çantası yok ya da çantası boş."
+    Restore:
+      BackupsPerPage: 10
+      Headline: "[\"\",{\"text\":\"Yedeklemeler\",\"color\":\"yellow\"},{\"text\":\" - \",\"color\":\"white\"},{\"text\":\"Gösterilen sayfa {CurrentPage}/{MaxPage}\",\"color\":\"gold\"}]"
+      Footer: "[{\"text\":\"<<< Önceki <<<\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}--\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}--\"}},{\"text\":\" Gösterilen Sayfa {CurrentPage}/{MaxPage} \",\"color\":\"gold\"},{\"text\":\">>> Sonraki >>>\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}++\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}++\"}}]"
+      BackupEntry: "[\"\",{\"text\":\"{BackupIdentifier}\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/{MainCommand} {SubCommand} {BackupIdentifier}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"User: {BackupPlayerName} ({BackupPlayerUUID})\\\nCreated: {BackupDate}\"}}]"
+      NoValidBackup: "Yedekleme eşleşmesi {BackupIdentifier} bulunamadı"
+      NoUserToRestoreToFound: "Yedekleme için geçerli oyuncu bulunamadı"
+      # No Json!!!
+      ParameterBackupName: "backup_name"
+      # No Json!!!
+      DateFormat: "yyyy.MM.dd HH:mm:ss"
+      Restored: "Yedek başarıyla geri getirildi."
+    InventoryClear:
+      UnknownPlayer: "&cCould not find player {Name}!"
+      Cleared: "Inventory cleared."
+      ClearedOther: "{DisplayName}'s&r inventory has been cleared."
+      ClearedOtherTarget: "Your inventory has been cleared by {DisplayName}&r."
+    Pickup:
+      ToggleOn: "&7Automatic item collection has been toggled &aON&7."
+      ToggleOff: "&7Automatic item collection has been toggled &cOFF&7."
+  Commands:
+    HelpFormat: "[\"\",{\"text\":\"/{MainCommand} {SubCommand} {Parameters}\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/{MainCommand} {SubCommand}\"}},{\"text\":\" - \",\"color\":\"white\"},{\"text\":\"{Description}\",\"color\":\"aqua\"}]"
+    PlayerNameVariable: "player_name"
+    Description:
+      Backpack: "&eÇantanı açar."
+      Sort: "&eÇantanı düzgün hale getirir."
+      Clean: "&eÇantanı temizler."
+      CleanOthers: "&eBaşka bir oyuncunun çantasını temizler."
+      OpenOthers: "&eBaşkasının çantasını görüntüler."
+      Reload: "&eEklentinin config dosyasını tekrar yükler."
+      Update: "&eEklenti için yeni güncellemeleri denetler."
+      Version: "&eEklenti detaylarını ve gerekliliklerinin çıktısını verir."
+      Backup: "&eOyuncunun çantasını yedekler."
+      BackupEveryone: "&eAktif tüm oyuncuların çantasını yedekler."
+      Restore: "&eYedeği yükler."
+      RestoreList: "&eMevcut tüm yedekleri listeler."
+      Help: "&eMevcut tüm komutları ve tanımlarını gösterir."
+      Migrate: "&eKullanılan veritabanını bir türden diğerine geçirir."
+      Pickup: "Toggle the state of the automatic pickup when the inventory is full."
+
+Command:
+  Backpack:
+    - backpack
+    - bp
+  Open:
+    - open
+  Sort:
+    - sort
+  Clean:
+    - clean
+    - clear
+    - empty
+  Reload:
+    - reload
+    - restart
+  Update:
+    - update
+  Backup:
+    - backup
+  Restore:
+    - restore
+  ListBackups:
+    - listbackups
+  Version:
+    - version
+  Help:
+    - help
+  InventoryClear:
+    - clear
+    - inventoryclear
+    - clean
+  Pickup:
+    - pickup
+
+# Will be shown in the console during startup
+LanguageName: "turkish"
+Author: "imZesha"
+
+# Language file version. Don't touch it!
+Version: 21

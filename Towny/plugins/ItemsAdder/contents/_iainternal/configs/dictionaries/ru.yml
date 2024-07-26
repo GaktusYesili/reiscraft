@@ -1,0 +1,115 @@
+info:
+  namespace: _common
+  dictionary-lang: "ru"
+dictionary:
+  lore-blocked-enchants: "&4Заблокированные зачарования:"
+  lore-enchantment-all: "&7Все"
+  lore-enchantment-sharpness: "&7Острота"
+  lore-enchantment-smite: "&7Небесная кара"
+  lore-enchantment-bane_of_arthropods: "&7Бич членистоногих"
+  lore-enchantment-knockback: "&7Отбрасывание"
+  lore-enchantment-fire_aspect: "&7Заговор огня"
+  lore-enchantment-sweeping: "&7Острота"
+  lore-enchantment-protection: "&7Защита"
+  lore-enchantment-fire_protection: "&7Защита от огня"
+  lore-enchantment-feather_falling: "&7Легкое падение"
+  lore-enchantment-blast_protection: "&7Защита от взрывов"
+  lore-enchantment-projectile_protection: "&7Защита от стрел"
+  lore-enchantment-respiration: "&7Подводное дыхание"
+  lore-enchantment-aqua_affinity: "&7Акваланг"
+  lore-enchantment-depth_strider: "&7Подводная ходьба"
+  lore-enchantment-frost_walker: "&7Ледоход"
+  lore-enchantment-soul_speed: "&7Скорость души"
+  lore-enchantment-efficiency: "&7Эффективность"
+  lore-enchantment-silk_touch: "&7Шелковое касание"
+  lore-enchantment-unbreaking: "&7Прочность"
+  lore-enchantment-looting: "&7Добыча"
+  lore-enchantment-fortune: "&7Удача"
+  lore-enchantment-luck_of_the_sea: "&7Морская удача"
+  lore-enchantment-lure: "&7Приманка"
+  lore-enchantment-power: "&7Сила"
+  lore-enchantment-flame: "&7Огненная стрела"
+  lore-enchantment-punch: "&7Отбрасывание"
+  lore-enchantment-infinity: "&7Бесконечность"
+  lore-enchantment-thorns: "&7Шипы"
+  lore-enchantment-mending: "&7Починка"
+  lore-enchantment-binding_curse: "&7Проклятие привязки"
+  lore-enchantment-vanishing_curse: "&7Проклятие утраты"
+  lore-enchantment-loyalty: "&7Верность"
+  lore-enchantment-impaling: "&7Разящий клинок"
+  lore-enchantment-riptide: "&7Тягун"
+  lore-enchantment-channeling: "&7Громовержец"
+  lore-enchantment-multishot: "&7Мультивыстрел"
+  lore-enchantment-quick_charge: "&7Быстрая зарядка"
+  lore-enchantment-piercing: "&7Пронзающая стрела"
+  display-category-all: Все
+  display-category-armors: Броня
+  display-category-swords: Мечи
+  display-category-pickaxes: Кирки
+  display-category-axes: Топоры
+  display-category-hoes: Мотыги
+  display-category-shovels: Лопаты
+  display-category-fishing_rods: Удочки
+  display-category-shears: Ножницы
+  display-category-weapons: Оружие
+  display-category-shields: Щиты
+  display-category-bows: Луки
+  display-category-eatables: Еда
+  display-category-thirst: Жажда
+  display-category-vegetables: Овощи и фрукты
+  display-category-seeds: Семена
+  display-category-fishes: Рыбы
+  display-category-potions: Зелья
+  display-category-furnitures: Мебель
+  display-category-paintings: Картины
+  display-category-chairs: Стулья
+  display-category-hats: Шляпы
+  display-category-wearables: Одежда и аксессуары
+  display-category-machines: Машины
+  display-category-blocks: Блоки
+  display-category-ores: Руды
+  display-category-minerals: Минералы
+  display-category-instruments: Инструменты
+  display-category-various: Предметы и ингредиенты
+  display-category-alchemy: Алхимические предметы
+  display-category-musicdiscs: Музыкальные диски
+  display-category-throwables: Метательные предметы
+  display-category-books: Книги
+  display-category-vehicles: Транспорт
+  display-category-icons: Иконки
+  display-category-generic_items: Общие предметы
+  display-category-halloween: Хэллоуинские предметы
+  display-category-christmas: Рождественские предметы
+  display-category-special: Специальные предметы
+  display-name-icon_left_gray: < Назад
+  display-name-icon_left_blue: < Назад
+  display-name-icon_right_gray: Далее >
+  display-name-icon_right_blue: Далее >
+  display-name-icon_up_gray: Вверх
+  display-name-icon_up_blue: Вверх
+  display-name-icon_down_gray: Вниз
+  display-name-icon_down_blue: Вниз
+  display-name-icon_next_white: Далее >
+  display-name-icon_next_orange: Далее >
+  display-name-icon_back_white: < Назад
+  display-name-icon_back_orange: < Назад
+  display-name-icon_cancel: Отмена
+  display-name-icon_confirm: Подтвердить
+  display-name-icon_lock: Заблокировать
+  display-name-icon_unlock: Разблокировать
+  display-name-icon_web: Веб
+  display-name-icon_ender_chest: Эндер-сундук
+  display-name-icon_refresh: Перезагрузка
+  display-name-icon_time_day: Дневное время
+  display-name-icon_time_midnight: Полуночное время
+  display-name-icon_time_night: Ночное время
+  display-name-icon_time_noon: Полуденное время
+  display-name-icon_time_sunrise: Время восхода
+  display-name-icon_time_sunset: Время заката
+  display-name-icon_toggle_off: Выключить
+  display-name-icon_toggle_on: Включить
+  display-name-icon_arrow_chest: Сундук со стрелкой
+  display-name-icon_plus: Плюс
+  display-name-icon_color_picker: Выбор цвета
+  display-name-icon_comment: Комментарий
+  display-name-icon_search: Поиск

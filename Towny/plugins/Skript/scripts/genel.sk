@@ -1,0 +1,279 @@
+﻿on first join:
+	wait 0.5 seconds
+	teleport player to {spawn}
+	give a rabbit stew named "<##4b4b49>⇴ <##e8e850>&nBaşlangıç Paketi&r <##4b4b49>⬰" to player
+
+on right click with rabbit stew:
+	if tool's display name is "<##4b4b49>⇴ <##e8e850>&nBaşlangıç Paketi&r <##4b4b49>⬰":
+		wait 0.3 seconds
+		remove a rabbit stew named "<##4b4b49>⇴ <##e8e850>&nBaşlangıç Paketi&r <##4b4b49>⬰" from player
+		send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Eşyalarını güle güle kullan!" to player
+		give a stone sword to player
+		give a stone pickaxe to player
+		give a leather helmet to player
+		give a leather chestplate to player
+		give 3 bread to player
+		give a oak sapling to player
+
+command /setspawn:
+	permission: setspawn
+	trigger:
+		set {spawn} to location of player
+		execute player command "mv config firstspawnworld %player's world%"
+		execute player command "setworldspawn"
+		execute player command "mv setspawn"
+		execute player command "setwarp spawn"
+		send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Başlangıç noktası ayarlandı!" to player
+
+on command "/pl" or "/plugins":
+	if player do not have permission "op":
+		send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Sunucuda geçerli olmayan bir komut girdin!" to the player
+		cancel event
+
+on join:
+    set {fall::%player%} to 15 second later's unix timestamp
+
+on damage:
+	damage cause is fall:
+		if {fall::%victim%} isn't set:
+			stop
+		if now's unix timestamp < {fall::%victim%}:
+			delete {fall::%victim%}
+			cancel the event
+
+on damage of armor stand:
+    if attacker is a skeleton:
+        cancel event
+
+on flight toggle:
+	if player's world is "duello":
+		if player do not have permission "op":
+			set player's fly mode to false
+
+on right click on mob spawner with spawn egg:
+	cancel event
+
+on command:
+	if command contains "essentials:":
+		cancel event
+
+on explode:
+      cancel event
+
+on command:
+	if command contains "minecraft:":
+		cancel event
+
+on command:
+	if command contains "bukkit:":
+		cancel event
+
+on command "/?":
+		send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Sunucuda geçerli olmayan bir komut girdin!" to the player
+		cancel event
+
+on load:
+    delete {bannedItems::*}
+    add detector rail to {bannedItems::*}
+    add rails to {bannedItems::*}
+    add activator rail to {bannedItems::*}
+    add powered minecart to {bannedItems::*}
+    add activator rail to {bannedItems::*}
+    add item frame to {bannedItems::*}
+    add armor stand to {bannedItems::*}
+    add hopper minecart to {bannedItems::*}
+    add storage minecart to {bannedItems::*}
+
+on place:
+    if {bannedItems::*} contains type of event-item:
+        cancel event
+        send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Bu eşyayı koyamazsın." to player
+
+on consume:
+    if {bannedItems::*} contains type of event-item:
+        cancel event
+        send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Bu eşyayı kullanamazsın." to player
+
+on craft:
+    if {bannedItems::*} contains type of event-item:
+        cancel event
+        send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Bu eşyayı oluşturamazsın." to player
+
+on right click:
+    if {bannedItems::*} contains type of event-item:
+        cancel event
+        send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Bu eşyayı kullanamazsın." to player
+
+on respawn:
+	teleport player to {spawn}
+
+command /spawn:
+	aliases: başlangıç, baslangic
+	trigger:
+		send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Işınlanıyorsun!" to player
+		teleport player to {spawn}
+
+command /spawngönder [<offlineplayer>]:
+	aliases: spawngonder
+	permission: spawngonder
+	trigger:
+		if arg 1 is set:
+			send "&6&lTavuhNW <##4b4b49>⇴ <##e8e850>%arg 1% <##f3f3a0>adlı oyuncuyu başlangıca ışınladın!" to player
+			send "&6&lTavuhNW <##4b4b49>⇴ <##e8e850>%player% <##f3f3a0>adlı oyuncuyu seni başlangıca ışınladı!" to arg 1
+			teleport arg 1 to {spawn}
+		else:
+			send "&6&lTavuhNW <##4b4b49>⇴ <##e8e850>Ad <##f3f3a0>girmeyi unuttun!" to player
+
+on craft armor stand:
+	cancel event
+
+on place armor stand:
+	cancel event
+
+on place item frame:
+    cancel event
+
+command /vote:
+	aliases: oy, oyver
+	trigger:
+		send "&8&m-----------------------------------------------------" to player
+		send "&e" to player
+		send "&e                       <##e8e850>Oy <##f3f3a0>kullanmaya ne dersin?" to player
+		send "&e    <##f3f3a0>Oy vererek <##e8e850>birbirinden güzel <##f3f3a0>hediyelere sahip olabilirsin!" to player
+		send "&e" to player
+		send "&e                       <link:https://minecraft-mp.com/server/><##e8e850>&nTıkla ve oyunu kullan! ❤" to player
+		send "&e" to player
+		send "&8&m-----------------------------------------------------" to player
+
+command /site:
+	aliases: web, website
+	trigger:
+		send "&8&m-----------------------------------------------------" to player
+		send "&e" to player
+		send "&e                    <##e8e850>Siteye <##f3f3a0>göz atmaya ne dersin?" to player
+		send "&e    <##f3f3a0>Siteden <##e8e850>VIP<##f3f3a0>, <##e8e850>Öncelikli Sıra <##f3f3a0>ve daha fazlasını satın alabilirsin!" to player
+		send "&e" to player
+		send "&e                         <link:https://discord.gg/tavuhnw/><##e8e850>&nTıkla ve siteye git! ❤" to player
+		send "&e" to player
+		send "&8&m-----------------------------------------------------" to player
+
+command /discord:
+	aliases: dc
+	trigger:
+		send "&8&m-----------------------------------------------------" to player
+		send "&e" to player
+		send "&e             <##e8e850>Discord <##f3f3a0>sunucumuza katılmaya ne dersin?" to player
+		send "&e  <##f3f3a0>Discord'a katılarak <##e8e850>yeniliklerden <##f3f3a0>ilk sen haberdar olabilirsin!" to player
+		send "&e" to player
+		send "&e                       <link:https://discord.gg/tavuhnw><##e8e850>&nTıkla ve Discord'a git! ❤" to player
+		send "&e" to player
+		send "&8&m-----------------------------------------------------" to player
+
+function removeChat(p: players):
+	loop 15 times:
+		send "" to players
+	send "&8⇴ &eSohbet temizleniyor... &8[<##e8e850>■<##f3f3a0>■■■■&8]" to players
+	send "" to players
+	wait 6 tick
+	loop 15 times:
+		send "" to players
+	send "&8⇴ &eSohbet temizleniyor... &8[<##e8e850>■■<##f3f3a0>■■■&8]" to players
+	send "" to players
+	wait 6 tick
+	loop 15 times:
+		send "" to players
+	send "&8⇴ &eSohbet temizleniyor... &8[<##e8e850>■■■<##f3f3a0>■■&8]" to players
+	send "" to players
+	wait 6 tick
+	loop 15 times:
+		send "" to players
+	send "&8⇴ &eSohbet temizleniyor... &8[<##e8e850>■■■■<##f3f3a0>■&8]" to players
+	send "" to players
+	wait 6 tick
+	loop 30 times:
+		send "" to players
+	send "&8⇴ &eSohbet temizlendi! &8[<##e8e850>■■■■■&8]" to players
+	send "" to players
+
+command /sil:
+	permission: sohbet.sil
+	permission message: &6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Sunucuda geçerli olmayan bir komut girdin!
+	trigger:
+		removeChat(all players)
+		
+on join:
+    loop 150 times:
+        send ""
+
+command /sohbet <text>:
+	permission: sohbet.kilit
+	permission message: &6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Sunucuda geçerli olmayan bir komut girdin!
+	trigger:
+		if arg 1 is "kapat":
+			set {kilitli} to true
+			send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Sohbet <##e8e850>kapatıldı<##f3f3a0>." to players
+		else if arg 1 is "aç":
+			set {kilitli} to false
+			send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Sohbet <##e8e850>açıldı<##f3f3a0>." to players
+
+on chat:
+	if {kilitli} is true:
+		if player doesn't have permission "sohbet.bypass":
+			cancel event
+			send "&6&lTavuhNW <##4b4b49>⇴ <##f3f3a0>Sohbet kapalı!" to player
+
+on chat:
+	if player does not have permission "op":
+		set {_mesaj} to the chat message
+		set {_ayrimlar::*} to message split at " "
+		loop {_ayrimlar::*}:
+			if loop-value contains "anani" or "ananı" or "sikerim" or "ChatCraft" or "https://" or "sikeyim" or "siktimin" or "sıkerım" or "sıkeyım" or "sıktımın" or "sıkerim" or "sıkeyim" or "sıktimin" or "sikerım" or "sikeyım" or "siktımin" or "siktimın" or "orospu" or "0rospu" or "0r0spu":
+				set {_ailevi} to loop-index parsed as integer
+				remove 1 from {_ailevi}
+				set {_ailevi} to {_ayrimlar::%{_ailevi}%}
+				if {_ailevi} contains "anan" or "anne" or "baba" or "kardeş" or "çocuğu" or "çocugu" or "cocugu" or "cocuğu" or "evladı" or "ç0cuğu" or "c0cugu" or "c0cuğu" or "evladı" or "evladi":
+					add "%{_ayrimlar::%loop-index%}% %{_ailevi}%" to {_kufurler::*}
+					set {_ailevi} to true
+				else:
+					set {_ailevi} to loop-index parsed as integer
+					add 1 to {_ailevi}
+					set {_ailevi} to {_ayrimlar::%{_ailevi}%}
+					if {_ailevi} contains "anan" or "anne" or "baba" or "kardeş" or "çocuğu" or "çocugu"  or "cocugu" or "cocuğu" or "evladı" or "ç0cuğu" or "c0cugu" or "c0cuğu" or "evladı" or "evladi":
+						add "%{_ayrimlar::%loop-index%}% %{_ailevi}%" to {_kufurler::*}
+						set {_ailevi} to true
+					else:
+						add {_ayrimlar::%loop-index%} to {_kufurler::*}
+						set {_kufurvar} to true
+			else if loop-value is "oç" or "o.ç" or "0.ç" or "0ç" or "orospuevladı" or "orospucocugu" or "enderoyuncu" or "reborn" or "reborncraft" or "orospuçocugu" or "orospuçocuğu" or "ananısikerim" or "ananisikerim" or "annenisikerim" or "annenısikerim" or "babanısikerim" or "sikerimananı" or "sikerimanani" or "sikerimanneni" or "sikerimannenı":
+				add {_ayrimlar::%loop-index%} to {_kufurler::*}
+				set {_ailevi} to true
+			else if loop-value is "sikik" or "sg" or "s.g" or "aq" or "a.q" or "amq" or "a.m.q" or "amk" or "a.m.k" or "amına" or "piç" or "p1ç" or "p1c" or "p.i.ç" or "piçler" or "picler" or "piçsin" or "picsin" or "yavşak" or "yavsak" or "yavsaksın" or "yavsaksin" or "yavşaksın" or "yavşaksin" or "gavat" or "gavatsın" or "gavatsin" or "gavatlar"  or "amcık" or "amcik" or "amcıklar" or "amcikler" or "amcıksın" or "fahişe":
+				set {_kufurvar} to true
+				add loop-value to {_kufurler::*}
+			else if loop-value contains "siktir" or "yarrak" or "y4rk" or "y4rrak" or "sikiş" or "sikis":
+				set {_kufurvar} to true
+				add loop-value to {_kufurler::*}
+			else if loop-value contains "şerefsiz" or "serefsiz" or "salak" or "pezevenk" or "götten" or "g0tten" or "gotten" or "g0tundeki" or "g0tündeki" or "yavşak":
+				set {_argovar} to true
+				add loop-value to {_kufurler::*}
+			else if loop-value is "ibne" or "ibneler" or "ibnesin" or "ibnemisin" or "ibnemisiniz" or "mal" or "g0t" or "göt" or "got":
+				set {_argovar} to true
+				add loop-value to {_kufurler::*}
+			else:
+				replace all " " with "" in {_mesaj}
+				if {_mesaj} contains "şerefsiz" or "serefsiz" or "salak" or "pezevenk" or "götten" or "yavşak":
+					set {_argovar} to true
+				else if {_mesaj} contains "ananısikerim" or "ananisikerim" or "ananisıkerim" or "ananisıkerım" or "anasınısikerim" or "annesinisikerim" or "anasinisikerim" or "orospucocuğu" or "orospucocugu" or "0rospucocugu" or "0rospucocuğu" or "0r0spucocugu" or "0r0spucocuğu":
+					set {_ailevi} to true
+				else if {_mesaj} contains "sikiş" or "sonoyuncu" or "craftrise" or "gerizekalı" or "gerizekali" or "aptal" or "yarrak" or "sikis" or "siktir" or "sikerim" or "sikeyim" or "siktimin" or "sıkerım" or "sıkeyım" or "sıktımın" or "sıkerim" or "sıkeyim" or "sıktimin" or "sikerım" or "sikeyım" or "siktımin" or "siktimın" or "orospu" or "0rospu" or "0r0spu":
+					set {_kufurvar} to true
+		set {_kufurler::*} to "%{_kufurler::*}%"
+		set {_cumle} to the chat message
+		replace all " " with "-" in {_cumle}
+		replace all "and" with "ve" in {_kufurler::*}
+		if {_ailevi} is true:
+			cancel event
+		else if {_kufurvar} is true:
+			cancel event
+		else if {_argovar} is true:
+			cancel event

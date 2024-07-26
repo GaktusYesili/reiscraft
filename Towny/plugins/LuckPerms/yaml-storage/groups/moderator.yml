@@ -1,0 +1,21 @@
+name: moderator
+permissions:
+- antixray.bypass
+- antixray.recieve
+- chatsentinel.bypass.caps
+- chatsentinel.bypass.cooldown
+- event.yap
+- spawngonder
+- sohbet.sil
+- sohbet.kilit
+- sohbet.bypass
+- sv.use
+- sv.see
+- sv.use.50
+- sv.see.51
+- weight.19
+parents:
+- izinler
+prefixes:
+- '%img_moderator%':
+    priority: 1

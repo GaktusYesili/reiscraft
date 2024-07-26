@@ -1,0 +1,48 @@
+info:
+  namespace: 3dfantasyweaponscit
+items:
+  piercer:
+    display_name: display-name-piercer
+    permission: 3dfantasyweaponscit.lance.piercer
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/lance/piercer
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  runic_piercer:
+    display_name: display-name-runic_piercer
+    permission: 3dfantasyweaponscit.lance.runic_piercer
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/lance/runic_piercer
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562
+  iron_polearm:
+    display_name: display-name-iron_polearm
+    permission: 3dfantasyweaponscit.lance.iron_polearm
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/lance/iron_polearm
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562

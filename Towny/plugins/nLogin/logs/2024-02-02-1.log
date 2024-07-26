@@ -1,0 +1,41 @@
+[02/02/2024 14:30:11]:           __             _       
+[02/02/2024 14:30:11]:   _ __   / /  ___   __ _(_)_ __  
+[02/02/2024 14:30:11]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[02/02/2024 14:30:11]:  | | | / /__| (_) | (_| | | | | |
+[02/02/2024 14:30:11]:  |_| |_\____/\___/ \__, |_|_| |_|
+[02/02/2024 14:30:11]:                   |___/            
+[02/02/2024 14:30:11]:  By: www.nickuc.com - V 10.2.38
+[02/02/2024 14:30:11]:  
+[02/02/2024 14:30:12]: [nLogin] [DEBUG] All settings were loaded in 718 ms.
+[02/02/2024 14:30:12]: [nLogin] [DEBUG] Loading the messages_en.yml message file...
+[02/02/2024 14:30:12]: [nLogin] [DEBUG] All plugin messages were loaded in 152 ms (languageByClient=false).
+[02/02/2024 14:30:12]: [nLogin] [DEBUG] All proxy settings were loaded in 6 ms.
+[02/02/2024 14:30:12]: [nLogin] [DEBUG] Loading database...
+[02/02/2024 14:30:13]: [nLogin] Generating RSA keypair... (this may take a while)
+[02/02/2024 14:30:14]: [nLogin] The RSA key pair was successfully generated. Took 1.24s
+[02/02/2024 14:30:14]: [nLogin] [DEBUG] Starting logger filter...
+[02/02/2024 14:31:34]: [nLogin] Download finished (took 5264ms, hash = 6f17844a4809253e036ab70fdf7c46825c057952fdb29882cfbc30b998f43cd3)
+[02/02/2024 14:32:03]: [nLogin] 
+[02/02/2024 14:32:03]: [nLogin]  Thank you so much for choosing nLogin! <3
+[02/02/2024 14:32:03]: [nLogin] 
+[02/02/2024 14:32:03]: [nLogin]  For your safety, please read the message below:
+[02/02/2024 14:32:03]: [nLogin]   Never download nLogin from unknown sources.
+[02/02/2024 14:32:03]: [nLogin]   A modified version may contain malicious software.
+[02/02/2024 14:32:03]: [nLogin] 
+[02/02/2024 14:32:03]: [nLogin]  Trusted sources:
+[02/02/2024 14:32:03]: [nLogin]   www.nickuc.com
+[02/02/2024 14:32:03]: [nLogin]   www.github.com/nickuc
+[02/02/2024 14:32:03]: [nLogin]   OpeNLogin installer (from Spigot or GitHub)
+[02/02/2024 14:32:03]: [nLogin] 
+[02/02/2024 14:32:03]: [nLogin]  Official support channels:
+[02/02/2024 14:32:03]: [nLogin]   Discord group: www.nickuc.com/discord
+[02/02/2024 14:32:03]: [nLogin]   Documentation: docs.nickuc.com/nlogin/
+[02/02/2024 14:32:03]: [nLogin]   Email: support@nickuc.com
+[02/02/2024 14:32:03]: [nLogin]   YouTube: youtube.com/nickuc
+[02/02/2024 14:32:03]: [nLogin] 
+[02/02/2024 14:32:03]: [nLogin]  To remove this warning, log in with "nlogin.admin" permission on the server
+[02/02/2024 14:32:03]: [nLogin]  and click the "Setup plugin" button to configure your plugin.
+[02/02/2024 14:32:03]: [nLogin] 
+[02/02/2024 14:40:15]: [nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_login`, `email`, `discord`, `settings`) VALUES ('Salam62', 8d3c4a3d147b3d7e8b29abaee01bb86b, null, null, '$SHA512$fb1c8a689f8099ffa522d863c0749169979f38216b295f31d1699d77f54ef1b302be548d533eca86d455f0d6bc0ad44d48f365ec46b0ca232bfba01685a60194$IoolMQvrBDHOQadsESVxEVcT', '127.0.0.1', '2024-02-02 14:40:14.117', '2024-02-02 14:40:14.117', null, null, '{"settings":[{"value":"PeTN/zsEWcUupAgK9A8xA/AmwENxPW4MkN4OZ5+i0WPtTe07j+7FBHoB7S5OAiw8xEkVuLf501oW96A4miBr41Rx+KfApkDvy1tC+M2VweNffTnNZqayZr1t+2YreyzkZRt1jvrmb9jLoE+JJjuAel1nS/mWSDvHBiNFmSK4T9BpomsbU8FVwTiea6OZe0u5mATAfj1pwD+xfIzv4u96U5+qCWM9lJiMSkRg2MvALMq+4zTLCnSY+Kc8uxM4+96bOzRgUcwkfELwMxheKY1NZvBdF0BnPWyt5MEjgUK+k4wPW/XBIQtnsUNJOhDLX9lp0AqqE7GKkEGNuBA1u+b2oFT00UuWDqRXa96LQhq9u5YRQqxzwEqndbYYKZ4VsDyJG5LKJCwmtMDgh1wceKIq5Vp2ZNuV8Up/PlA1w+UNJbcNHIm1MWj/TasEjQYgdqidHLTL3q8VLGIFowfAe9i9g2IoTmSjc2hcR+Wre/8oSHYWG/aSZSAeACITi8CoxkohNxh4fbPQjJ1YmxWwGO+S6g+NH4YAlphu72VA4jRwDAJGsOwT0LwhDnCiSbCeGyDJTHJO5t1UXOYVi0AoAnwB7Tea83pr8wTVxWrw0KFDcbwXuTPM/PxxvNOpnuQYnWvxoJy6s3v1mVTeklPKBMox03e7DOKD51pG3iiubYbNotU=:VfNpCsJDe0VSfpmJxzFvetXd8ZbTL27/UyCVPseZsr560SuhJRghjul0xMDXL82wTvg=","key":"encrypted"}],"version":0}')"
+[02/02/2024 14:40:15]: [nLogin] The user Salam62 has successfully registered.
+[02/02/2024 14:46:57]: [nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Salam62', `unique_id` = 8d3c4a3d147b3d7e8b29abaee01bb86b,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$SHA512$fb1c8a689f8099ffa522d863c0749169979f38216b295f31d1699d77f54ef1b302be548d533eca86d455f0d6bc0ad44d48f365ec46b0ca232bfba01685a60194$IoolMQvrBDHOQadsESVxEVcT', `last_ip` = '127.0.0.1', `creation_date` = 2024-02-02 14:40:14.117, `last_login` = 2024-02-02 14:40:14.117, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"PeTN/zsEWcUupAgK9A8xA/AmwENxPW4MkN4OZ5+i0WPtTe07j+7FBHoB7S5OAiw8xEkVuLf501oW96A4miBr41Rx+KfApkDvy1tC+M2VweNffTnNZqayZr1t+2YreyzkZRt1jvrmb9jLoE+JJjuAel1nS/mWSDvHBiNFmSK4T9BpomsbU8FVwTiea6OZe0u5mATAfj1pwD+xfIzv4u96U5+qCWM9lJiMSkRg2MvALMq+4zTLCnSY+Kc8uxM4+96bOzRgUcwkfELwMxheKY1NZvBdF0BnPWyt5MEjgUK+k4wPW/XBIQtnsUNJOhDLX9lp0AqqE7GKkEGNuBA1u+b2oFT00UuWDqRXa96LQhq9u5YRQqxzwEqndbYYKZ4VsDyJG5LKJCwmtMDgh1wceKIq5Vp2ZNuV8Up/PlA1w+UNJbcNHIm1MWj/TasEjQYgdqidHLTL3q8VLGIFowfAe9i9g2IoTmSjc2hcR+Wre/8oSHYWG/aSZSAeACITi8CoxkohNxh4fbPQjJ1YmxWwGO+S6g+NH4YAlphu72VA4jRwDAJGsOwT0LwhDnCiSbCeGyDJTHJO5t1UXOYVi0AoAnwB7Tea83pr8wTVxWrw0KFDcbwXuTPM/PxxvNOpnuQYnWvxoJy6s3v1mVTeklPKBMox03e7DOKD51pG3iiubYbNotU=:VfNpCsJDe0VSfpmJxzFvetXd8ZbTL27/UyCVPseZsr560SuhJRghjul0xMDXL82wTvg=","key":"encrypted"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1"

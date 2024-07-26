@@ -1,0 +1,99 @@
+info:
+  namespace: elytras
+items:
+  hat_cool_glasses:
+    display_name: '&x&c&e&a&2&1&3Havalı Gözlük'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/cool_glasses
+    behaviours:
+      hat: true
+  hat_crown:
+    display_name: '&x&c&e&a&2&1&3Kral Tacı'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/crown
+    behaviours:
+      hat: true
+  hat_donkey_hide_hood:
+    display_name: '&x&c&e&a&2&1&3Eşek Şapkası'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/donkey_hide_hood
+    behaviours:
+      hat: true
+  hat_fox:
+    display_name: '&x&c&e&a&2&1&3Uyuyan Tilki'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/fox
+    behaviours:
+      hat: true
+  hat_little_man3:
+    display_name: '&x&c&e&a&2&1&3Küçük Adam Venzy'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/little_man3
+    behaviours:
+      hat: true
+  hat_little_man4:
+    display_name: '&x&c&e&a&2&1&3Küçük Adam Zoro'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/little_man4
+    behaviours:
+      hat: true
+  hat_little_man5:
+    display_name: Little Man
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/little_man5
+    behaviours:
+      hat: true
+  hat_little_zombie:
+    display_name: Little Zombie
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/little_zombie
+    behaviours:
+      hat: true
+  hat_mario_block:
+    display_name: '&x&c&e&a&2&1&3Mario Şapkası'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/mario_block
+    behaviours:
+      hat: true
+  hat_plague_doctor:
+    display_name: '&x&c&e&a&2&1&3Veba Doktoru'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/plague_doctor
+    behaviours:
+      hat: true
+  hat_spyglasshat:
+    display_name: '&x&c&e&a&2&1&3Casus Dürbünü'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/spyglasshat
+    behaviours:
+      hat: true
+  hat_wolf:
+    display_name: '&x&c&e&a&2&1&3Uyuyan Kurt'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/wolf
+    behaviours:
+      hat: true

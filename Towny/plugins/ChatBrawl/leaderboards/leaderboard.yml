@@ -1,0 +1,52 @@
+#    _____ _           _   ____                     _ 
+#   / ____| |         | | |  _ \                   | |
+#  | |    | |__   __ _| |_| |_) |_ __ __ ___      _| |
+#  | |    | '_ \ / _` | __|  _ <| '__/ _` \ \ /\ / / |
+#  | |____| | | | (_| | |_| |_) | | | (_| |\ V  V /| |
+#   \_____|_| |_|\__,_|\__|____/|_|  \__,_| \_/\_/ |_|
+#                                                     
+#   For a detailed explanation of all settings visit:         
+#       https://github.com/woutzah/ChatBrawl/wiki    
+# 
+#   Need help? Join the Discord server: https://discord.gg/TvTUWvG 
+
+leaderboard-total:
+  header:
+  - '&7&l>&m=======&r&7{ &7(&e#&7) &6Total Wins &7(&e#&7) &7}&m=======&r&7&l>\n'
+  - ' \n'
+  entry: '    &6#<rank> &7&l>> &b<player> &f- &e<wins> wins\n'
+  footer:
+  - ' \n'
+  - '&7&l>&m============================&r&7&l>\n'
+leaderboard-total-for-race:
+  header:
+  - '&7&l>&m=======&r&7{ &7(&e#&7) &6<race> Wins &7(&e#&7) &7}&m=======&r&7&l>\n'
+  - ' \n'
+  entry: '    &6#<rank> &7&l>> &b<player> &f- &e<wins> wins\n'
+  footer:
+  - ' \n'
+  - '&7&l>&m============================&r&7&l>\n'
+leaderboard-fastest-for-race:
+  header:
+  - '&7&l>&m=======&r&7{ &7(&e#&7) &6<race> Time &7(&e#&7) &7}&m=======&r&7&l>\n'
+  - ' \n'
+  entry: '    &6#<rank> &7&l>> &b<player> &f- &e<time>\n'
+  footer:
+  - ' \n'
+  - '&7&l>&m============================&r&7&l>\n'
+leaderboard-total-for-user:
+  header:
+  - '&7&l>&m=======&r&7{ &7(&e#&7) &6<user> Wins &7(&e#&7) &7}&m=======&r&7&l>\n'
+  - ' \n'
+  entry: '    &b<race> &f- &e<wins> wins\n'
+  footer:
+  - ' \n'
+  - '&7&l>&m============================&r&7&l>\n'
+leaderboard-fastest-for-user:
+  header:
+  - '&7&l>&m=======&r&7{ &7(&e#&7) &6<user> Time &7(&e#&7) &7}&m=======&r&7&l>\n'
+  - ' \n'
+  entry: '    &b<race> &f- &e<time>\n'
+  footer:
+  - ' \n'
+  - '&7&l>&m============================&r&7&l>\n'

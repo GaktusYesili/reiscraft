@@ -1,0 +1,27 @@
+#    _____ _           _   ____                     _ 
+#   / ____| |         | | |  _ \                   | |
+#  | |    | |__   __ _| |_| |_) |_ __ __ ___      _| |
+#  | |    | '_ \ / _` | __|  _ <| '__/ _` \ \ /\ / / |
+#  | |____| | | | (_| | |_| |_) | | | (_| |\ V  V /| |
+#   \_____|_| |_|\__,_|\__|____/|_|  \__,_| \_/\_/ |_|
+#                                                     
+#   For a detailed explanation of all settings visit:         
+#       https://github.com/woutzah/ChatBrawl/wiki    
+# 
+#   Need help? Join the Discord server: https://discord.gg/TvTUWvG 
+
+rewards:
+  '1':
+    broadcast: ''
+    chance: 17
+    commands:
+    - give <player> iron_ingot 1
+    title: '&x&e&8&e&8&5&0Çok hızlıydın!'
+    subtitle: '&x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&01 Demir Külçe kazandın! &x&4&b&4&b&4&9⬰'
+  '2':
+    broadcast: ''
+    chance: 17
+    commands:
+    - give <player> gold_ingot 1
+    title: '&x&e&8&e&8&5&0Çok hızlıydın!'
+    subtitle: '&x&4&b&4&b&4&9⇴ &x&f&3&f&3&a&01 Altın Külçe kazandın! &x&4&b&4&b&4&9⬰'

@@ -1,0 +1,23 @@
+name: admin
+permissions:
+- antixray.bypass
+- antixray.recieve
+- chatsentinel.bypass.caps
+- chatsentinel.bypass.cooldown
+- event.yap
+- spawngonder
+- sohbet.sil
+- sohbet.kilit
+- sohbet.bypass
+- sv.use
+- sv.see
+- sv.use.60
+- sv.see.61
+- sv.others
+- sv.list
+- weight.21
+parents:
+- izinler
+prefixes:
+- '%img_admin%':
+    priority: 1

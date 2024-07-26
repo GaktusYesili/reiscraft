@@ -1,0 +1,77 @@
+# Translation author: OasisAkari (GitHub)
+Messages:
+  Prefix: '&x&f&3&f&3&a&0[&6BetterRTP&x&f&3&f&3&a&0] '
+  Success:
+    Paid: '&aByl/a jsi teleportován/a na&x&f&3&f&3&a&0 x=%x% y=%y% z=%z% za &x&e&8&e&8&5&0$%price%&x&f&3&f&3&a&0
+      po &f%attempts% &x&f&3&f&3&a&0pokusech!'
+    Bypass: '&aByl/a jsi teleportován/a na&x&f&3&f&3&a&0 x=%x% y=%y% z=%z% po &f%attempts%
+      &x&f&3&f&3&a&0pokusech!'
+    Loading: '&aNalezeno bezpečné místo! &x&f&3&f&3&a&0Načítám chunky...'
+    Teleport: '&aTeleportuji... &fProsím, počkejte, než nalezneme bezpečné místo!'
+  Failed:
+    Price: '&x&e&8&e&8&5&0Nebyl/a jsi teleportován, protože nemáš dostatek peněz!
+      &x&f&3&f&3&a&0Musíš mít alespoň $%price% &x&f&3&f&3&a&0pro teleport!'
+    NotSafe: '&x&e&8&e&8&5&0Nepodařilo se najít bezpečné místo po %attempts% pokusech!
+      &x&f&3&f&3&a&0Nebyl/a jsi teleportován/a!'
+    Hunger: '&x&e&8&e&8&5&0Nebyl/a jsi teleportován, protože jsi... &x&f&3&f&3&a&0příliš
+      hladový/á.&x&e&8&e&8&5&0 Sněz něco, kámo!'
+  Other:
+    Success: '&a%player% byl/a teleportován/a na&x&f&3&f&3&a&0 x=%x% y=%y% z=%z% po
+      &f%attempts% &x&f&3&f&3&a&0pokusech!'
+    NotSafe: '&x&e&8&e&8&5&0Nepodařilo se najít bezpečné místo po %attempts% pokusech!
+      &x&f&3&f&3&a&0%player% nebyl/a teleportován/a!'
+    Biome: '&x&e&8&e&8&5&0Vypadá to, že biom&x&f&3&f&3&a&0 %biome%&x&e&8&e&8&5&0 neexistuje!
+      &x&f&3&f&3&a&0Zkus použít tabulátor!'
+  Reload: '&eConfig úspěšně načten!'
+  NoPermission:
+    Basic: '&x&e&8&e&8&5&0Pozor! &x&f&3&f&3&a&0Na tento příkaz nemáš práva!'
+    World: '&x&e&8&e&8&5&0Pozor! &x&f&3&f&3&a&0Ve světě %world% se nelze teleportovat!'
+  DisabledWorld: '&x&e&8&e&8&5&0Svět %world% je uzamčen! &x&f&3&f&3&a&0Teleport nebyl
+    možný!'
+  Cooldown: '&x&e&8&e&8&5&0Pozor! &x&f&3&f&3&a&0Nemůžeš se teleportovat ještě &x&e&8&e&8&5&0%time%
+    &x&f&3&f&3&a&0sekund!'
+  Locked: '&x&e&8&e&8&5&0Pozor! &x&f&3&f&3&a&0Využil/a jsi všechny své teleporty!'
+  Invalid: '&x&e&8&e&8&5&0Neplatný příkaz. Zkus ''/%command% help''.'
+  NotOnline: '&x&e&8&e&8&5&0Hráč &x&f&3&f&3&a&0%player% &x&e&8&e&8&5&0není online!'
+  Delay: '&aTeleportuji za &f%time% &asekund! Nehýbej se!'
+  Moved: '&x&e&8&e&8&5&0Pohl/a jsi se! &x&f&3&f&3&a&0Teleport byl zrušen!'
+  NotExist: '&x&e&8&e&8&5&0Vypadá to, že svět &x&f&3&f&3&a&0%world% &x&e&8&e&8&5&0neexistuje!'
+  Already: '&x&e&8&e&8&5&0Ups! &x&f&3&f&3&a&0Vypadá to, že se už teleportuješ! Měj
+    trochu strpení!'
+  Sign: '&x&f&3&f&3&a&0Cedulka s příkazem vytvořena! &x&f&3&f&3&a&0Příkaz je... ''&f/rtp
+    %command%&x&f&3&f&3&a&0''.'
+  Edit:
+    Error: '&x&e&8&e&8&5&0Error! &x&f&3&f&3&a&0Zadána neplatná hodnota!'
+    Set: '&bÚspěch! &x&f&3&f&3&a&0%type% nastaveno na %value%'
+    Remove: '&x&e&8&e&8&5&0Odstraněno! &x&f&3&f&3&a&0Vymazal jsi vlastní svět %world%'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| Pomoc &e&m-----'
+  Main: ' &x&f&3&f&3&a&0- &e/%command% &x&f&3&f&3&a&0- Náhodně tě teleportuje!'
+  Biome: ' &x&f&3&f&3&a&0- &e/%command% biome <biom1, biom2...> &x&f&3&f&3&a&0- Náhodně
+    tě teleportuje do zadaných biomů'
+  Edit: ' &x&f&3&f&3&a&0- &e/%command% edit <default/svět> [hodnoty...] &x&f&3&f&3&a&0-
+    Úprava některých nastavení'
+  Help: ' &x&f&3&f&3&a&0- &e/%command% help &x&f&3&f&3&a&0- Zobrazí pomoc'
+  Info: ' &x&f&3&f&3&a&0- &e/%command% info [svět/částice/tvary/efekty_lektvarů] &x&f&3&f&3&a&0-
+    Zobrazí konkrétní informace o nastavení pluginu'
+  Player: ' &x&f&3&f&3&a&0- &e/%command% player <hráč> [svět] [biom1, biom2...] &x&f&3&f&3&a&0-
+    Náhodně teleportuje jiného hráče'
+  Reload: ' &x&f&3&f&3&a&0- &e/%command% reload &x&f&3&f&3&a&0- Znovu načte plugin'
+  Settings: ' &x&f&3&f&3&a&0- &e/%command% settings &x&f&3&f&3&a&0- Zobrazí GUI s
+    nastavením'
+  Test: ' &x&f&3&f&3&a&0- &e/%command% test &x&f&3&f&3&a&0- Vyzkoušet efekty po teleportu
+    bez pohybu'
+  Version: ' &x&f&3&f&3&a&0- &e/%command% version &x&f&3&f&3&a&0- Zobrazí verzi pluginu'
+  World: ' &x&f&3&f&3&a&0- &e/%command% world <svět> [biom1, biom2...] &x&f&3&f&3&a&0-
+    Náhodně tě teleportuje do jiného světa'
+Usage:
+  Player: '&x&e&8&e&8&5&0Použití&x&f&3&f&3&a&0: /%command% player <hráč> [svět] [biom1,
+    biom2]'
+  World: '&x&e&8&e&8&5&0Použití&x&f&3&f&3&a&0: /%command% world <svět> [biom1, biom2...]'
+  Biome: '&x&e&8&e&8&5&0Použití&x&f&3&f&3&a&0: /%command% biome <biom1, biom2...>'
+  Edit:
+    Base: '&x&e&8&e&8&5&0Použití&x&f&3&f&3&a&0: /%command% edit <default/svět> [hodnoty...]'
+    Default: '&x&e&8&e&8&5&0Použití&x&f&3&f&3&a&0: /%command% edit default <max/min/useworldborder/center>
+      <hodnota>'
+    World: '&x&e&8&e&8&5&0Použití&x&f&3&f&3&a&0: /%command% edit world <svět> <max/min/useworldborder/center>
+      <hodnota>'

@@ -1,0 +1,189 @@
+#Here you can edit messages from the admin menu
+
+npccreate-item-name: '&x&f&3&f&3&a&0Create NPC'
+npccreate-item-lore:
+  - '&x&f&3&f&3&a&0Create a &x&f&3&f&3&a&0AuctionMaster NPC'
+  - '&x&f&3&f&3&a&0at your current location.'
+  - ''
+  - '&x&f&3&f&3&a&0After the NPC is created you'
+  - '&x&f&3&f&3&a&0can use basic Citizens commands'
+  - '&x&f&3&f&3&a&0on it.'
+  - ''
+  - '&x&f&3&f&3&a&0You need &x&f&3&f&3&a&0Citizens'
+  - '&x&f&3&f&3&a&0for this option to work properly!'
+
+npc-debug-item-name: '&x&f&3&f&3&a&0Debug NPCs'
+npc-debug-item-lore:
+  - '&x&f&3&f&3&a&0If you have multiple NPCs'
+  - '&x&f&3&f&3&a&0and they don''t have their title'
+  - '&x&f&3&f&3&a&0aligned with their entity'
+  - '&x&f&3&f&3&a&0click this item.'
+
+manage-ended-auctions-item-name: '&x&f&3&f&3&a&0Manage Ended Auctions'
+manage-ended-auctions-item-lore:
+  - '&x&f&3&f&3&a&0Manage ended or expired auctions'
+  - '&x&f&3&f&3&a&0by forcefully deleting them.'
+  - ''
+  - '&x&f&3&f&3&a&0You can delete the auction in two ways:'
+  - ''
+  - '&x&f&3&f&3&a&0By sending the items & money'
+  - '&x&f&3&f&3&a&0via a &x&f&3&f&3&a&0Delivery&x&f&3&f&3&a&0.'
+  - ''
+  - '&x&f&3&f&3&a&0By completly erasing the auction,'
+  - '&x&f&3&f&3&a&0players will lose their money and items.'
+
+manage-auctions-item-name: '&x&f&3&f&3&a&0Manage Auctions'
+manage-auctions-item-lore:
+  - '&x&f&3&f&3&a&0Manage auctions that are not ended.'
+  - '&x&f&3&f&3&a&0You can add time to an auction, delete it,'
+  - '&x&f&3&f&3&a&0edit its price, end it, remove bids.'
+  - ''
+  - '&x&f&3&f&3&a&0You can also duplicate the auctioned'
+  - '&x&f&3&f&3&a&0item and place it into your inventory.'
+
+delivery-item-name: '&x&f&3&f&3&a&0Send Deliveries'
+delivery-item-lore:
+  - '&x&f&3&f&3&a&0Send a &x&f&3&f&3&a&0Delivery&x&f&3&f&3&a&0 to'
+  - '&x&f&3&f&3&a&0a player. You can also delete'
+  - '&x&f&3&f&3&a&0players'' deliveries using'
+  - '&x&f&3&f&3&a&0commands. &x&f&3&f&3&a&0/ahadmin delivery'
+
+help-item-name: '&x&f&3&f&3&a&0Commands Help'
+help-item-lore:
+  - '&x&f&3&f&3&a&0Use &x&f&3&f&3&a&0/ahadmin help&x&f&3&f&3&a&0 or'
+  - '&x&f&3&f&3&a&0click this item to show'
+  - '&x&f&3&f&3&a&0a list of admin commands'
+  - '&x&f&3&f&3&a&0you could use.'
+
+delete-auction-item:
+  with-delivery-name: '&x&f&3&f&3&a&0Delete Auction with Delivery'
+  with-delivery-lore:
+    - '&x&f&3&f&3&a&0Click to delete the auction'
+    - '&x&f&3&f&3&a&0and erase all data about it'
+    - '&x&f&3&f&3&a&0but sending all the unclaimed'
+    - '&x&f&3&f&3&a&0bid coins & items via a &x&f&3&f&3&a&0Delivery&x&f&3&f&3&a&0.'
+  without-delivery-name: '&x&f&3&f&3&a&0Delete Auction'
+  without-delivery-lore:
+    - '&x&f&3&f&3&a&0Click to delete the auction'
+    - '&x&f&3&f&3&a&0and erase all data about it.'
+    - ''
+    - '&x&f&3&f&3&a&0ATTENTION!'
+    - '&x&f&3&f&3&a&0All players involved in this'
+    - '&x&f&3&f&3&a&0auction will lose their bids & coins!'
+
+#This is the manage bids item for auctions that are ended
+manage-bids-item-name: '&x&f&3&f&3&a&0Delete Unclaimed Bids'
+manage-bids-item-lore:
+  - '&x&f&3&f&3&a&0From here you can forcefully'
+  - '&x&f&3&f&3&a&0remove bids that are not claimed.'
+  - ''
+  - '&x&f&3&f&3&a&0You can delete them by giving'
+  - '&x&f&3&f&3&a&0the coins/item to the bidder'
+  - '&x&f&3&f&3&a&0via a delivery or just delete them.'
+
+#This is the manage bids item for auctions that are not ended
+manage-bids-item-name2: '&x&f&3&f&3&a&0Delete Bids'
+manage-bids-item-lore2:
+  - '&x&f&3&f&3&a&0From here you can forcefully'
+  - '&x&f&3&f&3&a&0remove bids from an auction.'
+  - ''
+  - '&x&f&3&f&3&a&0You can delete them by giving'
+  - '&x&f&3&f&3&a&0the coins to the bidder'
+  - '&x&f&3&f&3&a&0via a delivery or just delete them.'
+
+get-item-copy-name: '&x&f&3&f&3&a&0Get Item Copy'
+get-item-copy-lore:
+  - '&x&f&3&f&3&a&0Copy in your inventory'
+  - '&x&f&3&f&3&a&0the item held by this auction.'
+
+force-end-auction-name: '&x&f&3&f&3&a&0End Auction'
+force-end-auction-lore:
+  - '&x&f&3&f&3&a&0Click to forcefully end'
+  - '&x&f&3&f&3&a&0an auction by setting it''s'
+  - '&x&f&3&f&3&a&0ending date to the'
+  - '&x&f&3&f&3&a&0current time.'
+  - ''
+  - '&x&f&3&f&3&a&0ATENTION!'
+  - '&x&f&3&f&3&a&0This is not reversible!'
+
+edit-duration-item-name: '&x&f&3&f&3&a&0Edit Auction''s Duration'
+edit-duration-item-lore:
+  - '&x&f&3&f&3&a&0Click to modify the auction''s'
+  - '&x&f&3&f&3&a&0duration by setting or'
+  - '&x&f&3&f&3&a&0adding/substracting time.'
+  - ''
+  - '&x&f&3&f&3&a&0All modifications are in minutes'
+  - '&x&f&3&f&3&a&0for more accuracy, if you want'
+  - '&x&f&3&f&3&a&0hours/days just do the math...'
+  - ''
+  - '&x&f&3&f&3&a&0Left Click to set Duration'
+  - '&bRight Click to add/substract'
+
+selected-player-item-name: '&x&f&3&f&3&a&0Selected Player'
+selected-player-item-lore:
+  - '&x&f&3&f&3&a&0Click to select a player for whom'
+  - '&x&f&3&f&3&a&0you will apply the options below.'
+  - ''
+  - '&x&f&3&f&3&a&0Selected Player: &x&f&3&f&3&a&0%player%'
+  - ''
+  - '&x&f&3&f&3&a&0Attention! The delivery will be sent'
+  - '&x&f&3&f&3&a&0even if the username entered'
+  - '&x&f&3&f&3&a&0does not exist!'
+  - ''
+  - '&x&f&3&f&3&a&0Current Delivery Data:'
+  - '&x&f&3&f&3&a&0Delivery Items: &x&f&3&f&3&a&0%items-count%'
+  - '&x&f&3&f&3&a&0Delivery Coins: &x&f&3&f&3&a&0%coins%'
+
+delivery-send-item-name: '&x&f&3&f&3&a&0Send Delivery'
+delivery-send-item-lore:
+  - '&x&f&3&f&3&a&0Click to config a'
+  - '&x&f&3&f&3&a&0delivery and send it to'
+  - '&x&f&3&f&3&a&0the selected player.'
+
+delivery-set-item-name: '&x&f&3&f&3&a&0Set Delivery'
+delivery-set-item-lore:
+  - '&x&f&3&f&3&a&0Click to config a'
+  - '&x&f&3&f&3&a&0delivery that will overwrite'
+  - '&x&f&3&f&3&a&0any existent delivery of'
+  - '&x&f&3&f&3&a&0the selected player.'
+
+
+delivery-remove-item-name: '&x&f&3&f&3&a&0Remove Delivery'
+delivery-remove-item-lore:
+  - '&x&f&3&f&3&a&0Click to remove all'
+  - '&x&f&3&f&3&a&0items and coins from'
+  - '&x&f&3&f&3&a&0selected player''s delivery.'
+
+delivery-item-clone-name: '&x&f&3&f&3&a&0Get Delivery Items'
+delivery-item-clone-lore:
+  - '&x&f&3&f&3&a&0Get the items from player''s delivery'
+  - '&x&f&3&f&3&a&0in your inventory. If you don''t have'
+  - '&x&f&3&f&3&a&0enough space, the remaining items will'
+  - '&x&f&3&f&3&a&0be dropped on the ground.'
+
+no-selected-player-message: '&x&f&3&f&3&a&0You can''t click this until you have a player selected!'
+
+no-delivery-to-send: '&x&f&3&f&3&a&0I have nothing to send, select some coins and/or put some items in the free slots!'
+no-delivery-to-set: '&x&f&3&f&3&a&0I have nothing to set, if you want to remove their delivery, use the right setting.'
+no-delivery-to-work-with: '&x&f&3&f&3&a&0The selected player has no delivery so this action won''t work!'
+
+delivery-coins-item-name: '&x&f&3&f&3&a&0Delivery Coins'
+delivery-coins-item-lore:
+  - '&x&f&3&f&3&a&0Current Coins: &x&f&3&f&3&a&0%coins% coins'
+  - ''
+  - '&x&f&3&f&3&a&0Click to edit the amount'
+  - '&x&f&3&f&3&a&0of coins this delivery will'
+  - '&x&f&3&f&3&a&0contain.'
+
+confirm-action-item-name: '&x&f&3&f&3&a&0Done!'
+confirm-action-item-lore:
+  - '&x&f&3&f&3&a&0If you think you are'
+  - '&x&f&3&f&3&a&0done and want to complete'
+  - '&x&f&3&f&3&a&0this action, click here!'
+
+cancel-action-item-name: '&x&f&3&f&3&a&0Cancel'
+cancel-action-item-lore:
+  - '&x&f&3&f&3&a&0Cancel this action and'
+  - '&x&f&3&f&3&a&0go back to the'
+  - '&x&f&3&f&3&a&0previous menu.'
+

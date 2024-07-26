@@ -1,0 +1,420 @@
+# 
+#  Advanced configuration
+#  Last updated on 2.1.218-SNAPSHOT-b${BUILD_NUMBER}
+Metrics:
+    bstats: true
+Feedback:
+    PlayerTips: true
+    SkillCommand:
+        BlankLinesAboveHeader: true
+    Events:
+        XP:
+            SendTitles: true
+        AbilityActivation:
+            SendNotificationToOtherPlayers: true
+    ActionBarNotifications:
+        AbilityOff:
+            Enabled: true
+            SendCopyOfMessageToChat: false
+        HardcoreMode:
+            Enabled: true
+            SendCopyOfMessageToChat: true
+        RequirementsNotMet:
+            Enabled: true
+            SendCopyOfMessageToChat: false
+        AbilityCoolDown:
+            Enabled: true
+            SendCopyOfMessageToChat: false
+        LevelUps:
+            Enabled: true
+            SendCopyOfMessageToChat: true
+        Holiday:
+            Enabled: true
+            SendCopyOfMessageToChat: true
+        ToolReady:
+            Enabled: true
+            SendCopyOfMessageToChat: false
+        SubSkillInteraction:
+            Enabled: true
+            SendCopyOfMessageToChat: false
+        SubSkillFailed:
+            Enabled: false
+            SendCopyOfMessageToChat: true
+        SubSkillUnlocked:
+            Enabled: true
+            SendCopyOfMessageToChat: true
+        SuperAbilityInteraction:
+            Enabled: true
+            SendCopyOfMessageToChat: false
+        SuperAbilityAlertOthers:
+            Enabled: true
+            SendCopyOfMessageToChat: true
+        ExperienceGain:
+            Enabled: true
+            SendCopyOfMessageToChat: false
+        ItemMessage:
+            Enabled: true
+            SendCopyOfMessageToChat: false
+        NoPermission:
+            Enabled: true
+            SendCopyOfMessageToChat: true
+        PartyMessage:
+            Enabled: true
+            SendCopyOfMessageToChat: true
+        AbilityRefreshed:
+            Enabled: true
+            SendCopyOfMessageToChat: false
+Skills:
+    General:
+        LimitBreak:
+            AllowPVE: false
+        StartingLevel: 0
+        Ability:
+            Length:
+                Standard:
+                    CapLevel: 100
+                    IncreaseLevel: 5
+                RetroMode:
+                    CapLevel: 1000
+                    IncreaseLevel: 50
+            EnchantBuff: 5
+    Acrobatics:
+        Dodge:
+            ChanceMax: 20.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+            DamageModifier: 2.0
+        Roll:
+            ChanceMax: 100.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+            DamageThreshold: 7.0
+    Alchemy:
+        Catalysis:
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+            MinSpeed: 1.0
+            MaxSpeed: 4.0
+    Archery:
+        SkillShot:
+            RankDamageMultiplier: 10.0
+            MaxDamage: 9.0
+        Daze:
+            ChanceMax: 50.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+            BonusDamage: 4.0
+        ArrowRetrieval:
+            ChanceMax: 100.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+        ForceMultiplier: 2.0
+    Axes:
+        AxeMastery:
+            RankDamageMultiplier: 1.0
+        CriticalStrikes:
+            ChanceMax: 37.5
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+            PVP_Modifier: 1.5
+            PVE_Modifier: 2.0
+        GreaterImpact:
+            Chance: 25.0
+            KnockbackModifier: 1.5
+            BonusDamage: 2.0
+        ArmorImpact:
+            DamagePerRank: 6.5
+            Chance: 25.0
+        SkullSplitter:
+            DamageModifier: 2.0
+    Fishing:
+        ShakeChance:
+            Rank_1: 30
+        VanillaXPMultiplier:
+            Rank_1: 1
+            Rank_2: 2
+            Rank_3: 3
+            Rank_4: 3
+            Rank_5: 4
+            Rank_6: 4
+            Rank_7: 5
+            Rank_8: 5
+        FishermansDiet:
+            RankChange: 20
+        MasterAngler:
+            Boat_Tick_Reduction:
+                Min_Wait: 10
+                Max_Wait: 30
+            Tick_Reduction_Per_Rank:
+                Min_Wait: 10
+                Max_Wait: 30
+            Tick_Reduction_Caps:
+                Min_Wait: 40
+                Max_Wait: 100
+    Herbalism:
+        GreenThumb:
+            ChanceMax: 100.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+        DoubleDrops:
+            ChanceMax: 100.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+        HylianLuck:
+            ChanceMax: 10.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+        ShroomThumb:
+            ChanceMax: 50.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+    Mining:
+        SuperBreaker:
+            AllowTripleDrops: true
+        DoubleDrops:
+            SilkTouch: true
+            ChanceMax: 100.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+        BlastMining:
+            BlastDamageDecrease:
+                Rank_1: 0.0
+                Rank_2: 0.0
+                Rank_3: 0.0
+                Rank_4: 25.0
+                Rank_5: 25.0
+                Rank_6: 50.0
+                Rank_7: 50.0
+                Rank_8: 100.0
+            OreBonus:
+                Rank_1: 35.0
+                Rank_2: 40.0
+                Rank_3: 45.0
+                Rank_4: 50.0
+                Rank_5: 55.0
+                Rank_6: 60.0
+                Rank_7: 65.0
+                Rank_8: 70.0
+            DebrisReduction:
+                Rank_1: 10.0
+                Rank_2: 20.0
+                Rank_3: 30.0
+                Rank_4: 30.0
+                Rank_5: 30.0
+                Rank_6: 30.0
+                Rank_7: 30.0
+                Rank_8: 30.0
+            DropMultiplier:
+                Rank_1: 1
+                Rank_2: 1
+                Rank_3: 1
+                Rank_4: 1
+                Rank_5: 2
+                Rank_6: 2
+                Rank_7: 3
+                Rank_8: 3
+            BlastRadiusModifier:
+                Rank_1: 1.0
+                Rank_2: 1.0
+                Rank_3: 2.0
+                Rank_4: 2.0
+                Rank_5: 3.0
+                Rank_6: 3.0
+                Rank_7: 4.0
+                Rank_8: 4.0
+    Repair:
+        RepairMastery:
+            MaxBonusPercentage: 200.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+        SuperRepair:
+            ChanceMax: 100.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+        ArcaneForging:
+            May_Lose_Enchants: true
+            Keep_Enchants_Chance:
+                Rank_1: 10.0
+                Rank_2: 20.0
+                Rank_3: 30.0
+                Rank_4: 40.0
+                Rank_5: 50.0
+                Rank_6: 50.0
+                Rank_7: 60.0
+                Rank_8: 60.0
+            Downgrades_Enabled: true
+            Downgrades_Chance:
+                Rank_1: 75.0
+                Rank_2: 50.0
+                Rank_3: 40.0
+                Rank_4: 30.0
+                Rank_5: 25.0
+                Rank_6: 20.0
+                Rank_7: 15.0
+                Rank_8: 10.0
+    Salvage:
+        ArcaneSalvage:
+            EnchantLossEnabled: true
+            EnchantDowngradeEnabled: true
+            ExtractFullEnchant:
+                Rank_1: 2.5
+                Rank_2: 5.0
+                Rank_3: 7.5
+                Rank_4: 10.0
+                Rank_5: 12.5
+                Rank_6: 17.5
+                Rank_7: 25.0
+                Rank_8: 32.5
+            ExtractPartialEnchant:
+                Rank_1: 2.0
+                Rank_2: 2.5
+                Rank_3: 5.0
+                Rank_4: 7.5
+                Rank_5: 10.0
+                Rank_6: 12.5
+                Rank_7: 15.0
+                Rank_8: 17.5
+    Smelting:
+        SecondSmelt:
+            ChanceMax: 50.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+        FluxMining:
+            Chance: 33.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+        VanillaXPMultiplier:
+            Rank_1: 1
+            Rank_2: 2
+            Rank_3: 3
+            Rank_4: 3
+            Rank_5: 4
+            Rank_6: 4
+            Rank_7: 5
+            Rank_8: 5
+    Swords:
+        Rupture:
+            Rupture_Mechanics:
+                Chance_To_Apply_On_Hit:
+                    Rank_1: 15
+                    Rank_2: 33
+                    Rank_3: 40
+                    Rank_4: 66
+                Duration_In_Seconds:
+                    Against_Players: 5
+                    Against_Mobs: 5
+                Tick_Interval_Damage:
+                    Against_Players:
+                        Rank_1: 0.1
+                        Rank_2: 0.15
+                        Rank_3: 0.2
+                        Rank_4: 0.3
+                    Against_Mobs:
+                        Rank_1: 0.5
+                        Rank_2: 0.75
+                        Rank_3: 0.9
+                        Rank_4: 1
+                Explosion_Damage:
+                    Against_Players:
+                        Rank_1: 10
+                        Rank_2: 20
+                        Rank_3: 30
+                        Rank_4: 40
+                    Against_Mobs:
+                        Rank_1: 10
+                        Rank_2: 20
+                        Rank_3: 30
+                        Rank_4: 40
+        CounterAttack:
+            ChanceMax: 30.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+            DamageModifier: 2.0
+        SerratedStrikes:
+            DamageModifier: 4.0
+            BleedTicks: 5
+    Taming:
+        Gore:
+            ChanceMax: 100.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+            Modifier: 2.0
+        FastFoodService:
+            Chance: 50.0
+        ThickFur:
+            Modifier: 2.0
+        ShockProof:
+            Modifier: 6.0
+        SharpenedClaws:
+            Bonus: 2.0
+        CallOfTheWild:
+            MinHorseJumpStrength: 0.7
+            MaxHorseJumpStrength: 2.0
+        Pummel:
+            Chance: 10.0
+    Unarmed:
+        Disarm:
+            ChanceMax: 33.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+            AntiTheft: false
+        ArrowDeflect:
+            ChanceMax: 50.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+        IronGrip:
+            ChanceMax: 100.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000
+        SteelArmStyle:
+            Damage_Override: false
+            Override:
+                Rank_1: 1
+                Rank_2: 1.5
+                Rank_3: 2.0
+                Rank_4: 2.5
+                Rank_5: 3.0
+                Rank_6: 3.5
+                Rank_7: 4.0
+                Rank_8: 4.5
+                Rank_9: 5.0
+                Rank_10: 5.5
+                Rank_11: 6.0
+                Rank_12: 6.5
+                Rank_13: 7.0
+                Rank_14: 7.5
+                Rank_15: 8.0
+                Rank_16: 8.5
+                Rank_17: 9.0
+                Rank_18: 10.5
+                Rank_19: 12.0
+                Rank_20: 13.5
+    Woodcutting:
+        TreeFeller:
+            Knock_On_Wood:
+                Add_XP_Orbs_To_Drops: true
+        HarvestLumber:
+            ChanceMax: 100.0
+            MaxBonusLevel:
+                Standard: 100
+                RetroMode: 1000

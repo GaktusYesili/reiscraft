@@ -1,0 +1,40 @@
+info:
+  namespace: 3dfantasyweaponscit
+  dictionary-lang: "ja"
+dictionary:
+  display-name-3dfantasyweaponscit: 夢幻の武器 - nongfu
+  display-name-3dmysticstavescit: 神秘的な杖 - nongfu
+  display-name-azure_greataxe: 紺碧の大斧
+  display-name-skeleton_axe: 骸骨の大斧
+  display-name-treacherous_axe: 凶斧
+  display-name-azure_shortsword: 紺碧の短剣
+  display-name-claymore: クレイモア
+  display-name-crimson_cleaver: 深紅の包丁
+  display-name-treacherous_cleaver: 凶刃包丁
+  display-name-treacherous_bludgeon: 凶棍棒
+  display-name-wooden_bludgeon: 木の棍棒
+  display-name-iron_mace: 鉄のメイス
+  display-name-vindicator: ヴィンディケーター
+  display-name-azure_sabre: 紺碧の刀
+  display-name-bloody_vengeance_blade: 流血の復讐の刀
+  display-name-piercer: 鋭剣
+  display-name-runic_piercer: 古代の鋭剣
+  display-name-iron_polearm: 鉄の長柄
+  display-name-azure_scythe: 紺碧の鎌
+  display-name-azure_greatsword: 紺碧の大剣
+  display-name-dragon_sword: 焔龍の剣
+  display-name-spider_sword: 鬼神の剣
+  display-name-demonic_sword: 魔神の剣
+  display-name-nature_sword: 楚然の剣
+  display-name-night_staff: 街頭の杖
+  display-name-staff_of_unholy_wisdom: 不聖な知恵の杖
+  display-name-bermunde_hermit_staff: ベルムンド仙人の杖
+  display-name-northgate_guardian_staff: ノースゲートガーディアンの杖
+  display-name-golden_crook: 黄金の時計の杖
+  display-name-holy_celtic_staff: 十字教の杖
+  display-name-goblin_witch_staff: ゴブリン魔女の杖
+  display-name-sagrada_winged_staff: 司祭の杖
+  display-name-divine_staff: 神の杖
+  display-name-olwen_staff: オルウェンの杖
+  display-name-lich_staff: リッチの杖
+  display-name-black_snake_staff: 黒蛇の杖

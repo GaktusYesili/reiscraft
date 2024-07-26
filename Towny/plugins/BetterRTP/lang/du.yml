@@ -1,0 +1,75 @@
+# Translation author: OasisAkari (GitHub)
+Messages:
+  Prefix: '&x&f&3&f&3&a&0[&6BetterRTP&x&f&3&f&3&a&0] '
+  Success:
+    Paid: '&aJe bent getp''d naar&x&f&3&f&3&a&0 x=%x% y=%y% z=%z% for &x&e&8&e&8&5&0$%price%&x&f&3&f&3&a&0
+      in &f%attempts% &x&f&3&f&3&a&0attempts!'
+    Bypass: '&aJe bent getp''d naar&x&f&3&f&3&a&0 x=%x% y=%y% z=%z%'
+    Loading: '&a安全位置已定位！&x&f&3&f&3&a&0加载区块中……'
+    Teleport: '&a传送中……&f直到我们找到安全的位置之前请等一下！'
+  Failed:
+    Price: '&x&e&8&e&8&5&0Kan niet rtpen vanwege onvoldoende saldo! &x&f&3&f&3&a&0Je
+      moet minstens $%price% &x&f&3&f&3&a&0hebben om te rtpen!'
+    NotSafe: '&x&e&8&e&8&5&0Kon geen veilige plek vinden, Probeer opnieuw! &x&f&3&f&3&a&0Je
+      bent niet ge tp''d!'
+    Hunger: '&x&f&3&f&3&a&0你太饿了，&x&e&8&e&8&5&0传送之前先吃点东西再说！'
+  Other:
+    Success: '&a%player% is getp''d naar&x&f&3&f&3&a&0 x=%x% y=%y% z=%z% in &f%attempts%
+      &x&f&3&f&3&a&0pogingen!'
+    NotSafe: '&x&e&8&e&8&5&0Kon geen veilige plek binnenin %attempts% pogingen! &x&f&3&f&3&a&0%player%
+      is niet gertp''d!'
+    Biome: '&x&e&8&e&8&5&0Het lijkt er naar dat de biome&x&f&3&f&3&a&0 %biome%&x&e&8&e&8&5&0
+      niet bestaat! &x&f&3&f&3&a&0Probeer de tab list te gebruiken!'
+  Reload: '&eConfig succesvol herladen!'
+  NoPermission:
+    Basic: '&x&e&8&e&8&5&0Sorry! &x&f&3&f&3&a&0U heeft geen toestemming om deze command
+      te gebruiken!'
+    World: '&x&e&8&e&8&5&0Sorry! &x&f&3&f&3&a&0Je mag niet rtpen in de %world% wereld!'
+  DisabledWorld: '&x&e&8&e&8&5&0Uitgeschakeld %world%! &x&f&3&f&3&a&0Kon niet RTPen!'
+  Cooldown: '&x&e&8&e&8&5&0Sorry! &x&f&3&f&3&a&0Je kan niet rtpen voor &x&e&8&e&8&5&0%time%
+    &x&f&3&f&3&a&0seconden!'
+  Locked: '&x&e&8&e&8&5&0对不起，&x&f&3&f&3&a&0你已经用完了你的随机传送次数了！'
+  Invalid: '&x&e&8&e&8&5&0Ongeldig argument. probeer ''/%command% help'''
+  NotOnline: '&x&e&8&e&8&5&0De speler &x&f&3&f&3&a&0%player% &x&e&8&e&8&5&0is niet
+    online!'
+  Delay: '&aTeleportering in &f%time% &aseconden! Niet bewegen!'
+  Moved: '&x&e&8&e&8&5&0Je hebt bewogen! &x&f&3&f&3&a&0RTP was afgelast!'
+  NotExist: '&x&e&8&e&8&5&0Lijkt dat de wereld &x&f&3&f&3&a&0%world% &x&e&8&e&8&5&0niet
+    bestaat!'
+  Already: '&x&e&8&e&8&5&0Oepsie! &x&f&3&f&3&a&0Het lijkt erop dat je al aan het rtpen
+    bent, heb wat geduld!'
+  Sign: '&x&f&3&f&3&a&0Commando bordje is aangemaakt! &x&f&3&f&3&a&0Commando is...
+    ''&f/rtp %command%&x&f&3&f&3&a&0'''
+  Edit:
+    Error: '&x&e&8&e&8&5&0错误，&x&f&3&f&3&a&0提供的参数无效！'
+    Set: '&b成功，&x&f&3&f&3&a&0%type%设置为%value%。'
+    Remove: '&x&e&8&e&8&5&0已移除，&x&f&3&f&3&a&0你移除了自定义世界%world%。'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| 帮助菜单 &e&m-----'
+  Main: ' &x&f&3&f&3&a&0- &e/%command% &x&f&3&f&3&a&0- Teleporteert jou naar een random
+    locatie!'
+  Biome: ' &x&f&3&f&3&a&0- &e/%command% biome <biome1, biome2...> &x&f&3&f&3&a&0-
+    Random teleport in deze biome'
+  Edit: ' &x&f&3&f&3&a&0- &e/%command% edit <默认/世界> [参数...] &x&f&3&f&3&a&0- 修改插件设置。'
+  Help: ' &x&f&3&f&3&a&0- &e/%command% help &x&f&3&f&3&a&0- Toont help lijst.'
+  Info: ' &x&f&3&f&3&a&0- &e/%command% info [world/particles/shapes/potion_effects]
+    &x&f&3&f&3&a&0- 查看有关插件参数的特定信息。'
+  Player: ' &x&f&3&f&3&a&0- &e/%command% player <player> [world] [biome1, biome2...]
+    &x&f&3&f&3&a&0- Random teleport een andere speler'
+  Reload: ' &x&f&3&f&3&a&0- &e/%command% reload &x&f&3&f&3&a&0- Herlaad de plugin'
+  Settings: ' &x&f&3&f&3&a&0- &e/%command% settings &x&f&3&f&3&a&0- 打开GUI设置。'
+  Test: ' &x&f&3&f&3&a&0- &e/%command% test &x&f&3&f&3&a&0- 测试传送后的插件效果。'
+  Version: ' &x&f&3&f&3&a&0- &e/%command% version &x&f&3&f&3&a&0- 显示目前使用的插件版本。'
+  World: ' &x&f&3&f&3&a&0- &e/%command% world <world> [biome1, biome2...] &x&f&3&f&3&a&0-
+    Random teleport in een andere wereld'
+Usage:
+  Player: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% player <player> [world] [biome1,
+    biome2]'
+  World: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% world <world> [biome1, biome2...]'
+  Biome: '&x&e&8&e&8&5&0Usage&x&f&3&f&3&a&0: /%command% biome <biome1, biome2...>'
+  Edit:
+    Base: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% edit <default/世界> [参数...]'
+    Default: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% edit default <max/min/useworldborder/center>
+      <值>'
+    World: '&x&e&8&e&8&5&0用法&x&f&3&f&3&a&0：/%command% edit world <world> <max/min/useworldborder/center>
+      <值>'

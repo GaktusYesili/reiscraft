@@ -1,0 +1,51 @@
+info:
+  namespace: 3dfantasyweaponscit
+categories:
+  weapons:
+    enabled: true
+    skip_if_already: false
+    icon: "3dfantasyweaponscit:azure_greatsword"
+    name: display-name-3dfantasyweaponscit
+    permission: "itemsadder.fantasyweapons.weapons"
+    items:
+      - "3dfantasyweaponscit:azure_greataxe"
+      - "3dfantasyweaponscit:skeleton_axe"
+      - "3dfantasyweaponscit:treacherous_axe"
+      - "3dfantasyweaponscit:azure_shortsword"
+      - "3dfantasyweaponscit:claymore"
+      - "3dfantasyweaponscit:crimson_cleaver"
+      - "3dfantasyweaponscit:treacherous_cleaver"
+      - "3dfantasyweaponscit:treacherous_bludgeon"
+      - "3dfantasyweaponscit:wooden_bludgeon"
+      - "3dfantasyweaponscit:iron_mace"
+      - "3dfantasyweaponscit:vindicator"
+      - "3dfantasyweaponscit:azure_sabre"
+      - "3dfantasyweaponscit:bloody_vengeance_blade"
+      - "3dfantasyweaponscit:piercer"
+      - "3dfantasyweaponscit:runic_piercer"
+      - "3dfantasyweaponscit:iron_polearm"
+      - "3dfantasyweaponscit:azure_scythe"
+      - "3dfantasyweaponscit:azure_greatsword"
+      - "3dfantasyweaponscit:dragon_sword"
+      - "3dfantasyweaponscit:spider_sword"
+      - "3dfantasyweaponscit:demonic_sword"
+      - "3dfantasyweaponscit:nature_sword"
+  staffs:
+    enabled: true
+    skip_if_already: false
+    icon: "3dfantasyweaponscit:night_staff"
+    name: display-name-3dmysticstavescit
+    permission: "itemsadder.mysticstaves.staff"
+    items:
+      - "3dfantasyweaponscit:night_staff"
+      - "3dfantasyweaponscit:staff_of_unholy_wisdom"
+      - "3dfantasyweaponscit:bermunde_hermit_staff"
+      - "3dfantasyweaponscit:northgate_guardian_staff"
+      - "3dfantasyweaponscit:golden_crook"
+      - "3dfantasyweaponscit:holy_celtic_staff"
+      - "3dfantasyweaponscit:goblin_witch_staff"
+      - "3dfantasyweaponscit:sagrada_winged_staff"
+      - "3dfantasyweaponscit:divine_staff"
+      - "3dfantasyweaponscit:olwen_staff"
+      - "3dfantasyweaponscit:lich_staff"
+      - "3dfantasyweaponscit:black_snake_staff"

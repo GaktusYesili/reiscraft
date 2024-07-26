@@ -1,0 +1,88 @@
+info:
+  namespace: gardenplus
+categories:
+  gardenplus:
+    enabled: true
+    skip_if_already: false
+    icon: "gardenplus:leafplanteoak"
+    name: Garden plus
+    permission: ia.menu.gardenplus
+    items:
+      - "gardenplus:banc_oak_gauche"
+      - "gardenplus:banc_oak_droit"
+      - "gardenplus:banc_acacia_gauche"
+      - "gardenplus:banc_acacia_droit"
+      - "gardenplus:banc_birch_gauche"
+      - "gardenplus:banc_birch_droit"    
+      - "gardenplus:banc_darkoak_gauche"
+      - "gardenplus:banc_darkoak_droit"
+      - "gardenplus:banc_jungle_gauche"
+      - "gardenplus:banc_jungle_droit"
+      - "gardenplus:banc_spruce_gauche"
+      - "gardenplus:banc_spruce_droit"
+      - "gardenplus:banc_warped_gauche"
+      - "gardenplus:banc_warped_droit"
+      - "gardenplus:banc_crimson_gauche"
+      - "gardenplus:banc_crimson_droit"  
+      - "gardenplus:leafplanteoak"  
+      - "gardenplus:leafplantedarkoak"  
+      - "gardenplus:leafplantebirch"  
+      - "gardenplus:leafplantespruce"  
+      - "gardenplus:dreapleafplante_jungle"       
+      - "gardenplus:leafplantecrimson"  
+      - "gardenplus:dreapleafplante_warped"  
+      - "gardenplus:dreapleafplante_cobble"  
+      - "gardenplus:dreapleafplante_brick"  
+      - "gardenplus:bamboo_oak"  
+      - "gardenplus:bamboo_dark_oak"  
+      - "gardenplus:bamboo_birch"  
+      - "gardenplus:bamboo_brick"  
+      - "gardenplus:bamboo_cobble"  
+      - "gardenplus:plantesuspendu"  
+      - "gardenplus:plantesuspendu_birch"  
+      - "gardenplus:plantesuspendu_darkoak"  
+      - "gardenplus:plantesuspendu_jungle"  
+      - "gardenplus:plantesuspendu_spruce"  
+      - "gardenplus:plantesuspendu_acacia"  
+      - "gardenplus:plantesuspendu_warped"  
+      - "gardenplus:plantesuspendu_crimson"  
+      - "gardenplus:rosier_oak"  
+      - "gardenplus:rosier_dark_oak"  
+      - "gardenplus:rosier_spruce"  
+      - "gardenplus:rosier_birch"  
+      - "gardenplus:lilas_oak"  
+      - "gardenplus:lilas_dark_oak"  
+      - "gardenplus:lilas_spruce"  
+      - "gardenplus:lilas_birch" 
+      - "gardenplus:peony_oak"  
+      - "gardenplus:peony_dark_oak"  
+      - "gardenplus:peony_spruce"  
+      - "gardenplus:peony_birch"  
+      - "gardenplus:peony_big_barrel"  
+      - "gardenplus:peony_big_brick"  
+      - "gardenplus:peony_big_cobble"  
+      - "gardenplus:rose_big_barrel"  
+      - "gardenplus:rose_big_brick"  
+      - "gardenplus:rose_big_cobble"  
+      - "gardenplus:lilac_big_barrel"  
+      - "gardenplus:lilac_big_brick"  
+      - "gardenplus:lilac_big_cobble"  
+      - "gardenplus:windowpotside_oak_pink"  
+      - "gardenplus:windowpotside_darkoak_pink"       
+      - "gardenplus:windowpotside_spruce_pink"  
+      - "gardenplus:windowpotside_jungle_pink"         
+      - "gardenplus:windowpotside_acacia_pink"   
+      - "gardenplus:windowpotside_birch_pink"  
+      - "gardenplus:windowpotside_warped_pink"        
+      - "gardenplus:windowpotside_crimson_pink" 
+      - "gardenplus:windowpotside_cobble_pink" 
+      - "gardenplus:windowpotside_brick_pink" 
+      - "gardenplus:windowpotside_barrel_pink" 
+      
+
+      
+ 
+      
+      
+
+

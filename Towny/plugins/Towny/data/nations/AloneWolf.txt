@@ -1,0 +1,14 @@
+capital=TavuhNW
+nationBoard=/nation set board [msg]
+mapColorHexCode=ffffe0
+allies=
+enemies=
+taxes=0.0
+spawnCost=10.0
+neutral=false
+uuid=b48e2570-d974-4ff2-af2c-ec69f9e11fbc
+registered=1705981547231
+nationSpawn=world,9827.5,79.1,3079.5,7.3499684,-165.68076
+isPublic=false
+isOpen=false
+metadata=

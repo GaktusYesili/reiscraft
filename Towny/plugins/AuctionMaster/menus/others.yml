@@ -1,0 +1,16 @@
+others-menu-item: '32'
+others-menu-name: '&x&e&8&e&8&5&0Diğerleri'
+others-menu-lore:
+  - '&x&f&3&f&3&a&0Kategori'
+  - ''
+  - '&x&f&3&f&3&a&0İhaleye konulabilen ve'
+  - '&x&f&3&f&3&a&0diğer kategorilerde olmayan'
+  - '&x&f&3&f&3&a&0bütün eşyalar.'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&x&f&3&f&3&a&0&lExample &x&f&3&f&3&a&0&lItem'
+
+custom-item-ids:
+  - '2266'

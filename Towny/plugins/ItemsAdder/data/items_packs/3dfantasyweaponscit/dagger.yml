@@ -1,0 +1,18 @@
+info:
+  namespace: 3dfantasyweaponscit
+items:
+  azure_shortsword:
+    display_name: display-name-azure_shortsword
+    permission: 3dfantasyweaponscit.dagger.azure_shortsword
+    lore:
+    - ''
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/dagger/azure_shortsword
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.6
+    durability:
+      max_custom_durability: 1562

@@ -1,0 +1,112 @@
+use-bin-timer: true
+use-buy-it-now: true
+#This will make the buy-it-now auction to be the default one
+#in the create auction menu (use-buy-it-now needs to be enabled)
+use-buy-it-now-as-default: false
+#This will disable normal auctions
+use-only-buy-it-now: false
+
+buy-it-now-select-price:
+  item-id: '27'
+  #Use %price% for the item price
+  name: '&x&e&8&e&8&5&0Eşya fiyatı: &x&f&3&f&3&a&0%price%'
+  lore:
+    - ''
+    - '&x&f&3&f&3&a&0Eşyayı satmak istediğin'
+    - '&x&f&3&f&3&a&0fiyatı gir.'
+    - ''
+    - '&x&f&3&f&3&a&0Ekstra Ücret: &x&f&3&f&3&a&0+%fee% oyun parası &x&f&3&f&3&a&0(1%)'
+    - ''
+    - '&x&f&3&f&3&a&0Düzenlemek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+#Use percents from 1 to 100
+buy-it-now-fee: 1
+
+switch-button:
+  switch-to-auction:
+    material: '266'
+    name: '&x&e&8&e&8&5&0İhaleye çevir'
+    lore:
+      - ''
+      - '&x&f&3&f&3&a&0Geleneksel ihalelerde birden fazla alıcı'
+      - '&x&f&3&f&3&a&0sırayla teklif vererek eşya için rekabet eder.'
+      - ''
+      - '&x&f&3&f&3&a&0Değiştirmek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+  switch-to-bin:
+    material: 27
+    name: '&x&e&8&e&8&5&0ŞSA''ya çevir'
+    lore:
+      - ''
+      - '&x&f&3&f&3&a&0ŞSA ihaleleri basittir.'
+      - ''
+      - '&x&f&3&f&3&a&0Bir fiyat belirleyin, ardından bir oyuncu'
+      - '&x&f&3&f&3&a&0o fiyattan eşyayı anında satın alsın.'
+      - ''
+      - '&8(ŞSA, şimdi satın al anlamına geliyor.)'
+      - ''
+      - '&x&f&3&f&3&a&0Değiştirmek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+buy-it-now-lore:
+  on-going:
+    - ''
+    - '&8&m---------------------'
+    - '&x&f&3&f&3&a&0Satıcı: %display-name-seller%'
+    - '&x&f&3&f&3&a&0Hemen Şimdi Al: &x&f&3&f&3&a&0%starting-bid% oyun parası'
+    - ''
+    - '&x&f&3&f&3&a&0Süre: &x&f&3&f&3&a&0%duration%'
+    - ''
+    - '&x&f&3&f&3&a&0İncelemek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+  expired:
+    - ''
+    - '&8&m---------------------'
+    - '&x&f&3&f&3&a&0Satıcı: %display-name-seller%'
+    - '&x&f&3&f&3&a&0Hemen Şimdi Al: &x&f&3&f&3&a&0%price% oyun parası'
+    - ''
+    - '&x&f&3&f&3&a&0Durum: &x&f&3&f&3&a&0Expired!'
+    - ''
+    - '&x&f&3&f&3&a&0İncelemek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+  #Use %buyer-display-name% for buyer's display name
+  #Use %buyer-name% for buyer's username
+  bought:
+    - ''
+    - '&8&m---------------------'
+    - '&x&f&3&f&3&a&0Satıcı: %display-name-seller%'
+    - '&x&f&3&f&3&a&0Fiyat: &x&f&3&f&3&a&0%price% oyun parası'
+    - ''
+    - '&x&f&3&f&3&a&0Alıcı: %buyer-display-name%'
+    - ''
+    - '&x&f&3&f&3&a&0İncelemek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+#Use %item% for item's display name
+#Use %seller-display-name% for seller display's name
+#Use %seller-name% for seller's name
+#Use %coins% for the amount of coins the item was bought for
+bought-item-message: '&x&f&3&f&3&a&0%item% &x&f&3&f&3&a&0eşyasını %seller-display-name% &x&f&3&f&3&a&0kişisinden &x&f&3&f&3&a&0%coins% oyun parası &x&f&3&f&3&a&0fiyatına satın aldın!'
+
+#Seller notification for bought item
+bought-seller-notification: '&x&f&3&f&3&a&0[İhale] %bidder-display-name% &x&f&3&f&3&a&0senin %item%&x&f&3&f&3&a&0 eşyanı &x&f&3&f&3&a&0%price% oyun parası &x&f&3&f&3&a&0fiyatına satın aldı!'
+
+sort-item:
+  material: '381'
+  name: '&x&e&8&e&8&5&0ŞSA Filtresi'
+  show-all: '&x&e&8&e&8&5&0Hepsini Göster'
+  bin-only: '&x&e&8&e&8&5&0Sadece ŞSA'
+  auctions-only: '&x&e&8&e&8&5&0Sadece İhale'
+  click-to-switch: '&x&f&3&f&3&a&0Filtreyi değiştirmek için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+
+view-auction-buy-now-button:
+  name: '&x&e&8&e&8&5&0Eşyayı Hemen Şimdi Al'
+  click-to-buy:
+    material: '371'
+    lore:
+      - ''
+      - '&x&f&3&f&3&a&0Fiyat: &x&f&3&f&3&a&0%price% oyun parası'
+      - ''
+      - '&x&f&3&f&3&a&0Satın almak için &x&e&8&e&8&5&0&ntıkla&x&f&3&f&3&a&0!'
+  cannot-afford:
+    material: '394'
+    lore:
+      - ''
+      - '&x&f&3&f&3&a&0Fiyat: &x&f&3&f&3&a&0%price% oyun parası'
+      - ''
+      - '&x&f&3&f&3&a&0Bunu karşılayamıyorsun!'

@@ -1,0 +1,77 @@
+#Social media items, you can add up to 53 social medias.
+#Why not 54??? Because inventories have 54 slots and 1 is required for the back button. 54 - 1 = 53
+Social:
+  #This is the identifier. This will must be the same in all servers for the same network.
+  #If this is NOT the same. The media will NOT be loaded and will appear like it's not selected.
+  twitter:
+    Enabled: true
+    Slot: 10
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M3NDVhMDZmNTM3YWVhODA1MDU1NTkxNDllYTE2YmQ0YTg0ZDQ0OTFmMTIyMjY4MThjMzg4MWMwOGU4NjBmYyJ9fX0="
+    Regex: '^(http(s)?:\/\/|)(?:www\.)?twitter\.com\/([a-zA-Z0-9_]{1,30})$' #If you don't understand what it is DO NOT MODIFY. If you want to accept every input, just set to "none"
+    Wrong-input: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bBağlantını hatalı yazdın! Şunun gibi bir bağlantı yazmalısın; #ffe500www.twitter.com/Veldorya"
+    #Set to true if the input is a URL.
+    Clickable: true #This option will add a clickable text if server type is spigot (Not supported in any other server type)
+    Displayname: "#ffe500Twitter"
+    #This message will contain the social link or value. Available placeholders:
+    #{PLAYER} player that reads the text. {TARGET} player name that owns the social media.
+    #{SOCIAL_MEDIA} the link/value of the social media.
+    Sub-title: "#ffe500Twitter bağlantını sohbete yaz!"
+    Updated: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bTwitter bağlantın güncellendi!"
+    Message: " &8▶ &e{TARGET} &fadlı oyuncunun Twitter profilini ziyaret etmek için &ntıkla&f!"
+    #This message will be sent after the main message. It just contains 2 placeholders.
+    # {PLAYER} replaced by player that clicks the social and {TARGET} replaced by social media owner.
+  youtube:
+    Enabled: true
+    Slot: 11
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQzNTNmZDBmODYzMTQzNTM4NzY1ODYwNzViOWJkZjBjNDg0YWFiMDMzMWI4NzJkZjExYmQ1NjRmY2IwMjllZCJ9fX0="
+    Regex: '^((http|https):\/\/|)(www\.|)youtube\.com\/(channel\/|user\/|)[a-zA-Z0-9\-_]{1,}$'
+    Clickable: true
+    Wrong-input: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bBağlantını hatalı yazdın! Şunun gibi bir bağlantı yazmalısın; #ffe500www.youtube.com/Veldorya"
+    Displayname: "#ffe500Youtube"
+    Sub-title: "#ffe500YouTube bağlantını sohbete yaz!"
+    Updated: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bYouTube bağlantın güncellendi!"
+    Message: " &8▶ &e{TARGET} &fadlı oyuncunun YouTube kanalını ziyaret etmek için &ntıkla&f!"
+  instagram:
+    Enabled: true
+    Slot: 12
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM4OGQ2MTYzZmFiZTdjNWU2MjQ1MGViMzdhMDc0ZTJlMmM4ODYxMWM5OTg1MzZkYmQ4NDI5ZmFhMDgxOTQ1MyJ9fX0="
+    Regex: '^(http(s)?:\/\/)?(www\.)?instagram\.com\/([a-zA-Z0-9_\.]{1,30})(\/)?$'
+    Wrong-input: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bBağlantını hatalı yazdın! Şunun gibi bir bağlantı yazmalısın; #ffe500www.instagram.com/Veldorya"
+    Clickable: true
+    Displayname: "#ffe500Instagram"
+    Sub-title: "#ffe500Instagram bağlantını sohbete yaz!"
+    Updated: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bInstagram bağlantın güncellendi!"
+    Message: " &8▶ &e{TARGET} &fadlı oyuncunun Instagram profilini ziyaret etmek için &ntıkla&f!"
+  twitch:
+    Enabled: true
+    Slot: 14
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZiZTY1ZjQ0Y2QyMTAxNGM4Y2RkZDAxNThiZjc1MjI3YWRjYjFmZDE3OWY0YzFhY2QxNThjODg4NzFhMTNmIn19fQ=="
+    Regex: '^(http(s)?:\/\/)?(www\.)?twitch\.tv\/([a-zA-Z0-9_]{1,30})$'
+    Wrong-input: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bBağlantını hatalı yazdın! Şunun gibi bir bağlantı yazmalısın; #ffe500www.twitch.tv/Veldorya"
+    Clickable: true
+    Displayname: "#ffe500Twitch"
+    Sub-title: "#ffe500Twitch bağlantını sohbete yaz!"
+    Updated: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bTwitch bağlantın güncellendi!"
+    Message: " &8▶ &e{TARGET} &fadlı oyuncunun Twitch kanalını ziyaret etmek için &ntıkla&f!"
+  facebook:
+    Enabled: true
+    Slot: 15
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGViNDYxMjY5MDQ0NjNmMDdlY2ZjOTcyYWFhMzczNzNhMjIzNTliNWJhMjcxODIxYjY4OWNkNTM2N2Y3NTc2MiJ9fX0="
+    Regex: '^(http(s)?:\/\/)?(www\.)?(facebook|fb)\.com\/([a-zA-Z0-9_\.]{1,40})$'
+    Wrong-input: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bBağlantını hatalı yazdın! Şunun gibi bir bağlantı yazmalısın; #ffe500www.facebook.com/Veldorya"
+    Clickable: true
+    Displayname: "#ffe500Facebook"
+    Sub-title: "#ffe500Facebook bağlantını sohbete yaz!"
+    Updated: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bFacebook bağlantın güncellendi!"
+    Message: " &8▶ &e{TARGET} &fadlı oyuncunun Facebook profilini ziyaret etmek için &ntıkla&f!"
+  discord:
+    Enabled: true
+    Slot: 16
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM1OWU1YzdiMDczOGI1NzlmM2I0NDRjMTNhNDdiZWQ0OTZiMzA4MzhiMmVlMmIxMjdjYzU5Y2Q3OThhZWU3NyJ9fX0="
+    Regex: '^(.{1,32}#\d{0,4})$'
+    Wrong-input: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bKullanıcı adını hatalı yazdın! Şunun gibi bir kullanıcı ad yazmalısın; #ffe500Veldorya#0000"
+    Clickable: false
+    Displayname: "#ffe500Discord"
+    Sub-title: "#ffe500Discord kullanıcı adını sohbete yaz!"
+    Updated: "#7bfb2cA#84f02fL#8ce531O#95d934N#9ece36E#a6c339W#afb83cO#b8ad3eL#c0a141F#c99643O#d28b46F#da8049F#e3754bİ#ec694eC#f45e50A#fd5353L #4b4b49⇴ #f7fe9bDiscord kullanıcı adın güncellendi!"
+    Message: " &8▶ &e{TARGET} &fadlı oyuncunun Discord kullanıcı adı: &n{SOCIAL_MEDIA}"

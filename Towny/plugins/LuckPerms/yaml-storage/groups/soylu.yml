@@ -1,0 +1,11 @@
+name: soylu
+permissions:
+- auctionmaster.limit.auctions.5
+- mcmmo.perks.xp.10percentboost.all
+- weight.10
+parents:
+- default
+- izinler
+prefixes:
+- '%img_soylu%':
+    priority: 1

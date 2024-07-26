@@ -1,0 +1,12 @@
+name: vezir
+permissions:
+- auctionmaster.limit.auctions.9
+- backpack.size.3
+- essentials.joinfullserver
+- mcmmo.perks.xp.20percentboost.all
+- weight.11
+parents:
+- izinler
+prefixes:
+- '%img_vezir%':
+    priority: 1
